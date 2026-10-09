@@ -1,0 +1,7 @@
+{
+  "cases": 37632,
+  "entry_maps": 14,
+  "bytes_compared": 5310477312,
+  "CP57_original_AOT_CPU_CCR_bus_memories_exact": true,
+  "coverage": "Seven relocated routine maps; all entry phases, short/long budgets, count termination, carry/overflow/zero/sign, cycle wrap, ROM page/end and RAM wrap/alignment boundaries, MMIO fallback."
+}

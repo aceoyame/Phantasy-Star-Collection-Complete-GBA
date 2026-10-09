@@ -1,0 +1,15 @@
+{
+  "six_original_translations_identical_except_PC": true,
+  "functions": [
+    86,
+    87,
+    88,
+    89,
+    90,
+    92
+  ],
+  "shared_body": 86,
+  "complete_iteration_guest_cycles": 16,
+  "batch_boundary": "aligned pure ROM/RAM; within current 4KiB ROM page / 64KiB RAM boundary; count and instruction budget bounded",
+  "CCR": "exact last addition N/Z/V/X/C; fallback retains every partial instruction"
+}

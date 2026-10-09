@@ -1,0 +1,43 @@
+{
+  "checkpoint": "CP58",
+  "parent": "CP57 4CA93430",
+  "weighted_cycle_reduction_percent": 2.4615070358564974,
+  "throughput_increase_percent": 2.523626274153501,
+  "baseline_cycles": 4289690887,
+  "candidate_cycles": 4184099844,
+  "cycles_saved": 105591043,
+  "all_24_windows_faster": false,
+  "state_pixels_PCM_exact": true,
+  "tested_full_speed_percent_range": [
+    42.58482006770431,
+    60.40648530738092
+  ],
+  "parent_minimum_percent": 40.57303714340875,
+  "minimum_throughput_increase_percent": 4.958423292751646,
+  "new_minimum_window": {
+    "game": "Anne",
+    "start": 450,
+    "end": 750,
+    "final_percent": 42.58482006770431
+  },
+  "maximum_window_cycle_regression_percent": 0.21513191007483143,
+  "memory": {
+    "IWRAM_end": "030078AC",
+    "IWRAM_spare_bytes": 212,
+    "EWRAM_end": "0203DDE4",
+    "EWRAM_spare_bytes": 540,
+    "main_ROM_end": "0872FB10",
+    "main_ROM_spare_bytes": 1264,
+    "zaot_end": "08077E14",
+    "zaot_spare_bytes": 492,
+    "aotmore_end": "0807BF64",
+    "aotmore_spare_bytes": 156,
+    "aotextra_end": "086E1F98",
+    "aotextra_spare_bytes": 104,
+    "rom2_end": "09FFF578",
+    "rom2_spare_bytes": 2696
+  },
+  "ROM_bytes": 33554432,
+  "CRC32": "63CE7F96",
+  "SHA256": "987accb2e626c4bcc3a0c6af15aadada6a2499cb2117508f7a093d4ce1ff5653"
+}

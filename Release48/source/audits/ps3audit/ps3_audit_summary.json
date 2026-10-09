@@ -1,0 +1,1395 @@
+[
+ {
+  "source_song": 0,
+  "psc_song": 1,
+  "fm": {
+   "FM1": "PRESENT",
+   "FM2": "PRESENT",
+   "FM4": "PRESENT",
+   "FM5": "PRESENT",
+   "FM6": "PRESENT"
+  },
+  "psg": {
+   "PSG1": {
+    "cls": "DOUBLES_PSC_VOICE",
+    "onsets": 225,
+    "voice": 0,
+    "delay": -1,
+    "match": 1.0,
+    "timing_any": 1.0
+   },
+   "PSG2": {
+    "cls": "DOUBLES_PSC_VOICE",
+    "onsets": 25,
+    "voice": 4,
+    "delay": -1,
+    "match": 1.0,
+    "timing_any": 1.0
+   },
+   "PSG3": {
+    "cls": "DOUBLES_PSC_VOICE",
+    "onsets": 25,
+    "voice": 4,
+    "delay": -1,
+    "match": 1.0,
+    "timing_any": 1.0
+   }
+  },
+  "noise_events": 0,
+  "dac_write_frames": 0
+ },
+ {
+  "source_song": 1,
+  "psc_song": 2,
+  "fm": {
+   "FM1": "PRESENT",
+   "FM2": "PRESENT",
+   "FM3": "PRESENT_TIMING_ONLY",
+   "FM4": "PRESENT",
+   "FM5": "PRESENT",
+   "FM6": "PRESENT"
+  },
+  "psg": {
+   "PSG1": {
+    "cls": "DOUBLES_PSC_VOICE",
+    "onsets": 150,
+    "voice": 0,
+    "delay": -1,
+    "match": 1.0,
+    "timing_any": 1.0
+   },
+   "PSG2": {
+    "cls": "DOUBLES_PSC_VOICE",
+    "onsets": 311,
+    "voice": 3,
+    "delay": -1,
+    "match": 1.0,
+    "timing_any": 1.0
+   },
+   "PSG3": {
+    "cls": "PARTIAL_OR_TEXTURE",
+    "onsets": 326,
+    "voice": 4,
+    "delay": -1,
+    "match": 0.5,
+    "timing_any": 0.5
+   }
+  },
+  "noise_events": 0,
+  "dac_write_frames": 0
+ },
+ {
+  "source_song": 2,
+  "psc_song": 3,
+  "fm": {
+   "FM1": "PRESENT",
+   "FM2": "PRESENT",
+   "FM4": "PRESENT",
+   "FM5": "PRESENT",
+   "FM6": "PRESENT"
+  },
+  "psg": {
+   "PSG1": {
+    "cls": "DOUBLES_PSC_VOICE",
+    "onsets": 17,
+    "voice": 3,
+    "delay": -1,
+    "match": 1.0,
+    "timing_any": 1.0
+   },
+   "PSG2": {
+    "cls": "DOUBLES_PSC_VOICE",
+    "onsets": 15,
+    "voice": 3,
+    "delay": -1,
+    "match": 1.0,
+    "timing_any": 1.0
+   },
+   "PSG3": {
+    "cls": "DOUBLES_PSC_VOICE",
+    "onsets": 47,
+    "voice": 0,
+    "delay": -1,
+    "match": 1.0,
+    "timing_any": 1.0
+   }
+  },
+  "noise_events": 0,
+  "dac_write_frames": 0
+ },
+ {
+  "source_song": 3,
+  "psc_song": 4,
+  "fm": {
+   "FM1": "PRESENT",
+   "FM2": "PRESENT",
+   "FM3": "PRESENT_TIMING_ONLY",
+   "FM4": "PRESENT",
+   "FM5": "PRESENT",
+   "FM6": "PRESENT"
+  },
+  "psg": {
+   "PSG1": {
+    "cls": "DOUBLES_PSC_VOICE",
+    "onsets": 144,
+    "voice": 0,
+    "delay": -1,
+    "match": 1.0,
+    "timing_any": 1.0
+   },
+   "PSG2": {
+    "cls": "PARTIAL_OR_TEXTURE",
+    "onsets": 138,
+    "voice": 0,
+    "delay": 23,
+    "match": 0.15,
+    "timing_any": 0.96
+   },
+   "PSG3": {
+    "cls": "PARTIAL_OR_TEXTURE",
+    "onsets": 109,
+    "voice": 0,
+    "delay": 23,
+    "match": 0.16,
+    "timing_any": 0.94
+   }
+  },
+  "noise_events": 0,
+  "dac_write_frames": 0
+ },
+ {
+  "source_song": 4,
+  "psc_song": 5,
+  "fm": {
+   "FM1": "PRESENT",
+   "FM2": "PRESENT",
+   "FM4": "PRESENT",
+   "FM5": "PRESENT",
+   "FM6": "PRESENT"
+  },
+  "psg": {
+   "PSG1": {
+    "cls": "DOUBLES_PSC_VOICE",
+    "onsets": 42,
+    "voice": 1,
+    "delay": -1,
+    "match": 1.0,
+    "timing_any": 1.0
+   },
+   "PSG2": {
+    "cls": "DOUBLES_PSC_VOICE",
+    "onsets": 86,
+    "voice": 5,
+    "delay": -1,
+    "match": 1.0,
+    "timing_any": 1.0
+   },
+   "PSG3": {
+    "cls": "DOUBLES_PSC_VOICE",
+    "onsets": 82,
+    "voice": 0,
+    "delay": -1,
+    "match": 1.0,
+    "timing_any": 1.0
+   }
+  },
+  "noise_events": 0,
+  "dac_write_frames": 0
+ },
+ {
+  "source_song": 5,
+  "psc_song": 6,
+  "fm": {
+   "FM1": "PRESENT",
+   "FM2": "PRESENT",
+   "FM4": "PRESENT",
+   "FM5": "PRESENT",
+   "FM6": "PRESENT"
+  },
+  "psg": {
+   "PSG1": {
+    "cls": "DOUBLES_PSC_VOICE",
+    "onsets": 150,
+    "voice": 3,
+    "delay": -1,
+    "match": 1.0,
+    "timing_any": 1.0
+   },
+   "PSG2": {
+    "cls": "DOUBLES_PSC_VOICE",
+    "onsets": 78,
+    "voice": 4,
+    "delay": -1,
+    "match": 1.0,
+    "timing_any": 1.0
+   },
+   "PSG3": {
+    "cls": "DOUBLES_PSC_VOICE",
+    "onsets": 150,
+    "voice": 3,
+    "delay": -1,
+    "match": 1.0,
+    "timing_any": 1.0
+   }
+  },
+  "noise_events": 0,
+  "dac_write_frames": 0
+ },
+ {
+  "source_song": 6,
+  "psc_song": 7,
+  "fm": {
+   "FM1": "PRESENT",
+   "FM2": "PRESENT",
+   "FM4": "PRESENT",
+   "FM5": "PRESENT",
+   "FM6": "PRESENT"
+  },
+  "psg": {
+   "PSG1": {
+    "cls": "DOUBLES_PSC_VOICE",
+    "onsets": 13,
+    "voice": 0,
+    "delay": -3,
+    "match": 1.0,
+    "timing_any": 0.0
+   },
+   "PSG2": {
+    "cls": "DOUBLES_PSC_VOICE",
+    "onsets": 4,
+    "voice": 3,
+    "delay": -3,
+    "match": 1.0,
+    "timing_any": 0.0
+   },
+   "PSG3": {
+    "cls": "DOUBLES_PSC_VOICE",
+    "onsets": 13,
+    "voice": 5,
+    "delay": -3,
+    "match": 1.0,
+    "timing_any": 0.0
+   }
+  },
+  "noise_events": 0,
+  "dac_write_frames": 0
+ },
+ {
+  "source_song": 7,
+  "psc_song": 8,
+  "fm": {},
+  "psg": {},
+  "noise_events": 0,
+  "dac_write_frames": 0
+ },
+ {
+  "source_song": 8,
+  "psc_song": 9,
+  "fm": {
+   "FM1": "PRESENT",
+   "FM2": "PRESENT",
+   "FM4": "PRESENT",
+   "FM5": "PRESENT",
+   "FM6": "PRESENT"
+  },
+  "psg": {
+   "PSG1": {
+    "cls": "DOUBLES_PSC_VOICE",
+    "onsets": 7,
+    "voice": 0,
+    "delay": -1,
+    "match": 1.0,
+    "timing_any": 1.0
+   },
+   "PSG2": {
+    "cls": "DOUBLES_PSC_VOICE",
+    "onsets": 7,
+    "voice": 3,
+    "delay": -1,
+    "match": 1.0,
+    "timing_any": 1.0
+   },
+   "PSG3": {
+    "cls": "DOUBLES_PSC_VOICE",
+    "onsets": 7,
+    "voice": 4,
+    "delay": -1,
+    "match": 1.0,
+    "timing_any": 1.0
+   }
+  },
+  "noise_events": 0,
+  "dac_write_frames": 0
+ },
+ {
+  "source_song": 9,
+  "psc_song": 10,
+  "fm": {
+   "FM1": "PRESENT",
+   "FM2": "PRESENT",
+   "FM4": "PRESENT",
+   "FM5": "PRESENT",
+   "FM6": "PRESENT"
+  },
+  "psg": {
+   "PSG1": {
+    "cls": "PARTIAL_OR_TEXTURE",
+    "onsets": 137,
+    "voice": 0,
+    "delay": -4,
+    "match": 0.63,
+    "timing_any": 0.13
+   },
+   "PSG2": {
+    "cls": "DOUBLES_PSC_VOICE",
+    "onsets": 200,
+    "voice": 1,
+    "delay": -4,
+    "match": 1.0,
+    "timing_any": 0.0
+   },
+   "PSG3": {
+    "cls": "DOUBLES_PSC_VOICE",
+    "onsets": 400,
+    "voice": 3,
+    "delay": -4,
+    "match": 1.0,
+    "timing_any": 0.0
+   }
+  },
+  "noise_events": 0,
+  "dac_write_frames": 0
+ },
+ {
+  "source_song": 10,
+  "psc_song": 11,
+  "fm": {
+   "FM1": "PRESENT",
+   "FM2": "PRESENT",
+   "FM3": "PRESENT_TIMING_ONLY",
+   "FM4": "PRESENT",
+   "FM5": "PRESENT_TIMING_ONLY",
+   "FM6": "PRESENT"
+  },
+  "psg": {
+   "PSG1": {
+    "cls": "ABSENT_UNIQUE",
+    "onsets": 150,
+    "voice": 5,
+    "delay": 1,
+    "match": 0.39,
+    "timing_any": 0.0
+   },
+   "PSG2": {
+    "cls": "PARTIAL_OR_TEXTURE",
+    "onsets": 150,
+    "voice": 5,
+    "delay": -1,
+    "match": 0.39,
+    "timing_any": 1.0
+   },
+   "PSG3": {
+    "cls": "DOUBLES_PSC_VOICE",
+    "onsets": 42,
+    "voice": 0,
+    "delay": -1,
+    "match": 1.0,
+    "timing_any": 1.0
+   }
+  },
+  "noise_events": 0,
+  "dac_write_frames": 0
+ },
+ {
+  "source_song": 11,
+  "psc_song": 12,
+  "fm": {
+   "FM1": "PRESENT",
+   "FM2": "PRESENT",
+   "FM4": "PRESENT",
+   "FM5": "PRESENT_TIMING_ONLY"
+  },
+  "psg": {
+   "PSG1": {
+    "cls": "ABSENT_UNIQUE",
+    "onsets": 150,
+    "voice": 1,
+    "delay": 3,
+    "match": 0.36,
+    "timing_any": 0.0
+   },
+   "PSG2": {
+    "cls": "ABSENT_UNIQUE",
+    "onsets": 150,
+    "voice": 1,
+    "delay": 1,
+    "match": 0.36,
+    "timing_any": 0.0
+   },
+   "PSG3": {
+    "cls": "DOUBLES_PSC_VOICE",
+    "onsets": 42,
+    "voice": 0,
+    "delay": -1,
+    "match": 1.0,
+    "timing_any": 1.0
+   }
+  },
+  "noise_events": 0,
+  "dac_write_frames": 0
+ },
+ {
+  "source_song": 12,
+  "psc_song": 13,
+  "fm": {
+   "FM1": "PRESENT",
+   "FM2": "PRESENT",
+   "FM4": "PRESENT"
+  },
+  "psg": {
+   "PSG1": {
+    "cls": "ABSENT_UNIQUE",
+    "onsets": 150,
+    "voice": 1,
+    "delay": 3,
+    "match": 0.36,
+    "timing_any": 0.0
+   },
+   "PSG2": {
+    "cls": "ABSENT_UNIQUE",
+    "onsets": 150,
+    "voice": 1,
+    "delay": 1,
+    "match": 0.36,
+    "timing_any": 0.0
+   },
+   "PSG3": {
+    "cls": "DOUBLES_PSC_VOICE",
+    "onsets": 42,
+    "voice": 0,
+    "delay": -1,
+    "match": 1.0,
+    "timing_any": 1.0
+   }
+  },
+  "noise_events": 0,
+  "dac_write_frames": 0
+ },
+ {
+  "source_song": 13,
+  "psc_song": 14,
+  "fm": {
+   "FM1": "PRESENT",
+   "FM2": "PRESENT",
+   "FM4": "PRESENT"
+  },
+  "psg": {
+   "PSG3": {
+    "cls": "DOUBLES_PSC_VOICE",
+    "onsets": 42,
+    "voice": 0,
+    "delay": -1,
+    "match": 1.0,
+    "timing_any": 1.0
+   }
+  },
+  "noise_events": 0,
+  "dac_write_frames": 0
+ },
+ {
+  "source_song": 14,
+  "psc_song": 15,
+  "fm": {
+   "FM1": "PRESENT",
+   "FM2": "PRESENT"
+  },
+  "psg": {
+   "PSG3": {
+    "cls": "DOUBLES_PSC_VOICE",
+    "onsets": 42,
+    "voice": 0,
+    "delay": -1,
+    "match": 1.0,
+    "timing_any": 1.0
+   }
+  },
+  "noise_events": 0,
+  "dac_write_frames": 0
+ },
+ {
+  "source_song": 15,
+  "psc_song": 16,
+  "fm": {
+   "FM1": "PRESENT",
+   "FM2": "PRESENT",
+   "FM4": "PRESENT",
+   "FM5": "PRESENT",
+   "FM6": "PRESENT"
+  },
+  "psg": {
+   "PSG1": {
+    "cls": "DOUBLES_PSC_VOICE",
+    "onsets": 150,
+    "voice": 1,
+    "delay": -5,
+    "match": 1.0,
+    "timing_any": 0.62
+   },
+   "PSG2": {
+    "cls": "DOUBLES_PSC_VOICE",
+    "onsets": 44,
+    "voice": 3,
+    "delay": -1,
+    "match": 1.0,
+    "timing_any": 1.0
+   },
+   "PSG3": {
+    "cls": "DOUBLES_PSC_VOICE",
+    "onsets": 65,
+    "voice": 4,
+    "delay": -1,
+    "match": 1.0,
+    "timing_any": 1.0
+   }
+  },
+  "noise_events": 0,
+  "dac_write_frames": 0
+ },
+ {
+  "source_song": 16,
+  "psc_song": 17,
+  "fm": {
+   "FM1": "PRESENT",
+   "FM2": "PRESENT_TIMING_ONLY",
+   "FM4": "PRESENT",
+   "FM5": "PRESENT",
+   "FM6": "PRESENT"
+  },
+  "psg": {
+   "PSG1": {
+    "cls": "DOUBLES_PSC_VOICE",
+    "onsets": 267,
+    "voice": 0,
+    "delay": -2,
+    "match": 1.0,
+    "timing_any": 1.0
+   },
+   "PSG2": {
+    "cls": "DOUBLES_PSC_VOICE",
+    "onsets": 127,
+    "voice": 5,
+    "delay": -2,
+    "match": 1.0,
+    "timing_any": 1.0
+   }
+  },
+  "noise_events": 0,
+  "dac_write_frames": 0
+ },
+ {
+  "source_song": 17,
+  "psc_song": 18,
+  "fm": {
+   "FM1": "PRESENT",
+   "FM2": "PRESENT",
+   "FM4": "PRESENT",
+   "FM5": "PRESENT",
+   "FM6": "PRESENT"
+  },
+  "psg": {
+   "PSG1": {
+    "cls": "DOUBLES_PSC_VOICE",
+    "onsets": 29,
+    "voice": 1,
+    "delay": -1,
+    "match": 1.0,
+    "timing_any": 1.0
+   },
+   "PSG2": {
+    "cls": "DOUBLES_PSC_VOICE",
+    "onsets": 188,
+    "voice": 3,
+    "delay": -1,
+    "match": 1.0,
+    "timing_any": 1.0
+   },
+   "PSG3": {
+    "cls": "DOUBLES_PSC_VOICE",
+    "onsets": 65,
+    "voice": 4,
+    "delay": -1,
+    "match": 1.0,
+    "timing_any": 1.0
+   }
+  },
+  "noise_events": 0,
+  "dac_write_frames": 0
+ },
+ {
+  "source_song": 18,
+  "psc_song": 19,
+  "fm": {
+   "FM1": "PRESENT",
+   "FM2": "PRESENT",
+   "FM3": "PRESENT_TIMING_ONLY",
+   "FM4": "PRESENT",
+   "FM5": "PRESENT",
+   "FM6": "PRESENT"
+  },
+  "psg": {
+   "PSG1": {
+    "cls": "PARTIAL_OR_TEXTURE",
+    "onsets": 400,
+    "voice": 3,
+    "delay": -1,
+    "match": 0.15,
+    "timing_any": 0.94
+   },
+   "PSG2": {
+    "cls": "PARTIAL_OR_TEXTURE",
+    "onsets": 400,
+    "voice": 5,
+    "delay": -1,
+    "match": 0.15,
+    "timing_any": 0.94
+   },
+   "PSG3": {
+    "cls": "DOUBLES_PSC_VOICE",
+    "onsets": 70,
+    "voice": 0,
+    "delay": -2,
+    "match": 1.0,
+    "timing_any": 1.0
+   }
+  },
+  "noise_events": 0,
+  "dac_write_frames": 0
+ },
+ {
+  "source_song": 19,
+  "psc_song": 20,
+  "fm": {
+   "FM1": "PRESENT",
+   "FM2": "PRESENT",
+   "FM3": "PRESENT_TIMING_ONLY",
+   "FM4": "PRESENT",
+   "FM5": "PRESENT",
+   "FM6": "PRESENT"
+  },
+  "psg": {
+   "PSG1": {
+    "cls": "DOUBLES_PSC_VOICE",
+    "onsets": 400,
+    "voice": 0,
+    "delay": -1,
+    "match": 1.0,
+    "timing_any": 1.0
+   },
+   "PSG2": {
+    "cls": "PARTIAL_OR_TEXTURE",
+    "onsets": 400,
+    "voice": 5,
+    "delay": -1,
+    "match": 0.15,
+    "timing_any": 1.0
+   },
+   "PSG3": {
+    "cls": "PARTIAL_OR_TEXTURE",
+    "onsets": 400,
+    "voice": 5,
+    "delay": -1,
+    "match": 0.15,
+    "timing_any": 1.0
+   }
+  },
+  "noise_events": 0,
+  "dac_write_frames": 0
+ },
+ {
+  "source_song": 20,
+  "psc_song": 21,
+  "fm": {
+   "FM1": "PRESENT",
+   "FM2": "PRESENT",
+   "FM3": "PRESENT_TIMING_ONLY",
+   "FM4": "PRESENT",
+   "FM5": "PRESENT",
+   "FM6": "PRESENT"
+  },
+  "psg": {
+   "PSG1": {
+    "cls": "PARTIAL_OR_TEXTURE",
+    "onsets": 53,
+    "voice": 3,
+    "delay": 23,
+    "match": 0.3,
+    "timing_any": 1.0
+   },
+   "PSG2": {
+    "cls": "DOUBLES_PSC_VOICE",
+    "onsets": 116,
+    "voice": 0,
+    "delay": -3,
+    "match": 1.0,
+    "timing_any": 0.98
+   },
+   "PSG3": {
+    "cls": "PARTIAL_OR_TEXTURE",
+    "onsets": 225,
+    "voice": 0,
+    "delay": -3,
+    "match": 0.13,
+    "timing_any": 0.88
+   }
+  },
+  "noise_events": 0,
+  "dac_write_frames": 0
+ },
+ {
+  "source_song": 21,
+  "psc_song": 22,
+  "fm": {
+   "FM1": "PRESENT",
+   "FM2": "PRESENT",
+   "FM4": "PRESENT",
+   "FM5": "PRESENT",
+   "FM6": "PRESENT"
+  },
+  "psg": {
+   "PSG1": {
+    "cls": "DOUBLES_PSC_VOICE",
+    "onsets": 9,
+    "voice": 0,
+    "delay": -2,
+    "match": 1.0,
+    "timing_any": 1.0
+   },
+   "PSG2": {
+    "cls": "DOUBLES_PSC_VOICE",
+    "onsets": 9,
+    "voice": 0,
+    "delay": -6,
+    "match": 1.0,
+    "timing_any": 1.0
+   },
+   "PSG3": {
+    "cls": "DOUBLES_PSC_VOICE",
+    "onsets": 9,
+    "voice": 0,
+    "delay": -4,
+    "match": 1.0,
+    "timing_any": 1.0
+   }
+  },
+  "noise_events": 0,
+  "dac_write_frames": 0
+ },
+ {
+  "source_song": 22,
+  "psc_song": 23,
+  "fm": {
+   "FM1": "PRESENT",
+   "FM2": "PRESENT",
+   "FM3": "PRESENT_TIMING_ONLY",
+   "FM4": "PRESENT",
+   "FM5": "PRESENT",
+   "FM6": "PRESENT"
+  },
+  "psg": {
+   "PSG1": {
+    "cls": "DOUBLES_PSC_VOICE",
+    "onsets": 469,
+    "voice": 0,
+    "delay": -1,
+    "match": 1.0,
+    "timing_any": 1.0
+   },
+   "PSG2": {
+    "cls": "DOUBLES_PSC_VOICE",
+    "onsets": 469,
+    "voice": 4,
+    "delay": -1,
+    "match": 1.0,
+    "timing_any": 1.0
+   },
+   "PSG3": {
+    "cls": "DOUBLES_PSC_VOICE",
+    "onsets": 469,
+    "voice": 4,
+    "delay": -1,
+    "match": 1.0,
+    "timing_any": 1.0
+   }
+  },
+  "noise_events": 0,
+  "dac_write_frames": 0
+ },
+ {
+  "source_song": 23,
+  "psc_song": 24,
+  "fm": {
+   "FM1": "PRESENT",
+   "FM2": "PRESENT",
+   "FM3": "PRESENT_TIMING_ONLY",
+   "FM4": "PRESENT",
+   "FM5": "PRESENT",
+   "FM6": "PRESENT"
+  },
+  "psg": {
+   "PSG1": {
+    "cls": "DOUBLES_PSC_VOICE",
+    "onsets": 63,
+    "voice": 0,
+    "delay": -2,
+    "match": 1.0,
+    "timing_any": 1.0
+   },
+   "PSG2": {
+    "cls": "DOUBLES_PSC_VOICE",
+    "onsets": 263,
+    "voice": 1,
+    "delay": -1,
+    "match": 1.0,
+    "timing_any": 1.0
+   },
+   "PSG3": {
+    "cls": "DOUBLES_PSC_VOICE",
+    "onsets": 54,
+    "voice": 4,
+    "delay": -2,
+    "match": 1.0,
+    "timing_any": 1.0
+   }
+  },
+  "noise_events": 0,
+  "dac_write_frames": 0
+ },
+ {
+  "source_song": 24,
+  "psc_song": 25,
+  "fm": {
+   "FM1": "PRESENT",
+   "FM2": "PRESENT",
+   "FM3": "PRESENT_TIMING_ONLY",
+   "FM4": "PRESENT",
+   "FM5": "PRESENT"
+  },
+  "psg": {
+   "PSG1": {
+    "cls": "DOUBLES_PSC_VOICE",
+    "onsets": 81,
+    "voice": 0,
+    "delay": -1,
+    "match": 1.0,
+    "timing_any": 1.0
+   },
+   "PSG2": {
+    "cls": "DOUBLES_PSC_VOICE",
+    "onsets": 53,
+    "voice": 3,
+    "delay": -1,
+    "match": 1.0,
+    "timing_any": 1.0
+   },
+   "PSG3": {
+    "cls": "DOUBLES_PSC_VOICE",
+    "onsets": 61,
+    "voice": 4,
+    "delay": -1,
+    "match": 1.0,
+    "timing_any": 1.0
+   }
+  },
+  "noise_events": 0,
+  "dac_write_frames": 0
+ },
+ {
+  "source_song": 25,
+  "psc_song": 26,
+  "fm": {
+   "FM1": "PRESENT",
+   "FM2": "PRESENT",
+   "FM3": "PRESENT_TIMING_ONLY",
+   "FM4": "PRESENT",
+   "FM5": "PRESENT",
+   "FM6": "PRESENT"
+  },
+  "psg": {
+   "PSG1": {
+    "cls": "DOUBLES_PSC_VOICE",
+    "onsets": 172,
+    "voice": 0,
+    "delay": -1,
+    "match": 1.0,
+    "timing_any": 1.0
+   }
+  },
+  "noise_events": 0,
+  "dac_write_frames": 0
+ },
+ {
+  "source_song": 26,
+  "psc_song": 27,
+  "fm": {
+   "FM1": "PRESENT",
+   "FM2": "PRESENT",
+   "FM4": "PRESENT",
+   "FM5": "PRESENT",
+   "FM6": "PRESENT"
+  },
+  "psg": {
+   "PSG1": {
+    "cls": "DOUBLES_PSC_VOICE",
+    "onsets": 62,
+    "voice": 0,
+    "delay": -6,
+    "match": 1.0,
+    "timing_any": 0.5
+   },
+   "PSG2": {
+    "cls": "DOUBLES_PSC_VOICE",
+    "onsets": 55,
+    "voice": 3,
+    "delay": -3,
+    "match": 1.0,
+    "timing_any": 0.47
+   },
+   "PSG3": {
+    "cls": "DOUBLES_PSC_VOICE",
+    "onsets": 240,
+    "voice": 1,
+    "delay": -3,
+    "match": 1.0,
+    "timing_any": 0.17
+   }
+  },
+  "noise_events": 0,
+  "dac_write_frames": 0
+ },
+ {
+  "source_song": 27,
+  "psc_song": 28,
+  "fm": {
+   "FM1": "PRESENT",
+   "FM2": "PRESENT",
+   "FM3": "PRESENT_TIMING_ONLY",
+   "FM4": "PRESENT",
+   "FM5": "PRESENT",
+   "FM6": "PRESENT"
+  },
+  "psg": {
+   "PSG1": {
+    "cls": "DOUBLES_PSC_VOICE",
+    "onsets": 149,
+    "voice": 0,
+    "delay": -1,
+    "match": 1.0,
+    "timing_any": 1.0
+   },
+   "PSG2": {
+    "cls": "DOUBLES_PSC_VOICE",
+    "onsets": 150,
+    "voice": 1,
+    "delay": -1,
+    "match": 1.0,
+    "timing_any": 1.0
+   },
+   "PSG3": {
+    "cls": "PARTIAL_OR_TEXTURE",
+    "onsets": 38,
+    "voice": 0,
+    "delay": 23,
+    "match": 0.18,
+    "timing_any": 1.0
+   }
+  },
+  "noise_events": 0,
+  "dac_write_frames": 0
+ },
+ {
+  "source_song": 28,
+  "psc_song": 29,
+  "fm": {
+   "FM1": "PRESENT",
+   "FM2": "PRESENT",
+   "FM4": "PRESENT",
+   "FM5": "PRESENT",
+   "FM6": "PRESENT"
+  },
+  "psg": {
+   "PSG1": {
+    "cls": "DOUBLES_PSC_VOICE",
+    "onsets": 97,
+    "voice": 0,
+    "delay": -1,
+    "match": 1.0,
+    "timing_any": 1.0
+   },
+   "PSG2": {
+    "cls": "DOUBLES_PSC_VOICE",
+    "onsets": 97,
+    "voice": 0,
+    "delay": -4,
+    "match": 1.0,
+    "timing_any": 1.0
+   },
+   "PSG3": {
+    "cls": "DOUBLES_PSC_VOICE",
+    "onsets": 1,
+    "voice": 4,
+    "delay": -4,
+    "match": 1.0,
+    "timing_any": 1.0
+   }
+  },
+  "noise_events": 0,
+  "dac_write_frames": 0
+ },
+ {
+  "source_song": 29,
+  "psc_song": 30,
+  "fm": {
+   "FM1": "PRESENT",
+   "FM2": "PRESENT",
+   "FM3": "PRESENT_TIMING_ONLY",
+   "FM4": "PRESENT",
+   "FM5": "PRESENT"
+  },
+  "psg": {
+   "PSG1": {
+    "cls": "DOUBLES_PSC_VOICE",
+    "onsets": 71,
+    "voice": 0,
+    "delay": -3,
+    "match": 1.0,
+    "timing_any": 1.0
+   },
+   "PSG2": {
+    "cls": "DOUBLES_PSC_VOICE",
+    "onsets": 86,
+    "voice": 1,
+    "delay": -1,
+    "match": 0.98,
+    "timing_any": 1.0
+   },
+   "PSG3": {
+    "cls": "PARTIAL_OR_TEXTURE",
+    "onsets": 86,
+    "voice": 1,
+    "delay": 35,
+    "match": 0.42,
+    "timing_any": 1.0
+   }
+  },
+  "noise_events": 0,
+  "dac_write_frames": 0
+ },
+ {
+  "source_song": 30,
+  "psc_song": 31,
+  "fm": {
+   "FM1": "PRESENT",
+   "FM2": "PRESENT",
+   "FM4": "PRESENT",
+   "FM5": "PRESENT",
+   "FM6": "PRESENT"
+  },
+  "psg": {
+   "PSG1": {
+    "cls": "DOUBLES_PSC_VOICE",
+    "onsets": 286,
+    "voice": 0,
+    "delay": -1,
+    "match": 1.0,
+    "timing_any": 1.0
+   },
+   "PSG2": {
+    "cls": "PARTIAL_OR_TEXTURE",
+    "onsets": 191,
+    "voice": 0,
+    "delay": -1,
+    "match": 0.22,
+    "timing_any": 0.81
+   },
+   "PSG3": {
+    "cls": "PARTIAL_OR_TEXTURE",
+    "onsets": 187,
+    "voice": 0,
+    "delay": -1,
+    "match": 0.22,
+    "timing_any": 0.81
+   }
+  },
+  "noise_events": 0,
+  "dac_write_frames": 0
+ },
+ {
+  "source_song": 31,
+  "psc_song": 32,
+  "fm": {
+   "FM1": "PRESENT",
+   "FM2": "PRESENT",
+   "FM3": "PRESENT_TIMING_ONLY",
+   "FM4": "PRESENT",
+   "FM5": "PRESENT",
+   "FM6": "PRESENT"
+  },
+  "psg": {
+   "PSG1": {
+    "cls": "DOUBLES_PSC_VOICE",
+    "onsets": 108,
+    "voice": 0,
+    "delay": -1,
+    "match": 1.0,
+    "timing_any": 1.0
+   },
+   "PSG2": {
+    "cls": "DOUBLES_PSC_VOICE",
+    "onsets": 45,
+    "voice": 3,
+    "delay": -1,
+    "match": 1.0,
+    "timing_any": 1.0
+   },
+   "PSG3": {
+    "cls": "DOUBLES_PSC_VOICE",
+    "onsets": 109,
+    "voice": 3,
+    "delay": -1,
+    "match": 1.0,
+    "timing_any": 1.0
+   }
+  },
+  "noise_events": 0,
+  "dac_write_frames": 0
+ },
+ {
+  "source_song": 32,
+  "psc_song": 33,
+  "fm": {
+   "FM1": "PRESENT",
+   "FM2": "PRESENT",
+   "FM3": "PRESENT_TIMING_ONLY",
+   "FM4": "PRESENT",
+   "FM5": "PRESENT",
+   "FM6": "PRESENT"
+  },
+  "psg": {
+   "PSG1": {
+    "cls": "DOUBLES_PSC_VOICE",
+    "onsets": 117,
+    "voice": 0,
+    "delay": -1,
+    "match": 1.0,
+    "timing_any": 1.0
+   }
+  },
+  "noise_events": 0,
+  "dac_write_frames": 0
+ },
+ {
+  "source_song": 33,
+  "psc_song": 34,
+  "fm": {
+   "FM1": "PRESENT",
+   "FM2": "PRESENT_TIMING_ONLY",
+   "FM4": "PRESENT",
+   "FM5": "PRESENT",
+   "FM6": "PRESENT"
+  },
+  "psg": {
+   "PSG1": {
+    "cls": "DOUBLES_PSC_VOICE",
+    "onsets": 81,
+    "voice": 0,
+    "delay": -1,
+    "match": 1.0,
+    "timing_any": 1.0
+   }
+  },
+  "noise_events": 0,
+  "dac_write_frames": 0
+ },
+ {
+  "source_song": 34,
+  "psc_song": 35,
+  "fm": {
+   "FM1": "PRESENT",
+   "FM2": "PRESENT",
+   "FM4": "PRESENT",
+   "FM5": "PRESENT",
+   "FM6": "PRESENT"
+  },
+  "psg": {
+   "PSG1": {
+    "cls": "DOUBLES_PSC_VOICE",
+    "onsets": 163,
+    "voice": 0,
+    "delay": -6,
+    "match": 1.0,
+    "timing_any": 1.0
+   },
+   "PSG2": {
+    "cls": "DOUBLES_PSC_VOICE",
+    "onsets": 163,
+    "voice": 0,
+    "delay": -6,
+    "match": 1.0,
+    "timing_any": 1.0
+   },
+   "PSG3": {
+    "cls": "DOUBLES_PSC_VOICE",
+    "onsets": 163,
+    "voice": 0,
+    "delay": -6,
+    "match": 1.0,
+    "timing_any": 1.0
+   }
+  },
+  "noise_events": 0,
+  "dac_write_frames": 0
+ },
+ {
+  "source_song": 35,
+  "psc_song": 36,
+  "fm": {
+   "FM1": "PRESENT",
+   "FM2": "PRESENT",
+   "FM4": "PRESENT",
+   "FM5": "PRESENT",
+   "FM6": "PRESENT"
+  },
+  "psg": {
+   "PSG1": {
+    "cls": "DOUBLES_PSC_VOICE",
+    "onsets": 60,
+    "voice": 0,
+    "delay": -1,
+    "match": 1.0,
+    "timing_any": 1.0
+   },
+   "PSG2": {
+    "cls": "DOUBLES_PSC_VOICE",
+    "onsets": 41,
+    "voice": 3,
+    "delay": -1,
+    "match": 1.0,
+    "timing_any": 1.0
+   },
+   "PSG3": {
+    "cls": "DOUBLES_PSC_VOICE",
+    "onsets": 41,
+    "voice": 3,
+    "delay": -1,
+    "match": 1.0,
+    "timing_any": 1.0
+   }
+  },
+  "noise_events": 0,
+  "dac_write_frames": 0
+ },
+ {
+  "source_song": 36,
+  "psc_song": 37,
+  "fm": {
+   "FM1": "PRESENT",
+   "FM2": "PRESENT",
+   "FM3": "PRESENT_TIMING_ONLY",
+   "FM4": "PRESENT",
+   "FM5": "PRESENT",
+   "FM6": "PRESENT"
+  },
+  "psg": {
+   "PSG1": {
+    "cls": "DOUBLES_PSC_VOICE",
+    "onsets": 103,
+    "voice": 0,
+    "delay": -1,
+    "match": 1.0,
+    "timing_any": 1.0
+   },
+   "PSG2": {
+    "cls": "DOUBLES_PSC_VOICE",
+    "onsets": 86,
+    "voice": 3,
+    "delay": -1,
+    "match": 1.0,
+    "timing_any": 1.0
+   },
+   "PSG3": {
+    "cls": "DOUBLES_PSC_VOICE",
+    "onsets": 107,
+    "voice": 0,
+    "delay": -1,
+    "match": 0.93,
+    "timing_any": 0.94
+   }
+  },
+  "noise_events": 0,
+  "dac_write_frames": 0
+ },
+ {
+  "source_song": 37,
+  "psc_song": 38,
+  "fm": {},
+  "psg": {},
+  "noise_events": 0,
+  "dac_write_frames": 0
+ },
+ {
+  "source_song": 38,
+  "psc_song": 39,
+  "fm": {},
+  "psg": {},
+  "noise_events": 0,
+  "dac_write_frames": 0
+ },
+ {
+  "source_song": 39,
+  "psc_song": 40,
+  "fm": {
+   "FM1": "PRESENT",
+   "FM2": "PRESENT",
+   "FM3": "PRESENT_TIMING_ONLY",
+   "FM4": "PRESENT",
+   "FM5": "PRESENT",
+   "FM6": "PRESENT"
+  },
+  "psg": {
+   "PSG1": {
+    "cls": "DOUBLES_PSC_VOICE",
+    "onsets": 52,
+    "voice": 0,
+    "delay": -1,
+    "match": 1.0,
+    "timing_any": 1.0
+   },
+   "PSG2": {
+    "cls": "DOUBLES_PSC_VOICE",
+    "onsets": 70,
+    "voice": 5,
+    "delay": -1,
+    "match": 1.0,
+    "timing_any": 1.0
+   }
+  },
+  "noise_events": 0,
+  "dac_write_frames": 0
+ },
+ {
+  "source_song": 40,
+  "psc_song": 41,
+  "fm": {},
+  "psg": {},
+  "noise_events": 0,
+  "dac_write_frames": 0
+ },
+ {
+  "source_song": 41,
+  "psc_song": 42,
+  "fm": {},
+  "psg": {},
+  "noise_events": 0,
+  "dac_write_frames": 0
+ }
+]

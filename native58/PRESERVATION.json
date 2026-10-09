@@ -1,0 +1,35 @@
+{
+  "release_ELF_byte_exact_with_measured_ELF": true,
+  "unused_padding_differences": 960,
+  "padding_difference_regions": [
+    [
+      7535376,
+      7536640
+    ],
+    [
+      491028,
+      491520
+    ],
+    [
+      507748,
+      507904
+    ],
+    [
+      7217048,
+      7217152
+    ],
+    [
+      33551736,
+      33554432
+    ]
+  ],
+  "ROM_size": 33554432,
+  "ROM_crc32": "63CE7F96",
+  "byte_exact_regions": {
+    "launcher_and_wave_bank": true,
+    "PSIII_panel": true,
+    "PS1_Gaiden_and_SMS_GG_engine": true,
+    "upper_original_content_bank": true
+  },
+  "sound_and_dispatch_sources_byte_exact_parent": true
+}

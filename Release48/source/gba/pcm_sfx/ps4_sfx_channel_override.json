@@ -1,0 +1,423 @@
+{
+ "B5": {
+  "name": "Rod",
+  "channels": [
+   "FM5"
+  ]
+ },
+ "B6": {
+  "name": "Shot",
+  "channels": [
+   "FM5"
+  ]
+ },
+ "B7": {
+  "name": "Slasher",
+  "channels": [
+   "FM5"
+  ]
+ },
+ "B8": {
+  "name": "AttackMiss",
+  "channels": [
+   "FM5"
+  ]
+ },
+ "B9": {
+  "name": "EnemyKilled",
+  "channels": [
+   "FM5"
+  ]
+ },
+ "BA": {
+  "name": "EnemyAttack1",
+  "channels": [
+   "FM5"
+  ]
+ },
+ "BB": {
+  "name": "TechCast",
+  "channels": [
+   "FM5"
+  ]
+ },
+ "BC": {
+  "name": "BuffCast",
+  "channels": [
+   "FM5"
+  ]
+ },
+ "BD": {
+  "name": "HealTechCast",
+  "channels": [
+   "FM4",
+   "FM5"
+  ]
+ },
+ "BE": {
+  "name": "Foi",
+  "channels": [
+   "FM5"
+  ]
+ },
+ "BF": {
+  "name": "Legeon",
+  "channels": [
+   "FM5"
+  ]
+ },
+ "C0": {
+  "name": "Megid",
+  "channels": [
+   "FM5",
+   "FM4"
+  ]
+ },
+ "C1": {
+  "name": "Phonon",
+  "channels": [
+   "FM5",
+   "FM4"
+  ]
+ },
+ "C2": {
+  "name": "FireBreath",
+  "channels": [
+   "FM4",
+   "PSG3"
+  ]
+ },
+ "C3": {
+  "name": "Efess",
+  "channels": [
+   "FM5",
+   "PSG3"
+  ]
+ },
+ "C4": {
+  "name": "Moonshad",
+  "channels": [
+   "FM5"
+  ]
+ },
+ "C5": {
+  "name": "LaserAttack",
+  "channels": [
+   "FM4",
+   "FM5"
+  ]
+ },
+ "C6": {
+  "name": "Zan",
+  "channels": [
+   "FM5"
+  ]
+ },
+ "C7": {
+  "name": "Gra",
+  "channels": [
+   "FM5"
+  ]
+ },
+ "C8": {
+  "name": "Vol",
+  "channels": [
+   "FM5"
+  ]
+ },
+ "C9": {
+  "name": "Saner",
+  "channels": [
+   "FM5"
+  ]
+ },
+ "CA": {
+  "name": "Rimit",
+  "channels": [
+   "FM5"
+  ]
+ },
+ "CB": {
+  "name": "Brose",
+  "channels": [
+   "FM5"
+  ]
+ },
+ "CC": {
+  "name": "Res",
+  "channels": [
+   "FM5"
+  ]
+ },
+ "CD": {
+  "name": "Recovery",
+  "channels": [
+   "FM5"
+  ]
+ },
+ "CE": {
+  "name": "Tandle",
+  "channels": [
+   "FM4",
+   "FM5"
+  ]
+ },
+ "CF": {
+  "name": "AndroidSkillImplant",
+  "channels": [
+   "FM5",
+   "FM4"
+  ]
+ },
+ "D0": {
+  "name": "Rifle",
+  "channels": [
+   "FM5"
+  ]
+ },
+ "D1": {
+  "name": "SleepGas",
+  "channels": [
+   "FM5"
+  ]
+ },
+ "D2": {
+  "name": "Eliminat",
+  "channels": [
+   "FM5"
+  ]
+ },
+ "D3": {
+  "name": "Spark",
+  "channels": [
+   "FM5"
+  ]
+ },
+ "D4": {
+  "name": "WarCry",
+  "channels": [
+   "FM4",
+   "FM5"
+  ]
+ },
+ "D5": {
+  "name": "MoleAttack",
+  "channels": [
+   "FM5"
+  ]
+ },
+ "D6": {
+  "name": "MechEnemyAlarm",
+  "channels": [
+   "FM5"
+  ]
+ },
+ "D7": {
+  "name": "EnemyAttack3",
+  "channels": [
+   "FM5"
+  ]
+ },
+ "D8": {
+  "name": "EnemyAttack4",
+  "channels": [
+   "FM4",
+   "FM5"
+  ]
+ },
+ "D9": {
+  "name": "Fusion",
+  "channels": [
+   "FM5"
+  ]
+ },
+ "DA": {
+  "name": "EnemyAttack5",
+  "channels": [
+   "FM5"
+  ]
+ },
+ "DB": {
+  "name": "Alarm",
+  "channels": [
+   "FM5"
+  ]
+ },
+ "DC": {
+  "name": "Deban",
+  "channels": [
+   "FM5"
+  ]
+ },
+ "DD": {
+  "name": "GraveOpening",
+  "channels": [
+   "FM4",
+   "FM5"
+  ]
+ },
+ "DE": {
+  "name": "Teleport",
+  "channels": [
+   "FM5"
+  ]
+ },
+ "DF": {
+  "name": "Stairs",
+  "channels": [
+   "FM5"
+  ]
+ },
+ "E0": {
+  "name": "RidingElevator",
+  "channels": [
+   "FM5"
+  ]
+ },
+ "E1": {
+  "name": "ChestOpened",
+  "channels": [
+   "FM5"
+  ]
+ },
+ "E2": {
+  "name": "DoorOpened",
+  "channels": [
+   "FM5"
+  ]
+ },
+ "E3": {
+  "name": "SpaceshipPropelled",
+  "channels": [
+   "FM5"
+  ]
+ },
+ "E4": {
+  "name": "PowerDown",
+  "channels": [
+   "FM5"
+  ]
+ },
+ "E5": {
+  "name": "ElevatorOpen",
+  "channels": [
+   "FM5"
+  ]
+ },
+ "E6": {
+  "name": "BarrierBroken",
+  "channels": [
+   "FM4",
+   "FM5"
+  ]
+ },
+ "E7": {
+  "name": "ConveyorBelt",
+  "channels": [
+   "FM5"
+  ]
+ },
+ "E8": {
+  "name": "Claw",
+  "channels": [
+   "FM5"
+  ]
+ },
+ "E9": {
+  "name": "Unused1",
+  "channels": [
+   "FM4",
+   "FM5"
+  ]
+ },
+ "EA": {
+  "name": "BlackWave",
+  "channels": [
+   "FM4",
+   "FM5"
+  ]
+ },
+ "EB": {
+  "name": "EnemySpellCast",
+  "channels": [
+   "FM5"
+  ]
+ },
+ "EC": {
+  "name": "Lightning",
+  "channels": [
+   "FM4",
+   "FM5"
+  ]
+ },
+ "ED": {
+  "name": "AnotherGate",
+  "channels": [
+   "FM4",
+   "FM5"
+  ]
+ },
+ "EE": {
+  "name": "IceBroken",
+  "channels": [
+   "FM5"
+  ]
+ },
+ "EF": {
+  "name": "FallingIntoHole",
+  "channels": [
+   "FM5"
+  ]
+ },
+ "F0": {
+  "name": "Telepipe",
+  "channels": [
+   "FM4",
+   "FM5"
+  ]
+ },
+ "F1": {
+  "name": "Souvenir",
+  "channels": [
+   "FM4",
+   "FM5"
+  ]
+ },
+ "F2": {
+  "name": "MovingCursor",
+  "channels": [
+   "FM5"
+  ]
+ },
+ "F3": {
+  "name": "Selection",
+  "channels": [
+   "FM5"
+  ]
+ },
+ "F4": {
+  "name": "Surprise",
+  "channels": [
+   "FM4",
+   "FM5"
+  ]
+ },
+ "F5": {
+  "name": "Sword",
+  "channels": [
+   "FM5"
+  ]
+ },
+ "F6": {
+  "name": "Nothing",
+  "channels": [
+   "FM4"
+  ]
+ },
+ "F7": {
+  "name": "Unused2",
+  "channels": [
+   "FM5"
+  ]
+ }
+}

@@ -1,0 +1,5 @@
+{
+  "cases": 3600,
+  "actual_ARM_result_full_CCR_and_stack_ABI_exact": true,
+  "change": "do_shift relocated from IWRAM to ordinary ROM; code semantics retained"
+}

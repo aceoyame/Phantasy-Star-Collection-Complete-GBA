@@ -1,0 +1,72 @@
+[
+ {
+  "program": "0x40",
+  "psc_hz": 637.1,
+  "src_hz": 637.1,
+  "block": 3,
+  "lag": 3,
+  "psc_rms": 6281.5,
+  "src_rms": 3872.1,
+  "src_head_rms": 3924.1,
+  "gain_head_db": 7.58,
+  "gain_full_db": 4.2,
+  "lsq_gain_db": -8.33,
+  "corr": 0.236
+ },
+ {
+  "program": "0x46",
+  "psc_hz": 323.4,
+  "src_hz": 214.5,
+  "block": 4,
+  "lag": 400,
+  "psc_rms": 11703.3,
+  "src_rms": 2776.6,
+  "src_head_rms": 3482.2,
+  "gain_head_db": 5.23,
+  "gain_full_db": 12.5,
+  "lsq_gain_db": -9.65,
+  "corr": -0.078
+ },
+ {
+  "program": "0x49",
+  "psc_hz": 323.4,
+  "src_hz": 323.4,
+  "block": 3,
+  "lag": -400,
+  "psc_rms": 5014.1,
+  "src_rms": 1344.1,
+  "src_head_rms": 1344.1,
+  "gain_head_db": 11.44,
+  "gain_full_db": 11.44,
+  "lsq_gain_db": -38.73,
+  "corr": 0.003
+ },
+ {
+  "program": "0x4B",
+  "psc_hz": 637.1,
+  "src_hz": 160.5,
+  "block": 4,
+  "lag": -400,
+  "psc_rms": 3442.2,
+  "src_rms": 1538.9,
+  "src_head_rms": 556.4,
+  "gain_head_db": 22.21,
+  "gain_full_db": 6.99,
+  "lsq_gain_db": -37.97,
+  "corr": 0.006
+ },
+ {
+  "program": "0x67",
+  "psc_hz": 323.4,
+  "src_hz": 46.0,
+  "block": 4,
+  "lag": 400,
+  "psc_rms": 6101.9,
+  "src_rms": 3195.7,
+  "src_head_rms": 3121.1,
+  "gain_head_db": -11.95,
+  "gain_full_db": 5.62,
+  "lsq_gain_db": -21.42,
+  "corr": 0.044
+ }
+]

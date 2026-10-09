@@ -1,0 +1,8 @@
+{
+  "changed_128_point_waves": 2119,
+  "total_waves": 2622,
+  "mean_squared_harmonic_removal": 795.86,
+  "mixer_rate_hz": 13379,
+  "source_rate_hz": 31536,
+  "method": "per-zone highest-note Nyquist harmonic cutoff, one-bin cosine taper; high fundamentals left unchanged"
+}

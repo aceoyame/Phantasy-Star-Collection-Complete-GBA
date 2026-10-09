@@ -1,0 +1,98 @@
+{
+  "default": "reference05",
+  "profiles": {
+    "release03": {
+      "files": {
+        "source/gba/audio_p134r/src/ps4_fm_multisample_data_generated.inc": {
+          "file": "audio_profiles/release03/ps4_fm_multisample_data_generated.inc.gz",
+          "bytes": 42944192,
+          "crc32": "db5f37bf",
+          "compression": "gzip"
+        },
+        "source/gba/audio_p134r/src/ps4_fm_multisample_data.cpp": {
+          "file": "audio_profiles/release03/ps4_fm_multisample_data.cpp",
+          "bytes": 2575,
+          "crc32": "172c242b"
+        },
+        "source/gba/audio_p134r/src/chip_audio.cpp": {
+          "file": "audio_profiles/release03/chip_audio.cpp",
+          "bytes": 130298,
+          "crc32": "73544d16"
+        },
+        "source/gba/audio_p134r/src/p134r_song_trim.h": {
+          "file": "audio_profiles/release03/p134r_song_trim.h",
+          "bytes": 561,
+          "crc32": "9b21f3a9"
+        },
+        "source/gba/audio_p134r/include/ps4gba/ps4_fm_multisample_data.h": {
+          "file": "audio_profiles/release03/ps4_fm_multisample_data.h",
+          "bytes": 1086,
+          "crc32": "24940f40"
+        }
+      },
+      "description": "Exact preserved Release 03 waves and player"
+    },
+    "reference04": {
+      "files": {
+        "source/gba/audio_p134r/src/ps4_fm_multisample_data_generated.inc": {
+          "file": "audio_profiles/reference04/ps4_fm_multisample_data_generated.inc.gz",
+          "bytes": 43909476,
+          "crc32": "eda98315",
+          "compression": "gzip"
+        },
+        "source/gba/audio_p134r/src/ps4_fm_multisample_data.cpp": {
+          "file": "audio_profiles/reference04/ps4_fm_multisample_data.cpp",
+          "bytes": 2591,
+          "crc32": "80d69a80"
+        },
+        "source/gba/audio_p134r/src/chip_audio.cpp": {
+          "file": "audio_profiles/reference04/chip_audio.cpp",
+          "bytes": 131283,
+          "crc32": "a50bbf75"
+        },
+        "source/gba/audio_p134r/src/p134r_song_trim.h": {
+          "file": "audio_profiles/reference04/p134r_song_trim.h",
+          "bytes": 561,
+          "crc32": "dd929a42"
+        },
+        "source/gba/audio_p134r/include/ps4gba/ps4_fm_multisample_data.h": {
+          "file": "audio_profiles/reference04/ps4_fm_multisample_data.h",
+          "bytes": 1475,
+          "crc32": "97d0b3de"
+        }
+      },
+      "description": "Exact preserved Release 04: direct captures with historical per-patch gain calibration"
+    },
+    "reference05": {
+      "files": {
+        "source/gba/audio_p134r/src/ps4_fm_multisample_data_generated.inc": {
+          "file": "audio_profiles/reference05/ps4_fm_multisample_data_generated.inc.gz",
+          "bytes": 43804521,
+          "crc32": "667a357c",
+          "compression": "gzip"
+        },
+        "source/gba/audio_p134r/src/ps4_fm_multisample_data.cpp": {
+          "file": "audio_profiles/reference05/ps4_fm_multisample_data.cpp",
+          "bytes": 2591,
+          "crc32": "80d69a80"
+        },
+        "source/gba/audio_p134r/src/chip_audio.cpp": {
+          "file": "audio_profiles/reference05/chip_audio.cpp",
+          "bytes": 131283,
+          "crc32": "a50bbf75"
+        },
+        "source/gba/audio_p134r/src/p134r_song_trim.h": {
+          "file": "audio_profiles/reference05/p134r_song_trim.h",
+          "bytes": 561,
+          "crc32": "3b053f4d"
+        },
+        "source/gba/audio_p134r/include/ps4gba/ps4_fm_multisample_data.h": {
+          "file": "audio_profiles/reference05/ps4_fm_multisample_data.h",
+          "bytes": 1475,
+          "crc32": "97d0b3de"
+        }
+      },
+      "description": "Release 05 direct reference waves with one shared chip-to-PCM gain and recalibrated song headroom"
+    }
+  }
+}

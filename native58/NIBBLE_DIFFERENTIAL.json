@@ -1,0 +1,7 @@
+{
+  "cases": 40768,
+  "entry_maps": 91,
+  "bytes_compared": 5753017088,
+  "CP57_original_AOT_CPU_CCR_bus_memories_exact": true,
+  "coverage": "All common-game decoder maps and entry phases; small/large repeat and flush counts, decoder bytes, full CCR including signed overflow, partial iteration budgets and cycle wrap."
+}

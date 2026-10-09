@@ -1,0 +1,8 @@
+{
+  "cases": 14896,
+  "function_entry_points": 133,
+  "new_functions": 1,
+  "bytes_compared": 2102063936,
+  "CP57_single_instruction_CPU_bus_memories_exact": true,
+  "coverage": "Every new native/private entry, fourteen short/long budgets, seeded registers/CCR, RAM/ROM/MMIO operands and cycle wrap. CP57 fast-interpreter single steps stop at the same emitted region exits."
+}

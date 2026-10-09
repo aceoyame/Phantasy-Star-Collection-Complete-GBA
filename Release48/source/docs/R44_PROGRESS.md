@@ -1,0 +1,1 @@
+R44 source/pose/native checks pass; see R44_NOTES.md and build_artifacts. Final14-archive recovery passes:984 source files and rebuilt module/ROM are byte exact. CP01 libfile_15f3e43e26348191b4c97220e061141e, CP02 libfile_0304045f6f28819181d40f6424847cc2, CP03 libfile_968f41b4d80081919726c894b7c17671; all version0.

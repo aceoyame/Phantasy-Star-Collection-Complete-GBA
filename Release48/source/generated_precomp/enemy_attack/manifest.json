@@ -1,0 +1,560 @@
+{
+  "source_rom_sha256": "511f35cc11f88316f8b8940e28ab298bd75a4da193672a80172884d6eb913b6a",
+  "sequences": [
+    {
+      "name": "sweeper_laser",
+      "enemy_id": 8,
+      "ability_id": 4,
+      "object_id": 108,
+      "holds": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "lead_in": 0,
+      "sfx_id": 197,
+      "hit_frame": 0,
+      "parts": [
+        {
+          "file": "sweeper_laser_top.png",
+          "canvas": [
+            32,
+            64
+          ],
+          "source_region": [
+            -16,
+            0,
+            16,
+            64
+          ],
+          "center_offset": [
+            0,
+            32
+          ],
+          "frames": 8
+        },
+        {
+          "file": "sweeper_laser_part2.png",
+          "canvas": [
+            32,
+            16
+          ],
+          "source_region": [
+            -16,
+            64,
+            16,
+            80
+          ],
+          "center_offset": [
+            0,
+            72
+          ],
+          "frames": 8
+        }
+      ],
+      "source_union": [
+        -16,
+        0,
+        16,
+        80
+      ],
+      "frame_bounds": [
+        [
+          -16,
+          0,
+          16,
+          80
+        ],
+        [
+          -16,
+          0,
+          16,
+          80
+        ],
+        [
+          -16,
+          0,
+          16,
+          80
+        ],
+        [
+          -16,
+          0,
+          16,
+          80
+        ],
+        [
+          -16,
+          0,
+          16,
+          80
+        ],
+        [
+          -16,
+          0,
+          16,
+          80
+        ],
+        [
+          -16,
+          0,
+          16,
+          80
+        ],
+        [
+          -16,
+          0,
+          16,
+          80
+        ]
+      ]
+    },
+    {
+      "name": "sweeper_lightning",
+      "enemy_id": 8,
+      "ability_id": 5,
+      "object_id": 112,
+      "holds": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "lead_in": 0,
+      "sfx_id": 206,
+      "hit_frame": 0,
+      "parts": [
+        {
+          "file": "sweeper_lightning_top.png",
+          "canvas": [
+            32,
+            64
+          ],
+          "source_region": [
+            -16,
+            0,
+            16,
+            64
+          ],
+          "center_offset": [
+            0,
+            32
+          ],
+          "frames": 10
+        },
+        {
+          "file": "sweeper_lightning_part2.png",
+          "canvas": [
+            32,
+            16
+          ],
+          "source_region": [
+            -16,
+            64,
+            16,
+            80
+          ],
+          "center_offset": [
+            0,
+            72
+          ],
+          "frames": 10
+        }
+      ],
+      "source_union": [
+        -16,
+        0,
+        16,
+        80
+      ],
+      "frame_bounds": [
+        [
+          -16,
+          0,
+          16,
+          80
+        ],
+        [
+          -16,
+          0,
+          16,
+          80
+        ],
+        [
+          -8,
+          0,
+          8,
+          80
+        ],
+        [
+          -16,
+          0,
+          16,
+          80
+        ],
+        [
+          -16,
+          0,
+          16,
+          80
+        ],
+        [
+          -16,
+          0,
+          16,
+          80
+        ],
+        [
+          -16,
+          0,
+          16,
+          80
+        ],
+        [
+          -16,
+          0,
+          16,
+          80
+        ],
+        [
+          -8,
+          0,
+          8,
+          80
+        ],
+        [
+          -8,
+          0,
+          8,
+          80
+        ]
+      ]
+    },
+    {
+      "name": "jurafa_flame_launch",
+      "enemy_id": 29,
+      "ability_id": 15,
+      "object_id": 228,
+      "holds": [
+        2,
+        2,
+        10,
+        6,
+        10,
+        8,
+        5
+      ],
+      "lead_in": 20,
+      "sfx_id": 198,
+      "hit_frame": 2,
+      "parts": [
+        {
+          "file": "jurafa_flame_launch.png",
+          "canvas": [
+            32,
+            64
+          ],
+          "source_region": [
+            -12,
+            -8,
+            12,
+            56
+          ],
+          "center_offset": [
+            0,
+            24
+          ],
+          "frames": 7
+        }
+      ],
+      "source_union": [
+        -12,
+        -8,
+        12,
+        56
+      ],
+      "frame_bounds": [
+        [
+          -8,
+          -8,
+          8,
+          8
+        ],
+        [
+          -12,
+          -8,
+          12,
+          24
+        ],
+        [
+          -12,
+          -8,
+          12,
+          56
+        ],
+        [
+          -8,
+          -8,
+          8,
+          56
+        ],
+        [
+          -12,
+          -8,
+          12,
+          56
+        ],
+        [
+          -8,
+          -8,
+          8,
+          56
+        ],
+        [
+          -4,
+          -8,
+          4,
+          56
+        ]
+      ]
+    }
+  ],
+  "micro_missile": {
+    "enemy_id": 29,
+    "ability_id": 14,
+    "object_id": 232,
+    "plc_tile_counts": [
+      6,
+      37,
+      19,
+      24
+    ],
+    "parent": {
+      "parts": [
+        {
+          "file": "jurafa_micro_parent.png",
+          "canvas": [
+            16,
+            32
+          ],
+          "source_region": [
+            -36,
+            -29,
+            -20,
+            -5
+          ],
+          "center_offset": [
+            -28,
+            -17
+          ],
+          "frames": 1
+        }
+      ],
+      "source_union": [
+        -36,
+        -29,
+        -20,
+        -5
+      ],
+      "approach_updates": 15,
+      "approach_x_step": -1,
+      "launcher_count": 2,
+      "center_x_offsets": [
+        -28,
+        28
+      ],
+      "first_burst_update": 23
+    },
+    "burst": {
+      "parts": [
+        {
+          "file": "jurafa_micro_burst_top.png",
+          "canvas": [
+            32,
+            64
+          ],
+          "source_region": [
+            -48,
+            -61,
+            -32,
+            3
+          ],
+          "center_offset": [
+            -40,
+            -29
+          ],
+          "frames": 6
+        },
+        {
+          "file": "jurafa_micro_burst_part2.png",
+          "canvas": [
+            16,
+            8
+          ],
+          "source_region": [
+            -48,
+            3,
+            -32,
+            5
+          ],
+          "center_offset": [
+            -40,
+            4
+          ],
+          "frames": 6
+        }
+      ],
+      "source_union": [
+        -48,
+        -61,
+        -32,
+        5
+      ],
+      "holds": [
+        4,
+        4,
+        2,
+        2,
+        3,
+        4
+      ],
+      "spawn_updates": [
+        23,
+        33,
+        44,
+        54
+      ],
+      "variant_flags": [
+        0,
+        1,
+        0,
+        1
+      ],
+      "variant_x_adjust": 6,
+      "center_x_offsets": [
+        -40,
+        40
+      ],
+      "sfx_id": 208
+    },
+    "missile": {
+      "parts": [
+        {
+          "file": "jurafa_micro_missile.png",
+          "canvas": [
+            8,
+            32
+          ],
+          "source_region": [
+            -2,
+            -32,
+            6,
+            0
+          ],
+          "center_offset": [
+            2,
+            -16
+          ],
+          "frames": 1
+        }
+      ],
+      "source_union": [
+        -2,
+        -32,
+        6,
+        0
+      ],
+      "spawn_update": 75,
+      "delays": [
+        0,
+        10,
+        20,
+        30
+      ],
+      "x_positions": [
+        176,
+        208,
+        240,
+        272
+      ],
+      "mirrored_x_positions": [
+        400,
+        368,
+        336,
+        304
+      ],
+      "y_start": 104,
+      "y_step": 24,
+      "priority_y": 168,
+      "hit_y": 272,
+      "initial_sfx_id": 183,
+      "impact_sfx_id": 190,
+      "target_pair_table": [
+        4,
+        4,
+        4,
+        2,
+        2,
+        2,
+        1,
+        2,
+        1,
+        3,
+        3,
+        3,
+        3,
+        5,
+        5,
+        5
+      ]
+    },
+    "impact": {
+      "parts": [
+        {
+          "file": "jurafa_micro_impact.png",
+          "canvas": [
+            32,
+            32
+          ],
+          "source_region": [
+            -16,
+            -16,
+            16,
+            16
+          ],
+          "center_offset": [
+            0,
+            0
+          ],
+          "frames": 6
+        }
+      ],
+      "source_union": [
+        -16,
+        -16,
+        16,
+        16
+      ],
+      "holds": [
+        2,
+        6,
+        5,
+        4,
+        3,
+        3
+      ],
+      "plc_byte_offset": 1984
+    }
+  }
+}

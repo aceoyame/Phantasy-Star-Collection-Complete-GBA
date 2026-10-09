@@ -1,0 +1,7 @@
+# R43 cave, Elsydeon and reunion progress
+
+R42 is saved and recovery-verified (957 source files,24472072-byte module,33554432-byte ROM). R43 implements source cave entry1D, Elsydeon1E and reunion1F with original source panels/holds/tone sequences, ED54 party preservation, Chaz-only cave visit, Elsydeon equipment and real sanctuary reloads. Reunion uses B2 for two real MotaSpaceport reloads, the original full space pass and late companion equipment. Scripted character NPCs now follow original auto-input/16-pixel steps from existing record state and use original character sheets.
+
+RecoverStats previously omitted all8 skill counters and three vehicle charge records, while overwriting combat/element bytes that the original routine leaves alone. The shared recovery helper now mirrors DoCharRecovery and DoVehicleRecovery. Chaz equipment recomputes native derived stats on Elsydeon acquisition (the disassembly's documented optional fix), keeping the new sword effective immediately.
+
+Native build, independent scene/NPC/recovery/art tests and all21 inherited regressions pass. The packaged32MiB ROM readback is byte-exact/CRC-clean. All968 source files restore exactly from the13-archive chain, and a fresh native build reproduces the module and ROM byte for byte. Final checkpoint save/readback is the last delivery step. No new RAM globals/assets, no accepted audio/actor changes, no Butano/frame skips/source updates dropped, no decoupled audio/cycle scaling/flag or battle bypass. Keep32MiB packaging and full181920 actor prefix.

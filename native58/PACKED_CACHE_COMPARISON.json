@@ -1,0 +1,51 @@
+{
+  "guest_frames": 1050,
+  "script": "START 180..183; B 400..403; START 500..503; A >=600, four frames every80; song81 at150",
+  "rows": [
+    {
+      "index": 2,
+      "baseline_CP57": [
+        {
+          "guest_start": 150,
+          "cycles": 207696554,
+          "guest_per_display_frame": 0.40573037143408747
+        },
+        {
+          "guest_start": 450,
+          "cycles": 198888541,
+          "guest_per_display_frame": 0.4236986182124992
+        },
+        {
+          "guest_start": 750,
+          "cycles": 172358560,
+          "guest_per_display_frame": 0.4889156651111497
+        }
+      ],
+      "candidate": [
+        {
+          "guest_start": 150,
+          "cycles": 207402972,
+          "guest_per_display_frame": 0.40630468882577053
+        },
+        {
+          "guest_start": 450,
+          "cycles": 198961610,
+          "guest_per_display_frame": 0.4235430141523282
+        },
+        {
+          "guest_start": 750,
+          "cycles": 172329357,
+          "guest_per_display_frame": 0.48899851695030694
+        }
+      ],
+      "cycle_reduction_percent": [
+        0.14135140634061746,
+        -0.03673866761383704,
+        0.016943167777683916
+      ],
+      "state_exact": true,
+      "pixels_exact": true,
+      "pcm_exact": true
+    }
+  ]
+}

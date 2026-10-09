@@ -1,0 +1,358 @@
+# Cleanup report — PSC
+
+**Input:** `R48_CP58_NATIVE_COMPLETE_CHECKPOINT_2026-10-09.zip` (preserved unmodified outside this repository)
+
+- Files retained directly from source: **986** (16,235,405 bytes uncompressed)
+- Files removed from Git import: **329** (261,656,764 bytes uncompressed)
+- Added curated README, Git ignore/attributes, handoff and restoration notes.
+
+## Cleanup rationale
+- 103 file(s): extracted media or test output
+- 44 file(s): generated build directory (rebuild required)
+- 42 file(s): log/temporary/backup file
+- 39 file(s): ROM-derived asset or generated binary payload
+- 37 file(s): generated historical build reports and artifacts
+- 23 file(s): generated ARM build/test directory (rebuild required)
+- 12 file(s): bundled proprietary ROM images
+- 10 file(s): generated psc8 build artifacts
+- 9 file(s): compiled extensionless executable
+- 2 file(s): game/firmware ROM image
+- 2 file(s): compiled/commercial ROM binary
+- 2 file(s): top-level duplicated handoff (replaced by curated README)
+- 1 file(s): vendored third-party source tarball
+- 1 file(s): bundled third-party compiler toolchain
+- 1 file(s): nested binary/checkpoint archive
+- 1 file(s): debug binaries
+
+This is a **source publication cleanup**, not a guarantee that a binary-identical build works without assets. Generated data and third-party ROM contents are omitted for licensing and repository hygiene. No test execution is implied by this report. Original inputs remain in the separately preserved checkpoint.
+
+## Removed inputs (audit trail)
+- `Release48/source/additional/build/cp14_core.gba` (33,554,432 bytes): generated build directory (rebuild required)
+- `Release48/source/additional/build/md.bin` (318,224 bytes): generated build directory (rebuild required)
+- `Release48/source/additional/build/md.elf` (7,512,312 bytes): generated build directory (rebuild required)
+- `Release48/source/additional/build/md.ld` (963 bytes): generated build directory (rebuild required)
+- `Release48/source/additional/build/md.map` (229,870 bytes): generated build directory (rebuild required)
+- `Release48/source/additional/build/md_aot_code.c.o` (412,600 bytes): generated build directory (rebuild required)
+- `Release48/source/additional/build/md_aot_tabs.c.o` (103,756 bytes): generated build directory (rebuild required)
+- `Release48/source/additional/build/md_aotdisp.c.o` (4,272 bytes): generated build directory (rebuild required)
+- `Release48/source/additional/build/md_aotextra.bin` (24,736 bytes): generated build directory (rebuild required)
+- `Release48/source/additional/build/md_aotmore.bin` (12,132 bytes): generated build directory (rebuild required)
+- `Release48/source/additional/build/md_divmod.s.o` (680 bytes): generated build directory (rebuild required)
+- `Release48/source/additional/build/md_gsnd_bank.c.o` (21,636 bytes): generated build directory (rebuild required)
+- `Release48/source/additional/build/md_m68k.c.o` (25,224 bytes): generated build directory (rebuild required)
+- `Release48/source/additional/build/md_m68k_ref.c.o` (16,420 bytes): generated build directory (rebuild required)
+- `Release48/source/additional/build/md_md.c.o` (28,436 bytes): generated build directory (rebuild required)
+- `Release48/source/additional/build/md_md_start.s.o` (1,016 bytes): generated build directory (rebuild required)
+- `Release48/source/additional/build/md_mdmain.c.o` (6,824 bytes): generated build directory (rebuild required)
+- `Release48/source/additional/build/md_mdrender.c.o` (15,864 bytes): generated build directory (rebuild required)
+- `Release48/source/additional/build/md_mdrt.c.o` (2,396 bytes): generated build directory (rebuild required)
+- `Release48/source/additional/build/md_mdsnd.c.o` (148,152 bytes): generated build directory (rebuild required)
+- `Release48/source/additional/build/md_mdsndmix.c.o` (1,380 bytes): generated build directory (rebuild required)
+- `Release48/source/additional/build/md_rom2.bin` (101,928 bytes): generated build directory (rebuild required)
+- `Release48/source/additional/build/md_sndidx.bin` (20,760 bytes): generated build directory (rebuild required)
+- `Release48/source/additional/build/md_start.s` (792 bytes): generated build directory (rebuild required)
+- `Release48/source/additional/build/md_zaot.bin` (97,812 bytes): generated build directory (rebuild required)
+- `Release48/source/additional/build/menu.bin` (2,189 bytes): generated build directory (rebuild required)
+- `Release48/source/additional/build/menu.elf` (66,644 bytes): generated build directory (rebuild required)
+- `Release48/source/additional/build/menu.ld` (647 bytes): generated build directory (rebuild required)
+- `Release48/source/additional/build/menu.map` (3,108 bytes): generated build directory (rebuild required)
+- `Release48/source/additional/build/menu_menu.c.o` (3,528 bytes): generated build directory (rebuild required)
+- `Release48/source/additional/build/menu_menu_start.s.o` (1,020 bytes): generated build directory (rebuild required)
+- `Release48/source/additional/build/menu_start.s` (798 bytes): generated build directory (rebuild required)
+- `Release48/source/additional/build/ps2dbg.bin` (7,382 bytes): generated build directory (rebuild required)
+- `Release48/source/additional/build/ps2dbg.elf` (116,548 bytes): generated build directory (rebuild required)
+- `Release48/source/additional/build/ps2dbg.ld` (322 bytes): generated build directory (rebuild required)
+- `Release48/source/additional/build/ps2dbg.map` (4,807 bytes): generated build directory (rebuild required)
+- `Release48/source/additional/build/ps2dbg_ps2dbg.c.o` (11,196 bytes): generated build directory (rebuild required)
+- `Release48/source/additional/build/ps2dbg_thunk.s.o` (816 bytes): generated build directory (rebuild required)
+- `Release48/source/additional/build/ps3dbg.bin` (1,775 bytes): generated build directory (rebuild required)
+- `Release48/source/additional/build/ps3dbg.elf` (35,388 bytes): generated build directory (rebuild required)
+- `Release48/source/additional/build/ps3dbg.ld` (221 bytes): generated build directory (rebuild required)
+- `Release48/source/additional/build/ps3dbg.map` (2,485 bytes): generated build directory (rebuild required)
+- `Release48/source/additional/build/ps3dbg_ps3dbg.c.o` (3,144 bytes): generated build directory (rebuild required)
+- `Release48/source/additional/build/ps3dbg_thunk.s.o` (684 bytes): generated build directory (rebuild required)
+- `Release48/source/additional/gsnd/bake/bank_raw.bin` (258,112 bytes): ROM-derived asset or generated binary payload
+- `Release48/source/additional/gsnd/gsnd_bank_0.bin` (75,072 bytes): ROM-derived asset or generated binary payload
+- `Release48/source/additional/gsnd/gsnd_bank_1.bin` (25,376 bytes): ROM-derived asset or generated binary payload
+- `Release48/source/additional/gsnd/gsnd_bank_2.bin` (22,400 bytes): ROM-derived asset or generated binary payload
+- `Release48/source/additional/gsnd/z80aot/driver.bin` (4,070 bytes): ROM-derived asset or generated binary payload
+- `Release48/source/gba/nintendo_logo.bin` (156 bytes): ROM-derived asset or generated binary payload
+- `Release48/source/gba/precomp_assets.bin` (2,891,848 bytes): ROM-derived asset or generated binary payload
+- `Release48/source/gba/ps4_reversed.bin` (3,145,728 bytes): ROM-derived asset or generated binary payload
+- `Release48/source/gba/psc4_card_gfx.bin` (4,918 bytes): ROM-derived asset or generated binary payload
+- `Release48/source/gba/psc4_card_map.bin` (1,200 bytes): ROM-derived asset or generated binary payload
+- `Release48/source/gba/psc4_card_pal.bin` (32 bytes): ROM-derived asset or generated binary payload
+- `Release48/source/gba/psc4_launcher_hook.bin` (324 bytes): ROM-derived asset or generated binary payload
+- `Release48/source/gba/psc4_logo_obj_4bpp.bin` (9,216 bytes): ROM-derived asset or generated binary payload
+- `Release48/source/gba/psc4_logo_obj_pal.bin` (32 bytes): ROM-derived asset or generated binary payload
+- `Release48/source/gba/psc4_menu_track0_ext.bin` (131 bytes): ROM-derived asset or generated binary payload
+- `Release48/source/gba/psc4_menu_track1_ext.bin` (123 bytes): ROM-derived asset or generated binary payload
+- `Release48/source/gba/psc4_menu_track2_ext.bin` (194 bytes): ROM-derived asset or generated binary payload
+- `Release48/source/gba/psc4_menu_track3_ext.bin` (621 bytes): ROM-derived asset or generated binary payload
+- `Release48/source/gba/psc_field_fastassets.bin` (805,024 bytes): ROM-derived asset or generated binary payload
+- `Release48/source/gba/psc_field_predecode.bin` (1,046,368 bytes): ROM-derived asset or generated binary payload
+- `Release48/source/gba/psc_panel_bank.bin` (856,748 bytes): ROM-derived asset or generated binary payload
+- `Release48/source/gba/r31_field_poses.bin` (203,168 bytes): ROM-derived asset or generated binary payload
+- `Release48/source/gba/r45_pd_art.bin` (336,256 bytes): ROM-derived asset or generated binary payload
+- `Release48/source/gba/r46_recorded_clips.bin` (49,272 bytes): ROM-derived asset or generated binary payload
+- `Release48/source/gba/r46_recorded_tiles.bin` (29,216 bytes): ROM-derived asset or generated binary payload
+- `Release48/source/gba/r46_weapon_effects.bin` (598,432 bytes): ROM-derived asset or generated binary payload
+- `Release48/source/gba/r46_zio_story.bin` (135,728 bytes): ROM-derived asset or generated binary payload
+- `Release48/source/gba/source_ability_effects.bin` (1,112,346 bytes): ROM-derived asset or generated binary payload
+- `Release48/source/gba/source_combo_effects.bin` (191,209 bytes): ROM-derived asset or generated binary payload
+- `Release48/source/gba/source_enemy_effects.bin` (511,808 bytes): ROM-derived asset or generated binary payload
+- `Release48/source/gba/title_intro_rows.bin` (107,040 bytes): ROM-derived asset or generated binary payload
+- `Release48/source/generated_precomp/enemy_anim/igg_00.png` (2,428 bytes): extracted media or test output
+- `Release48/source/generated_precomp/enemy_anim/igg_01.png` (2,452 bytes): extracted media or test output
+- `Release48/source/generated_precomp/enemy_anim/igg_02.png` (2,448 bytes): extracted media or test output
+- `Release48/source/generated_precomp/enemy_anim/igg_03.png` (2,436 bytes): extracted media or test output
+- `Release48/source/generated_precomp/enemy_anim/igg_04.png` (2,438 bytes): extracted media or test output
+- `Release48/source/generated_precomp/enemy_anim/igg_05.png` (2,469 bytes): extracted media or test output
+- `Release48/source/generated_precomp/enemy_anim/igg_06.png` (2,452 bytes): extracted media or test output
+- `Release48/source/generated_precomp/enemy_anim/igg_07.png` (2,417 bytes): extracted media or test output
+- `Release48/source/generated_precomp/enemy_anim/igg_08.png` (2,409 bytes): extracted media or test output
+- `Release48/source/generated_precomp/enemy_anim/igg_09.png` (2,452 bytes): extracted media or test output
+- `Release48/source/generated_precomp/enemy_anim/igg_10.png` (2,469 bytes): extracted media or test output
+- `Release48/source/generated_precomp/enemy_anim/igg_11.png` (2,447 bytes): extracted media or test output
+- `Release48/source/generated_precomp/enemy_anim/igg_12.png` (2,438 bytes): extracted media or test output
+- `Release48/source/generated_precomp/enemy_anim/igg_13.png` (2,448 bytes): extracted media or test output
+- `Release48/source/generated_precomp/enemy_anim/igg_14.png` (2,452 bytes): extracted media or test output
+- `Release48/source/generated_precomp/enemy_anim/igg_15.png` (2,417 bytes): extracted media or test output
+- `Release48/source/generated_precomp/enemy_anim/igg_schedule.bin` (48 bytes): ROM-derived asset or generated binary payload
+- `Release48/source/generated_precomp/enemy_anim/xanaf_00.png` (1,184 bytes): extracted media or test output
+- `Release48/source/generated_precomp/enemy_anim/xanaf_01.png` (1,212 bytes): extracted media or test output
+- `Release48/source/generated_precomp/enemy_anim/xanaf_02.png` (1,209 bytes): extracted media or test output
+- `Release48/source/generated_precomp/enemy_anim/xanaf_03.png` (1,256 bytes): extracted media or test output
+- `Release48/source/generated_precomp/enemy_anim/xanaf_04.png` (1,227 bytes): extracted media or test output
+- `Release48/source/generated_precomp/enemy_anim/xanaf_05.png` (1,177 bytes): extracted media or test output
+- `Release48/source/generated_precomp/enemy_anim/xanaf_06.png` (1,258 bytes): extracted media or test output
+- `Release48/source/generated_precomp/enemy_anim/xanaf_07.png` (1,219 bytes): extracted media or test output
+- `Release48/source/generated_precomp/enemy_anim/xanaf_08.png` (1,213 bytes): extracted media or test output
+- `Release48/source/generated_precomp/enemy_anim/xanaf_schedule.bin` (651 bytes): ROM-derived asset or generated binary payload
+- `Release48/source/generated_precomp/enemy_attack/jurafa_flame_launch.png` (2,463 bytes): extracted media or test output
+- `Release48/source/generated_precomp/enemy_attack/jurafa_micro_burst_part2.png` (180 bytes): extracted media or test output
+- `Release48/source/generated_precomp/enemy_attack/jurafa_micro_burst_top.png` (1,449 bytes): extracted media or test output
+- `Release48/source/generated_precomp/enemy_attack/jurafa_micro_impact.png` (1,190 bytes): extracted media or test output
+- `Release48/source/generated_precomp/enemy_attack/jurafa_micro_missile.png` (215 bytes): extracted media or test output
+- `Release48/source/generated_precomp/enemy_attack/jurafa_micro_parent.png` (312 bytes): extracted media or test output
+- `Release48/source/generated_precomp/enemy_attack/sweeper_laser_part2.png` (188 bytes): extracted media or test output
+- `Release48/source/generated_precomp/enemy_attack/sweeper_laser_top.png` (440 bytes): extracted media or test output
+- `Release48/source/generated_precomp/enemy_attack/sweeper_lightning_part2.png` (939 bytes): extracted media or test output
+- `Release48/source/generated_precomp/enemy_attack/sweeper_lightning_top.png` (3,922 bytes): extracted media or test output
+- `Release48/source/generated_precomp/party_attack/alys_slasher_sweep.png` (407 bytes): extracted media or test output
+- `Release48/source/generated_precomp/party_attack/alys_slasher_throw.png` (1,629 bytes): extracted media or test output
+- `Release48/source/generated_precomp/party_attack/alys_slasher_trace_a.png` (663 bytes): extracted media or test output
+- `Release48/source/generated_precomp/party_attack/alys_slasher_trace_b.png` (509 bytes): extracted media or test output
+- `Release48/source/generated_precomp/party_attack/alys_slasher_trail.png` (550 bytes): extracted media or test output
+- `Release48/source/generated_precomp/party_attack/demi_impacter_shot.png` (1,142 bytes): extracted media or test output
+- `Release48/source/generated_precomp/party_attack/earth_main.png` (710 bytes): extracted media or test output
+- `Release48/source/generated_precomp/party_attack/earth_success.png` (1,151 bytes): extracted media or test output
+- `Release48/source/generated_precomp/party_attack/vision_effect.png` (1,068 bytes): extracted media or test output
+- `Release48/source/generated_precomp/party_attack/vortex_impact_part1.png` (653 bytes): extracted media or test output
+- `Release48/source/generated_precomp/party_attack/vortex_impact_part2.png` (458 bytes): extracted media or test output
+- `Release48/source/generated_precomp/party_attack/vortex_return.png` (326 bytes): extracted media or test output
+- `Release48/source/generated_precomp/party_attack/vortex_throw.png` (1,728 bytes): extracted media or test output
+- `Release48/source/generated_precomp/party_attack/vortex_trace_a.png` (663 bytes): extracted media or test output
+- `Release48/source/generated_precomp/party_attack/vortex_trace_b.png` (509 bytes): extracted media or test output
+- `Release48/source/generated_precomp/party_battle/alys_poses.png` (2,257 bytes): extracted media or test output
+- `Release48/source/generated_precomp/party_battle/chaz_attack.png` (2,436 bytes): extracted media or test output
+- `Release48/source/generated_precomp/party_battle/chaz_poses.png` (1,416 bytes): extracted media or test output
+- `Release48/source/generated_precomp/party_battle/demi_poses.png` (2,513 bytes): extracted media or test output
+- `Release48/source/generated_precomp/party_battle/gryz_poses.png` (1,902 bytes): extracted media or test output
+- `Release48/source/generated_precomp/party_battle/hahn_attack.png` (1,990 bytes): extracted media or test output
+- `Release48/source/generated_precomp/party_battle/hahn_poses.png` (1,666 bytes): extracted media or test output
+- `Release48/source/generated_precomp/party_battle/kyra_poses.png` (3,240 bytes): extracted media or test output
+- `Release48/source/generated_precomp/party_battle/raja_poses.png` (2,417 bytes): extracted media or test output
+- `Release48/source/generated_precomp/party_battle/rika_attack.png` (2,914 bytes): extracted media or test output
+- `Release48/source/generated_precomp/party_battle/rika_poses.png` (1,348 bytes): extracted media or test output
+- `Release48/source/generated_precomp/party_battle/rune_poses.png` (1,759 bytes): extracted media or test output
+- `Release48/source/generated_precomp/party_battle/seth_poses.png` (1,183 bytes): extracted media or test output
+- `Release48/source/generated_precomp/party_battle/wren_poses.png` (3,439 bytes): extracted media or test output
+- `Release48/source/generated_precomp/principal_state_1.png` (6,763 bytes): extracted media or test output
+- `Release48/source/generated_precomp/principal_state_2.png` (8,102 bytes): extracted media or test output
+- `Release48/source/generated_precomp/principal_state_3.png` (8,106 bytes): extracted media or test output
+- `Release48/source/generated_precomp/technique/foi_cast.png` (2,860 bytes): extracted media or test output
+- `Release48/source/generated_precomp/technique/foi_impact.png` (1,200 bytes): extracted media or test output
+- `Release48/source/generated_precomp/technique/foi_orbit.png` (587 bytes): extracted media or test output
+- `Release48/source/generated_precomp/technique/foi_release.png` (1,454 bytes): extracted media or test output
+- `Release48/source/generated_precomp/technique/gires_heal_cast.png` (3,398 bytes): extracted media or test output
+- `Release48/source/generated_precomp/technique/gires_heal_effect.png` (3,757 bytes): extracted media or test output
+- `Release48/source/generated_precomp/technique/githu_cast.png` (2,906 bytes): extracted media or test output
+- `Release48/source/generated_precomp/technique/githu_child.png` (1,124 bytes): extracted media or test output
+- `Release48/source/generated_precomp/technique/githu_parent.png` (847 bytes): extracted media or test output
+- `Release48/source/generated_precomp/technique/nafoi_attack_part1.png` (472 bytes): extracted media or test output
+- `Release48/source/generated_precomp/technique/nafoi_attack_part2.png` (380 bytes): extracted media or test output
+- `Release48/source/generated_precomp/technique/nafoi_attack_part3.png` (382 bytes): extracted media or test output
+- `Release48/source/generated_precomp/technique/nafoi_cast_part1.png` (2,060 bytes): extracted media or test output
+- `Release48/source/generated_precomp/technique/nafoi_cast_part2.png` (778 bytes): extracted media or test output
+- `Release48/source/generated_precomp/technique/nafoi_cast_part3.png` (619 bytes): extracted media or test output
+- `Release48/source/generated_precomp/technique/nafoi_charge_part1.png` (275 bytes): extracted media or test output
+- `Release48/source/generated_precomp/technique/nafoi_charge_part2.png` (275 bytes): extracted media or test output
+- `Release48/source/generated_precomp/technique/nafoi_charge_part3.png` (188 bytes): extracted media or test output
+- `Release48/source/generated_precomp/technique/nares_heal_cast.png` (3,606 bytes): extracted media or test output
+- `Release48/source/generated_precomp/technique/nares_heal_effect.png` (3,780 bytes): extracted media or test output
+- `Release48/source/generated_precomp/technique/nathu_cast_part1.png` (2,081 bytes): extracted media or test output
+- `Release48/source/generated_precomp/technique/nathu_cast_part2.png` (787 bytes): extracted media or test output
+- `Release48/source/generated_precomp/technique/nathu_cast_part3.png` (627 bytes): extracted media or test output
+- `Release48/source/generated_precomp/technique/nathu_child.png` (1,247 bytes): extracted media or test output
+- `Release48/source/generated_precomp/technique/nathu_parent_part1.png` (2,663 bytes): extracted media or test output
+- `Release48/source/generated_precomp/technique/nathu_parent_part2.png` (175 bytes): extracted media or test output
+- `Release48/source/generated_precomp/technique/nathu_parent_part3.png` (201 bytes): extracted media or test output
+- `Release48/source/generated_precomp/technique/res_heal_cast.png` (3,660 bytes): extracted media or test output
+- `Release48/source/generated_precomp/technique/res_heal_effect.png` (3,777 bytes): extracted media or test output
+- `Release48/source/generated_precomp/technique/tsu_attack.png` (756 bytes): extracted media or test output
+- `Release48/source/generated_precomp/technique/tsu_cast.png` (2,906 bytes): extracted media or test output
+- `Release48/source/generated_precomp/technique/wat_cast.png` (2,878 bytes): extracted media or test output
+- `Release48/source/generated_precomp/technique/wat_impact.png` (1,121 bytes): extracted media or test output
+- `Release48/source/generated_precomp/technique/wat_orbit.png` (596 bytes): extracted media or test output
+- `Release48/source/generated_precomp/technique/wat_release.png` (2,542 bytes): extracted media or test output
+- `Release48/source/psc8/build/fast_opll.c.o` (15,900 bytes): generated psc8 build artifacts
+- `Release48/source/psc8/build/fast_opll_block.c.o` (14,584 bytes): generated psc8 build artifacts
+- `Release48/source/psc8/build/fm_steady.s.o` (2,504 bytes): generated psc8 build artifacts
+- `Release48/source/psc8/build/idle_probe.c.o` (50,780 bytes): generated psc8 build artifacts
+- `Release48/source/psc8/build/psc8.bin` (72,184 bytes): generated psc8 build artifacts
+- `Release48/source/psc8/build/psc8.c.o` (58,716 bytes): generated psc8 build artifacts
+- `Release48/source/psc8/build/psc8.elf` (307,868 bytes): generated psc8 build artifacts
+- `Release48/source/psc8/build/psc8.map` (51,880 bytes): generated psc8 build artifacts
+- `Release48/source/psc8/build/start.s.o` (1,996 bytes): generated psc8 build artifacts
+- `Release48/source/psc8/build/z80a.s.o` (75,776 bytes): generated psc8 build artifacts
+- `Release48/source/psc8/core/gbatest/test.bin` (74,516 bytes): ROM-derived asset or generated binary payload
+- `Release48/source/psc8/core/gbatest/test2.bin` (74,864 bytes): ROM-derived asset or generated binary payload
+- `Release48/source/psc8/core/gbatest/zex_asm.log` (62,058 bytes): log/temporary/backup file
+- `Release48/source/psc8/core/tests/allops` (78,888 bytes): compiled extensionless executable
+- `Release48/source/psc8/core/tests/lockstep` (78,888 bytes): compiled extensionless executable
+- `Release48/source/psc8/core/tests/opfreq` (53,872 bytes): compiled extensionless executable
+- `Release48/source/psc8/core/tests/smslock` (87,448 bytes): compiled extensionless executable
+- `Release48/source/psc8/core/tests/smslock_c` (92,360 bytes): compiled extensionless executable
+- `Release48/source/psc8/core/tests/zex` (45,424 bytes): compiled extensionless executable
+- `Release48/source/psc8/tables/opll_half.bin` (2,048 bytes): ROM-derived asset or generated binary payload
+- `Release48/source/psc8/tables/opll_patch.bin` (5,928 bytes): ROM-derived asset or generated binary payload
+- `Release48/source/psc8/tables/opll_rks.bin` (128 bytes): ROM-derived asset or generated binary payload
+- `Release48/source/psc8/tables/opll_sin.bin` (2,048 bytes): ROM-derived asset or generated binary payload
+- `Release48/source/psc8/tests/FM_SELFTEST.sms` (32,768 bytes): game/firmware ROM image
+- `Release48/source/psc8/tests/GG_SELFTEST.gg` (32,768 bytes): game/firmware ROM image
+- `Release48/source/tools_host/cp08_mgba/libprobe2.so` (22,128 bytes): compiled extensionless executable
+- `Release48/source/tools_host/r46_mgba/libprobe.so` (17,696 bytes): compiled extensionless executable
+- `Release48/source/tools_host/r46_mgba/mgba-0.10.5.tar.gz` (14,358,730 bytes): vendored third-party source tarball
+- `Release48/additional_roms/Amia_Adventure_-_English.bin` (262,144 bytes): bundled proprietary ROM images
+- `Release48/additional_roms/Anne_Adventure_-_English.bin` (262,144 bytes): bundled proprietary ROM images
+- `Release48/additional_roms/Eusis_Adventure_-_English.bin` (262,144 bytes): bundled proprietary ROM images
+- `Release48/additional_roms/Huey_Adventure_-_English.bin` (262,144 bytes): bundled proprietary ROM images
+- `Release48/additional_roms/Kinds_Adventure_-_English.bin` (262,144 bytes): bundled proprietary ROM images
+- `Release48/additional_roms/Nei_Adventure_-_English.bin` (262,144 bytes): bundled proprietary ROM images
+- `Release48/additional_roms/Phantasy_Star_1_Retranslated_(English_v2.6.1).sms` (524,288 bytes): bundled proprietary ROM images
+- `Release48/additional_roms/Phantasy_Star_Adventure_(English_v1.0).gg` (131,072 bytes): bundled proprietary ROM images
+- `Release48/additional_roms/Phantasy_Star_Gaiden.gg` (262,144 bytes): bundled proprietary ROM images
+- `Release48/additional_roms/Rudger_Adventure_-_English.bin` (262,144 bytes): bundled proprietary ROM images
+- `Release48/additional_roms/Shilka_Adventure_-_English.bin` (262,144 bytes): bundled proprietary ROM images
+- `Release48/build_artifacts/ADDITIONAL_CONTENT_PACK.json` (20,232 bytes): generated historical build reports and artifacts
+- `Release48/build_artifacts/CP08_BUILD_REPORT.json` (3,076 bytes): generated historical build reports and artifacts
+- `Release48/build_artifacts/CP09_BUILD_REPORT.json` (3,513 bytes): generated historical build reports and artifacts
+- `Release48/build_artifacts/CP11_BUILD_REPORT.json` (4,413 bytes): generated historical build reports and artifacts
+- `Release48/build_artifacts/CP11_CORE_BUILD.json` (3,507 bytes): generated historical build reports and artifacts
+- `Release48/build_artifacts/CP11_O2_INTERNAL.json` (3,514 bytes): generated historical build reports and artifacts
+- `Release48/build_artifacts/CP12_BUILD_REPORT.json` (4,413 bytes): generated historical build reports and artifacts
+- `Release48/build_artifacts/CP12_CORE_BUILD.json` (3,507 bytes): generated historical build reports and artifacts
+- `Release48/build_artifacts/CP13_BUILD_REPORT.json` (4,534 bytes): generated historical build reports and artifacts
+- `Release48/build_artifacts/CP13_CORE_BUILD.json` (3,618 bytes): generated historical build reports and artifacts
+- `Release48/build_artifacts/CP13_FINAL_SHA256.txt` (93 bytes): generated historical build reports and artifacts
+- `Release48/build_artifacts/CP14_BUILD_REPORT.json` (4,533 bytes): generated historical build reports and artifacts
+- `Release48/build_artifacts/CP14_CORE_BUILD.json` (3,617 bytes): generated historical build reports and artifacts
+- `Release48/build_artifacts/CP14_FINAL_SHA256.txt` (93 bytes): generated historical build reports and artifacts
+- `Release48/build_artifacts/CP15_BUILD_REPORT.json` (4,639 bytes): generated historical build reports and artifacts
+- `Release48/build_artifacts/CP15_CORE_BUILD.json` (3,700 bytes): generated historical build reports and artifacts
+- `Release48/build_artifacts/CP15_FINAL_SHA256.txt` (93 bytes): generated historical build reports and artifacts
+- `Release48/build_artifacts/CP22_BUILD_REPORT.json` (4,947 bytes): generated historical build reports and artifacts
+- `Release48/build_artifacts/CP24_BUILD_REPORT.json` (5,022 bytes): generated historical build reports and artifacts
+- `Release48/build_artifacts/CP25_BUILD_REPORT.json` (5,011 bytes): generated historical build reports and artifacts
+- `Release48/build_artifacts/CP26_BUILD_REPORT.json` (4,993 bytes): generated historical build reports and artifacts
+- `Release48/build_artifacts/CP27_BUILD_REPORT.json` (5,063 bytes): generated historical build reports and artifacts
+- `Release48/build_artifacts/CP28_BUILD_REPORT.json` (5,088 bytes): generated historical build reports and artifacts
+- `Release48/build_artifacts/CP29_BUILD_REPORT.json` (5,201 bytes): generated historical build reports and artifacts
+- `Release48/build_artifacts/CP30_BUILD_REPORT.json` (5,437 bytes): generated historical build reports and artifacts
+- `Release48/build_artifacts/CP46_BUILD_REPORT.json` (5,148 bytes): generated historical build reports and artifacts
+- `Release48/build_artifacts/CP47_BUILD_REPORT.json` (5,021 bytes): generated historical build reports and artifacts
+- `Release48/build_artifacts/CP48_BUILD_REPORT.json` (4,920 bytes): generated historical build reports and artifacts
+- `Release48/build_artifacts/CP53_BUILD_REPORT.json` (4,912 bytes): generated historical build reports and artifacts
+- `Release48/build_artifacts/CP54_BUILD_REPORT.json` (5,445 bytes): generated historical build reports and artifacts
+- `Release48/build_artifacts/CP55_BUILD_REPORT.json` (5,180 bytes): generated historical build reports and artifacts
+- `Release48/build_artifacts/CP56_BUILD_REPORT.json` (5,072 bytes): generated historical build reports and artifacts
+- `Release48/build_artifacts/CP57_BUILD_REPORT.json` (5,180 bytes): generated historical build reports and artifacts
+- `Release48/build_artifacts/CP58_BUILD_REPORT.json` (5,224 bytes): generated historical build reports and artifacts
+- `Release48/build_artifacts/PSC8_CP10_FROZEN.bin` (69,720 bytes): generated historical build reports and artifacts
+- `Release48/build_artifacts/cp11_art/ADDITIONAL_CARD_INDEXED.png` (698 bytes): generated historical build reports and artifacts
+- `Release48/build_artifacts/cp11_art/SUBMENU_INDEXED.png` (484 bytes): generated historical build reports and artifacts
+- `Release48/binaries/RUN_THIS_R48_CP07_SAFE_HANDOFF.gba` (33,554,432 bytes): bundled proprietary ROM images
+- `SUPPORT/R48_LLVM18_1_3_MINIMAL_REBUILD_TOOLCHAIN.tar.gz` (61,405,744 bytes): bundled third-party compiler toolchain
+- `cp57_base/md.elf` (7,510,492 bytes): compiled extensionless executable
+- `Release48/build_cp10.log` (4,059 bytes): log/temporary/backup file
+- `Release48/build_cp11.log` (4,061 bytes): log/temporary/backup file
+- `Release48/build_cp11_final.log` (3,577 bytes): log/temporary/backup file
+- `Release48/build_cp11_o2.log` (4,062 bytes): log/temporary/backup file
+- `Release48/build_mgba.log` (90 bytes): log/temporary/backup file
+- `native58/armcheck/md.bin` (318,224 bytes): generated ARM build/test directory (rebuild required)
+- `native58/armcheck/md.elf` (7,512,312 bytes): generated ARM build/test directory (rebuild required)
+- `native58/armcheck/md.map` (228,958 bytes): generated ARM build/test directory (rebuild required)
+- `native58/armcheck/md_aot_code.c.o` (412,600 bytes): generated ARM build/test directory (rebuild required)
+- `native58/armcheck/md_aot_tabs.c.o` (103,756 bytes): generated ARM build/test directory (rebuild required)
+- `native58/armcheck/md_aotdisp.c.o` (4,272 bytes): generated ARM build/test directory (rebuild required)
+- `native58/armcheck/md_aotextra.bin` (24,736 bytes): generated ARM build/test directory (rebuild required)
+- `native58/armcheck/md_aotmore.bin` (12,132 bytes): generated ARM build/test directory (rebuild required)
+- `native58/armcheck/md_divmod.s.o` (680 bytes): generated ARM build/test directory (rebuild required)
+- `native58/armcheck/md_gsnd_bank.c.o` (21,636 bytes): generated ARM build/test directory (rebuild required)
+- `native58/armcheck/md_m68k.c.o` (25,224 bytes): generated ARM build/test directory (rebuild required)
+- `native58/armcheck/md_m68k_ref.c.o` (16,420 bytes): generated ARM build/test directory (rebuild required)
+- `native58/armcheck/md_md.c.o` (28,436 bytes): generated ARM build/test directory (rebuild required)
+- `native58/armcheck/md_md_start.s.o` (1,016 bytes): generated ARM build/test directory (rebuild required)
+- `native58/armcheck/md_mdmain.c.o` (6,824 bytes): generated ARM build/test directory (rebuild required)
+- `native58/armcheck/md_mdrender.c.o` (15,864 bytes): generated ARM build/test directory (rebuild required)
+- `native58/armcheck/md_mdrt.c.o` (2,396 bytes): generated ARM build/test directory (rebuild required)
+- `native58/armcheck/md_mdsnd.c.o` (148,152 bytes): generated ARM build/test directory (rebuild required)
+- `native58/armcheck/md_mdsndmix.c.o` (1,380 bytes): generated ARM build/test directory (rebuild required)
+- `native58/armcheck/md_rom2.bin` (101,928 bytes): generated ARM build/test directory (rebuild required)
+- `native58/armcheck/md_sndidx.bin` (20,760 bytes): generated ARM build/test directory (rebuild required)
+- `native58/armcheck/md_start.s` (792 bytes): generated ARM build/test directory (rebuild required)
+- `native58/armcheck/md_zaot.bin` (97,812 bytes): generated ARM build/test directory (rebuild required)
+- `native58/checksum_CCR_checks.log` (322 bytes): log/temporary/backup file
+- `native58/checksum_CCR_link.log` (50,321 bytes): log/temporary/backup file
+- `native58/checksum_checks.log` (0 bytes): log/temporary/backup file
+- `native58/checksum_guard_link.log` (50,321 bytes): log/temporary/backup file
+- `native58/checksum_link.log` (50,321 bytes): log/temporary/backup file
+- `native58/checksum_measure.log` (742 bytes): log/temporary/backup file
+- `native58/checksum_six_link.log` (50,309 bytes): log/temporary/backup file
+- `native58/fallback_analysis.log` (2,874 bytes): log/temporary/backup file
+- `native58/fallback_pc_counts.log` (742 bytes): log/temporary/backup file
+- `native58/final_all_measure.log` (5,937 bytes): log/temporary/backup file
+- `native58/final_checksum_checks.log` (322 bytes): log/temporary/backup file
+- `native58/final_measure.log` (5,932 bytes): log/temporary/backup file
+- `native58/final_profile.log` (977 bytes): log/temporary/backup file
+- `native58/final_renderer_checks.log` (72 bytes): log/temporary/backup file
+- `native58/final_shift_arm_checks.log` (33 bytes): log/temporary/backup file
+- `native58/game2_frame450.png` (3,068 bytes): extracted media or test output
+- `native58/hidden_dirty_link.log` (50,484 bytes): log/temporary/backup file
+- `native58/hidden_measure.log` (742 bytes): log/temporary/backup file
+- `native58/hidden_renderer_checks.log` (150 bytes): log/temporary/backup file
+- `native58/nibble_checks.log` (311 bytes): log/temporary/backup file
+- `native58/nibble_link.log` (50,421 bytes): log/temporary/backup file
+- `native58/nibble_measure.log` (741 bytes): log/temporary/backup file
+- `native58/opaque_all_measure.log` (5,939 bytes): log/temporary/backup file
+- `native58/opaque_link.log` (50,340 bytes): log/temporary/backup file
+- `native58/package.log` (0 bytes): log/temporary/backup file
+- `native58/packed_cache_link.log` (50,314 bytes): log/temporary/backup file
+- `native58/packed_cache_measure.log` (746 bytes): log/temporary/backup file
+- `native58/priority_link.log` (50,321 bytes): log/temporary/backup file
+- `native58/priority_measure.log` (745 bytes): log/temporary/backup file
+- `native58/release_build.log` (3,766 bytes): log/temporary/backup file
+- `native58/renderer_checks.log` (72 bytes): log/temporary/backup file
+- `native58/save_checks.log` (304 bytes): log/temporary/backup file
+- `native58/shift_arm_checks.log` (33 bytes): log/temporary/backup file
+- `native58/text_loop_checks.log` (363 bytes): log/temporary/backup file
+- `native58/text_loop_generation.log` (207 bytes): log/temporary/backup file
+- `native58/text_loop_link.log` (50,374 bytes): log/temporary/backup file
+- `native58/text_loop_measure.log` (743 bytes): log/temporary/backup file
+- `RUN_THIS_R48_CP58_NATIVE_TEXT_KERNELS.gba` (33,554,432 bytes): compiled/commercial ROM binary
+- `RUN_THIS_R48_CP57_NATIVE_WINDOW_LOOPS.gba` (33,554,432 bytes): compiled/commercial ROM binary
+- `R48_CP58_HANDOFF_2026-10-09.md` (8,282 bytes): top-level duplicated handoff (replaced by curated README)
+- `R48_CP58_NATIVE_SOURCE_DELTA_2026-10-09.zip` (336,430 bytes): nested binary/checkpoint archive
+- `DEBUG/CP58_md.elf` (7,512,312 bytes): debug binaries
+- `README_FIRST.md` (8,282 bytes): top-level duplicated handoff (replaced by curated README)

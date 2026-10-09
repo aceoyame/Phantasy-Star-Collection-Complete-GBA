@@ -1,0 +1,159 @@
+{
+  "source_rom_sha256": null,
+  "base_palette_rom_offset": "0x296300",
+  "base_palette_words": [
+    "0x0000",
+    "0x0000",
+    "0x0AAA",
+    "0x0666",
+    "0x06AE",
+    "0x026A",
+    "0x0026",
+    "0x02C2",
+    "0x0282",
+    "0x0A62",
+    "0x0CC4",
+    "0x02CE",
+    "0x062E",
+    "0x000C",
+    "0x0620",
+    "0x0EEE"
+  ],
+  "characters": {
+    "chaz": {
+      "id": 0,
+      "poses": [
+        "idle",
+        "cast"
+      ],
+      "pose_file": "chaz_poses.png",
+      "attack": {
+        "file": "chaz_attack.png",
+        "holds": [
+          10,
+          5,
+          20
+        ]
+      }
+    },
+    "alys": {
+      "id": 1,
+      "poses": [
+        "idle",
+        "cast",
+        "slasher",
+        "throw_slasher",
+        "two_slashers",
+        "throw_two_slashers"
+      ],
+      "pose_file": "alys_poses.png"
+    },
+    "hahn": {
+      "id": 2,
+      "poses": [
+        "idle",
+        "cast",
+        "arms_raised"
+      ],
+      "pose_file": "hahn_poses.png",
+      "attack": {
+        "file": "hahn_attack.png",
+        "holds": [
+          10,
+          5,
+          20
+        ]
+      }
+    },
+    "rune": {
+      "id": 3,
+      "poses": [
+        "idle",
+        "cast",
+        "charge_magic"
+      ],
+      "pose_file": "rune_poses.png"
+    },
+    "gryz": {
+      "id": 4,
+      "poses": [
+        "idle",
+        "cast",
+        "arms_raised"
+      ],
+      "pose_file": "gryz_poses.png"
+    },
+    "rika": {
+      "id": 5,
+      "poses": [
+        "idle",
+        "cast"
+      ],
+      "pose_file": "rika_poses.png",
+      "attack": {
+        "file": "rika_attack.png",
+        "holds": [
+          5,
+          10,
+          4,
+          4,
+          12
+        ]
+      }
+    },
+    "demi": {
+      "id": 6,
+      "poses": [
+        "idle",
+        "cast",
+        "charge",
+        "load_gun",
+        "fire_gun"
+      ],
+      "pose_file": "demi_poses.png"
+    },
+    "wren": {
+      "id": 7,
+      "poses": [
+        "idle",
+        "cast",
+        "charge",
+        "load_gun",
+        "fire_gun"
+      ],
+      "pose_file": "wren_poses.png"
+    },
+    "raja": {
+      "id": 8,
+      "poses": [
+        "idle",
+        "cast",
+        "arms_raised",
+        "arms_raised_2"
+      ],
+      "pose_file": "raja_poses.png"
+    },
+    "kyra": {
+      "id": 9,
+      "poses": [
+        "idle",
+        "cast",
+        "charge_magic",
+        "cast_2",
+        "slasher",
+        "throw_slasher",
+        "two_slashers",
+        "throw_two_slashers"
+      ],
+      "pose_file": "kyra_poses.png"
+    },
+    "seth": {
+      "id": 10,
+      "poses": [
+        "idle",
+        "cast"
+      ],
+      "pose_file": "seth_poses.png"
+    }
+  }
+}

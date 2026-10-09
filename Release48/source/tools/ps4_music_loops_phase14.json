@@ -1,0 +1,4509 @@
+{
+  "format_version": 1,
+  "source": "pinned PSIV retail sound-driver control flow",
+  "timing_note": "seconds are from retail music queue time; START-gated capture must be armed before queueing",
+  "tracks": [
+    {
+      "music_id": 129,
+      "music_id_hex": "$81",
+      "source_label": "Music_TonoeDePon",
+      "analysis_status": "ok",
+      "tick_multiplier": 2,
+      "initial_tempo": 9,
+      "track_count": 9,
+      "looping_track_count": 9,
+      "ended_track_count": 0,
+      "track_period_ticks": [
+        2016,
+        4032
+      ],
+      "dynamic_tempo_events": [],
+      "one_shot": false,
+      "exact_capture_loop_ready": true,
+      "tracks": [
+        {
+          "index": 0,
+          "kind": "loop",
+          "intro_ticks": 12,
+          "period_ticks": 2016,
+          "end_ticks": null
+        },
+        {
+          "index": 1,
+          "kind": "loop",
+          "intro_ticks": 12,
+          "period_ticks": 4032,
+          "end_ticks": null
+        },
+        {
+          "index": 2,
+          "kind": "loop",
+          "intro_ticks": 6,
+          "period_ticks": 4032,
+          "end_ticks": null
+        },
+        {
+          "index": 3,
+          "kind": "loop",
+          "intro_ticks": 6,
+          "period_ticks": 4032,
+          "end_ticks": null
+        },
+        {
+          "index": 4,
+          "kind": "loop",
+          "intro_ticks": 6,
+          "period_ticks": 4032,
+          "end_ticks": null
+        },
+        {
+          "index": 5,
+          "kind": "loop",
+          "intro_ticks": 12,
+          "period_ticks": 4032,
+          "end_ticks": null
+        },
+        {
+          "index": 6,
+          "kind": "loop",
+          "intro_ticks": 12,
+          "period_ticks": 4032,
+          "end_ticks": null
+        },
+        {
+          "index": 7,
+          "kind": "loop",
+          "intro_ticks": 8,
+          "period_ticks": 4032,
+          "end_ticks": null
+        },
+        {
+          "index": 8,
+          "kind": "loop",
+          "intro_ticks": 8,
+          "period_ticks": 4032,
+          "end_ticks": null
+        }
+      ],
+      "source_loop_start_ticks": 12,
+      "source_loop_period_ticks": 4032,
+      "source_loop_end_ticks": 4044,
+      "global_period_is_lcm": true,
+      "source_loop_start_seconds_from_music_start": 0.225,
+      "source_loop_period_seconds": 75.6,
+      "source_loop_end_seconds_from_music_start": 75.825
+    },
+    {
+      "music_id": 130,
+      "music_id_hex": "$82",
+      "source_label": "Music_Inn",
+      "analysis_status": "ok",
+      "tick_multiplier": 3,
+      "initial_tempo": 5,
+      "track_count": 9,
+      "looping_track_count": 8,
+      "ended_track_count": 1,
+      "track_period_ticks": [
+        576
+      ],
+      "dynamic_tempo_events": [],
+      "one_shot": false,
+      "exact_capture_loop_ready": true,
+      "tracks": [
+        {
+          "index": 0,
+          "kind": "end",
+          "intro_ticks": 0,
+          "period_ticks": null,
+          "end_ticks": 0
+        },
+        {
+          "index": 1,
+          "kind": "loop",
+          "intro_ticks": 432,
+          "period_ticks": 576,
+          "end_ticks": null
+        },
+        {
+          "index": 2,
+          "kind": "loop",
+          "intro_ticks": 432,
+          "period_ticks": 576,
+          "end_ticks": null
+        },
+        {
+          "index": 3,
+          "kind": "loop",
+          "intro_ticks": 18,
+          "period_ticks": 576,
+          "end_ticks": null
+        },
+        {
+          "index": 4,
+          "kind": "loop",
+          "intro_ticks": 432,
+          "period_ticks": 576,
+          "end_ticks": null
+        },
+        {
+          "index": 5,
+          "kind": "loop",
+          "intro_ticks": 432,
+          "period_ticks": 576,
+          "end_ticks": null
+        },
+        {
+          "index": 6,
+          "kind": "loop",
+          "intro_ticks": 438,
+          "period_ticks": 576,
+          "end_ticks": null
+        },
+        {
+          "index": 7,
+          "kind": "loop",
+          "intro_ticks": 438,
+          "period_ticks": 576,
+          "end_ticks": null
+        },
+        {
+          "index": 8,
+          "kind": "loop",
+          "intro_ticks": 24,
+          "period_ticks": 576,
+          "end_ticks": null
+        }
+      ],
+      "source_loop_start_ticks": 438,
+      "source_loop_period_ticks": 576,
+      "source_loop_end_ticks": 1014,
+      "global_period_is_lcm": false,
+      "source_loop_start_seconds_from_music_start": 9.125,
+      "source_loop_period_seconds": 12.0,
+      "source_loop_end_seconds_from_music_start": 21.125
+    },
+    {
+      "music_id": 131,
+      "music_id_hex": "$83",
+      "source_label": "Music_MotabiaVillage",
+      "analysis_status": "ok",
+      "tick_multiplier": 2,
+      "initial_tempo": 4,
+      "track_count": 9,
+      "looping_track_count": 8,
+      "ended_track_count": 1,
+      "track_period_ticks": [
+        3468
+      ],
+      "dynamic_tempo_events": [],
+      "one_shot": false,
+      "exact_capture_loop_ready": true,
+      "tracks": [
+        {
+          "index": 0,
+          "kind": "end",
+          "intro_ticks": 0,
+          "period_ticks": null,
+          "end_ticks": 0
+        },
+        {
+          "index": 1,
+          "kind": "loop",
+          "intro_ticks": 1440,
+          "period_ticks": 3468,
+          "end_ticks": null
+        },
+        {
+          "index": 2,
+          "kind": "loop",
+          "intro_ticks": 3240,
+          "period_ticks": 3468,
+          "end_ticks": null
+        },
+        {
+          "index": 3,
+          "kind": "loop",
+          "intro_ticks": 1440,
+          "period_ticks": 3468,
+          "end_ticks": null
+        },
+        {
+          "index": 4,
+          "kind": "loop",
+          "intro_ticks": 336,
+          "period_ticks": 3468,
+          "end_ticks": null
+        },
+        {
+          "index": 5,
+          "kind": "loop",
+          "intro_ticks": 336,
+          "period_ticks": 3468,
+          "end_ticks": null
+        },
+        {
+          "index": 6,
+          "kind": "loop",
+          "intro_ticks": 3248,
+          "period_ticks": 3468,
+          "end_ticks": null
+        },
+        {
+          "index": 7,
+          "kind": "loop",
+          "intro_ticks": 3244,
+          "period_ticks": 3468,
+          "end_ticks": null
+        },
+        {
+          "index": 8,
+          "kind": "loop",
+          "intro_ticks": 510,
+          "period_ticks": 3468,
+          "end_ticks": null
+        }
+      ],
+      "source_loop_start_ticks": 3248,
+      "source_loop_period_ticks": 3468,
+      "source_loop_end_ticks": 6716,
+      "global_period_is_lcm": false,
+      "source_loop_start_seconds_from_music_start": 72.17777777777776,
+      "source_loop_period_seconds": 77.06666666666666,
+      "source_loop_end_seconds_from_music_start": 149.24444444444444
+    },
+    {
+      "music_id": 132,
+      "music_id_hex": "$84",
+      "source_label": "Music_MotabiaTown",
+      "analysis_status": "ok",
+      "tick_multiplier": 2,
+      "initial_tempo": 5,
+      "track_count": 9,
+      "looping_track_count": 9,
+      "ended_track_count": 0,
+      "track_period_ticks": [
+        768,
+        2304
+      ],
+      "dynamic_tempo_events": [],
+      "one_shot": false,
+      "exact_capture_loop_ready": true,
+      "tracks": [
+        {
+          "index": 0,
+          "kind": "loop",
+          "intro_ticks": 12,
+          "period_ticks": 768,
+          "end_ticks": null
+        },
+        {
+          "index": 1,
+          "kind": "loop",
+          "intro_ticks": 288,
+          "period_ticks": 2304,
+          "end_ticks": null
+        },
+        {
+          "index": 2,
+          "kind": "loop",
+          "intro_ticks": 12,
+          "period_ticks": 2304,
+          "end_ticks": null
+        },
+        {
+          "index": 3,
+          "kind": "loop",
+          "intro_ticks": 294,
+          "period_ticks": 2304,
+          "end_ticks": null
+        },
+        {
+          "index": 4,
+          "kind": "loop",
+          "intro_ticks": 12,
+          "period_ticks": 2304,
+          "end_ticks": null
+        },
+        {
+          "index": 5,
+          "kind": "loop",
+          "intro_ticks": 12,
+          "period_ticks": 2304,
+          "end_ticks": null
+        },
+        {
+          "index": 6,
+          "kind": "loop",
+          "intro_ticks": 292,
+          "period_ticks": 2304,
+          "end_ticks": null
+        },
+        {
+          "index": 7,
+          "kind": "loop",
+          "intro_ticks": 290,
+          "period_ticks": 2304,
+          "end_ticks": null
+        },
+        {
+          "index": 8,
+          "kind": "loop",
+          "intro_ticks": 288,
+          "period_ticks": 2304,
+          "end_ticks": null
+        }
+      ],
+      "source_loop_start_ticks": 294,
+      "source_loop_period_ticks": 2304,
+      "source_loop_end_ticks": 2598,
+      "global_period_is_lcm": true,
+      "source_loop_start_seconds_from_music_start": 6.125,
+      "source_loop_period_seconds": 48.0,
+      "source_loop_end_seconds_from_music_start": 54.125
+    },
+    {
+      "music_id": 133,
+      "music_id_hex": "$85",
+      "source_label": "Music_OrganicBeat",
+      "analysis_status": "ok",
+      "tick_multiplier": 2,
+      "initial_tempo": 8,
+      "track_count": 9,
+      "looping_track_count": 9,
+      "ended_track_count": 0,
+      "track_period_ticks": [
+        3264,
+        835584
+      ],
+      "dynamic_tempo_events": [],
+      "one_shot": false,
+      "exact_capture_loop_ready": true,
+      "tracks": [
+        {
+          "index": 0,
+          "kind": "loop",
+          "intro_ticks": 576,
+          "period_ticks": 3264,
+          "end_ticks": null
+        },
+        {
+          "index": 1,
+          "kind": "loop",
+          "intro_ticks": 288,
+          "period_ticks": 3264,
+          "end_ticks": null
+        },
+        {
+          "index": 2,
+          "kind": "loop",
+          "intro_ticks": 960,
+          "period_ticks": 3264,
+          "end_ticks": null
+        },
+        {
+          "index": 3,
+          "kind": "loop",
+          "intro_ticks": 1152,
+          "period_ticks": 835584,
+          "end_ticks": null
+        },
+        {
+          "index": 4,
+          "kind": "loop",
+          "intro_ticks": 1156,
+          "period_ticks": 3264,
+          "end_ticks": null
+        },
+        {
+          "index": 5,
+          "kind": "loop",
+          "intro_ticks": 294,
+          "period_ticks": 3264,
+          "end_ticks": null
+        },
+        {
+          "index": 6,
+          "kind": "loop",
+          "intro_ticks": 966,
+          "period_ticks": 3264,
+          "end_ticks": null
+        },
+        {
+          "index": 7,
+          "kind": "loop",
+          "intro_ticks": 960,
+          "period_ticks": 3264,
+          "end_ticks": null
+        },
+        {
+          "index": 8,
+          "kind": "loop",
+          "intro_ticks": 576,
+          "period_ticks": 3264,
+          "end_ticks": null
+        }
+      ],
+      "source_loop_start_ticks": 1156,
+      "source_loop_period_ticks": 835584,
+      "source_loop_end_ticks": 836740,
+      "global_period_is_lcm": true,
+      "source_loop_start_seconds_from_music_start": 22.01904761904762,
+      "source_loop_period_seconds": 15915.885714285714,
+      "source_loop_end_seconds_from_music_start": 15937.904761904761
+    },
+    {
+      "music_id": 134,
+      "music_id_hex": "$86",
+      "source_label": "Music_DezorisTown1",
+      "analysis_status": "ok",
+      "tick_multiplier": 3,
+      "initial_tempo": 6,
+      "track_count": 9,
+      "looping_track_count": 9,
+      "ended_track_count": 0,
+      "track_period_ticks": [
+        4932,
+        5004
+      ],
+      "dynamic_tempo_events": [],
+      "one_shot": false,
+      "exact_capture_loop_ready": true,
+      "tracks": [
+        {
+          "index": 0,
+          "kind": "loop",
+          "intro_ticks": 108,
+          "period_ticks": 4932,
+          "end_ticks": null
+        },
+        {
+          "index": 1,
+          "kind": "loop",
+          "intro_ticks": 720,
+          "period_ticks": 4932,
+          "end_ticks": null
+        },
+        {
+          "index": 2,
+          "kind": "loop",
+          "intro_ticks": 18,
+          "period_ticks": 4932,
+          "end_ticks": null
+        },
+        {
+          "index": 3,
+          "kind": "loop",
+          "intro_ticks": 144,
+          "period_ticks": 4932,
+          "end_ticks": null
+        },
+        {
+          "index": 4,
+          "kind": "loop",
+          "intro_ticks": 18,
+          "period_ticks": 4932,
+          "end_ticks": null
+        },
+        {
+          "index": 5,
+          "kind": "loop",
+          "intro_ticks": 726,
+          "period_ticks": 4932,
+          "end_ticks": null
+        },
+        {
+          "index": 6,
+          "kind": "loop",
+          "intro_ticks": 726,
+          "period_ticks": 5004,
+          "end_ticks": null
+        },
+        {
+          "index": 7,
+          "kind": "loop",
+          "intro_ticks": 723,
+          "period_ticks": 5004,
+          "end_ticks": null
+        },
+        {
+          "index": 8,
+          "kind": "loop",
+          "intro_ticks": 720,
+          "period_ticks": 5004,
+          "end_ticks": null
+        }
+      ],
+      "source_loop_start_ticks": 726,
+      "source_loop_period_ticks": 685548,
+      "source_loop_end_ticks": 686274,
+      "global_period_is_lcm": true,
+      "source_loop_start_seconds_from_music_start": 14.52,
+      "source_loop_period_seconds": 13710.96,
+      "source_loop_end_seconds_from_music_start": 13725.48
+    },
+    {
+      "music_id": 135,
+      "music_id_hex": "$87",
+      "source_label": "Music_NowOnSale",
+      "analysis_status": "ok",
+      "tick_multiplier": 2,
+      "initial_tempo": 5,
+      "track_count": 9,
+      "looping_track_count": 6,
+      "ended_track_count": 3,
+      "track_period_ticks": [
+        1572
+      ],
+      "dynamic_tempo_events": [],
+      "one_shot": false,
+      "exact_capture_loop_ready": true,
+      "tracks": [
+        {
+          "index": 0,
+          "kind": "loop",
+          "intro_ticks": 960,
+          "period_ticks": 1572,
+          "end_ticks": null
+        },
+        {
+          "index": 1,
+          "kind": "loop",
+          "intro_ticks": 204,
+          "period_ticks": 1572,
+          "end_ticks": null
+        },
+        {
+          "index": 2,
+          "kind": "loop",
+          "intro_ticks": 204,
+          "period_ticks": 1572,
+          "end_ticks": null
+        },
+        {
+          "index": 3,
+          "kind": "loop",
+          "intro_ticks": 204,
+          "period_ticks": 1572,
+          "end_ticks": null
+        },
+        {
+          "index": 4,
+          "kind": "loop",
+          "intro_ticks": 216,
+          "period_ticks": 1572,
+          "end_ticks": null
+        },
+        {
+          "index": 5,
+          "kind": "loop",
+          "intro_ticks": 206,
+          "period_ticks": 1572,
+          "end_ticks": null
+        },
+        {
+          "index": 6,
+          "kind": "end",
+          "intro_ticks": 0,
+          "period_ticks": null,
+          "end_ticks": 0
+        },
+        {
+          "index": 7,
+          "kind": "end",
+          "intro_ticks": 0,
+          "period_ticks": null,
+          "end_ticks": 0
+        },
+        {
+          "index": 8,
+          "kind": "end",
+          "intro_ticks": 0,
+          "period_ticks": null,
+          "end_ticks": 0
+        }
+      ],
+      "source_loop_start_ticks": 960,
+      "source_loop_period_ticks": 1572,
+      "source_loop_end_ticks": 2532,
+      "global_period_is_lcm": false,
+      "source_loop_start_seconds_from_music_start": 20.0,
+      "source_loop_period_seconds": 32.75,
+      "source_loop_end_seconds_from_music_start": 52.75
+    },
+    {
+      "music_id": 136,
+      "music_id_hex": "$88",
+      "source_label": "Music_BehindTheCircuit",
+      "analysis_status": "ok",
+      "tick_multiplier": 2,
+      "initial_tempo": 8,
+      "track_count": 9,
+      "looping_track_count": 9,
+      "ended_track_count": 0,
+      "track_period_ticks": [
+        3456
+      ],
+      "dynamic_tempo_events": [],
+      "one_shot": false,
+      "exact_capture_loop_ready": true,
+      "tracks": [
+        {
+          "index": 0,
+          "kind": "loop",
+          "intro_ticks": 342,
+          "period_ticks": 3456,
+          "end_ticks": null
+        },
+        {
+          "index": 1,
+          "kind": "loop",
+          "intro_ticks": 6,
+          "period_ticks": 3456,
+          "end_ticks": null
+        },
+        {
+          "index": 2,
+          "kind": "loop",
+          "intro_ticks": 864,
+          "period_ticks": 3456,
+          "end_ticks": null
+        },
+        {
+          "index": 3,
+          "kind": "loop",
+          "intro_ticks": 3264,
+          "period_ticks": 3456,
+          "end_ticks": null
+        },
+        {
+          "index": 4,
+          "kind": "loop",
+          "intro_ticks": 3124,
+          "period_ticks": 3456,
+          "end_ticks": null
+        },
+        {
+          "index": 5,
+          "kind": "loop",
+          "intro_ticks": 6,
+          "period_ticks": 3456,
+          "end_ticks": null
+        },
+        {
+          "index": 6,
+          "kind": "loop",
+          "intro_ticks": 10,
+          "period_ticks": 3456,
+          "end_ticks": null
+        },
+        {
+          "index": 7,
+          "kind": "loop",
+          "intro_ticks": 8,
+          "period_ticks": 3456,
+          "end_ticks": null
+        },
+        {
+          "index": 8,
+          "kind": "loop",
+          "intro_ticks": 6,
+          "period_ticks": 3456,
+          "end_ticks": null
+        }
+      ],
+      "source_loop_start_ticks": 3264,
+      "source_loop_period_ticks": 3456,
+      "source_loop_end_ticks": 6720,
+      "global_period_is_lcm": false,
+      "source_loop_start_seconds_from_music_start": 62.17142857142857,
+      "source_loop_period_seconds": 65.82857142857142,
+      "source_loop_end_seconds_from_music_start": 128.0
+    },
+    {
+      "music_id": 137,
+      "music_id_hex": "$89",
+      "source_label": "Music_MachineCenter",
+      "analysis_status": "ok",
+      "tick_multiplier": 2,
+      "initial_tempo": 6,
+      "track_count": 9,
+      "looping_track_count": 9,
+      "ended_track_count": 0,
+      "track_period_ticks": [
+        24,
+        1152
+      ],
+      "dynamic_tempo_events": [],
+      "one_shot": false,
+      "exact_capture_loop_ready": true,
+      "tracks": [
+        {
+          "index": 0,
+          "kind": "loop",
+          "intro_ticks": 384,
+          "period_ticks": 1152,
+          "end_ticks": null
+        },
+        {
+          "index": 1,
+          "kind": "loop",
+          "intro_ticks": 390,
+          "period_ticks": 1152,
+          "end_ticks": null
+        },
+        {
+          "index": 2,
+          "kind": "loop",
+          "intro_ticks": 390,
+          "period_ticks": 1152,
+          "end_ticks": null
+        },
+        {
+          "index": 3,
+          "kind": "loop",
+          "intro_ticks": 384,
+          "period_ticks": 1152,
+          "end_ticks": null
+        },
+        {
+          "index": 4,
+          "kind": "loop",
+          "intro_ticks": 576,
+          "period_ticks": 1152,
+          "end_ticks": null
+        },
+        {
+          "index": 5,
+          "kind": "loop",
+          "intro_ticks": 290,
+          "period_ticks": 24,
+          "end_ticks": null
+        },
+        {
+          "index": 6,
+          "kind": "loop",
+          "intro_ticks": 394,
+          "period_ticks": 1152,
+          "end_ticks": null
+        },
+        {
+          "index": 7,
+          "kind": "loop",
+          "intro_ticks": 392,
+          "period_ticks": 1152,
+          "end_ticks": null
+        },
+        {
+          "index": 8,
+          "kind": "loop",
+          "intro_ticks": 390,
+          "period_ticks": 1152,
+          "end_ticks": null
+        }
+      ],
+      "source_loop_start_ticks": 576,
+      "source_loop_period_ticks": 1152,
+      "source_loop_end_ticks": 1728,
+      "global_period_is_lcm": true,
+      "source_loop_start_seconds_from_music_start": 11.52,
+      "source_loop_period_seconds": 23.04,
+      "source_loop_end_seconds_from_music_start": 34.559999999999995
+    },
+    {
+      "music_id": 138,
+      "music_id_hex": "$8A",
+      "source_label": "Music_InTheCave",
+      "analysis_status": "ok",
+      "tick_multiplier": 2,
+      "initial_tempo": 2,
+      "track_count": 9,
+      "looping_track_count": 9,
+      "ended_track_count": 0,
+      "track_period_ticks": [
+        2304
+      ],
+      "dynamic_tempo_events": [],
+      "one_shot": false,
+      "exact_capture_loop_ready": true,
+      "tracks": [
+        {
+          "index": 0,
+          "kind": "loop",
+          "intro_ticks": 192,
+          "period_ticks": 2304,
+          "end_ticks": null
+        },
+        {
+          "index": 1,
+          "kind": "loop",
+          "intro_ticks": 504,
+          "period_ticks": 2304,
+          "end_ticks": null
+        },
+        {
+          "index": 2,
+          "kind": "loop",
+          "intro_ticks": 1368,
+          "period_ticks": 2304,
+          "end_ticks": null
+        },
+        {
+          "index": 3,
+          "kind": "loop",
+          "intro_ticks": 150,
+          "period_ticks": 2304,
+          "end_ticks": null
+        },
+        {
+          "index": 4,
+          "kind": "loop",
+          "intro_ticks": 510,
+          "period_ticks": 2304,
+          "end_ticks": null
+        },
+        {
+          "index": 5,
+          "kind": "loop",
+          "intro_ticks": 154,
+          "period_ticks": 2304,
+          "end_ticks": null
+        },
+        {
+          "index": 6,
+          "kind": "loop",
+          "intro_ticks": 1376,
+          "period_ticks": 2304,
+          "end_ticks": null
+        },
+        {
+          "index": 7,
+          "kind": "loop",
+          "intro_ticks": 1372,
+          "period_ticks": 2304,
+          "end_ticks": null
+        },
+        {
+          "index": 8,
+          "kind": "loop",
+          "intro_ticks": 1368,
+          "period_ticks": 2304,
+          "end_ticks": null
+        }
+      ],
+      "source_loop_start_ticks": 1376,
+      "source_loop_period_ticks": 2304,
+      "source_loop_end_ticks": 3680,
+      "global_period_is_lcm": false,
+      "source_loop_start_seconds_from_music_start": 45.86666666666667,
+      "source_loop_period_seconds": 76.8,
+      "source_loop_end_seconds_from_music_start": 122.66666666666667
+    },
+    {
+      "music_id": 139,
+      "music_id_hex": "$8B",
+      "source_label": "Music_Winners",
+      "analysis_status": "ok",
+      "tick_multiplier": 1,
+      "initial_tempo": 2,
+      "track_count": 9,
+      "looping_track_count": 0,
+      "ended_track_count": 9,
+      "track_period_ticks": [],
+      "dynamic_tempo_events": [],
+      "one_shot": true,
+      "exact_capture_loop_ready": false,
+      "tracks": [
+        {
+          "index": 0,
+          "kind": "end",
+          "intro_ticks": 48,
+          "period_ticks": null,
+          "end_ticks": 48
+        },
+        {
+          "index": 1,
+          "kind": "end",
+          "intro_ticks": 48,
+          "period_ticks": null,
+          "end_ticks": 48
+        },
+        {
+          "index": 2,
+          "kind": "end",
+          "intro_ticks": 48,
+          "period_ticks": null,
+          "end_ticks": 48
+        },
+        {
+          "index": 3,
+          "kind": "end",
+          "intro_ticks": 48,
+          "period_ticks": null,
+          "end_ticks": 48
+        },
+        {
+          "index": 4,
+          "kind": "end",
+          "intro_ticks": 48,
+          "period_ticks": null,
+          "end_ticks": 48
+        },
+        {
+          "index": 5,
+          "kind": "end",
+          "intro_ticks": 49,
+          "period_ticks": null,
+          "end_ticks": 49
+        },
+        {
+          "index": 6,
+          "kind": "end",
+          "intro_ticks": 0,
+          "period_ticks": null,
+          "end_ticks": 0
+        },
+        {
+          "index": 7,
+          "kind": "end",
+          "intro_ticks": 0,
+          "period_ticks": null,
+          "end_ticks": 0
+        },
+        {
+          "index": 8,
+          "kind": "end",
+          "intro_ticks": 0,
+          "period_ticks": null,
+          "end_ticks": 0
+        }
+      ]
+    },
+    {
+      "music_id": 140,
+      "music_id_hex": "$8C",
+      "source_label": "Music_FieldMotabia",
+      "analysis_status": "ok",
+      "tick_multiplier": 2,
+      "initial_tempo": 6,
+      "track_count": 9,
+      "looping_track_count": 9,
+      "ended_track_count": 0,
+      "track_period_ticks": [
+        96,
+        3456
+      ],
+      "dynamic_tempo_events": [],
+      "one_shot": false,
+      "exact_capture_loop_ready": true,
+      "tracks": [
+        {
+          "index": 0,
+          "kind": "loop",
+          "intro_ticks": 24,
+          "period_ticks": 96,
+          "end_ticks": null
+        },
+        {
+          "index": 1,
+          "kind": "loop",
+          "intro_ticks": 768,
+          "period_ticks": 3456,
+          "end_ticks": null
+        },
+        {
+          "index": 2,
+          "kind": "loop",
+          "intro_ticks": 96,
+          "period_ticks": 3456,
+          "end_ticks": null
+        },
+        {
+          "index": 3,
+          "kind": "loop",
+          "intro_ticks": 104,
+          "period_ticks": 3456,
+          "end_ticks": null
+        },
+        {
+          "index": 4,
+          "kind": "loop",
+          "intro_ticks": 104,
+          "period_ticks": 3456,
+          "end_ticks": null
+        },
+        {
+          "index": 5,
+          "kind": "loop",
+          "intro_ticks": 772,
+          "period_ticks": 3456,
+          "end_ticks": null
+        },
+        {
+          "index": 6,
+          "kind": "loop",
+          "intro_ticks": 110,
+          "period_ticks": 3456,
+          "end_ticks": null
+        },
+        {
+          "index": 7,
+          "kind": "loop",
+          "intro_ticks": 106,
+          "period_ticks": 3456,
+          "end_ticks": null
+        },
+        {
+          "index": 8,
+          "kind": "loop",
+          "intro_ticks": 104,
+          "period_ticks": 3456,
+          "end_ticks": null
+        }
+      ],
+      "source_loop_start_ticks": 772,
+      "source_loop_period_ticks": 3456,
+      "source_loop_end_ticks": 4228,
+      "global_period_is_lcm": true,
+      "source_loop_start_seconds_from_music_start": 15.44,
+      "source_loop_period_seconds": 69.11999999999999,
+      "source_loop_end_seconds_from_music_start": 84.55999999999999
+    },
+    {
+      "music_id": 141,
+      "music_id_hex": "$8D",
+      "source_label": "Music_LandMaster",
+      "analysis_status": "ok",
+      "tick_multiplier": 1,
+      "initial_tempo": 2,
+      "track_count": 9,
+      "looping_track_count": 9,
+      "ended_track_count": 0,
+      "track_period_ticks": [
+        1536
+      ],
+      "dynamic_tempo_events": [],
+      "one_shot": false,
+      "exact_capture_loop_ready": true,
+      "tracks": [
+        {
+          "index": 0,
+          "kind": "loop",
+          "intro_ticks": 6,
+          "period_ticks": 1536,
+          "end_ticks": null
+        },
+        {
+          "index": 1,
+          "kind": "loop",
+          "intro_ticks": 144,
+          "period_ticks": 1536,
+          "end_ticks": null
+        },
+        {
+          "index": 2,
+          "kind": "loop",
+          "intro_ticks": 3,
+          "period_ticks": 1536,
+          "end_ticks": null
+        },
+        {
+          "index": 3,
+          "kind": "loop",
+          "intro_ticks": 328,
+          "period_ticks": 1536,
+          "end_ticks": null
+        },
+        {
+          "index": 4,
+          "kind": "loop",
+          "intro_ticks": 146,
+          "period_ticks": 1536,
+          "end_ticks": null
+        },
+        {
+          "index": 5,
+          "kind": "loop",
+          "intro_ticks": 330,
+          "period_ticks": 1536,
+          "end_ticks": null
+        },
+        {
+          "index": 6,
+          "kind": "loop",
+          "intro_ticks": 3,
+          "period_ticks": 1536,
+          "end_ticks": null
+        },
+        {
+          "index": 7,
+          "kind": "loop",
+          "intro_ticks": 4,
+          "period_ticks": 1536,
+          "end_ticks": null
+        },
+        {
+          "index": 8,
+          "kind": "loop",
+          "intro_ticks": 2,
+          "period_ticks": 1536,
+          "end_ticks": null
+        }
+      ],
+      "source_loop_start_ticks": 330,
+      "source_loop_period_ticks": 1536,
+      "source_loop_end_ticks": 1866,
+      "global_period_is_lcm": false,
+      "source_loop_start_seconds_from_music_start": 11.0,
+      "source_loop_period_seconds": 51.2,
+      "source_loop_end_seconds_from_music_start": 62.2
+    },
+    {
+      "music_id": 142,
+      "music_id_hex": "$8E",
+      "source_label": "Music_RequiemForLutz",
+      "analysis_status": "ok",
+      "tick_multiplier": 2,
+      "initial_tempo": 3,
+      "track_count": 9,
+      "looping_track_count": 9,
+      "ended_track_count": 0,
+      "track_period_ticks": [
+        3744
+      ],
+      "dynamic_tempo_events": [],
+      "one_shot": false,
+      "exact_capture_loop_ready": true,
+      "tracks": [
+        {
+          "index": 0,
+          "kind": "loop",
+          "intro_ticks": 96,
+          "period_ticks": 3744,
+          "end_ticks": null
+        },
+        {
+          "index": 1,
+          "kind": "loop",
+          "intro_ticks": 576,
+          "period_ticks": 3744,
+          "end_ticks": null
+        },
+        {
+          "index": 2,
+          "kind": "loop",
+          "intro_ticks": 3240,
+          "period_ticks": 3744,
+          "end_ticks": null
+        },
+        {
+          "index": 3,
+          "kind": "loop",
+          "intro_ticks": 12,
+          "period_ticks": 3744,
+          "end_ticks": null
+        },
+        {
+          "index": 4,
+          "kind": "loop",
+          "intro_ticks": 584,
+          "period_ticks": 3744,
+          "end_ticks": null
+        },
+        {
+          "index": 5,
+          "kind": "loop",
+          "intro_ticks": 16,
+          "period_ticks": 3744,
+          "end_ticks": null
+        },
+        {
+          "index": 6,
+          "kind": "loop",
+          "intro_ticks": 580,
+          "period_ticks": 3744,
+          "end_ticks": null
+        },
+        {
+          "index": 7,
+          "kind": "loop",
+          "intro_ticks": 578,
+          "period_ticks": 3744,
+          "end_ticks": null
+        },
+        {
+          "index": 8,
+          "kind": "loop",
+          "intro_ticks": 576,
+          "period_ticks": 3744,
+          "end_ticks": null
+        }
+      ],
+      "source_loop_start_ticks": 3240,
+      "source_loop_period_ticks": 3744,
+      "source_loop_end_ticks": 6984,
+      "global_period_is_lcm": false,
+      "source_loop_start_seconds_from_music_start": 81.0,
+      "source_loop_period_seconds": 93.6,
+      "source_loop_end_seconds_from_music_start": 174.6
+    },
+    {
+      "music_id": 143,
+      "music_id_hex": "$8F",
+      "source_label": "Music_MeetThemHeadOn",
+      "analysis_status": "ok",
+      "tick_multiplier": 2,
+      "initial_tempo": 0,
+      "track_count": 9,
+      "looping_track_count": 9,
+      "ended_track_count": 0,
+      "track_period_ticks": [
+        4032
+      ],
+      "dynamic_tempo_events": [],
+      "one_shot": false,
+      "exact_capture_loop_ready": true,
+      "tracks": [
+        {
+          "index": 0,
+          "kind": "loop",
+          "intro_ticks": 288,
+          "period_ticks": 4032,
+          "end_ticks": null
+        },
+        {
+          "index": 1,
+          "kind": "loop",
+          "intro_ticks": 2880,
+          "period_ticks": 4032,
+          "end_ticks": null
+        },
+        {
+          "index": 2,
+          "kind": "loop",
+          "intro_ticks": 294,
+          "period_ticks": 4032,
+          "end_ticks": null
+        },
+        {
+          "index": 3,
+          "kind": "loop",
+          "intro_ticks": 304,
+          "period_ticks": 4032,
+          "end_ticks": null
+        },
+        {
+          "index": 4,
+          "kind": "loop",
+          "intro_ticks": 292,
+          "period_ticks": 4032,
+          "end_ticks": null
+        },
+        {
+          "index": 5,
+          "kind": "loop",
+          "intro_ticks": 2884,
+          "period_ticks": 4032,
+          "end_ticks": null
+        },
+        {
+          "index": 6,
+          "kind": "loop",
+          "intro_ticks": 296,
+          "period_ticks": 4032,
+          "end_ticks": null
+        },
+        {
+          "index": 7,
+          "kind": "loop",
+          "intro_ticks": 294,
+          "period_ticks": 4032,
+          "end_ticks": null
+        },
+        {
+          "index": 8,
+          "kind": "loop",
+          "intro_ticks": 292,
+          "period_ticks": 4032,
+          "end_ticks": null
+        }
+      ],
+      "source_loop_start_ticks": 2884,
+      "source_loop_period_ticks": 4032,
+      "source_loop_end_ticks": 6916,
+      "global_period_is_lcm": false,
+      "source_loop_start_seconds_from_music_start": 48.06666666666667,
+      "source_loop_period_seconds": 67.2,
+      "source_loop_end_seconds_from_music_start": 115.26666666666667
+    },
+    {
+      "music_id": 144,
+      "music_id_hex": "$90",
+      "source_label": "Music_RyucrossField",
+      "analysis_status": "ok",
+      "tick_multiplier": 2,
+      "initial_tempo": 4,
+      "track_count": 9,
+      "looping_track_count": 9,
+      "ended_track_count": 0,
+      "track_period_ticks": [
+        96,
+        2304
+      ],
+      "dynamic_tempo_events": [],
+      "one_shot": false,
+      "exact_capture_loop_ready": true,
+      "tracks": [
+        {
+          "index": 0,
+          "kind": "loop",
+          "intro_ticks": 12,
+          "period_ticks": 96,
+          "end_ticks": null
+        },
+        {
+          "index": 1,
+          "kind": "loop",
+          "intro_ticks": 96,
+          "period_ticks": 2304,
+          "end_ticks": null
+        },
+        {
+          "index": 2,
+          "kind": "loop",
+          "intro_ticks": 12,
+          "period_ticks": 2304,
+          "end_ticks": null
+        },
+        {
+          "index": 3,
+          "kind": "loop",
+          "intro_ticks": 96,
+          "period_ticks": 96,
+          "end_ticks": null
+        },
+        {
+          "index": 4,
+          "kind": "loop",
+          "intro_ticks": 102,
+          "period_ticks": 2304,
+          "end_ticks": null
+        },
+        {
+          "index": 5,
+          "kind": "loop",
+          "intro_ticks": 18,
+          "period_ticks": 2304,
+          "end_ticks": null
+        },
+        {
+          "index": 6,
+          "kind": "loop",
+          "intro_ticks": 100,
+          "period_ticks": 2304,
+          "end_ticks": null
+        },
+        {
+          "index": 7,
+          "kind": "loop",
+          "intro_ticks": 98,
+          "period_ticks": 2304,
+          "end_ticks": null
+        },
+        {
+          "index": 8,
+          "kind": "loop",
+          "intro_ticks": 96,
+          "period_ticks": 2304,
+          "end_ticks": null
+        }
+      ],
+      "source_loop_start_ticks": 102,
+      "source_loop_period_ticks": 2304,
+      "source_loop_end_ticks": 2406,
+      "global_period_is_lcm": true,
+      "source_loop_start_seconds_from_music_start": 2.2666666666666666,
+      "source_loop_period_seconds": 51.2,
+      "source_loop_end_seconds_from_music_start": 53.46666666666667
+    },
+    {
+      "music_id": 145,
+      "music_id_hex": "$91",
+      "source_label": "Music_DungeonArrange1",
+      "analysis_status": "ok",
+      "tick_multiplier": 2,
+      "initial_tempo": 15,
+      "track_count": 9,
+      "looping_track_count": 9,
+      "ended_track_count": 0,
+      "track_period_ticks": [
+        3072
+      ],
+      "dynamic_tempo_events": [],
+      "one_shot": false,
+      "exact_capture_loop_ready": true,
+      "tracks": [
+        {
+          "index": 0,
+          "kind": "loop",
+          "intro_ticks": 24,
+          "period_ticks": 3072,
+          "end_ticks": null
+        },
+        {
+          "index": 1,
+          "kind": "loop",
+          "intro_ticks": 12,
+          "period_ticks": 3072,
+          "end_ticks": null
+        },
+        {
+          "index": 2,
+          "kind": "loop",
+          "intro_ticks": 18,
+          "period_ticks": 3072,
+          "end_ticks": null
+        },
+        {
+          "index": 3,
+          "kind": "loop",
+          "intro_ticks": 26,
+          "period_ticks": 3072,
+          "end_ticks": null
+        },
+        {
+          "index": 4,
+          "kind": "loop",
+          "intro_ticks": 2016,
+          "period_ticks": 3072,
+          "end_ticks": null
+        },
+        {
+          "index": 5,
+          "kind": "loop",
+          "intro_ticks": 18,
+          "period_ticks": 3072,
+          "end_ticks": null
+        },
+        {
+          "index": 6,
+          "kind": "loop",
+          "intro_ticks": 24,
+          "period_ticks": 3072,
+          "end_ticks": null
+        },
+        {
+          "index": 7,
+          "kind": "loop",
+          "intro_ticks": 24,
+          "period_ticks": 3072,
+          "end_ticks": null
+        },
+        {
+          "index": 8,
+          "kind": "loop",
+          "intro_ticks": 24,
+          "period_ticks": 3072,
+          "end_ticks": null
+        }
+      ],
+      "source_loop_start_ticks": 2016,
+      "source_loop_period_ticks": 3072,
+      "source_loop_end_ticks": 5088,
+      "global_period_is_lcm": false,
+      "source_loop_start_seconds_from_music_start": 36.0,
+      "source_loop_period_seconds": 54.85714285714286,
+      "source_loop_end_seconds_from_music_start": 90.85714285714286
+    },
+    {
+      "music_id": 146,
+      "music_id_hex": "$92",
+      "source_label": "Music_Fal",
+      "analysis_status": "ok",
+      "tick_multiplier": 2,
+      "initial_tempo": 2,
+      "track_count": 9,
+      "looping_track_count": 6,
+      "ended_track_count": 3,
+      "track_period_ticks": [
+        72,
+        1224
+      ],
+      "dynamic_tempo_events": [],
+      "one_shot": false,
+      "exact_capture_loop_ready": true,
+      "tracks": [
+        {
+          "index": 0,
+          "kind": "loop",
+          "intro_ticks": 24,
+          "period_ticks": 72,
+          "end_ticks": null
+        },
+        {
+          "index": 1,
+          "kind": "loop",
+          "intro_ticks": 12,
+          "period_ticks": 1224,
+          "end_ticks": null
+        },
+        {
+          "index": 2,
+          "kind": "loop",
+          "intro_ticks": 1152,
+          "period_ticks": 1224,
+          "end_ticks": null
+        },
+        {
+          "index": 3,
+          "kind": "loop",
+          "intro_ticks": 1156,
+          "period_ticks": 1224,
+          "end_ticks": null
+        },
+        {
+          "index": 4,
+          "kind": "loop",
+          "intro_ticks": 72,
+          "period_ticks": 1224,
+          "end_ticks": null
+        },
+        {
+          "index": 5,
+          "kind": "loop",
+          "intro_ticks": 26,
+          "period_ticks": 1224,
+          "end_ticks": null
+        },
+        {
+          "index": 6,
+          "kind": "end",
+          "intro_ticks": 0,
+          "period_ticks": null,
+          "end_ticks": 0
+        },
+        {
+          "index": 7,
+          "kind": "end",
+          "intro_ticks": 0,
+          "period_ticks": null,
+          "end_ticks": 0
+        },
+        {
+          "index": 8,
+          "kind": "end",
+          "intro_ticks": 0,
+          "period_ticks": null,
+          "end_ticks": 0
+        }
+      ],
+      "source_loop_start_ticks": 1156,
+      "source_loop_period_ticks": 1224,
+      "source_loop_end_ticks": 2380,
+      "global_period_is_lcm": true,
+      "source_loop_start_seconds_from_music_start": 38.53333333333333,
+      "source_loop_period_seconds": 40.8,
+      "source_loop_end_seconds_from_music_start": 79.33333333333333
+    },
+    {
+      "music_id": 147,
+      "music_id_hex": "$93",
+      "source_label": "Music_TempleNgangbius",
+      "analysis_status": "ok",
+      "tick_multiplier": 1,
+      "initial_tempo": 8,
+      "track_count": 9,
+      "looping_track_count": 9,
+      "ended_track_count": 0,
+      "track_period_ticks": [
+        3136
+      ],
+      "dynamic_tempo_events": [],
+      "one_shot": false,
+      "exact_capture_loop_ready": true,
+      "tracks": [
+        {
+          "index": 0,
+          "kind": "loop",
+          "intro_ticks": 112,
+          "period_ticks": 3136,
+          "end_ticks": null
+        },
+        {
+          "index": 1,
+          "kind": "loop",
+          "intro_ticks": 96,
+          "period_ticks": 3136,
+          "end_ticks": null
+        },
+        {
+          "index": 2,
+          "kind": "loop",
+          "intro_ticks": 128,
+          "period_ticks": 3136,
+          "end_ticks": null
+        },
+        {
+          "index": 3,
+          "kind": "loop",
+          "intro_ticks": 112,
+          "period_ticks": 3136,
+          "end_ticks": null
+        },
+        {
+          "index": 4,
+          "kind": "loop",
+          "intro_ticks": 1968,
+          "period_ticks": 3136,
+          "end_ticks": null
+        },
+        {
+          "index": 5,
+          "kind": "loop",
+          "intro_ticks": 98,
+          "period_ticks": 3136,
+          "end_ticks": null
+        },
+        {
+          "index": 6,
+          "kind": "loop",
+          "intro_ticks": 1668,
+          "period_ticks": 3136,
+          "end_ticks": null
+        },
+        {
+          "index": 7,
+          "kind": "loop",
+          "intro_ticks": 1666,
+          "period_ticks": 3136,
+          "end_ticks": null
+        },
+        {
+          "index": 8,
+          "kind": "loop",
+          "intro_ticks": 1664,
+          "period_ticks": 3136,
+          "end_ticks": null
+        }
+      ],
+      "source_loop_start_ticks": 1968,
+      "source_loop_period_ticks": 3136,
+      "source_loop_end_ticks": 5104,
+      "global_period_is_lcm": false,
+      "source_loop_start_seconds_from_music_start": 37.48571428571428,
+      "source_loop_period_seconds": 59.733333333333334,
+      "source_loop_end_seconds_from_music_start": 97.21904761904761
+    },
+    {
+      "music_id": 148,
+      "music_id_hex": "$94",
+      "source_label": "Music_Thray",
+      "analysis_status": "ok",
+      "tick_multiplier": 2,
+      "initial_tempo": 7,
+      "track_count": 9,
+      "looping_track_count": 9,
+      "ended_track_count": 0,
+      "track_period_ticks": [
+        3840
+      ],
+      "dynamic_tempo_events": [],
+      "one_shot": false,
+      "exact_capture_loop_ready": true,
+      "tracks": [
+        {
+          "index": 0,
+          "kind": "loop",
+          "intro_ticks": 24,
+          "period_ticks": 3840,
+          "end_ticks": null
+        },
+        {
+          "index": 1,
+          "kind": "loop",
+          "intro_ticks": 24,
+          "period_ticks": 3840,
+          "end_ticks": null
+        },
+        {
+          "index": 2,
+          "kind": "loop",
+          "intro_ticks": 1632,
+          "period_ticks": 3840,
+          "end_ticks": null
+        },
+        {
+          "index": 3,
+          "kind": "loop",
+          "intro_ticks": 1636,
+          "period_ticks": 3840,
+          "end_ticks": null
+        },
+        {
+          "index": 4,
+          "kind": "loop",
+          "intro_ticks": 12,
+          "period_ticks": 3840,
+          "end_ticks": null
+        },
+        {
+          "index": 5,
+          "kind": "loop",
+          "intro_ticks": 12,
+          "period_ticks": 3840,
+          "end_ticks": null
+        },
+        {
+          "index": 6,
+          "kind": "loop",
+          "intro_ticks": 1632,
+          "period_ticks": 3840,
+          "end_ticks": null
+        },
+        {
+          "index": 7,
+          "kind": "loop",
+          "intro_ticks": 1632,
+          "period_ticks": 3840,
+          "end_ticks": null
+        },
+        {
+          "index": 8,
+          "kind": "loop",
+          "intro_ticks": 6,
+          "period_ticks": 3840,
+          "end_ticks": null
+        }
+      ],
+      "source_loop_start_ticks": 1636,
+      "source_loop_period_ticks": 3840,
+      "source_loop_end_ticks": 5476,
+      "global_period_is_lcm": false,
+      "source_loop_start_seconds_from_music_start": 31.811111111111114,
+      "source_loop_period_seconds": 74.66666666666667,
+      "source_loop_end_seconds_from_music_start": 106.47777777777779
+    },
+    {
+      "music_id": 149,
+      "music_id_hex": "$95",
+      "source_label": "Music_DefeatAtABlow",
+      "analysis_status": "ok",
+      "tick_multiplier": 1,
+      "initial_tempo": 3,
+      "track_count": 9,
+      "looping_track_count": 6,
+      "ended_track_count": 3,
+      "track_period_ticks": [
+        1296
+      ],
+      "dynamic_tempo_events": [],
+      "one_shot": false,
+      "exact_capture_loop_ready": true,
+      "tracks": [
+        {
+          "index": 0,
+          "kind": "loop",
+          "intro_ticks": 48,
+          "period_ticks": 1296,
+          "end_ticks": null
+        },
+        {
+          "index": 1,
+          "kind": "loop",
+          "intro_ticks": 96,
+          "period_ticks": 1296,
+          "end_ticks": null
+        },
+        {
+          "index": 2,
+          "kind": "loop",
+          "intro_ticks": 54,
+          "period_ticks": 1296,
+          "end_ticks": null
+        },
+        {
+          "index": 3,
+          "kind": "loop",
+          "intro_ticks": 106,
+          "period_ticks": 1296,
+          "end_ticks": null
+        },
+        {
+          "index": 4,
+          "kind": "loop",
+          "intro_ticks": 54,
+          "period_ticks": 1296,
+          "end_ticks": null
+        },
+        {
+          "index": 5,
+          "kind": "loop",
+          "intro_ticks": 54,
+          "period_ticks": 1296,
+          "end_ticks": null
+        },
+        {
+          "index": 6,
+          "kind": "end",
+          "intro_ticks": 0,
+          "period_ticks": null,
+          "end_ticks": 0
+        },
+        {
+          "index": 7,
+          "kind": "end",
+          "intro_ticks": 0,
+          "period_ticks": null,
+          "end_ticks": 0
+        },
+        {
+          "index": 8,
+          "kind": "end",
+          "intro_ticks": 0,
+          "period_ticks": null,
+          "end_ticks": 0
+        }
+      ],
+      "source_loop_start_ticks": 106,
+      "source_loop_period_ticks": 1296,
+      "source_loop_end_ticks": 1402,
+      "global_period_is_lcm": false,
+      "source_loop_start_seconds_from_music_start": 2.65,
+      "source_loop_period_seconds": 32.4,
+      "source_loop_end_seconds_from_music_start": 35.05
+    },
+    {
+      "music_id": 150,
+      "music_id_hex": "$96",
+      "source_label": "Music_CyberneticCarnival",
+      "analysis_status": "ok",
+      "tick_multiplier": 1,
+      "initial_tempo": 3,
+      "track_count": 9,
+      "looping_track_count": 7,
+      "ended_track_count": 2,
+      "track_period_ticks": [
+        1728
+      ],
+      "dynamic_tempo_events": [],
+      "one_shot": false,
+      "exact_capture_loop_ready": true,
+      "tracks": [
+        {
+          "index": 0,
+          "kind": "loop",
+          "intro_ticks": 4,
+          "period_ticks": 1728,
+          "end_ticks": null
+        },
+        {
+          "index": 1,
+          "kind": "loop",
+          "intro_ticks": 12,
+          "period_ticks": 1728,
+          "end_ticks": null
+        },
+        {
+          "index": 2,
+          "kind": "loop",
+          "intro_ticks": 432,
+          "period_ticks": 1728,
+          "end_ticks": null
+        },
+        {
+          "index": 3,
+          "kind": "loop",
+          "intro_ticks": 434,
+          "period_ticks": 1728,
+          "end_ticks": null
+        },
+        {
+          "index": 4,
+          "kind": "loop",
+          "intro_ticks": 12,
+          "period_ticks": 1728,
+          "end_ticks": null
+        },
+        {
+          "index": 5,
+          "kind": "loop",
+          "intro_ticks": 48,
+          "period_ticks": 1728,
+          "end_ticks": null
+        },
+        {
+          "index": 6,
+          "kind": "loop",
+          "intro_ticks": 4,
+          "period_ticks": 1728,
+          "end_ticks": null
+        },
+        {
+          "index": 7,
+          "kind": "end",
+          "intro_ticks": 0,
+          "period_ticks": null,
+          "end_ticks": 0
+        },
+        {
+          "index": 8,
+          "kind": "end",
+          "intro_ticks": 0,
+          "period_ticks": null,
+          "end_ticks": 0
+        }
+      ],
+      "source_loop_start_ticks": 434,
+      "source_loop_period_ticks": 1728,
+      "source_loop_end_ticks": 2162,
+      "global_period_is_lcm": false,
+      "source_loop_start_seconds_from_music_start": 10.85,
+      "source_loop_period_seconds": 43.2,
+      "source_loop_end_seconds_from_music_start": 54.05
+    },
+    {
+      "music_id": 151,
+      "music_id_hex": "$97",
+      "source_label": "Music_TerribleSight",
+      "analysis_status": "ok",
+      "tick_multiplier": 2,
+      "initial_tempo": 2,
+      "track_count": 9,
+      "looping_track_count": 7,
+      "ended_track_count": 2,
+      "track_period_ticks": [
+        1800
+      ],
+      "dynamic_tempo_events": [],
+      "one_shot": false,
+      "exact_capture_loop_ready": true,
+      "tracks": [
+        {
+          "index": 0,
+          "kind": "loop",
+          "intro_ticks": 144,
+          "period_ticks": 1800,
+          "end_ticks": null
+        },
+        {
+          "index": 1,
+          "kind": "loop",
+          "intro_ticks": 168,
+          "period_ticks": 1800,
+          "end_ticks": null
+        },
+        {
+          "index": 2,
+          "kind": "loop",
+          "intro_ticks": 144,
+          "period_ticks": 1800,
+          "end_ticks": null
+        },
+        {
+          "index": 3,
+          "kind": "loop",
+          "intro_ticks": 148,
+          "period_ticks": 1800,
+          "end_ticks": null
+        },
+        {
+          "index": 4,
+          "kind": "loop",
+          "intro_ticks": 144,
+          "period_ticks": 1800,
+          "end_ticks": null
+        },
+        {
+          "index": 5,
+          "kind": "loop",
+          "intro_ticks": 144,
+          "period_ticks": 1800,
+          "end_ticks": null
+        },
+        {
+          "index": 6,
+          "kind": "end",
+          "intro_ticks": 144,
+          "period_ticks": null,
+          "end_ticks": 144
+        },
+        {
+          "index": 7,
+          "kind": "end",
+          "intro_ticks": 0,
+          "period_ticks": null,
+          "end_ticks": 0
+        },
+        {
+          "index": 8,
+          "kind": "loop",
+          "intro_ticks": 144,
+          "period_ticks": 1800,
+          "end_ticks": null
+        }
+      ],
+      "source_loop_start_ticks": 168,
+      "source_loop_period_ticks": 1800,
+      "source_loop_end_ticks": 1968,
+      "global_period_is_lcm": false,
+      "source_loop_start_seconds_from_music_start": 5.6,
+      "source_loop_period_seconds": 60.0,
+      "source_loop_end_seconds_from_music_start": 65.6
+    },
+    {
+      "music_id": 152,
+      "music_id_hex": "$98",
+      "source_label": "Music_EdgeOfDarkness",
+      "analysis_status": "ok",
+      "tick_multiplier": 1,
+      "initial_tempo": 2,
+      "track_count": 9,
+      "looping_track_count": 6,
+      "ended_track_count": 3,
+      "track_period_ticks": [
+        1536
+      ],
+      "dynamic_tempo_events": [],
+      "one_shot": false,
+      "exact_capture_loop_ready": true,
+      "tracks": [
+        {
+          "index": 0,
+          "kind": "loop",
+          "intro_ticks": 6,
+          "period_ticks": 1536,
+          "end_ticks": null
+        },
+        {
+          "index": 1,
+          "kind": "loop",
+          "intro_ticks": 6,
+          "period_ticks": 1536,
+          "end_ticks": null
+        },
+        {
+          "index": 2,
+          "kind": "loop",
+          "intro_ticks": 0,
+          "period_ticks": 1536,
+          "end_ticks": null
+        },
+        {
+          "index": 3,
+          "kind": "loop",
+          "intro_ticks": 32,
+          "period_ticks": 1536,
+          "end_ticks": null
+        },
+        {
+          "index": 4,
+          "kind": "loop",
+          "intro_ticks": 6,
+          "period_ticks": 1536,
+          "end_ticks": null
+        },
+        {
+          "index": 5,
+          "kind": "loop",
+          "intro_ticks": 6,
+          "period_ticks": 1536,
+          "end_ticks": null
+        },
+        {
+          "index": 6,
+          "kind": "end",
+          "intro_ticks": 0,
+          "period_ticks": null,
+          "end_ticks": 0
+        },
+        {
+          "index": 7,
+          "kind": "end",
+          "intro_ticks": 0,
+          "period_ticks": null,
+          "end_ticks": 0
+        },
+        {
+          "index": 8,
+          "kind": "end",
+          "intro_ticks": 0,
+          "period_ticks": null,
+          "end_ticks": 0
+        }
+      ],
+      "source_loop_start_ticks": 32,
+      "source_loop_period_ticks": 1536,
+      "source_loop_end_ticks": 1568,
+      "global_period_is_lcm": false,
+      "source_loop_start_seconds_from_music_start": 1.0666666666666667,
+      "source_loop_period_seconds": 51.2,
+      "source_loop_end_seconds_from_music_start": 52.266666666666666
+    },
+    {
+      "music_id": 153,
+      "music_id_hex": "$99",
+      "source_label": "Music_DezorisField1",
+      "analysis_status": "ok",
+      "tick_multiplier": 2,
+      "initial_tempo": 2,
+      "track_count": 9,
+      "looping_track_count": 6,
+      "ended_track_count": 3,
+      "track_period_ticks": [
+        144,
+        2304
+      ],
+      "dynamic_tempo_events": [],
+      "one_shot": false,
+      "exact_capture_loop_ready": true,
+      "tracks": [
+        {
+          "index": 0,
+          "kind": "loop",
+          "intro_ticks": 36,
+          "period_ticks": 144,
+          "end_ticks": null
+        },
+        {
+          "index": 1,
+          "kind": "loop",
+          "intro_ticks": 12,
+          "period_ticks": 2304,
+          "end_ticks": null
+        },
+        {
+          "index": 2,
+          "kind": "loop",
+          "intro_ticks": 24,
+          "period_ticks": 2304,
+          "end_ticks": null
+        },
+        {
+          "index": 3,
+          "kind": "loop",
+          "intro_ticks": 28,
+          "period_ticks": 2304,
+          "end_ticks": null
+        },
+        {
+          "index": 4,
+          "kind": "loop",
+          "intro_ticks": 72,
+          "period_ticks": 2304,
+          "end_ticks": null
+        },
+        {
+          "index": 5,
+          "kind": "loop",
+          "intro_ticks": 6,
+          "period_ticks": 2304,
+          "end_ticks": null
+        },
+        {
+          "index": 6,
+          "kind": "end",
+          "intro_ticks": 0,
+          "period_ticks": null,
+          "end_ticks": 0
+        },
+        {
+          "index": 7,
+          "kind": "end",
+          "intro_ticks": 0,
+          "period_ticks": null,
+          "end_ticks": 0
+        },
+        {
+          "index": 8,
+          "kind": "end",
+          "intro_ticks": 0,
+          "period_ticks": null,
+          "end_ticks": 0
+        }
+      ],
+      "source_loop_start_ticks": 72,
+      "source_loop_period_ticks": 2304,
+      "source_loop_end_ticks": 2376,
+      "global_period_is_lcm": true,
+      "source_loop_start_seconds_from_music_start": 2.4,
+      "source_loop_period_seconds": 76.8,
+      "source_loop_end_seconds_from_music_start": 79.2
+    },
+    {
+      "music_id": 154,
+      "music_id_hex": "$9A",
+      "source_label": "Music_Tower",
+      "analysis_status": "ok",
+      "tick_multiplier": 2,
+      "initial_tempo": 4,
+      "track_count": 9,
+      "looping_track_count": 6,
+      "ended_track_count": 3,
+      "track_period_ticks": [
+        1920
+      ],
+      "dynamic_tempo_events": [],
+      "one_shot": false,
+      "exact_capture_loop_ready": true,
+      "tracks": [
+        {
+          "index": 0,
+          "kind": "loop",
+          "intro_ticks": 78,
+          "period_ticks": 1920,
+          "end_ticks": null
+        },
+        {
+          "index": 1,
+          "kind": "loop",
+          "intro_ticks": 78,
+          "period_ticks": 1920,
+          "end_ticks": null
+        },
+        {
+          "index": 2,
+          "kind": "loop",
+          "intro_ticks": 72,
+          "period_ticks": 1920,
+          "end_ticks": null
+        },
+        {
+          "index": 3,
+          "kind": "loop",
+          "intro_ticks": 156,
+          "period_ticks": 1920,
+          "end_ticks": null
+        },
+        {
+          "index": 4,
+          "kind": "loop",
+          "intro_ticks": 72,
+          "period_ticks": 1920,
+          "end_ticks": null
+        },
+        {
+          "index": 5,
+          "kind": "loop",
+          "intro_ticks": 66,
+          "period_ticks": 1920,
+          "end_ticks": null
+        },
+        {
+          "index": 6,
+          "kind": "end",
+          "intro_ticks": 0,
+          "period_ticks": null,
+          "end_ticks": 0
+        },
+        {
+          "index": 7,
+          "kind": "end",
+          "intro_ticks": 0,
+          "period_ticks": null,
+          "end_ticks": 0
+        },
+        {
+          "index": 8,
+          "kind": "end",
+          "intro_ticks": 0,
+          "period_ticks": null,
+          "end_ticks": 0
+        }
+      ],
+      "source_loop_start_ticks": 156,
+      "source_loop_period_ticks": 1920,
+      "source_loop_end_ticks": 2076,
+      "global_period_is_lcm": false,
+      "source_loop_start_seconds_from_music_start": 3.466666666666667,
+      "source_loop_period_seconds": 42.666666666666664,
+      "source_loop_end_seconds_from_music_start": 46.13333333333333
+    },
+    {
+      "music_id": 155,
+      "music_id_hex": "$9B",
+      "source_label": "Music_TakeOffLandeel",
+      "analysis_status": "ok",
+      "tick_multiplier": 1,
+      "initial_tempo": 5,
+      "track_count": 9,
+      "looping_track_count": 6,
+      "ended_track_count": 3,
+      "track_period_ticks": [
+        2944
+      ],
+      "dynamic_tempo_events": [],
+      "one_shot": false,
+      "exact_capture_loop_ready": true,
+      "tracks": [
+        {
+          "index": 0,
+          "kind": "loop",
+          "intro_ticks": 144,
+          "period_ticks": 2944,
+          "end_ticks": null
+        },
+        {
+          "index": 1,
+          "kind": "loop",
+          "intro_ticks": 704,
+          "period_ticks": 2944,
+          "end_ticks": null
+        },
+        {
+          "index": 2,
+          "kind": "loop",
+          "intro_ticks": 576,
+          "period_ticks": 2944,
+          "end_ticks": null
+        },
+        {
+          "index": 3,
+          "kind": "loop",
+          "intro_ticks": 578,
+          "period_ticks": 2944,
+          "end_ticks": null
+        },
+        {
+          "index": 4,
+          "kind": "loop",
+          "intro_ticks": 640,
+          "period_ticks": 2944,
+          "end_ticks": null
+        },
+        {
+          "index": 5,
+          "kind": "loop",
+          "intro_ticks": 640,
+          "period_ticks": 2944,
+          "end_ticks": null
+        },
+        {
+          "index": 6,
+          "kind": "end",
+          "intro_ticks": 3072,
+          "period_ticks": null,
+          "end_ticks": 3072
+        },
+        {
+          "index": 7,
+          "kind": "end",
+          "intro_ticks": 3072,
+          "period_ticks": null,
+          "end_ticks": 3072
+        },
+        {
+          "index": 8,
+          "kind": "end",
+          "intro_ticks": 0,
+          "period_ticks": null,
+          "end_ticks": 0
+        }
+      ],
+      "source_loop_start_ticks": 3072,
+      "source_loop_period_ticks": 2944,
+      "source_loop_end_ticks": 6016,
+      "global_period_is_lcm": false,
+      "source_loop_start_seconds_from_music_start": 64.0,
+      "source_loop_period_seconds": 61.333333333333336,
+      "source_loop_end_seconds_from_music_start": 125.33333333333333
+    },
+    {
+      "music_id": 156,
+      "music_id_hex": "$9C",
+      "source_label": "Music_DezorisTown2",
+      "analysis_status": "ok",
+      "tick_multiplier": 3,
+      "initial_tempo": 0,
+      "track_count": 9,
+      "looping_track_count": 8,
+      "ended_track_count": 1,
+      "track_period_ticks": [
+        1872
+      ],
+      "dynamic_tempo_events": [],
+      "one_shot": false,
+      "exact_capture_loop_ready": true,
+      "tracks": [
+        {
+          "index": 0,
+          "kind": "loop",
+          "intro_ticks": 54,
+          "period_ticks": 1872,
+          "end_ticks": null
+        },
+        {
+          "index": 1,
+          "kind": "loop",
+          "intro_ticks": 18,
+          "period_ticks": 1872,
+          "end_ticks": null
+        },
+        {
+          "index": 2,
+          "kind": "loop",
+          "intro_ticks": 288,
+          "period_ticks": 1872,
+          "end_ticks": null
+        },
+        {
+          "index": 3,
+          "kind": "loop",
+          "intro_ticks": 291,
+          "period_ticks": 1872,
+          "end_ticks": null
+        },
+        {
+          "index": 4,
+          "kind": "loop",
+          "intro_ticks": 144,
+          "period_ticks": 1872,
+          "end_ticks": null
+        },
+        {
+          "index": 5,
+          "kind": "loop",
+          "intro_ticks": 9,
+          "period_ticks": 1872,
+          "end_ticks": null
+        },
+        {
+          "index": 6,
+          "kind": "loop",
+          "intro_ticks": 18,
+          "period_ticks": 1872,
+          "end_ticks": null
+        },
+        {
+          "index": 7,
+          "kind": "loop",
+          "intro_ticks": 18,
+          "period_ticks": 1872,
+          "end_ticks": null
+        },
+        {
+          "index": 8,
+          "kind": "end",
+          "intro_ticks": 0,
+          "period_ticks": null,
+          "end_ticks": 0
+        }
+      ],
+      "source_loop_start_ticks": 291,
+      "source_loop_period_ticks": 1872,
+      "source_loop_end_ticks": 2163,
+      "global_period_is_lcm": false,
+      "source_loop_start_seconds_from_music_start": 4.85,
+      "source_loop_period_seconds": 31.2,
+      "source_loop_end_seconds_from_music_start": 36.05
+    },
+    {
+      "music_id": 157,
+      "music_id_hex": "$9D",
+      "source_label": "Music_DezorisField2",
+      "analysis_status": "ok",
+      "tick_multiplier": 2,
+      "initial_tempo": 3,
+      "track_count": 9,
+      "looping_track_count": 6,
+      "ended_track_count": 3,
+      "track_period_ticks": [
+        1728,
+        5184
+      ],
+      "dynamic_tempo_events": [],
+      "one_shot": false,
+      "exact_capture_loop_ready": true,
+      "tracks": [
+        {
+          "index": 0,
+          "kind": "loop",
+          "intro_ticks": 36,
+          "period_ticks": 5184,
+          "end_ticks": null
+        },
+        {
+          "index": 1,
+          "kind": "loop",
+          "intro_ticks": 12,
+          "period_ticks": 1728,
+          "end_ticks": null
+        },
+        {
+          "index": 2,
+          "kind": "loop",
+          "intro_ticks": 24,
+          "period_ticks": 1728,
+          "end_ticks": null
+        },
+        {
+          "index": 3,
+          "kind": "loop",
+          "intro_ticks": 28,
+          "period_ticks": 1728,
+          "end_ticks": null
+        },
+        {
+          "index": 4,
+          "kind": "loop",
+          "intro_ticks": 72,
+          "period_ticks": 1728,
+          "end_ticks": null
+        },
+        {
+          "index": 5,
+          "kind": "loop",
+          "intro_ticks": 72,
+          "period_ticks": 1728,
+          "end_ticks": null
+        },
+        {
+          "index": 6,
+          "kind": "end",
+          "intro_ticks": 0,
+          "period_ticks": null,
+          "end_ticks": 0
+        },
+        {
+          "index": 7,
+          "kind": "end",
+          "intro_ticks": 0,
+          "period_ticks": null,
+          "end_ticks": 0
+        },
+        {
+          "index": 8,
+          "kind": "end",
+          "intro_ticks": 0,
+          "period_ticks": null,
+          "end_ticks": 0
+        }
+      ],
+      "source_loop_start_ticks": 72,
+      "source_loop_period_ticks": 5184,
+      "source_loop_end_ticks": 5256,
+      "global_period_is_lcm": true,
+      "source_loop_start_seconds_from_music_start": 1.8,
+      "source_loop_period_seconds": 129.6,
+      "source_loop_end_seconds_from_music_start": 131.4
+    },
+    {
+      "music_id": 158,
+      "music_id_hex": "$9E",
+      "source_label": "Music_AHappySettlement",
+      "analysis_status": "ok",
+      "tick_multiplier": 2,
+      "initial_tempo": 3,
+      "track_count": 9,
+      "looping_track_count": 6,
+      "ended_track_count": 3,
+      "track_period_ticks": [
+        1632
+      ],
+      "dynamic_tempo_events": [],
+      "one_shot": false,
+      "exact_capture_loop_ready": true,
+      "tracks": [
+        {
+          "index": 0,
+          "kind": "loop",
+          "intro_ticks": 48,
+          "period_ticks": 1632,
+          "end_ticks": null
+        },
+        {
+          "index": 1,
+          "kind": "loop",
+          "intro_ticks": 120,
+          "period_ticks": 1632,
+          "end_ticks": null
+        },
+        {
+          "index": 2,
+          "kind": "loop",
+          "intro_ticks": 84,
+          "period_ticks": 1632,
+          "end_ticks": null
+        },
+        {
+          "index": 3,
+          "kind": "loop",
+          "intro_ticks": 88,
+          "period_ticks": 1632,
+          "end_ticks": null
+        },
+        {
+          "index": 4,
+          "kind": "loop",
+          "intro_ticks": 96,
+          "period_ticks": 1632,
+          "end_ticks": null
+        },
+        {
+          "index": 5,
+          "kind": "loop",
+          "intro_ticks": 96,
+          "period_ticks": 1632,
+          "end_ticks": null
+        },
+        {
+          "index": 6,
+          "kind": "end",
+          "intro_ticks": 0,
+          "period_ticks": null,
+          "end_ticks": 0
+        },
+        {
+          "index": 7,
+          "kind": "end",
+          "intro_ticks": 0,
+          "period_ticks": null,
+          "end_ticks": 0
+        },
+        {
+          "index": 8,
+          "kind": "end",
+          "intro_ticks": 0,
+          "period_ticks": null,
+          "end_ticks": 0
+        }
+      ],
+      "source_loop_start_ticks": 120,
+      "source_loop_period_ticks": 1632,
+      "source_loop_end_ticks": 1752,
+      "global_period_is_lcm": false,
+      "source_loop_start_seconds_from_music_start": 3.0,
+      "source_loop_period_seconds": 40.8,
+      "source_loop_end_seconds_from_music_start": 43.8
+    },
+    {
+      "music_id": 159,
+      "music_id_hex": "$9F",
+      "source_label": "Music_Suspicion",
+      "analysis_status": "ok",
+      "tick_multiplier": 3,
+      "initial_tempo": 5,
+      "track_count": 9,
+      "looping_track_count": 6,
+      "ended_track_count": 3,
+      "track_period_ticks": [
+        2136
+      ],
+      "dynamic_tempo_events": [],
+      "one_shot": false,
+      "exact_capture_loop_ready": true,
+      "tracks": [
+        {
+          "index": 0,
+          "kind": "loop",
+          "intro_ticks": 1956,
+          "period_ticks": 2136,
+          "end_ticks": null
+        },
+        {
+          "index": 1,
+          "kind": "loop",
+          "intro_ticks": 54,
+          "period_ticks": 2136,
+          "end_ticks": null
+        },
+        {
+          "index": 2,
+          "kind": "loop",
+          "intro_ticks": 1656,
+          "period_ticks": 2136,
+          "end_ticks": null
+        },
+        {
+          "index": 3,
+          "kind": "loop",
+          "intro_ticks": 1662,
+          "period_ticks": 2136,
+          "end_ticks": null
+        },
+        {
+          "index": 4,
+          "kind": "loop",
+          "intro_ticks": 468,
+          "period_ticks": 2136,
+          "end_ticks": null
+        },
+        {
+          "index": 5,
+          "kind": "loop",
+          "intro_ticks": 72,
+          "period_ticks": 2136,
+          "end_ticks": null
+        },
+        {
+          "index": 6,
+          "kind": "end",
+          "intro_ticks": 0,
+          "period_ticks": null,
+          "end_ticks": 0
+        },
+        {
+          "index": 7,
+          "kind": "end",
+          "intro_ticks": 0,
+          "period_ticks": null,
+          "end_ticks": 0
+        },
+        {
+          "index": 8,
+          "kind": "end",
+          "intro_ticks": 0,
+          "period_ticks": null,
+          "end_ticks": 0
+        }
+      ],
+      "source_loop_start_ticks": 1956,
+      "source_loop_period_ticks": 2136,
+      "source_loop_end_ticks": 4092,
+      "global_period_is_lcm": false,
+      "source_loop_start_seconds_from_music_start": 40.75,
+      "source_loop_period_seconds": 44.5,
+      "source_loop_end_seconds_from_music_start": 85.25
+    },
+    {
+      "music_id": 160,
+      "music_id_hex": "$A0",
+      "source_label": "Music_TheKingOfTerrors",
+      "analysis_status": "ok",
+      "tick_multiplier": 1,
+      "initial_tempo": 3,
+      "track_count": 9,
+      "looping_track_count": 7,
+      "ended_track_count": 2,
+      "track_period_ticks": [
+        2976
+      ],
+      "dynamic_tempo_events": [],
+      "one_shot": false,
+      "exact_capture_loop_ready": true,
+      "tracks": [
+        {
+          "index": 0,
+          "kind": "loop",
+          "intro_ticks": 96,
+          "period_ticks": 2976,
+          "end_ticks": null
+        },
+        {
+          "index": 1,
+          "kind": "loop",
+          "intro_ticks": 102,
+          "period_ticks": 2976,
+          "end_ticks": null
+        },
+        {
+          "index": 2,
+          "kind": "loop",
+          "intro_ticks": 99,
+          "period_ticks": 2976,
+          "end_ticks": null
+        },
+        {
+          "index": 3,
+          "kind": "loop",
+          "intro_ticks": 101,
+          "period_ticks": 2976,
+          "end_ticks": null
+        },
+        {
+          "index": 4,
+          "kind": "loop",
+          "intro_ticks": 114,
+          "period_ticks": 2976,
+          "end_ticks": null
+        },
+        {
+          "index": 5,
+          "kind": "loop",
+          "intro_ticks": 1824,
+          "period_ticks": 2976,
+          "end_ticks": null
+        },
+        {
+          "index": 6,
+          "kind": "loop",
+          "intro_ticks": 96,
+          "period_ticks": 2976,
+          "end_ticks": null
+        },
+        {
+          "index": 7,
+          "kind": "end",
+          "intro_ticks": 0,
+          "period_ticks": null,
+          "end_ticks": 0
+        },
+        {
+          "index": 8,
+          "kind": "end",
+          "intro_ticks": 0,
+          "period_ticks": null,
+          "end_ticks": 0
+        }
+      ],
+      "source_loop_start_ticks": 1824,
+      "source_loop_period_ticks": 2976,
+      "source_loop_end_ticks": 4800,
+      "global_period_is_lcm": false,
+      "source_loop_start_seconds_from_music_start": 45.6,
+      "source_loop_period_seconds": 74.4,
+      "source_loop_end_seconds_from_music_start": 120.0
+    },
+    {
+      "music_id": 161,
+      "music_id_hex": "$A1",
+      "source_label": "Music_TheAgeOfFables",
+      "analysis_status": "ok",
+      "tick_multiplier": 3,
+      "initial_tempo": 8,
+      "track_count": 9,
+      "looping_track_count": 6,
+      "ended_track_count": 3,
+      "track_period_ticks": [
+        144,
+        3456
+      ],
+      "dynamic_tempo_events": [],
+      "one_shot": false,
+      "exact_capture_loop_ready": true,
+      "tracks": [
+        {
+          "index": 0,
+          "kind": "loop",
+          "intro_ticks": 54,
+          "period_ticks": 144,
+          "end_ticks": null
+        },
+        {
+          "index": 1,
+          "kind": "loop",
+          "intro_ticks": 18,
+          "period_ticks": 3456,
+          "end_ticks": null
+        },
+        {
+          "index": 2,
+          "kind": "loop",
+          "intro_ticks": 6,
+          "period_ticks": 3456,
+          "end_ticks": null
+        },
+        {
+          "index": 3,
+          "kind": "loop",
+          "intro_ticks": 12,
+          "period_ticks": 3456,
+          "end_ticks": null
+        },
+        {
+          "index": 4,
+          "kind": "loop",
+          "intro_ticks": 144,
+          "period_ticks": 3456,
+          "end_ticks": null
+        },
+        {
+          "index": 5,
+          "kind": "loop",
+          "intro_ticks": 144,
+          "period_ticks": 3456,
+          "end_ticks": null
+        },
+        {
+          "index": 6,
+          "kind": "end",
+          "intro_ticks": 0,
+          "period_ticks": null,
+          "end_ticks": 0
+        },
+        {
+          "index": 7,
+          "kind": "end",
+          "intro_ticks": 0,
+          "period_ticks": null,
+          "end_ticks": 0
+        },
+        {
+          "index": 8,
+          "kind": "end",
+          "intro_ticks": 0,
+          "period_ticks": null,
+          "end_ticks": 0
+        }
+      ],
+      "source_loop_start_ticks": 144,
+      "source_loop_period_ticks": 3456,
+      "source_loop_end_ticks": 3600,
+      "global_period_is_lcm": true,
+      "source_loop_start_seconds_from_music_start": 2.7428571428571424,
+      "source_loop_period_seconds": 65.82857142857142,
+      "source_loop_end_seconds_from_music_start": 68.57142857142857
+    },
+    {
+      "music_id": 162,
+      "music_id_hex": "$A2",
+      "source_label": "Music_Abyss",
+      "analysis_status": "ok",
+      "tick_multiplier": 2,
+      "initial_tempo": 3,
+      "track_count": 9,
+      "looping_track_count": 8,
+      "ended_track_count": 1,
+      "track_period_ticks": [
+        48,
+        2976
+      ],
+      "dynamic_tempo_events": [],
+      "one_shot": false,
+      "exact_capture_loop_ready": true,
+      "tracks": [
+        {
+          "index": 0,
+          "kind": "loop",
+          "intro_ticks": 48,
+          "period_ticks": 2976,
+          "end_ticks": null
+        },
+        {
+          "index": 1,
+          "kind": "loop",
+          "intro_ticks": 96,
+          "period_ticks": 2976,
+          "end_ticks": null
+        },
+        {
+          "index": 2,
+          "kind": "loop",
+          "intro_ticks": 96,
+          "period_ticks": 2976,
+          "end_ticks": null
+        },
+        {
+          "index": 3,
+          "kind": "loop",
+          "intro_ticks": 48,
+          "period_ticks": 48,
+          "end_ticks": null
+        },
+        {
+          "index": 4,
+          "kind": "loop",
+          "intro_ticks": 96,
+          "period_ticks": 2976,
+          "end_ticks": null
+        },
+        {
+          "index": 5,
+          "kind": "loop",
+          "intro_ticks": 96,
+          "period_ticks": 2976,
+          "end_ticks": null
+        },
+        {
+          "index": 6,
+          "kind": "loop",
+          "intro_ticks": 6,
+          "period_ticks": 2976,
+          "end_ticks": null
+        },
+        {
+          "index": 7,
+          "kind": "loop",
+          "intro_ticks": 8,
+          "period_ticks": 2976,
+          "end_ticks": null
+        },
+        {
+          "index": 8,
+          "kind": "end",
+          "intro_ticks": 0,
+          "period_ticks": null,
+          "end_ticks": 0
+        }
+      ],
+      "source_loop_start_ticks": 96,
+      "source_loop_period_ticks": 2976,
+      "source_loop_end_ticks": 3072,
+      "global_period_is_lcm": true,
+      "source_loop_start_seconds_from_music_start": 2.4,
+      "source_loop_period_seconds": 74.4,
+      "source_loop_end_seconds_from_music_start": 76.8
+    },
+    {
+      "music_id": 163,
+      "music_id_hex": "$A3",
+      "source_label": "Music_EnemyAppearance",
+      "analysis_status": "ok",
+      "tick_multiplier": 2,
+      "initial_tempo": 5,
+      "track_count": 9,
+      "looping_track_count": 0,
+      "ended_track_count": 9,
+      "track_period_ticks": [],
+      "dynamic_tempo_events": [],
+      "one_shot": true,
+      "exact_capture_loop_ready": false,
+      "tracks": [
+        {
+          "index": 0,
+          "kind": "end",
+          "intro_ticks": 96,
+          "period_ticks": null,
+          "end_ticks": 96
+        },
+        {
+          "index": 1,
+          "kind": "end",
+          "intro_ticks": 98,
+          "period_ticks": null,
+          "end_ticks": 98
+        },
+        {
+          "index": 2,
+          "kind": "end",
+          "intro_ticks": 98,
+          "period_ticks": null,
+          "end_ticks": 98
+        },
+        {
+          "index": 3,
+          "kind": "end",
+          "intro_ticks": 96,
+          "period_ticks": null,
+          "end_ticks": 96
+        },
+        {
+          "index": 4,
+          "kind": "end",
+          "intro_ticks": 98,
+          "period_ticks": null,
+          "end_ticks": 98
+        },
+        {
+          "index": 5,
+          "kind": "end",
+          "intro_ticks": 96,
+          "period_ticks": null,
+          "end_ticks": 96
+        },
+        {
+          "index": 6,
+          "kind": "end",
+          "intro_ticks": 0,
+          "period_ticks": null,
+          "end_ticks": 0
+        },
+        {
+          "index": 7,
+          "kind": "end",
+          "intro_ticks": 0,
+          "period_ticks": null,
+          "end_ticks": 0
+        },
+        {
+          "index": 8,
+          "kind": "end",
+          "intro_ticks": 0,
+          "period_ticks": null,
+          "end_ticks": 0
+        }
+      ]
+    },
+    {
+      "music_id": 164,
+      "music_id_hex": "$A4",
+      "source_label": "Music_HerLastBreath",
+      "analysis_status": "ok",
+      "tick_multiplier": 3,
+      "initial_tempo": 3,
+      "track_count": 9,
+      "looping_track_count": 8,
+      "ended_track_count": 1,
+      "track_period_ticks": [
+        3456
+      ],
+      "dynamic_tempo_events": [],
+      "one_shot": false,
+      "exact_capture_loop_ready": true,
+      "tracks": [
+        {
+          "index": 0,
+          "kind": "end",
+          "intro_ticks": 0,
+          "period_ticks": null,
+          "end_ticks": 0
+        },
+        {
+          "index": 1,
+          "kind": "loop",
+          "intro_ticks": 306,
+          "period_ticks": 3456,
+          "end_ticks": null
+        },
+        {
+          "index": 2,
+          "kind": "loop",
+          "intro_ticks": 1458,
+          "period_ticks": 3456,
+          "end_ticks": null
+        },
+        {
+          "index": 3,
+          "kind": "loop",
+          "intro_ticks": 1440,
+          "period_ticks": 3456,
+          "end_ticks": null
+        },
+        {
+          "index": 4,
+          "kind": "loop",
+          "intro_ticks": 1461,
+          "period_ticks": 3456,
+          "end_ticks": null
+        },
+        {
+          "index": 5,
+          "kind": "loop",
+          "intro_ticks": 309,
+          "period_ticks": 3456,
+          "end_ticks": null
+        },
+        {
+          "index": 6,
+          "kind": "loop",
+          "intro_ticks": 2622,
+          "period_ticks": 3456,
+          "end_ticks": null
+        },
+        {
+          "index": 7,
+          "kind": "loop",
+          "intro_ticks": 2616,
+          "period_ticks": 3456,
+          "end_ticks": null
+        },
+        {
+          "index": 8,
+          "kind": "loop",
+          "intro_ticks": 2610,
+          "period_ticks": 3456,
+          "end_ticks": null
+        }
+      ],
+      "source_loop_start_ticks": 2622,
+      "source_loop_period_ticks": 3456,
+      "source_loop_end_ticks": 6078,
+      "global_period_is_lcm": false,
+      "source_loop_start_seconds_from_music_start": 65.55,
+      "source_loop_period_seconds": 86.4,
+      "source_loop_end_seconds_from_music_start": 151.95
+    },
+    {
+      "music_id": 165,
+      "music_id_hex": "$A5",
+      "source_label": "Music_Pain",
+      "analysis_status": "ok",
+      "tick_multiplier": 3,
+      "initial_tempo": 3,
+      "track_count": 9,
+      "looping_track_count": 8,
+      "ended_track_count": 1,
+      "track_period_ticks": [
+        1152
+      ],
+      "dynamic_tempo_events": [],
+      "one_shot": false,
+      "exact_capture_loop_ready": true,
+      "tracks": [
+        {
+          "index": 0,
+          "kind": "end",
+          "intro_ticks": 0,
+          "period_ticks": null,
+          "end_ticks": 0
+        },
+        {
+          "index": 1,
+          "kind": "loop",
+          "intro_ticks": 30,
+          "period_ticks": 1152,
+          "end_ticks": null
+        },
+        {
+          "index": 2,
+          "kind": "loop",
+          "intro_ticks": 24,
+          "period_ticks": 1152,
+          "end_ticks": null
+        },
+        {
+          "index": 3,
+          "kind": "loop",
+          "intro_ticks": 18,
+          "period_ticks": 1152,
+          "end_ticks": null
+        },
+        {
+          "index": 4,
+          "kind": "loop",
+          "intro_ticks": 150,
+          "period_ticks": 1152,
+          "end_ticks": null
+        },
+        {
+          "index": 5,
+          "kind": "loop",
+          "intro_ticks": 144,
+          "period_ticks": 1152,
+          "end_ticks": null
+        },
+        {
+          "index": 6,
+          "kind": "loop",
+          "intro_ticks": 24,
+          "period_ticks": 1152,
+          "end_ticks": null
+        },
+        {
+          "index": 7,
+          "kind": "loop",
+          "intro_ticks": 21,
+          "period_ticks": 1152,
+          "end_ticks": null
+        },
+        {
+          "index": 8,
+          "kind": "loop",
+          "intro_ticks": 18,
+          "period_ticks": 1152,
+          "end_ticks": null
+        }
+      ],
+      "source_loop_start_ticks": 150,
+      "source_loop_period_ticks": 1152,
+      "source_loop_end_ticks": 1302,
+      "global_period_is_lcm": false,
+      "source_loop_start_seconds_from_music_start": 3.75,
+      "source_loop_period_seconds": 28.8,
+      "source_loop_end_seconds_from_music_start": 32.55
+    },
+    {
+      "music_id": 166,
+      "music_id_hex": "$A6",
+      "source_label": "Music_JijyNoRag",
+      "analysis_status": "ok",
+      "tick_multiplier": 3,
+      "initial_tempo": 5,
+      "track_count": 9,
+      "looping_track_count": 9,
+      "ended_track_count": 0,
+      "track_period_ticks": [
+        3456
+      ],
+      "dynamic_tempo_events": [],
+      "one_shot": false,
+      "exact_capture_loop_ready": true,
+      "tracks": [
+        {
+          "index": 0,
+          "kind": "loop",
+          "intro_ticks": 291,
+          "period_ticks": 3456,
+          "end_ticks": null
+        },
+        {
+          "index": 1,
+          "kind": "loop",
+          "intro_ticks": 342,
+          "period_ticks": 3456,
+          "end_ticks": null
+        },
+        {
+          "index": 2,
+          "kind": "loop",
+          "intro_ticks": 300,
+          "period_ticks": 3456,
+          "end_ticks": null
+        },
+        {
+          "index": 3,
+          "kind": "loop",
+          "intro_ticks": 306,
+          "period_ticks": 3456,
+          "end_ticks": null
+        },
+        {
+          "index": 4,
+          "kind": "loop",
+          "intro_ticks": 306,
+          "period_ticks": 3456,
+          "end_ticks": null
+        },
+        {
+          "index": 5,
+          "kind": "loop",
+          "intro_ticks": 306,
+          "period_ticks": 3456,
+          "end_ticks": null
+        },
+        {
+          "index": 6,
+          "kind": "loop",
+          "intro_ticks": 345,
+          "period_ticks": 3456,
+          "end_ticks": null
+        },
+        {
+          "index": 7,
+          "kind": "loop",
+          "intro_ticks": 342,
+          "period_ticks": 3456,
+          "end_ticks": null
+        },
+        {
+          "index": 8,
+          "kind": "loop",
+          "intro_ticks": 303,
+          "period_ticks": 3456,
+          "end_ticks": null
+        }
+      ],
+      "source_loop_start_ticks": 345,
+      "source_loop_period_ticks": 3456,
+      "source_loop_end_ticks": 3801,
+      "global_period_is_lcm": false,
+      "source_loop_start_seconds_from_music_start": 7.1875,
+      "source_loop_period_seconds": 72.0,
+      "source_loop_end_seconds_from_music_start": 79.1875
+    },
+    {
+      "music_id": 167,
+      "music_id_hex": "$A7",
+      "source_label": "Music_DungeonArrange2Cont",
+      "analysis_status": "ok",
+      "tick_multiplier": 2,
+      "initial_tempo": 32,
+      "track_count": 9,
+      "looping_track_count": 9,
+      "ended_track_count": 0,
+      "track_period_ticks": [
+        2304
+      ],
+      "dynamic_tempo_events": [],
+      "one_shot": false,
+      "exact_capture_loop_ready": true,
+      "tracks": [
+        {
+          "index": 0,
+          "kind": "loop",
+          "intro_ticks": 96,
+          "period_ticks": 2304,
+          "end_ticks": null
+        },
+        {
+          "index": 1,
+          "kind": "loop",
+          "intro_ticks": 768,
+          "period_ticks": 2304,
+          "end_ticks": null
+        },
+        {
+          "index": 2,
+          "kind": "loop",
+          "intro_ticks": 768,
+          "period_ticks": 2304,
+          "end_ticks": null
+        },
+        {
+          "index": 3,
+          "kind": "loop",
+          "intro_ticks": 768,
+          "period_ticks": 2304,
+          "end_ticks": null
+        },
+        {
+          "index": 4,
+          "kind": "loop",
+          "intro_ticks": 768,
+          "period_ticks": 2304,
+          "end_ticks": null
+        },
+        {
+          "index": 5,
+          "kind": "loop",
+          "intro_ticks": 772,
+          "period_ticks": 2304,
+          "end_ticks": null
+        },
+        {
+          "index": 6,
+          "kind": "loop",
+          "intro_ticks": 772,
+          "period_ticks": 2304,
+          "end_ticks": null
+        },
+        {
+          "index": 7,
+          "kind": "loop",
+          "intro_ticks": 770,
+          "period_ticks": 2304,
+          "end_ticks": null
+        },
+        {
+          "index": 8,
+          "kind": "loop",
+          "intro_ticks": 768,
+          "period_ticks": 2304,
+          "end_ticks": null
+        }
+      ],
+      "source_loop_start_ticks": 772,
+      "source_loop_period_ticks": 2304,
+      "source_loop_end_ticks": 3076,
+      "global_period_is_lcm": false,
+      "source_loop_start_seconds_from_music_start": 13.281720430107526,
+      "source_loop_period_seconds": 39.63870967741935,
+      "source_loop_end_seconds_from_music_start": 52.920430107526876
+    },
+    {
+      "music_id": 168,
+      "music_id_hex": "$A8",
+      "source_label": "Music_TheBlackBlood",
+      "analysis_status": "ok",
+      "tick_multiplier": 3,
+      "initial_tempo": 7,
+      "track_count": 9,
+      "looping_track_count": 9,
+      "ended_track_count": 0,
+      "track_period_ticks": [
+        288,
+        576,
+        2880
+      ],
+      "dynamic_tempo_events": [],
+      "one_shot": false,
+      "exact_capture_loop_ready": true,
+      "tracks": [
+        {
+          "index": 0,
+          "kind": "loop",
+          "intro_ticks": 18,
+          "period_ticks": 288,
+          "end_ticks": null
+        },
+        {
+          "index": 1,
+          "kind": "loop",
+          "intro_ticks": 45,
+          "period_ticks": 576,
+          "end_ticks": null
+        },
+        {
+          "index": 2,
+          "kind": "loop",
+          "intro_ticks": 45,
+          "period_ticks": 576,
+          "end_ticks": null
+        },
+        {
+          "index": 3,
+          "kind": "loop",
+          "intro_ticks": 171,
+          "period_ticks": 2880,
+          "end_ticks": null
+        },
+        {
+          "index": 4,
+          "kind": "loop",
+          "intro_ticks": 162,
+          "period_ticks": 2880,
+          "end_ticks": null
+        },
+        {
+          "index": 5,
+          "kind": "loop",
+          "intro_ticks": 36,
+          "period_ticks": 576,
+          "end_ticks": null
+        },
+        {
+          "index": 6,
+          "kind": "loop",
+          "intro_ticks": 168,
+          "period_ticks": 2880,
+          "end_ticks": null
+        },
+        {
+          "index": 7,
+          "kind": "loop",
+          "intro_ticks": 165,
+          "period_ticks": 2880,
+          "end_ticks": null
+        },
+        {
+          "index": 8,
+          "kind": "loop",
+          "intro_ticks": 162,
+          "period_ticks": 2880,
+          "end_ticks": null
+        }
+      ],
+      "source_loop_start_ticks": 171,
+      "source_loop_period_ticks": 2880,
+      "source_loop_end_ticks": 3051,
+      "global_period_is_lcm": true,
+      "source_loop_start_seconds_from_music_start": 3.325,
+      "source_loop_period_seconds": 56.0,
+      "source_loop_end_seconds_from_music_start": 59.325
+    },
+    {
+      "music_id": 169,
+      "music_id_hex": "$A9",
+      "source_label": "Music_RedAlert",
+      "analysis_status": "ok",
+      "tick_multiplier": 2,
+      "initial_tempo": 7,
+      "track_count": 9,
+      "looping_track_count": 9,
+      "ended_track_count": 0,
+      "track_period_ticks": [
+        768,
+        1536,
+        1920
+      ],
+      "dynamic_tempo_events": [],
+      "one_shot": false,
+      "exact_capture_loop_ready": true,
+      "tracks": [
+        {
+          "index": 0,
+          "kind": "loop",
+          "intro_ticks": 384,
+          "period_ticks": 768,
+          "end_ticks": null
+        },
+        {
+          "index": 1,
+          "kind": "loop",
+          "intro_ticks": 480,
+          "period_ticks": 1536,
+          "end_ticks": null
+        },
+        {
+          "index": 2,
+          "kind": "loop",
+          "intro_ticks": 390,
+          "period_ticks": 768,
+          "end_ticks": null
+        },
+        {
+          "index": 3,
+          "kind": "loop",
+          "intro_ticks": 96,
+          "period_ticks": 1920,
+          "end_ticks": null
+        },
+        {
+          "index": 4,
+          "kind": "loop",
+          "intro_ticks": 390,
+          "period_ticks": 768,
+          "end_ticks": null
+        },
+        {
+          "index": 5,
+          "kind": "loop",
+          "intro_ticks": 486,
+          "period_ticks": 1536,
+          "end_ticks": null
+        },
+        {
+          "index": 6,
+          "kind": "loop",
+          "intro_ticks": 102,
+          "period_ticks": 1920,
+          "end_ticks": null
+        },
+        {
+          "index": 7,
+          "kind": "loop",
+          "intro_ticks": 100,
+          "period_ticks": 1920,
+          "end_ticks": null
+        },
+        {
+          "index": 8,
+          "kind": "loop",
+          "intro_ticks": 98,
+          "period_ticks": 1920,
+          "end_ticks": null
+        }
+      ],
+      "source_loop_start_ticks": 486,
+      "source_loop_period_ticks": 7680,
+      "source_loop_end_ticks": 8166,
+      "global_period_is_lcm": true,
+      "source_loop_start_seconds_from_music_start": 9.45,
+      "source_loop_period_seconds": 149.33333333333334,
+      "source_loop_end_seconds_from_music_start": 158.78333333333333
+    },
+    {
+      "music_id": 170,
+      "music_id_hex": "$AA",
+      "source_label": "Music_Laughter",
+      "analysis_status": "ok",
+      "tick_multiplier": 2,
+      "initial_tempo": 0,
+      "track_count": 9,
+      "looping_track_count": 9,
+      "ended_track_count": 0,
+      "track_period_ticks": [
+        96,
+        7296
+      ],
+      "dynamic_tempo_events": [],
+      "one_shot": false,
+      "exact_capture_loop_ready": true,
+      "tracks": [
+        {
+          "index": 0,
+          "kind": "loop",
+          "intro_ticks": 960,
+          "period_ticks": 7296,
+          "end_ticks": null
+        },
+        {
+          "index": 1,
+          "kind": "loop",
+          "intro_ticks": 4944,
+          "period_ticks": 7296,
+          "end_ticks": null
+        },
+        {
+          "index": 2,
+          "kind": "loop",
+          "intro_ticks": 966,
+          "period_ticks": 7296,
+          "end_ticks": null
+        },
+        {
+          "index": 3,
+          "kind": "loop",
+          "intro_ticks": 4800,
+          "period_ticks": 7296,
+          "end_ticks": null
+        },
+        {
+          "index": 4,
+          "kind": "loop",
+          "intro_ticks": 960,
+          "period_ticks": 7296,
+          "end_ticks": null
+        },
+        {
+          "index": 5,
+          "kind": "loop",
+          "intro_ticks": 4948,
+          "period_ticks": 7296,
+          "end_ticks": null
+        },
+        {
+          "index": 6,
+          "kind": "loop",
+          "intro_ticks": 1156,
+          "period_ticks": 7296,
+          "end_ticks": null
+        },
+        {
+          "index": 7,
+          "kind": "loop",
+          "intro_ticks": 1152,
+          "period_ticks": 7296,
+          "end_ticks": null
+        },
+        {
+          "index": 8,
+          "kind": "loop",
+          "intro_ticks": 578,
+          "period_ticks": 96,
+          "end_ticks": null
+        }
+      ],
+      "source_loop_start_ticks": 4948,
+      "source_loop_period_ticks": 7296,
+      "source_loop_end_ticks": 12244,
+      "global_period_is_lcm": true,
+      "source_loop_start_seconds_from_music_start": 82.46666666666667,
+      "source_loop_period_seconds": 121.6,
+      "source_loop_end_seconds_from_music_start": 204.06666666666666
+    },
+    {
+      "music_id": 171,
+      "music_id_hex": "$AB",
+      "source_label": "Music_Mystery",
+      "analysis_status": "ok",
+      "tick_multiplier": 2,
+      "initial_tempo": 5,
+      "track_count": 9,
+      "looping_track_count": 0,
+      "ended_track_count": 9,
+      "track_period_ticks": [],
+      "dynamic_tempo_events": [],
+      "one_shot": true,
+      "exact_capture_loop_ready": false,
+      "tracks": [
+        {
+          "index": 0,
+          "kind": "end",
+          "intro_ticks": 46,
+          "period_ticks": null,
+          "end_ticks": 46
+        },
+        {
+          "index": 1,
+          "kind": "end",
+          "intro_ticks": 54,
+          "period_ticks": null,
+          "end_ticks": 54
+        },
+        {
+          "index": 2,
+          "kind": "end",
+          "intro_ticks": 50,
+          "period_ticks": null,
+          "end_ticks": 50
+        },
+        {
+          "index": 3,
+          "kind": "end",
+          "intro_ticks": 48,
+          "period_ticks": null,
+          "end_ticks": 48
+        },
+        {
+          "index": 4,
+          "kind": "end",
+          "intro_ticks": 50,
+          "period_ticks": null,
+          "end_ticks": 50
+        },
+        {
+          "index": 5,
+          "kind": "end",
+          "intro_ticks": 46,
+          "period_ticks": null,
+          "end_ticks": 46
+        },
+        {
+          "index": 6,
+          "kind": "end",
+          "intro_ticks": 0,
+          "period_ticks": null,
+          "end_ticks": 0
+        },
+        {
+          "index": 7,
+          "kind": "end",
+          "intro_ticks": 0,
+          "period_ticks": null,
+          "end_ticks": 0
+        },
+        {
+          "index": 8,
+          "kind": "end",
+          "intro_ticks": 0,
+          "period_ticks": null,
+          "end_ticks": 0
+        }
+      ]
+    },
+    {
+      "music_id": 172,
+      "music_id_hex": "$AC",
+      "source_label": "Music_EndOfTheMillennium",
+      "analysis_status": "ok",
+      "tick_multiplier": 2,
+      "initial_tempo": 16,
+      "track_count": 9,
+      "looping_track_count": 9,
+      "ended_track_count": 0,
+      "track_period_ticks": [
+        6264
+      ],
+      "dynamic_tempo_events": [],
+      "one_shot": false,
+      "exact_capture_loop_ready": true,
+      "tracks": [
+        {
+          "index": 0,
+          "kind": "loop",
+          "intro_ticks": 192,
+          "period_ticks": 6264,
+          "end_ticks": null
+        },
+        {
+          "index": 1,
+          "kind": "loop",
+          "intro_ticks": 14,
+          "period_ticks": 6264,
+          "end_ticks": null
+        },
+        {
+          "index": 2,
+          "kind": "loop",
+          "intro_ticks": 12,
+          "period_ticks": 6264,
+          "end_ticks": null
+        },
+        {
+          "index": 3,
+          "kind": "loop",
+          "intro_ticks": 6,
+          "period_ticks": 6264,
+          "end_ticks": null
+        },
+        {
+          "index": 4,
+          "kind": "loop",
+          "intro_ticks": 5774,
+          "period_ticks": 6264,
+          "end_ticks": null
+        },
+        {
+          "index": 5,
+          "kind": "loop",
+          "intro_ticks": 676,
+          "period_ticks": 6264,
+          "end_ticks": null
+        },
+        {
+          "index": 6,
+          "kind": "loop",
+          "intro_ticks": 96,
+          "period_ticks": 6264,
+          "end_ticks": null
+        },
+        {
+          "index": 7,
+          "kind": "loop",
+          "intro_ticks": 96,
+          "period_ticks": 6264,
+          "end_ticks": null
+        },
+        {
+          "index": 8,
+          "kind": "loop",
+          "intro_ticks": 98,
+          "period_ticks": 6264,
+          "end_ticks": null
+        }
+      ],
+      "source_loop_start_ticks": 5774,
+      "source_loop_period_ticks": 6264,
+      "source_loop_end_ticks": 12038,
+      "global_period_is_lcm": false,
+      "source_loop_start_seconds_from_music_start": 102.64888888888889,
+      "source_loop_period_seconds": 111.35999999999999,
+      "source_loop_end_seconds_from_music_start": 214.0088888888889
+    },
+    {
+      "music_id": 173,
+      "music_id_hex": "$AD",
+      "source_label": "Music_Explosion",
+      "analysis_status": "unsupported_header",
+      "reason": "Music_Explosion instrument-bank pointer not found",
+      "exact_capture_loop_ready": false
+    },
+    {
+      "music_id": 174,
+      "music_id_hex": "$AE",
+      "source_label": "Music_StaffRoll",
+      "analysis_status": "ok",
+      "tick_multiplier": 2,
+      "initial_tempo": 8,
+      "track_count": 9,
+      "looping_track_count": 0,
+      "ended_track_count": 9,
+      "track_period_ticks": [],
+      "dynamic_tempo_events": [],
+      "one_shot": true,
+      "exact_capture_loop_ready": false,
+      "tracks": [
+        {
+          "index": 0,
+          "kind": "end",
+          "intro_ticks": 9300,
+          "period_ticks": null,
+          "end_ticks": 9300
+        },
+        {
+          "index": 1,
+          "kind": "end",
+          "intro_ticks": 9216,
+          "period_ticks": null,
+          "end_ticks": 9216
+        },
+        {
+          "index": 2,
+          "kind": "end",
+          "intro_ticks": 9216,
+          "period_ticks": null,
+          "end_ticks": 9216
+        },
+        {
+          "index": 3,
+          "kind": "end",
+          "intro_ticks": 9216,
+          "period_ticks": null,
+          "end_ticks": 9216
+        },
+        {
+          "index": 4,
+          "kind": "end",
+          "intro_ticks": 9218,
+          "period_ticks": null,
+          "end_ticks": 9218
+        },
+        {
+          "index": 5,
+          "kind": "end",
+          "intro_ticks": 9220,
+          "period_ticks": null,
+          "end_ticks": 9220
+        },
+        {
+          "index": 6,
+          "kind": "end",
+          "intro_ticks": 8448,
+          "period_ticks": null,
+          "end_ticks": 8448
+        },
+        {
+          "index": 7,
+          "kind": "end",
+          "intro_ticks": 8448,
+          "period_ticks": null,
+          "end_ticks": 8448
+        },
+        {
+          "index": 8,
+          "kind": "end",
+          "intro_ticks": 8450,
+          "period_ticks": null,
+          "end_ticks": 8450
+        }
+      ]
+    },
+    {
+      "music_id": 175,
+      "music_id_hex": "$AF",
+      "source_label": "Music_ThePromisingFuture1",
+      "analysis_status": "ok",
+      "tick_multiplier": 4,
+      "initial_tempo": 19,
+      "track_count": 9,
+      "looping_track_count": 0,
+      "ended_track_count": 9,
+      "track_period_ticks": [],
+      "dynamic_tempo_events": [],
+      "one_shot": true,
+      "exact_capture_loop_ready": false,
+      "tracks": [
+        {
+          "index": 0,
+          "kind": "end",
+          "intro_ticks": 8064,
+          "period_ticks": null,
+          "end_ticks": 8064
+        },
+        {
+          "index": 1,
+          "kind": "end",
+          "intro_ticks": 8800,
+          "period_ticks": null,
+          "end_ticks": 8800
+        },
+        {
+          "index": 2,
+          "kind": "end",
+          "intro_ticks": 8792,
+          "period_ticks": null,
+          "end_ticks": 8792
+        },
+        {
+          "index": 3,
+          "kind": "end",
+          "intro_ticks": 8796,
+          "period_ticks": null,
+          "end_ticks": 8796
+        },
+        {
+          "index": 4,
+          "kind": "end",
+          "intro_ticks": 8256,
+          "period_ticks": null,
+          "end_ticks": 8256
+        },
+        {
+          "index": 5,
+          "kind": "end",
+          "intro_ticks": 8792,
+          "period_ticks": null,
+          "end_ticks": 8792
+        },
+        {
+          "index": 6,
+          "kind": "end",
+          "intro_ticks": 7880,
+          "period_ticks": null,
+          "end_ticks": 7880
+        },
+        {
+          "index": 7,
+          "kind": "end",
+          "intro_ticks": 7872,
+          "period_ticks": null,
+          "end_ticks": 7872
+        },
+        {
+          "index": 8,
+          "kind": "end",
+          "intro_ticks": 8796,
+          "period_ticks": null,
+          "end_ticks": 8796
+        }
+      ]
+    },
+    {
+      "music_id": 176,
+      "music_id_hex": "$B0",
+      "source_label": "Music_PaoPao",
+      "analysis_status": "ok",
+      "tick_multiplier": 2,
+      "initial_tempo": 16,
+      "track_count": 9,
+      "looping_track_count": 9,
+      "ended_track_count": 0,
+      "track_period_ticks": [
+        96,
+        1536
+      ],
+      "dynamic_tempo_events": [],
+      "one_shot": false,
+      "exact_capture_loop_ready": true,
+      "tracks": [
+        {
+          "index": 0,
+          "kind": "loop",
+          "intro_ticks": 672,
+          "period_ticks": 1536,
+          "end_ticks": null
+        },
+        {
+          "index": 1,
+          "kind": "loop",
+          "intro_ticks": 698,
+          "period_ticks": 1536,
+          "end_ticks": null
+        },
+        {
+          "index": 2,
+          "kind": "loop",
+          "intro_ticks": 690,
+          "period_ticks": 1536,
+          "end_ticks": null
+        },
+        {
+          "index": 3,
+          "kind": "loop",
+          "intro_ticks": 678,
+          "period_ticks": 1536,
+          "end_ticks": null
+        },
+        {
+          "index": 4,
+          "kind": "loop",
+          "intro_ticks": 678,
+          "period_ticks": 1536,
+          "end_ticks": null
+        },
+        {
+          "index": 5,
+          "kind": "loop",
+          "intro_ticks": 696,
+          "period_ticks": 1536,
+          "end_ticks": null
+        },
+        {
+          "index": 6,
+          "kind": "loop",
+          "intro_ticks": 12,
+          "period_ticks": 96,
+          "end_ticks": null
+        },
+        {
+          "index": 7,
+          "kind": "loop",
+          "intro_ticks": 672,
+          "period_ticks": 1536,
+          "end_ticks": null
+        },
+        {
+          "index": 8,
+          "kind": "loop",
+          "intro_ticks": 672,
+          "period_ticks": 1536,
+          "end_ticks": null
+        }
+      ],
+      "source_loop_start_ticks": 698,
+      "source_loop_period_ticks": 1536,
+      "source_loop_end_ticks": 2234,
+      "global_period_is_lcm": true,
+      "source_loop_start_seconds_from_music_start": 12.408888888888889,
+      "source_loop_period_seconds": 27.30666666666667,
+      "source_loop_end_seconds_from_music_start": 39.715555555555554
+    },
+    {
+      "music_id": 177,
+      "music_id_hex": "$B1",
+      "source_label": "Music_DungeonArrange2",
+      "analysis_status": "ok",
+      "tick_multiplier": 2,
+      "initial_tempo": 32,
+      "track_count": 9,
+      "looping_track_count": 9,
+      "ended_track_count": 0,
+      "track_period_ticks": [
+        2304
+      ],
+      "dynamic_tempo_events": [],
+      "one_shot": false,
+      "exact_capture_loop_ready": true,
+      "tracks": [
+        {
+          "index": 0,
+          "kind": "loop",
+          "intro_ticks": 58,
+          "period_ticks": 2304,
+          "end_ticks": null
+        },
+        {
+          "index": 1,
+          "kind": "loop",
+          "intro_ticks": 70,
+          "period_ticks": 2304,
+          "end_ticks": null
+        },
+        {
+          "index": 2,
+          "kind": "loop",
+          "intro_ticks": 2338,
+          "period_ticks": 2304,
+          "end_ticks": null
+        },
+        {
+          "index": 3,
+          "kind": "loop",
+          "intro_ticks": 1726,
+          "period_ticks": 2304,
+          "end_ticks": null
+        },
+        {
+          "index": 4,
+          "kind": "loop",
+          "intro_ticks": 52,
+          "period_ticks": 2304,
+          "end_ticks": null
+        },
+        {
+          "index": 5,
+          "kind": "loop",
+          "intro_ticks": 74,
+          "period_ticks": 2304,
+          "end_ticks": null
+        },
+        {
+          "index": 6,
+          "kind": "loop",
+          "intro_ticks": 74,
+          "period_ticks": 2304,
+          "end_ticks": null
+        },
+        {
+          "index": 7,
+          "kind": "loop",
+          "intro_ticks": 72,
+          "period_ticks": 2304,
+          "end_ticks": null
+        },
+        {
+          "index": 8,
+          "kind": "loop",
+          "intro_ticks": 70,
+          "period_ticks": 2304,
+          "end_ticks": null
+        }
+      ],
+      "source_loop_start_ticks": 2338,
+      "source_loop_period_ticks": 2304,
+      "source_loop_end_ticks": 4642,
+      "global_period_is_lcm": false,
+      "source_loop_start_seconds_from_music_start": 40.2236559139785,
+      "source_loop_period_seconds": 39.63870967741935,
+      "source_loop_end_seconds_from_music_start": 79.86236559139785
+    },
+    {
+      "music_id": 178,
+      "music_id_hex": "$B2",
+      "source_label": "Music_ThePromisingFuture2",
+      "analysis_status": "ok",
+      "tick_multiplier": 3,
+      "initial_tempo": 7,
+      "track_count": 9,
+      "looping_track_count": 0,
+      "ended_track_count": 9,
+      "track_period_ticks": [],
+      "dynamic_tempo_events": [],
+      "one_shot": true,
+      "exact_capture_loop_ready": false,
+      "tracks": [
+        {
+          "index": 0,
+          "kind": "end",
+          "intro_ticks": 0,
+          "period_ticks": null,
+          "end_ticks": 0
+        },
+        {
+          "index": 1,
+          "kind": "end",
+          "intro_ticks": 10368,
+          "period_ticks": null,
+          "end_ticks": 10368
+        },
+        {
+          "index": 2,
+          "kind": "end",
+          "intro_ticks": 11403,
+          "period_ticks": null,
+          "end_ticks": 11403
+        },
+        {
+          "index": 3,
+          "kind": "end",
+          "intro_ticks": 11403,
+          "period_ticks": null,
+          "end_ticks": 11403
+        },
+        {
+          "index": 4,
+          "kind": "end",
+          "intro_ticks": 11403,
+          "period_ticks": null,
+          "end_ticks": 11403
+        },
+        {
+          "index": 5,
+          "kind": "end",
+          "intro_ticks": 8640,
+          "period_ticks": null,
+          "end_ticks": 8640
+        },
+        {
+          "index": 6,
+          "kind": "end",
+          "intro_ticks": 10977,
+          "period_ticks": null,
+          "end_ticks": 10977
+        },
+        {
+          "index": 7,
+          "kind": "end",
+          "intro_ticks": 10974,
+          "period_ticks": null,
+          "end_ticks": 10974
+        },
+        {
+          "index": 8,
+          "kind": "end",
+          "intro_ticks": 10971,
+          "period_ticks": null,
+          "end_ticks": 10971
+        }
+      ]
+    },
+    {
+      "music_id": 179,
+      "music_id_hex": "$B3",
+      "source_label": "Music_DezorisDeDon",
+      "analysis_status": "ok",
+      "tick_multiplier": 2,
+      "initial_tempo": 0,
+      "track_count": 9,
+      "looping_track_count": 0,
+      "ended_track_count": 9,
+      "track_period_ticks": [],
+      "dynamic_tempo_events": [],
+      "one_shot": true,
+      "exact_capture_loop_ready": false,
+      "tracks": [
+        {
+          "index": 0,
+          "kind": "end",
+          "intro_ticks": 264,
+          "period_ticks": null,
+          "end_ticks": 264
+        },
+        {
+          "index": 1,
+          "kind": "end",
+          "intro_ticks": 156,
+          "period_ticks": null,
+          "end_ticks": 156
+        },
+        {
+          "index": 2,
+          "kind": "end",
+          "intro_ticks": 156,
+          "period_ticks": null,
+          "end_ticks": 156
+        },
+        {
+          "index": 3,
+          "kind": "end",
+          "intro_ticks": 156,
+          "period_ticks": null,
+          "end_ticks": 156
+        },
+        {
+          "index": 4,
+          "kind": "end",
+          "intro_ticks": 156,
+          "period_ticks": null,
+          "end_ticks": 156
+        },
+        {
+          "index": 5,
+          "kind": "end",
+          "intro_ticks": 158,
+          "period_ticks": null,
+          "end_ticks": 158
+        },
+        {
+          "index": 6,
+          "kind": "end",
+          "intro_ticks": 168,
+          "period_ticks": null,
+          "end_ticks": 168
+        },
+        {
+          "index": 7,
+          "kind": "end",
+          "intro_ticks": 0,
+          "period_ticks": null,
+          "end_ticks": 0
+        },
+        {
+          "index": 8,
+          "kind": "end",
+          "intro_ticks": 0,
+          "period_ticks": null,
+          "end_ticks": 0
+        }
+      ]
+    },
+    {
+      "music_id": 180,
+      "music_id_hex": "$B4",
+      "source_label": "Music_Ooze",
+      "analysis_status": "ok",
+      "tick_multiplier": 2,
+      "initial_tempo": 19,
+      "track_count": 9,
+      "looping_track_count": 9,
+      "ended_track_count": 0,
+      "track_period_ticks": [
+        5952
+      ],
+      "dynamic_tempo_events": [],
+      "one_shot": false,
+      "exact_capture_loop_ready": true,
+      "tracks": [
+        {
+          "index": 0,
+          "kind": "loop",
+          "intro_ticks": 3624,
+          "period_ticks": 5952,
+          "end_ticks": null
+        },
+        {
+          "index": 1,
+          "kind": "loop",
+          "intro_ticks": 3648,
+          "period_ticks": 5952,
+          "end_ticks": null
+        },
+        {
+          "index": 2,
+          "kind": "loop",
+          "intro_ticks": 3624,
+          "period_ticks": 5952,
+          "end_ticks": null
+        },
+        {
+          "index": 3,
+          "kind": "loop",
+          "intro_ticks": 3648,
+          "period_ticks": 5952,
+          "end_ticks": null
+        },
+        {
+          "index": 4,
+          "kind": "loop",
+          "intro_ticks": 3624,
+          "period_ticks": 5952,
+          "end_ticks": null
+        },
+        {
+          "index": 5,
+          "kind": "loop",
+          "intro_ticks": 3650,
+          "period_ticks": 5952,
+          "end_ticks": null
+        },
+        {
+          "index": 6,
+          "kind": "loop",
+          "intro_ticks": 4396,
+          "period_ticks": 5952,
+          "end_ticks": null
+        },
+        {
+          "index": 7,
+          "kind": "loop",
+          "intro_ticks": 4394,
+          "period_ticks": 5952,
+          "end_ticks": null
+        },
+        {
+          "index": 8,
+          "kind": "loop",
+          "intro_ticks": 4392,
+          "period_ticks": 5952,
+          "end_ticks": null
+        }
+      ],
+      "source_loop_start_ticks": 4396,
+      "source_loop_period_ticks": 5952,
+      "source_loop_end_ticks": 10348,
+      "global_period_is_lcm": false,
+      "source_loop_start_seconds_from_music_start": 77.33703703703705,
+      "source_loop_period_seconds": 104.71111111111112,
+      "source_loop_end_seconds_from_music_start": 182.04814814814816
+    }
+  ]
+}

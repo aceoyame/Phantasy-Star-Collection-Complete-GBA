@@ -1,0 +1,632 @@
+[
+  {
+    "id_hex": "$B5",
+    "name": "rod",
+    "raw_rms": 16.028,
+    "raw_peak": 24.0,
+    "gain": 3.8287,
+    "out_rms": 61.309,
+    "out_peak": 92
+  },
+  {
+    "id_hex": "$B6",
+    "name": "shot",
+    "raw_rms": 12.389,
+    "raw_peak": 25.0,
+    "gain": 4.4,
+    "out_rms": 54.512,
+    "out_peak": 110
+  },
+  {
+    "id_hex": "$B7",
+    "name": "slasher",
+    "raw_rms": 6.755,
+    "raw_peak": 25.0,
+    "gain": 4.4,
+    "out_rms": 29.708,
+    "out_peak": 110
+  },
+  {
+    "id_hex": "$B8",
+    "name": "attack_miss",
+    "raw_rms": 5.95,
+    "raw_peak": 24.0,
+    "gain": 4.5833,
+    "out_rms": 27.295,
+    "out_peak": 110
+  },
+  {
+    "id_hex": "$B9",
+    "name": "enemy_killed",
+    "raw_rms": 6.196,
+    "raw_peak": 17.0,
+    "gain": 6.4706,
+    "out_rms": 40.093,
+    "out_peak": 110
+  },
+  {
+    "id_hex": "$BA",
+    "name": "enemy_attack1",
+    "raw_rms": 11.069,
+    "raw_peak": 28.0,
+    "gain": 3.9286,
+    "out_rms": 43.514,
+    "out_peak": 110
+  },
+  {
+    "id_hex": "$BB",
+    "name": "tech_cast",
+    "raw_rms": 6.526,
+    "raw_peak": 23.0,
+    "gain": 4.7826,
+    "out_rms": 31.217,
+    "out_peak": 110
+  },
+  {
+    "id_hex": "$BC",
+    "name": "buff_cast",
+    "raw_rms": 10.762,
+    "raw_peak": 27.0,
+    "gain": 4.0741,
+    "out_rms": 43.842,
+    "out_peak": 110
+  },
+  {
+    "id_hex": "$BD",
+    "name": "heal_tech_cast",
+    "raw_rms": 6.02,
+    "raw_peak": 23.0,
+    "gain": 4.7826,
+    "out_rms": 28.802,
+    "out_peak": 110
+  },
+  {
+    "id_hex": "$BE",
+    "name": "foi",
+    "raw_rms": 10.036,
+    "raw_peak": 28.0,
+    "gain": 3.9286,
+    "out_rms": 39.505,
+    "out_peak": 110
+  },
+  {
+    "id_hex": "$BF",
+    "name": "legeon",
+    "raw_rms": 18.436,
+    "raw_peak": 44.0,
+    "gain": 2.5,
+    "out_rms": 46.083,
+    "out_peak": 110
+  },
+  {
+    "id_hex": "$C0",
+    "name": "megid",
+    "raw_rms": 15.662,
+    "raw_peak": 47.0,
+    "gain": 2.3404,
+    "out_rms": 36.633,
+    "out_peak": 110
+  },
+  {
+    "id_hex": "$C1",
+    "name": "phonon",
+    "raw_rms": 7.477,
+    "raw_peak": 27.0,
+    "gain": 1.7481,
+    "out_rms": 12.995,
+    "out_peak": 47
+  },
+  {
+    "id_hex": "$C2",
+    "name": "fire_breath",
+    "raw_rms": 9.86,
+    "raw_peak": 36.0,
+    "gain": 3.0556,
+    "out_rms": 30.095,
+    "out_peak": 110
+  },
+  {
+    "id_hex": "$C3",
+    "name": "efess",
+    "raw_rms": 14.478,
+    "raw_peak": 43.0,
+    "gain": 2.5581,
+    "out_rms": 37.024,
+    "out_peak": 110
+  },
+  {
+    "id_hex": "$C4",
+    "name": "moonshad",
+    "raw_rms": 6.001,
+    "raw_peak": 24.0,
+    "gain": 4.5833,
+    "out_rms": 27.53,
+    "out_peak": 110
+  },
+  {
+    "id_hex": "$C5",
+    "name": "laser_attack",
+    "raw_rms": 7.933,
+    "raw_peak": 40.0,
+    "gain": 2.75,
+    "out_rms": 21.825,
+    "out_peak": 110
+  },
+  {
+    "id_hex": "$C6",
+    "name": "zan",
+    "raw_rms": 6.911,
+    "raw_peak": 20.0,
+    "gain": 5.5,
+    "out_rms": 38.014,
+    "out_peak": 110
+  },
+  {
+    "id_hex": "$C7",
+    "name": "gra",
+    "raw_rms": 18.242,
+    "raw_peak": 37.0,
+    "gain": 2.7805,
+    "out_rms": 50.741,
+    "out_peak": 103
+  },
+  {
+    "id_hex": "$C8",
+    "name": "vol",
+    "raw_rms": 9.402,
+    "raw_peak": 26.0,
+    "gain": 4.2308,
+    "out_rms": 39.794,
+    "out_peak": 110
+  },
+  {
+    "id_hex": "$C9",
+    "name": "saner",
+    "raw_rms": 7.858,
+    "raw_peak": 16.0,
+    "gain": 6.875,
+    "out_rms": 53.966,
+    "out_peak": 110
+  },
+  {
+    "id_hex": "$CA",
+    "name": "rimit",
+    "raw_rms": 7.223,
+    "raw_peak": 11.0,
+    "gain": 7.6464,
+    "out_rms": 55.204,
+    "out_peak": 84
+  },
+  {
+    "id_hex": "$CB",
+    "name": "brose",
+    "raw_rms": 15.159,
+    "raw_peak": 34.0,
+    "gain": 2.4932,
+    "out_rms": 37.696,
+    "out_peak": 85
+  },
+  {
+    "id_hex": "$CC",
+    "name": "res",
+    "raw_rms": 6.165,
+    "raw_peak": 20.0,
+    "gain": 5.5,
+    "out_rms": 33.918,
+    "out_peak": 110
+  },
+  {
+    "id_hex": "$CD",
+    "name": "recovery",
+    "raw_rms": 8.836,
+    "raw_peak": 17.0,
+    "gain": 6.4574,
+    "out_rms": 57.006,
+    "out_peak": 110
+  },
+  {
+    "id_hex": "$CE",
+    "name": "tandle",
+    "raw_rms": 11.725,
+    "raw_peak": 30.0,
+    "gain": 3.6667,
+    "out_rms": 42.994,
+    "out_peak": 110
+  },
+  {
+    "id_hex": "$CF",
+    "name": "android_skill_implant",
+    "raw_rms": 8.111,
+    "raw_peak": 47.0,
+    "gain": 2.3404,
+    "out_rms": 18.947,
+    "out_peak": 110
+  },
+  {
+    "id_hex": "$D0",
+    "name": "rifle",
+    "raw_rms": 20.372,
+    "raw_peak": 42.0,
+    "gain": 2.4105,
+    "out_rms": 49.131,
+    "out_peak": 101
+  },
+  {
+    "id_hex": "$D1",
+    "name": "sleep_gas",
+    "raw_rms": 7.807,
+    "raw_peak": 33.0,
+    "gain": 3.3333,
+    "out_rms": 26.013,
+    "out_peak": 110
+  },
+  {
+    "id_hex": "$D2",
+    "name": "eliminat",
+    "raw_rms": 11.354,
+    "raw_peak": 39.0,
+    "gain": 2.8205,
+    "out_rms": 32.023,
+    "out_peak": 110
+  },
+  {
+    "id_hex": "$D3",
+    "name": "spark",
+    "raw_rms": 10.164,
+    "raw_peak": 30.0,
+    "gain": 3.6667,
+    "out_rms": 37.27,
+    "out_peak": 110
+  },
+  {
+    "id_hex": "$D4",
+    "name": "war_cry",
+    "raw_rms": 8.007,
+    "raw_peak": 24.0,
+    "gain": 4.5833,
+    "out_rms": 36.715,
+    "out_peak": 110
+  },
+  {
+    "id_hex": "$D5",
+    "name": "mole_attack",
+    "raw_rms": 9.098,
+    "raw_peak": 19.0,
+    "gain": 5.7895,
+    "out_rms": 52.677,
+    "out_peak": 110
+  },
+  {
+    "id_hex": "$D6",
+    "name": "mech_enemy_alarm",
+    "raw_rms": 9.384,
+    "raw_peak": 20.0,
+    "gain": 3.7685,
+    "out_rms": 35.389,
+    "out_peak": 75
+  },
+  {
+    "id_hex": "$D7",
+    "name": "enemy_attack3",
+    "raw_rms": 10.22,
+    "raw_peak": 33.0,
+    "gain": 3.3333,
+    "out_rms": 34.064,
+    "out_peak": 110
+  },
+  {
+    "id_hex": "$D8",
+    "name": "enemy_attack4",
+    "raw_rms": 9.565,
+    "raw_peak": 34.0,
+    "gain": 3.2353,
+    "out_rms": 30.95,
+    "out_peak": 110
+  },
+  {
+    "id_hex": "$D9",
+    "name": "fusion",
+    "raw_rms": 9.456,
+    "raw_peak": 19.0,
+    "gain": 5.7895,
+    "out_rms": 54.693,
+    "out_peak": 110
+  },
+  {
+    "id_hex": "$DA",
+    "name": "enemy_attack5",
+    "raw_rms": 5.734,
+    "raw_peak": 29.0,
+    "gain": 3.7931,
+    "out_rms": 21.773,
+    "out_peak": 110
+  },
+  {
+    "id_hex": "$DB",
+    "name": "alarm",
+    "raw_rms": 4.549,
+    "raw_peak": 13.0,
+    "gain": 8.4615,
+    "out_rms": 38.474,
+    "out_peak": 110
+  },
+  {
+    "id_hex": "$DC",
+    "name": "deban",
+    "raw_rms": 8.03,
+    "raw_peak": 33.0,
+    "gain": 3.3333,
+    "out_rms": 26.767,
+    "out_peak": 110
+  },
+  {
+    "id_hex": "$DD",
+    "name": "grave_opening",
+    "raw_rms": 10.178,
+    "raw_peak": 63.0,
+    "gain": 1.746,
+    "out_rms": 17.73,
+    "out_peak": 110
+  },
+  {
+    "id_hex": "$DE",
+    "name": "teleport",
+    "raw_rms": 6.372,
+    "raw_peak": 19.0,
+    "gain": 5.7895,
+    "out_rms": 36.887,
+    "out_peak": 110
+  },
+  {
+    "id_hex": "$DF",
+    "name": "stairs",
+    "raw_rms": 5.944,
+    "raw_peak": 32.0,
+    "gain": 3.4375,
+    "out_rms": 20.432,
+    "out_peak": 110
+  },
+  {
+    "id_hex": "$E0",
+    "name": "riding_elevator",
+    "raw_rms": 25.38,
+    "raw_peak": 34.0,
+    "gain": 1.5555,
+    "out_rms": 39.493,
+    "out_peak": 53
+  },
+  {
+    "id_hex": "$E1",
+    "name": "chest_opened",
+    "raw_rms": 12.092,
+    "raw_peak": 35.0,
+    "gain": 3.1429,
+    "out_rms": 37.986,
+    "out_peak": 110
+  },
+  {
+    "id_hex": "$E2",
+    "name": "door_opened",
+    "raw_rms": 12.555,
+    "raw_peak": 36.0,
+    "gain": 3.0556,
+    "out_rms": 38.355,
+    "out_peak": 110
+  },
+  {
+    "id_hex": "$E3",
+    "name": "spaceship_propelled",
+    "raw_rms": 8.463,
+    "raw_peak": 30.0,
+    "gain": 3.6667,
+    "out_rms": 31.025,
+    "out_peak": 110
+  },
+  {
+    "id_hex": "$E4",
+    "name": "power_down",
+    "raw_rms": 12.165,
+    "raw_peak": 34.0,
+    "gain": 3.2353,
+    "out_rms": 39.375,
+    "out_peak": 110
+  },
+  {
+    "id_hex": "$E5",
+    "name": "elevator_open",
+    "raw_rms": 11.35,
+    "raw_peak": 38.0,
+    "gain": 2.8947,
+    "out_rms": 32.861,
+    "out_peak": 110
+  },
+  {
+    "id_hex": "$E6",
+    "name": "barrier_broken",
+    "raw_rms": 5.243,
+    "raw_peak": 41.0,
+    "gain": 2.6829,
+    "out_rms": 14.088,
+    "out_peak": 110
+  },
+  {
+    "id_hex": "$E7",
+    "name": "conveyor_belt",
+    "raw_rms": 14.579,
+    "raw_peak": 34.0,
+    "gain": 3.1798,
+    "out_rms": 46.367,
+    "out_peak": 108
+  },
+  {
+    "id_hex": "$E8",
+    "name": "claw",
+    "raw_rms": 8.313,
+    "raw_peak": 29.0,
+    "gain": 3.7931,
+    "out_rms": 31.563,
+    "out_peak": 110
+  },
+  {
+    "id_hex": "$E9",
+    "name": "unused1",
+    "raw_rms": 4.345,
+    "raw_peak": 21.0,
+    "gain": 5.2381,
+    "out_rms": 22.713,
+    "out_peak": 110
+  },
+  {
+    "id_hex": "$EA",
+    "name": "black_wave",
+    "raw_rms": 6.78,
+    "raw_peak": 34.0,
+    "gain": 3.2353,
+    "out_rms": 21.92,
+    "out_peak": 110
+  },
+  {
+    "id_hex": "$EB",
+    "name": "enemy_spell_cast",
+    "raw_rms": 4.6,
+    "raw_peak": 25.0,
+    "gain": 4.4,
+    "out_rms": 20.224,
+    "out_peak": 110
+  },
+  {
+    "id_hex": "$EC",
+    "name": "lightning",
+    "raw_rms": 21.474,
+    "raw_peak": 50.0,
+    "gain": 2.2,
+    "out_rms": 47.236,
+    "out_peak": 110
+  },
+  {
+    "id_hex": "$ED",
+    "name": "another_gate",
+    "raw_rms": 10.12,
+    "raw_peak": 22.0,
+    "gain": 5.0,
+    "out_rms": 50.599,
+    "out_peak": 110
+  },
+  {
+    "id_hex": "$EE",
+    "name": "ice_broken",
+    "raw_rms": 3.598,
+    "raw_peak": 23.0,
+    "gain": 4.7826,
+    "out_rms": 17.23,
+    "out_peak": 110
+  },
+  {
+    "id_hex": "$EF",
+    "name": "falling_into_hole",
+    "raw_rms": 8.436,
+    "raw_peak": 19.0,
+    "gain": 5.0539,
+    "out_rms": 42.642,
+    "out_peak": 96
+  },
+  {
+    "id_hex": "$F0",
+    "name": "telepipe",
+    "raw_rms": 12.79,
+    "raw_peak": 34.0,
+    "gain": 3.2353,
+    "out_rms": 41.376,
+    "out_peak": 110
+  },
+  {
+    "id_hex": "$F1",
+    "name": "souvenir",
+    "raw_rms": 9.408,
+    "raw_peak": 33.0,
+    "gain": 3.3333,
+    "out_rms": 31.359,
+    "out_peak": 110
+  },
+  {
+    "id_hex": "$F2",
+    "name": "moving_cursor",
+    "raw_rms": 6.997,
+    "raw_peak": 15.0,
+    "gain": 4.2422,
+    "out_rms": 29.607,
+    "out_peak": 64
+  },
+  {
+    "id_hex": "$F3",
+    "name": "selection",
+    "raw_rms": 4.298,
+    "raw_peak": 18.0,
+    "gain": 6.1111,
+    "out_rms": 26.233,
+    "out_peak": 110
+  },
+  {
+    "id_hex": "$F4",
+    "name": "surprise",
+    "raw_rms": 3.585,
+    "raw_peak": 31.0,
+    "gain": 3.5484,
+    "out_rms": 12.745,
+    "out_peak": 110
+  },
+  {
+    "id_hex": "$F5",
+    "name": "sword",
+    "raw_rms": 10.179,
+    "raw_peak": 28.0,
+    "gain": 3.9286,
+    "out_rms": 40.014,
+    "out_peak": 110
+  },
+  {
+    "id_hex": "$F6",
+    "name": "nothing",
+    "raw_rms": 0.0,
+    "raw_peak": 0.0,
+    "gain": 0.0,
+    "out_rms": 0.0,
+    "out_peak": 0
+  },
+  {
+    "id_hex": "$F7",
+    "name": "unused2",
+    "raw_rms": 0.0,
+    "raw_peak": 0.0,
+    "gain": 0.0,
+    "out_rms": 0.0,
+    "out_peak": 0
+  },
+  {
+    "id_hex": "$F8",
+    "name": "spaceship_radar",
+    "raw_rms": 7.487,
+    "raw_peak": 37.0,
+    "gain": 2.973,
+    "out_rms": 22.292,
+    "out_peak": 110
+  },
+  {
+    "id_hex": "$F9",
+    "name": "land_rover",
+    "raw_rms": 3.225,
+    "raw_peak": 8.0,
+    "gain": 13.75,
+    "out_rms": 44.349,
+    "out_peak": 110
+  },
+  {
+    "id_hex": "$FA",
+    "name": "hydrofoil",
+    "raw_rms": 5.582,
+    "raw_peak": 9.0,
+    "gain": 2.0489,
+    "out_rms": 11.165,
+    "out_peak": 18
+  }
+]

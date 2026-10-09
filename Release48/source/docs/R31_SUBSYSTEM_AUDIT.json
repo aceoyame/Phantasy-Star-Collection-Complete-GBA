@@ -1,0 +1,392 @@
+{
+  "method": "Static source dispatch/data audit plus focused source-clock/event-state/OBJ probes; no full playthrough. A handled ID is a code path, not behavior certification. No SHA256 calculated.",
+  "valid_maps": 361,
+  "map_slots": 417,
+  "event_dispatch": {
+    "source_count": 161,
+    "covered": 155,
+    "missing": [
+      {
+        "id": 44,
+        "hex": "2C",
+        "source": "Event_MonsenEarthquake"
+      },
+      {
+        "id": 47,
+        "hex": "2F",
+        "source": "Event_PsycoWandChest"
+      },
+      {
+        "id": 70,
+        "hex": "46",
+        "source": "Event_EclipseTorchStolen"
+      },
+      {
+        "id": 71,
+        "hex": "47",
+        "source": "Event_EclipseTorchUsed"
+      },
+      {
+        "id": 72,
+        "hex": "48",
+        "source": "Event_MeetingLeRoof"
+      },
+      {
+        "id": 134,
+        "hex": "86",
+        "source": "Event_DyingBoy"
+      }
+    ]
+  },
+  "cutscenes": {
+    "real_source_count": 33,
+    "covered_real": 8,
+    "missing": [
+      {
+        "id": 9,
+        "hex": "09",
+        "source": "Cutscene_AlysWounded"
+      },
+      {
+        "id": 10,
+        "hex": "0A",
+        "source": "Cutscene_PsycoWand"
+      },
+      {
+        "id": 11,
+        "hex": "0B",
+        "source": "Cutscene_ZioDefeated"
+      },
+      {
+        "id": 12,
+        "hex": "0C",
+        "source": "Cutscene_MeetingWren"
+      },
+      {
+        "id": 13,
+        "hex": "0D",
+        "source": "Cutscene_InsideSpaceship"
+      },
+      {
+        "id": 14,
+        "hex": "0E",
+        "source": "Cutscene_SpaceshipSabotage"
+      },
+      {
+        "id": 15,
+        "hex": "0F",
+        "source": "Cutscene_CrashLanding"
+      },
+      {
+        "id": 16,
+        "hex": "10",
+        "source": "Cutscene_Landale"
+      },
+      {
+        "id": 17,
+        "hex": "11",
+        "source": "Cutscene_DarkForce1Defeated"
+      },
+      {
+        "id": 18,
+        "hex": "12",
+        "source": "Cutscene_RajaSick"
+      },
+      {
+        "id": 19,
+        "hex": "13",
+        "source": "Cutscene_MeetingKyra"
+      },
+      {
+        "id": 20,
+        "hex": "14",
+        "source": "Cutscene_LutzRevelation"
+      },
+      {
+        "id": 21,
+        "hex": "15",
+        "source": "Cutscene_FindingAirCastle"
+      },
+      {
+        "id": 22,
+        "hex": "16",
+        "source": "Cutscene_LashiecDefeated"
+      },
+      {
+        "id": 23,
+        "hex": "17",
+        "source": "Cutscene_DarkForce2Defeated"
+      },
+      {
+        "id": 24,
+        "hex": "18",
+        "source": "Cutscene_GumbiousBishop"
+      },
+      {
+        "id": 25,
+        "hex": "19",
+        "source": "Cutscene_MeetingSeth"
+      },
+      {
+        "id": 26,
+        "hex": "1A",
+        "source": "Cutscene_AeroPrism"
+      },
+      {
+        "id": 27,
+        "hex": "1B",
+        "source": "Cutscene_Rykros"
+      },
+      {
+        "id": 28,
+        "hex": "1C",
+        "source": "Cutscene_LeRoofAgain"
+      },
+      {
+        "id": 29,
+        "hex": "1D",
+        "source": "Cutscene_BeforeElsydeonCave"
+      },
+      {
+        "id": 30,
+        "hex": "1E",
+        "source": "Cutscene_Elsydeon"
+      },
+      {
+        "id": 31,
+        "hex": "1F",
+        "source": "Cutscene_Reunion"
+      },
+      {
+        "id": 32,
+        "hex": "20",
+        "source": "Cutscene_ProfoundDarkness"
+      },
+      {
+        "id": 33,
+        "hex": "21",
+        "source": "Cutscene_Ending"
+      }
+    ]
+  },
+  "run_conditions": {
+    "source_count": 128,
+    "used_count": 98,
+    "covered_used": 98,
+    "missing_used": []
+  },
+  "map_managers": {
+    "used_count": 127,
+    "covered_used": 127,
+    "native_cases": 133,
+    "missing_used": []
+  },
+  "map_updates": {
+    "used_count": 54,
+    "covered_used": 48,
+    "active_entries": 210,
+    "authored_entries": 517,
+    "missing_used": [
+      {
+        "id": 5,
+        "hex": "05",
+        "source": "MapUpdate_ZioFortMoveUpdateRate"
+      },
+      {
+        "id": 7,
+        "hex": "07",
+        "source": "MapUpdate_ZioFortMoveUpdateRate2"
+      },
+      {
+        "id": 13,
+        "hex": "0D",
+        "source": "MapUpdate_BioPlantMoveUpdateRate"
+      },
+      {
+        "id": 15,
+        "hex": "0F",
+        "source": "MapUpdate_MachCntrMoveUpdateRate"
+      },
+      {
+        "id": 16,
+        "hex": "10",
+        "source": "MapUpdate_PlateSysMoveUpdateRate"
+      },
+      {
+        "id": 34,
+        "hex": "22",
+        "source": "MapUpdate_GaruberkTowerPart4"
+      }
+    ]
+  },
+  "dead_end_generated_routes": [
+    {
+      "run_id": 41,
+      "event_index": 32783,
+      "origin": "ps4_simple_run_event_conditions",
+      "target": "Cutscene_CrashLanding"
+    },
+    {
+      "run_id": 51,
+      "event_index": 72,
+      "origin": "ps4_simple_run_event_conditions",
+      "target": "Event_MeetingLeRoof"
+    },
+    {
+      "run_id": 71,
+      "event_index": 32790,
+      "origin": "ps4_simple_run_event_conditions",
+      "target": "Cutscene_LashiecDefeated"
+    },
+    {
+      "run_id": 84,
+      "event_index": 32801,
+      "origin": "ps4_simple_run_event_conditions",
+      "target": "Cutscene_Ending"
+    },
+    {
+      "run_id": 29,
+      "event_index": 32777,
+      "origin": "ps4_run_event_flag_chain_conditions",
+      "target": "Cutscene_AlysWounded"
+    },
+    {
+      "run_id": 30,
+      "event_index": 32778,
+      "origin": "ps4_run_event_flag_chain_conditions",
+      "target": "Cutscene_PsycoWand"
+    },
+    {
+      "run_id": 32,
+      "event_index": 32779,
+      "origin": "ps4_run_event_flag_chain_conditions",
+      "target": "Cutscene_ZioDefeated"
+    },
+    {
+      "run_id": 50,
+      "event_index": 32785,
+      "origin": "ps4_run_event_flag_chain_conditions",
+      "target": "Cutscene_DarkForce1Defeated"
+    },
+    {
+      "run_id": 52,
+      "event_index": 32796,
+      "origin": "ps4_run_event_flag_chain_conditions",
+      "target": "Cutscene_LeRoofAgain"
+    },
+    {
+      "run_id": 56,
+      "event_index": 32791,
+      "origin": "ps4_run_event_flag_chain_conditions",
+      "target": "Cutscene_DarkForce2Defeated"
+    },
+    {
+      "run_id": 59,
+      "event_index": 32794,
+      "origin": "ps4_run_event_flag_chain_conditions",
+      "target": "Cutscene_AeroPrism"
+    },
+    {
+      "run_id": 66,
+      "event_index": 32789,
+      "origin": "ps4_run_event_flag_chain_conditions",
+      "target": "Cutscene_FindingAirCastle"
+    },
+    {
+      "run_id": 79,
+      "event_index": 32797,
+      "origin": "ps4_run_event_flag_chain_conditions",
+      "target": "Cutscene_BeforeElsydeonCave"
+    },
+    {
+      "run_id": 80,
+      "event_index": 32799,
+      "origin": "ps4_run_event_flag_chain_conditions",
+      "target": "Cutscene_Reunion"
+    },
+    {
+      "run_id": 35,
+      "event_index": 32781,
+      "origin": "ps4_run_event_flag_coord_eq_conditions",
+      "target": "Cutscene_InsideSpaceship"
+    },
+    {
+      "run_id": 36,
+      "event_index": 32781,
+      "origin": "ps4_run_event_flag_coord_eq_conditions",
+      "target": "Cutscene_InsideSpaceship"
+    },
+    {
+      "run_id": 37,
+      "event_index": 32781,
+      "origin": "ps4_run_event_flag_coord_eq_conditions",
+      "target": "Cutscene_InsideSpaceship"
+    },
+    {
+      "run_id": 40,
+      "event_index": 32782,
+      "origin": "ps4_run_event_flag_coord_eq_conditions",
+      "target": "Cutscene_SpaceshipSabotage"
+    },
+    {
+      "run_id": 58,
+      "event_index": 32793,
+      "origin": "ps4_run_event_flag_coord_eq_conditions",
+      "target": "Cutscene_MeetingSeth"
+    },
+    {
+      "run_id": 33,
+      "event_index": 32781,
+      "origin": "ps4_run_event_flag_coord_range_conditions",
+      "target": "Cutscene_InsideSpaceship"
+    },
+    {
+      "run_id": 42,
+      "event_index": 47,
+      "origin": "ps4_run_event_flag_coord_range_conditions",
+      "target": "Event_PsycoWandChest"
+    },
+    {
+      "run_id": 43,
+      "event_index": 32784,
+      "origin": "ps4_run_event_flag_coord_range_conditions",
+      "target": "Cutscene_Landale"
+    },
+    {
+      "run_id": 54,
+      "event_index": 71,
+      "origin": "ps4_run_event_flag_coord_range_conditions",
+      "target": "Event_EclipseTorchUsed"
+    },
+    {
+      "run_id": 57,
+      "event_index": 32788,
+      "origin": "ps4_run_event_flag_coord_range_conditions",
+      "target": "Cutscene_LutzRevelation"
+    },
+    {
+      "run_id": 72,
+      "event_index": 32792,
+      "origin": "ps4_run_event_flag_coord_range_conditions",
+      "target": "Cutscene_GumbiousBishop"
+    }
+  ],
+  "finishable": false,
+  "finishability_reason": "Six ordinary events remain absent. RuneFlaeli, MeetingDorin and GettingLandRover have native executors. Cutscene_AlysWounded (9) cannot dispatch after rescuing Demi; later missing cutscenes include Profound Darkness (32) and Ending (33). Six map updates, field teleport/traversal and battle controllers remain. Six non-empty tile-animation routines and the field status loop are now implemented; normal playthrough is unverified.",
+  "r31_repairs": [
+    "RuneFlaeli full field sequence: party movement, casting actor, flame, 14 dust and 14 ballistic rock spawns, original four BG chunk edits and TonoePathOpen gate",
+    "MeetingDorin field sequence: source dialogue branch, Alys wind-up/punch, anger lines, Dorin impact/star reactions, normal actor hiding/restoration and Dorin flag",
+    "54 offline native OBJ poses including multi-piece tall flames and shared dust/rock frames",
+    "Original 16.16 debris gravity, source animation lists, actor counters and source RAM state",
+    "VRAM cache invalidation on pose reallocation; no new EWRAM globals",
+    "R30 field controllers, accepted audio, presentation, save layout and first 8 MiB PSC shell preserved"
+  ],
+  "remaining_non_dispatch_work": [
+    "Field teleport: Hinas/Ryuka/Escapipe/Telepipe selectors and controllers",
+    "Vehicle-specific traversal, collision and weapons",
+    "Composite/mechanical field object parity outside the implemented handlers",
+    "Remaining physical weapon and movement-heavy TECH/SKILL controllers",
+    "Profound Darkness phases and the normal ending/credits path",
+    "Normal-save full playthrough and hardware timing remain unverified"
+  ]
+}

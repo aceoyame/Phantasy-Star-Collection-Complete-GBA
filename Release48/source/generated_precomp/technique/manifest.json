@@ -1,0 +1,3007 @@
+{
+  "source_rom_sha256": "511f35cc11f88316f8b8940e28ab298bd75a4da193672a80172884d6eb913b6a",
+  "foi": {
+    "tech_ids": [
+      1,
+      2
+    ],
+    "plc_index": 80,
+    "art_sources": [
+      2376592,
+      2375764,
+      2376076,
+      2376178
+    ],
+    "plc_tile_counts": [
+      30,
+      24,
+      19,
+      16
+    ],
+    "palette_selector": 0,
+    "palette_words": [
+      1742,
+      654,
+      588,
+      8
+    ],
+    "cast": {
+      "source_table": 2471470,
+      "holds": [
+        5,
+        5,
+        3,
+        3,
+        4,
+        4
+      ],
+      "hidden": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "parts": [
+        {
+          "file": "foi_cast.png",
+          "canvas": [
+            64,
+            64
+          ],
+          "source_region": [
+            -24,
+            -24,
+            24,
+            25
+          ],
+          "center_offset": [
+            0,
+            0
+          ],
+          "frames": 6
+        }
+      ],
+      "source_union": [
+        -24,
+        -24,
+        24,
+        25
+      ],
+      "frame_bounds": [
+        [
+          -8,
+          -8,
+          8,
+          8
+        ],
+        [
+          -16,
+          -16,
+          16,
+          16
+        ],
+        [
+          -24,
+          -24,
+          24,
+          24
+        ],
+        [
+          -24,
+          -24,
+          24,
+          24
+        ],
+        [
+          -24,
+          -24,
+          24,
+          25
+        ],
+        [
+          -16,
+          -24,
+          16,
+          24
+        ]
+      ]
+    },
+    "impact": {
+      "source_table": 2469744,
+      "holds": [
+        2,
+        6,
+        5,
+        4,
+        3,
+        3
+      ],
+      "hidden": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "parts": [
+        {
+          "file": "foi_impact.png",
+          "canvas": [
+            32,
+            32
+          ],
+          "source_region": [
+            -16,
+            -16,
+            16,
+            16
+          ],
+          "center_offset": [
+            0,
+            0
+          ],
+          "frames": 6
+        }
+      ],
+      "source_union": [
+        -16,
+        -16,
+        16,
+        16
+      ],
+      "frame_bounds": [
+        [
+          -8,
+          -8,
+          8,
+          8
+        ],
+        [
+          -16,
+          -16,
+          16,
+          16
+        ],
+        [
+          -16,
+          -16,
+          16,
+          16
+        ],
+        [
+          -16,
+          -16,
+          16,
+          16
+        ],
+        [
+          -16,
+          -16,
+          16,
+          16
+        ],
+        [
+          -16,
+          -16,
+          16,
+          16
+        ]
+      ]
+    },
+    "orbit": {
+      "source_table": 2469896,
+      "holds": [
+        1,
+        2,
+        1,
+        2,
+        1,
+        2,
+        1,
+        2,
+        1,
+        2,
+        1,
+        2,
+        1
+      ],
+      "hidden": [
+        false,
+        true,
+        false,
+        true,
+        false,
+        true,
+        false,
+        true,
+        false,
+        true,
+        false,
+        true,
+        false
+      ],
+      "parts": [
+        {
+          "file": "foi_orbit.png",
+          "canvas": [
+            32,
+            32
+          ],
+          "source_region": [
+            -16,
+            -16,
+            16,
+            16
+          ],
+          "center_offset": [
+            0,
+            0
+          ],
+          "frames": 13
+        }
+      ],
+      "source_union": [
+        -16,
+        -16,
+        16,
+        16
+      ],
+      "frame_bounds": [
+        [
+          -16,
+          -16,
+          16,
+          16
+        ],
+        null,
+        [
+          -16,
+          -16,
+          16,
+          16
+        ],
+        null,
+        [
+          -16,
+          -16,
+          16,
+          16
+        ],
+        null,
+        [
+          -16,
+          -16,
+          16,
+          16
+        ],
+        null,
+        [
+          -8,
+          -8,
+          8,
+          8
+        ],
+        null,
+        [
+          -8,
+          -8,
+          8,
+          8
+        ],
+        null,
+        [
+          -4,
+          -4,
+          4,
+          4
+        ]
+      ]
+    },
+    "release": {
+      "source_table": 2470466,
+      "holds": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "hidden": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "parts": [
+        {
+          "file": "foi_release.png",
+          "canvas": [
+            64,
+            64
+          ],
+          "source_region": [
+            -24,
+            -24,
+            24,
+            24
+          ],
+          "center_offset": [
+            0,
+            0
+          ],
+          "frames": 4
+        }
+      ],
+      "source_union": [
+        -24,
+        -24,
+        24,
+        24
+      ],
+      "frame_bounds": [
+        [
+          -16,
+          -16,
+          16,
+          16
+        ],
+        [
+          -20,
+          -20,
+          20,
+          20
+        ],
+        [
+          -24,
+          -24,
+          24,
+          24
+        ],
+        [
+          -24,
+          -24,
+          24,
+          24
+        ]
+      ]
+    },
+    "timeline": {
+      "cast_body_wait": 30,
+      "orbit_spawn_delay_after_body": 0,
+      "post_orbit_wait": 8,
+      "release_parent_advance_wait": 2,
+      "release_start_wait": 6
+    }
+  },
+  "nafoi": {
+    "tech_ids": [
+      3
+    ],
+    "plc_index": 82,
+    "art_sources": [
+      2376592,
+      2376388,
+      2376568
+    ],
+    "plc_tile_counts": [
+      30,
+      30,
+      6
+    ],
+    "palette_selector": 0,
+    "palette_words": [
+      1742,
+      654,
+      588,
+      8
+    ],
+    "cast": {
+      "source_table": 2471470,
+      "holds": [
+        5,
+        5,
+        3,
+        3,
+        4,
+        4
+      ],
+      "hidden": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "parts": [
+        {
+          "file": "nafoi_cast_part1.png",
+          "canvas": [
+            32,
+            64
+          ],
+          "source_region": [
+            -24,
+            -24,
+            8,
+            25
+          ],
+          "center_offset": [
+            -8,
+            0
+          ],
+          "frames": 6
+        },
+        {
+          "file": "nafoi_cast_part2.png",
+          "canvas": [
+            16,
+            32
+          ],
+          "source_region": [
+            8,
+            -24,
+            24,
+            8
+          ],
+          "center_offset": [
+            16,
+            -8
+          ],
+          "frames": 6
+        },
+        {
+          "file": "nafoi_cast_part3.png",
+          "canvas": [
+            16,
+            32
+          ],
+          "source_region": [
+            8,
+            8,
+            24,
+            25
+          ],
+          "center_offset": [
+            16,
+            16
+          ],
+          "frames": 6
+        }
+      ],
+      "source_union": [
+        -24,
+        -24,
+        24,
+        25
+      ],
+      "frame_bounds": [
+        [
+          -8,
+          -8,
+          8,
+          8
+        ],
+        [
+          -16,
+          -16,
+          16,
+          16
+        ],
+        [
+          -24,
+          -24,
+          24,
+          24
+        ],
+        [
+          -24,
+          -24,
+          24,
+          24
+        ],
+        [
+          -24,
+          -24,
+          24,
+          25
+        ],
+        [
+          -16,
+          -24,
+          16,
+          24
+        ]
+      ]
+    },
+    "attack": {
+      "source_table": 2470580,
+      "holds": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        3,
+        4
+      ],
+      "hidden": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "parts": [
+        {
+          "file": "nafoi_attack_part1.png",
+          "canvas": [
+            32,
+            64
+          ],
+          "source_region": [
+            -16,
+            -104,
+            16,
+            -40
+          ],
+          "center_offset": [
+            0,
+            -72
+          ],
+          "frames": 11
+        },
+        {
+          "file": "nafoi_attack_part2.png",
+          "canvas": [
+            32,
+            64
+          ],
+          "source_region": [
+            -16,
+            -40,
+            16,
+            24
+          ],
+          "center_offset": [
+            0,
+            -8
+          ],
+          "frames": 11
+        },
+        {
+          "file": "nafoi_attack_part3.png",
+          "canvas": [
+            32,
+            8
+          ],
+          "source_region": [
+            -16,
+            24,
+            16,
+            32
+          ],
+          "center_offset": [
+            0,
+            28
+          ],
+          "frames": 11
+        }
+      ],
+      "source_union": [
+        -16,
+        -104,
+        16,
+        32
+      ],
+      "frame_bounds": [
+        [
+          -16,
+          -48,
+          16,
+          32
+        ],
+        [
+          -16,
+          -104,
+          16,
+          32
+        ],
+        [
+          -16,
+          -104,
+          16,
+          32
+        ],
+        [
+          -16,
+          -104,
+          16,
+          32
+        ],
+        [
+          -16,
+          -104,
+          16,
+          32
+        ],
+        [
+          -16,
+          -104,
+          16,
+          32
+        ],
+        [
+          -16,
+          -104,
+          16,
+          32
+        ],
+        [
+          -16,
+          -104,
+          16,
+          32
+        ],
+        [
+          -16,
+          -104,
+          16,
+          32
+        ],
+        [
+          -8,
+          -104,
+          8,
+          32
+        ],
+        [
+          -4,
+          -104,
+          4,
+          32
+        ]
+      ]
+    },
+    "charge": {
+      "source_table": 2470872,
+      "holds": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "hidden": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "parts": [
+        {
+          "file": "nafoi_charge_part1.png",
+          "canvas": [
+            32,
+            64
+          ],
+          "source_region": [
+            -16,
+            -104,
+            16,
+            -40
+          ],
+          "center_offset": [
+            0,
+            -72
+          ],
+          "frames": 6
+        },
+        {
+          "file": "nafoi_charge_part2.png",
+          "canvas": [
+            32,
+            64
+          ],
+          "source_region": [
+            -16,
+            -40,
+            16,
+            24
+          ],
+          "center_offset": [
+            0,
+            -8
+          ],
+          "frames": 6
+        },
+        {
+          "file": "nafoi_charge_part3.png",
+          "canvas": [
+            32,
+            8
+          ],
+          "source_region": [
+            -16,
+            24,
+            16,
+            32
+          ],
+          "center_offset": [
+            0,
+            28
+          ],
+          "frames": 6
+        }
+      ],
+      "source_union": [
+        -16,
+        -104,
+        16,
+        32
+      ],
+      "frame_bounds": [
+        [
+          -16,
+          -104,
+          16,
+          32
+        ],
+        [
+          -14,
+          -104,
+          14,
+          32
+        ],
+        [
+          -12,
+          -104,
+          12,
+          32
+        ],
+        [
+          -10,
+          -104,
+          10,
+          32
+        ],
+        [
+          -8,
+          -104,
+          8,
+          32
+        ],
+        [
+          -6,
+          -104,
+          6,
+          32
+        ]
+      ]
+    },
+    "timeline": {
+      "cast_body_wait": 30,
+      "post_charge_wait": 8,
+      "parent_advance_wait": 2
+    }
+  },
+  "wat": {
+    "tech_ids": [
+      4
+    ],
+    "plc_index": 83,
+    "art_sources": [
+      2376592,
+      2375764,
+      2376076,
+      2376988
+    ],
+    "plc_tile_counts": [
+      30,
+      24,
+      19,
+      35
+    ],
+    "palette_selector": 1,
+    "palette_words": [
+      3814,
+      3746,
+      3168,
+      3106
+    ],
+    "cast": {
+      "source_table": 2471470,
+      "holds": [
+        5,
+        5,
+        3,
+        3,
+        4,
+        4
+      ],
+      "hidden": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "parts": [
+        {
+          "file": "wat_cast.png",
+          "canvas": [
+            64,
+            64
+          ],
+          "source_region": [
+            -24,
+            -24,
+            24,
+            25
+          ],
+          "center_offset": [
+            0,
+            0
+          ],
+          "frames": 6
+        }
+      ],
+      "source_union": [
+        -24,
+        -24,
+        24,
+        25
+      ],
+      "frame_bounds": [
+        [
+          -8,
+          -8,
+          8,
+          8
+        ],
+        [
+          -16,
+          -16,
+          16,
+          16
+        ],
+        [
+          -24,
+          -24,
+          24,
+          24
+        ],
+        [
+          -24,
+          -24,
+          24,
+          24
+        ],
+        [
+          -24,
+          -24,
+          24,
+          25
+        ],
+        [
+          -16,
+          -24,
+          16,
+          24
+        ]
+      ]
+    },
+    "impact": {
+      "source_table": 2469744,
+      "holds": [
+        2,
+        6,
+        5,
+        4,
+        3,
+        3
+      ],
+      "hidden": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "parts": [
+        {
+          "file": "wat_impact.png",
+          "canvas": [
+            32,
+            32
+          ],
+          "source_region": [
+            -16,
+            -16,
+            16,
+            16
+          ],
+          "center_offset": [
+            0,
+            0
+          ],
+          "frames": 6
+        }
+      ],
+      "source_union": [
+        -16,
+        -16,
+        16,
+        16
+      ],
+      "frame_bounds": [
+        [
+          -8,
+          -8,
+          8,
+          8
+        ],
+        [
+          -16,
+          -16,
+          16,
+          16
+        ],
+        [
+          -16,
+          -16,
+          16,
+          16
+        ],
+        [
+          -16,
+          -16,
+          16,
+          16
+        ],
+        [
+          -16,
+          -16,
+          16,
+          16
+        ],
+        [
+          -16,
+          -16,
+          16,
+          16
+        ]
+      ]
+    },
+    "orbit": {
+      "source_table": 2469896,
+      "holds": [
+        1,
+        2,
+        1,
+        2,
+        1,
+        2,
+        1,
+        2,
+        1,
+        2,
+        1,
+        2,
+        1
+      ],
+      "hidden": [
+        false,
+        true,
+        false,
+        true,
+        false,
+        true,
+        false,
+        true,
+        false,
+        true,
+        false,
+        true,
+        false
+      ],
+      "parts": [
+        {
+          "file": "wat_orbit.png",
+          "canvas": [
+            32,
+            32
+          ],
+          "source_region": [
+            -16,
+            -16,
+            16,
+            16
+          ],
+          "center_offset": [
+            0,
+            0
+          ],
+          "frames": 13
+        }
+      ],
+      "source_union": [
+        -16,
+        -16,
+        16,
+        16
+      ],
+      "frame_bounds": [
+        [
+          -16,
+          -16,
+          16,
+          16
+        ],
+        null,
+        [
+          -16,
+          -16,
+          16,
+          16
+        ],
+        null,
+        [
+          -16,
+          -16,
+          16,
+          16
+        ],
+        null,
+        [
+          -16,
+          -16,
+          16,
+          16
+        ],
+        null,
+        [
+          -8,
+          -8,
+          8,
+          8
+        ],
+        null,
+        [
+          -8,
+          -8,
+          8,
+          8
+        ],
+        null,
+        [
+          -4,
+          -4,
+          4,
+          4
+        ]
+      ]
+    },
+    "release": {
+      "source_table": 2471712,
+      "holds": [
+        2,
+        3,
+        4,
+        5,
+        5
+      ],
+      "hidden": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "parts": [
+        {
+          "file": "wat_release.png",
+          "canvas": [
+            64,
+            64
+          ],
+          "source_region": [
+            -24,
+            -24,
+            24,
+            24
+          ],
+          "center_offset": [
+            0,
+            0
+          ],
+          "frames": 5
+        }
+      ],
+      "source_union": [
+        -24,
+        -24,
+        24,
+        24
+      ],
+      "frame_bounds": [
+        [
+          -16,
+          -16,
+          16,
+          16
+        ],
+        [
+          -24,
+          -24,
+          24,
+          24
+        ],
+        [
+          -24,
+          -24,
+          24,
+          24
+        ],
+        [
+          -24,
+          -24,
+          24,
+          24
+        ],
+        [
+          -24,
+          -24,
+          24,
+          24
+        ]
+      ]
+    },
+    "timeline": {
+      "cast_body_wait": 30,
+      "tech_obj_spawn_delay": 12,
+      "post_orbit_wait": 8,
+      "release_parent_advance_wait": 2,
+      "release_start_wait": 9
+    }
+  },
+  "tsu": {
+    "tech_ids": [
+      7
+    ],
+    "plc_index": 86,
+    "art_sources": [
+      2376592,
+      2377614,
+      2378194
+    ],
+    "plc_tile_counts": [
+      30,
+      68,
+      80
+    ],
+    "palette_selector": 2,
+    "palette_words": [
+      1742,
+      654,
+      74,
+      8
+    ],
+    "cast": {
+      "source_table": 2471470,
+      "holds": [
+        5,
+        5,
+        3,
+        3,
+        4,
+        4
+      ],
+      "hidden": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "parts": [
+        {
+          "file": "tsu_cast.png",
+          "canvas": [
+            64,
+            64
+          ],
+          "source_region": [
+            -24,
+            -24,
+            24,
+            25
+          ],
+          "center_offset": [
+            0,
+            0
+          ],
+          "frames": 6
+        }
+      ],
+      "source_union": [
+        -24,
+        -24,
+        24,
+        25
+      ],
+      "frame_bounds": [
+        [
+          -8,
+          -8,
+          8,
+          8
+        ],
+        [
+          -16,
+          -16,
+          16,
+          16
+        ],
+        [
+          -24,
+          -24,
+          24,
+          24
+        ],
+        [
+          -24,
+          -24,
+          24,
+          24
+        ],
+        [
+          -24,
+          -24,
+          24,
+          25
+        ],
+        [
+          -16,
+          -24,
+          16,
+          24
+        ]
+      ]
+    },
+    "attack": {
+      "source_table": 2472096,
+      "holds": [
+        2,
+        2,
+        2,
+        2,
+        3
+      ],
+      "hidden": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "parts": [
+        {
+          "file": "tsu_attack.png",
+          "canvas": [
+            32,
+            64
+          ],
+          "source_region": [
+            -4,
+            -2,
+            28,
+            50
+          ],
+          "center_offset": [
+            12,
+            24
+          ],
+          "frames": 5
+        }
+      ],
+      "source_union": [
+        -4,
+        -2,
+        28,
+        50
+      ],
+      "frame_bounds": [
+        [
+          -4,
+          -2,
+          28,
+          46
+        ],
+        [
+          0,
+          2,
+          24,
+          50
+        ],
+        [
+          0,
+          2,
+          20,
+          42
+        ],
+        [
+          0,
+          2,
+          12,
+          26
+        ],
+        [
+          0,
+          2,
+          8,
+          18
+        ]
+      ]
+    },
+    "timeline": {
+      "cast_body_wait": 30,
+      "parent_advance_wait": 2
+    }
+  },
+  "githu": {
+    "tech_ids": [
+      8
+    ],
+    "plc_index": 86,
+    "art_sources": [
+      2376592,
+      2377614,
+      2378194
+    ],
+    "plc_tile_counts": [
+      30,
+      68,
+      80
+    ],
+    "palette_selector": 2,
+    "palette_words": [
+      1742,
+      654,
+      74,
+      8
+    ],
+    "cast": {
+      "source_table": 2471470,
+      "holds": [
+        5,
+        5,
+        3,
+        3,
+        4,
+        4
+      ],
+      "hidden": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "parts": [
+        {
+          "file": "githu_cast.png",
+          "canvas": [
+            64,
+            64
+          ],
+          "source_region": [
+            -24,
+            -24,
+            24,
+            25
+          ],
+          "center_offset": [
+            0,
+            0
+          ],
+          "frames": 6
+        }
+      ],
+      "source_union": [
+        -24,
+        -24,
+        24,
+        25
+      ],
+      "frame_bounds": [
+        [
+          -8,
+          -8,
+          8,
+          8
+        ],
+        [
+          -16,
+          -16,
+          16,
+          16
+        ],
+        [
+          -24,
+          -24,
+          24,
+          24
+        ],
+        [
+          -24,
+          -24,
+          24,
+          24
+        ],
+        [
+          -24,
+          -24,
+          24,
+          25
+        ],
+        [
+          -16,
+          -24,
+          16,
+          24
+        ]
+      ]
+    },
+    "child": {
+      "source_table": 2472108,
+      "holds": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        3
+      ],
+      "hidden": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "parts": [
+        {
+          "file": "githu_child.png",
+          "canvas": [
+            32,
+            64
+          ],
+          "source_region": [
+            -4,
+            -2,
+            28,
+            50
+          ],
+          "center_offset": [
+            12,
+            24
+          ],
+          "frames": 13
+        }
+      ],
+      "source_union": [
+        -4,
+        -2,
+        28,
+        50
+      ],
+      "frame_bounds": [
+        [
+          -4,
+          -2,
+          28,
+          46
+        ],
+        [
+          0,
+          2,
+          24,
+          50
+        ],
+        [
+          -4,
+          -2,
+          28,
+          46
+        ],
+        [
+          0,
+          2,
+          24,
+          50
+        ],
+        [
+          -4,
+          -2,
+          28,
+          46
+        ],
+        [
+          0,
+          2,
+          24,
+          50
+        ],
+        [
+          -4,
+          -2,
+          28,
+          46
+        ],
+        [
+          0,
+          2,
+          24,
+          50
+        ],
+        [
+          -4,
+          -2,
+          28,
+          46
+        ],
+        [
+          0,
+          2,
+          24,
+          50
+        ],
+        [
+          0,
+          2,
+          20,
+          42
+        ],
+        [
+          0,
+          2,
+          12,
+          26
+        ],
+        [
+          0,
+          2,
+          8,
+          18
+        ]
+      ]
+    },
+    "parent": {
+      "source_table": 2472296,
+      "holds": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "hidden": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "parts": [
+        {
+          "file": "githu_parent.png",
+          "canvas": [
+            32,
+            64
+          ],
+          "source_region": [
+            0,
+            0,
+            24,
+            50
+          ],
+          "center_offset": [
+            12,
+            25
+          ],
+          "frames": 12
+        }
+      ],
+      "source_union": [
+        0,
+        0,
+        24,
+        50
+      ],
+      "frame_bounds": [
+        [
+          0,
+          2,
+          24,
+          50
+        ],
+        [
+          0,
+          0,
+          8,
+          8
+        ],
+        [
+          0,
+          2,
+          24,
+          50
+        ],
+        [
+          0,
+          0,
+          8,
+          8
+        ],
+        [
+          0,
+          0,
+          8,
+          8
+        ],
+        [
+          0,
+          0,
+          8,
+          8
+        ],
+        [
+          0,
+          0,
+          8,
+          8
+        ],
+        [
+          0,
+          2,
+          24,
+          50
+        ],
+        [
+          0,
+          0,
+          8,
+          8
+        ],
+        [
+          0,
+          2,
+          24,
+          50
+        ],
+        [
+          0,
+          0,
+          8,
+          8
+        ],
+        [
+          0,
+          0,
+          8,
+          8
+        ]
+      ]
+    },
+    "timeline": {
+      "cast_body_wait": 30,
+      "parent_hidden_wait": 2
+    }
+  },
+  "nathu": {
+    "tech_ids": [
+      9
+    ],
+    "plc_index": 86,
+    "art_sources": [
+      2376592,
+      2377614,
+      2378194
+    ],
+    "plc_tile_counts": [
+      30,
+      68,
+      80
+    ],
+    "palette_selector": 2,
+    "palette_words": [
+      1742,
+      654,
+      74,
+      8
+    ],
+    "cast": {
+      "source_table": 2471470,
+      "holds": [
+        5,
+        5,
+        3,
+        3,
+        4,
+        4
+      ],
+      "hidden": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "parts": [
+        {
+          "file": "nathu_cast_part1.png",
+          "canvas": [
+            32,
+            64
+          ],
+          "source_region": [
+            -24,
+            -24,
+            8,
+            25
+          ],
+          "center_offset": [
+            -8,
+            0
+          ],
+          "frames": 6
+        },
+        {
+          "file": "nathu_cast_part2.png",
+          "canvas": [
+            16,
+            32
+          ],
+          "source_region": [
+            8,
+            -24,
+            24,
+            8
+          ],
+          "center_offset": [
+            16,
+            -8
+          ],
+          "frames": 6
+        },
+        {
+          "file": "nathu_cast_part3.png",
+          "canvas": [
+            16,
+            32
+          ],
+          "source_region": [
+            8,
+            8,
+            24,
+            25
+          ],
+          "center_offset": [
+            16,
+            16
+          ],
+          "frames": 6
+        }
+      ],
+      "source_union": [
+        -24,
+        -24,
+        24,
+        25
+      ],
+      "frame_bounds": [
+        [
+          -8,
+          -8,
+          8,
+          8
+        ],
+        [
+          -16,
+          -16,
+          16,
+          16
+        ],
+        [
+          -24,
+          -24,
+          24,
+          24
+        ],
+        [
+          -24,
+          -24,
+          24,
+          24
+        ],
+        [
+          -24,
+          -24,
+          24,
+          25
+        ],
+        [
+          -16,
+          -24,
+          16,
+          24
+        ]
+      ]
+    },
+    "child": {
+      "source_table": 2472136,
+      "holds": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        3
+      ],
+      "hidden": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "parts": [
+        {
+          "file": "nathu_child.png",
+          "canvas": [
+            32,
+            64
+          ],
+          "source_region": [
+            -4,
+            -2,
+            28,
+            50
+          ],
+          "center_offset": [
+            12,
+            24
+          ],
+          "frames": 17
+        }
+      ],
+      "source_union": [
+        -4,
+        -2,
+        28,
+        50
+      ],
+      "frame_bounds": [
+        [
+          -4,
+          -2,
+          28,
+          46
+        ],
+        [
+          0,
+          2,
+          24,
+          50
+        ],
+        [
+          -4,
+          -2,
+          28,
+          46
+        ],
+        [
+          0,
+          2,
+          24,
+          50
+        ],
+        [
+          -4,
+          -2,
+          28,
+          46
+        ],
+        [
+          0,
+          2,
+          24,
+          50
+        ],
+        [
+          -4,
+          -2,
+          28,
+          46
+        ],
+        [
+          0,
+          2,
+          24,
+          50
+        ],
+        [
+          -4,
+          -2,
+          28,
+          46
+        ],
+        [
+          0,
+          2,
+          24,
+          50
+        ],
+        [
+          -4,
+          -2,
+          28,
+          46
+        ],
+        [
+          0,
+          2,
+          24,
+          50
+        ],
+        [
+          -4,
+          -2,
+          28,
+          46
+        ],
+        [
+          0,
+          2,
+          24,
+          50
+        ],
+        [
+          0,
+          2,
+          20,
+          42
+        ],
+        [
+          0,
+          2,
+          12,
+          26
+        ],
+        [
+          0,
+          2,
+          8,
+          18
+        ]
+      ]
+    },
+    "parent": {
+      "source_table": 2472322,
+      "holds": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "hidden": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "parts": [
+        {
+          "file": "nathu_parent_part1.png",
+          "canvas": [
+            32,
+            64
+          ],
+          "source_region": [
+            -4,
+            -2,
+            28,
+            54
+          ],
+          "center_offset": [
+            12,
+            26
+          ],
+          "frames": 14
+        },
+        {
+          "file": "nathu_parent_part2.png",
+          "canvas": [
+            8,
+            32
+          ],
+          "source_region": [
+            28,
+            -2,
+            32,
+            30
+          ],
+          "center_offset": [
+            30,
+            14
+          ],
+          "frames": 14
+        },
+        {
+          "file": "nathu_parent_part3.png",
+          "canvas": [
+            8,
+            32
+          ],
+          "source_region": [
+            28,
+            30,
+            32,
+            54
+          ],
+          "center_offset": [
+            30,
+            42
+          ],
+          "frames": 14
+        }
+      ],
+      "source_union": [
+        -4,
+        -2,
+        32,
+        54
+      ],
+      "frame_bounds": [
+        [
+          -4,
+          -2,
+          32,
+          54
+        ],
+        [
+          -4,
+          -2,
+          28,
+          54
+        ],
+        [
+          -4,
+          -2,
+          22,
+          46
+        ],
+        [
+          -4,
+          -2,
+          32,
+          54
+        ],
+        [
+          -4,
+          -2,
+          28,
+          54
+        ],
+        [
+          -4,
+          -2,
+          22,
+          46
+        ],
+        [
+          -4,
+          -2,
+          32,
+          54
+        ],
+        [
+          -4,
+          -2,
+          28,
+          54
+        ],
+        [
+          -4,
+          -2,
+          22,
+          46
+        ],
+        [
+          -4,
+          -2,
+          32,
+          54
+        ],
+        [
+          -4,
+          -2,
+          28,
+          54
+        ],
+        [
+          -4,
+          -2,
+          22,
+          46
+        ],
+        [
+          0,
+          2,
+          24,
+          50
+        ],
+        [
+          0,
+          2,
+          24,
+          50
+        ]
+      ]
+    },
+    "timeline": {
+      "cast_body_wait": 30,
+      "parent_hidden_wait": 2
+    }
+  },
+  "healing": {
+    "tech_ids": [
+      24,
+      25,
+      26,
+      27,
+      28,
+      29
+    ],
+    "plc_index": 103,
+    "art_sources": [
+      2387904,
+      2388432
+    ],
+    "plc_tile_counts": [
+      50,
+      72
+    ],
+    "variants": [
+      {
+        "name": "res",
+        "tech_ids": [
+          24,
+          27
+        ],
+        "palette_selector": 14,
+        "palette_words": [
+          3724,
+          3178,
+          2632,
+          2086
+        ],
+        "cast": {
+          "source_table": 2479004,
+          "holds": [
+            3,
+            3,
+            4,
+            5,
+            3,
+            4,
+            5,
+            5,
+            5
+          ],
+          "hidden": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "parts": [
+            {
+              "file": "res_heal_cast.png",
+              "canvas": [
+                64,
+                64
+              ],
+              "source_region": [
+                -24,
+                -24,
+                24,
+                24
+              ],
+              "center_offset": [
+                0,
+                0
+              ],
+              "frames": 9
+            }
+          ],
+          "source_union": [
+            -24,
+            -24,
+            24,
+            24
+          ],
+          "frame_bounds": [
+            [
+              -16,
+              -16,
+              16,
+              16
+            ],
+            [
+              -16,
+              -16,
+              16,
+              16
+            ],
+            [
+              -16,
+              -16,
+              16,
+              16
+            ],
+            [
+              -16,
+              -16,
+              16,
+              16
+            ],
+            [
+              -16,
+              -16,
+              16,
+              16
+            ],
+            [
+              -24,
+              -24,
+              24,
+              24
+            ],
+            [
+              -24,
+              -24,
+              24,
+              24
+            ],
+            [
+              -24,
+              -24,
+              24,
+              24
+            ],
+            [
+              -24,
+              -24,
+              24,
+              24
+            ]
+          ]
+        },
+        "effect": {
+          "source_table": 2479426,
+          "holds": [
+            4,
+            4,
+            4,
+            5,
+            4,
+            4,
+            3,
+            3,
+            4,
+            4,
+            4
+          ],
+          "hidden": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "parts": [
+            {
+              "file": "res_heal_effect.png",
+              "canvas": [
+                64,
+                64
+              ],
+              "source_region": [
+                -24,
+                -24,
+                24,
+                24
+              ],
+              "center_offset": [
+                0,
+                0
+              ],
+              "frames": 11
+            }
+          ],
+          "source_union": [
+            -24,
+            -24,
+            24,
+            24
+          ],
+          "frame_bounds": [
+            [
+              -24,
+              -24,
+              24,
+              24
+            ],
+            [
+              -24,
+              -24,
+              24,
+              24
+            ],
+            [
+              -24,
+              -24,
+              24,
+              24
+            ],
+            [
+              -24,
+              -24,
+              24,
+              24
+            ],
+            [
+              -24,
+              -24,
+              24,
+              24
+            ],
+            [
+              -16,
+              -16,
+              16,
+              16
+            ],
+            [
+              -8,
+              -8,
+              8,
+              8
+            ],
+            [
+              -8,
+              -8,
+              8,
+              8
+            ],
+            [
+              -8,
+              -8,
+              8,
+              8
+            ],
+            [
+              -8,
+              -8,
+              8,
+              8
+            ],
+            [
+              -8,
+              -8,
+              8,
+              8
+            ]
+          ]
+        }
+      },
+      {
+        "name": "gires",
+        "tech_ids": [
+          25,
+          28
+        ],
+        "palette_selector": 15,
+        "palette_words": [
+          3816,
+          3744,
+          3680,
+          3136
+        ],
+        "cast": {
+          "source_table": 2479004,
+          "holds": [
+            3,
+            3,
+            4,
+            5,
+            3,
+            4,
+            5,
+            5,
+            5
+          ],
+          "hidden": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "parts": [
+            {
+              "file": "gires_heal_cast.png",
+              "canvas": [
+                64,
+                64
+              ],
+              "source_region": [
+                -24,
+                -24,
+                24,
+                24
+              ],
+              "center_offset": [
+                0,
+                0
+              ],
+              "frames": 9
+            }
+          ],
+          "source_union": [
+            -24,
+            -24,
+            24,
+            24
+          ],
+          "frame_bounds": [
+            [
+              -16,
+              -16,
+              16,
+              16
+            ],
+            [
+              -16,
+              -16,
+              16,
+              16
+            ],
+            [
+              -16,
+              -16,
+              16,
+              16
+            ],
+            [
+              -16,
+              -16,
+              16,
+              16
+            ],
+            [
+              -16,
+              -16,
+              16,
+              16
+            ],
+            [
+              -24,
+              -24,
+              24,
+              24
+            ],
+            [
+              -24,
+              -24,
+              24,
+              24
+            ],
+            [
+              -24,
+              -24,
+              24,
+              24
+            ],
+            [
+              -24,
+              -24,
+              24,
+              24
+            ]
+          ]
+        },
+        "effect": {
+          "source_table": 2479426,
+          "holds": [
+            4,
+            4,
+            4,
+            5,
+            4,
+            4,
+            3,
+            3,
+            4,
+            4,
+            4
+          ],
+          "hidden": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "parts": [
+            {
+              "file": "gires_heal_effect.png",
+              "canvas": [
+                64,
+                64
+              ],
+              "source_region": [
+                -24,
+                -24,
+                24,
+                24
+              ],
+              "center_offset": [
+                0,
+                0
+              ],
+              "frames": 11
+            }
+          ],
+          "source_union": [
+            -24,
+            -24,
+            24,
+            24
+          ],
+          "frame_bounds": [
+            [
+              -24,
+              -24,
+              24,
+              24
+            ],
+            [
+              -24,
+              -24,
+              24,
+              24
+            ],
+            [
+              -24,
+              -24,
+              24,
+              24
+            ],
+            [
+              -24,
+              -24,
+              24,
+              24
+            ],
+            [
+              -24,
+              -24,
+              24,
+              24
+            ],
+            [
+              -16,
+              -16,
+              16,
+              16
+            ],
+            [
+              -8,
+              -8,
+              8,
+              8
+            ],
+            [
+              -8,
+              -8,
+              8,
+              8
+            ],
+            [
+              -8,
+              -8,
+              8,
+              8
+            ],
+            [
+              -8,
+              -8,
+              8,
+              8
+            ],
+            [
+              -8,
+              -8,
+              8,
+              8
+            ]
+          ]
+        }
+      },
+      {
+        "name": "nares",
+        "tech_ids": [
+          26,
+          29
+        ],
+        "palette_selector": 16,
+        "palette_words": [
+          1742,
+          654,
+          588,
+          42
+        ],
+        "cast": {
+          "source_table": 2479004,
+          "holds": [
+            3,
+            3,
+            4,
+            5,
+            3,
+            4,
+            5,
+            5,
+            5
+          ],
+          "hidden": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "parts": [
+            {
+              "file": "nares_heal_cast.png",
+              "canvas": [
+                64,
+                64
+              ],
+              "source_region": [
+                -24,
+                -24,
+                24,
+                24
+              ],
+              "center_offset": [
+                0,
+                0
+              ],
+              "frames": 9
+            }
+          ],
+          "source_union": [
+            -24,
+            -24,
+            24,
+            24
+          ],
+          "frame_bounds": [
+            [
+              -16,
+              -16,
+              16,
+              16
+            ],
+            [
+              -16,
+              -16,
+              16,
+              16
+            ],
+            [
+              -16,
+              -16,
+              16,
+              16
+            ],
+            [
+              -16,
+              -16,
+              16,
+              16
+            ],
+            [
+              -16,
+              -16,
+              16,
+              16
+            ],
+            [
+              -24,
+              -24,
+              24,
+              24
+            ],
+            [
+              -24,
+              -24,
+              24,
+              24
+            ],
+            [
+              -24,
+              -24,
+              24,
+              24
+            ],
+            [
+              -24,
+              -24,
+              24,
+              24
+            ]
+          ]
+        },
+        "effect": {
+          "source_table": 2479426,
+          "holds": [
+            4,
+            4,
+            4,
+            5,
+            4,
+            4,
+            3,
+            3,
+            4,
+            4,
+            4
+          ],
+          "hidden": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "parts": [
+            {
+              "file": "nares_heal_effect.png",
+              "canvas": [
+                64,
+                64
+              ],
+              "source_region": [
+                -24,
+                -24,
+                24,
+                24
+              ],
+              "center_offset": [
+                0,
+                0
+              ],
+              "frames": 11
+            }
+          ],
+          "source_union": [
+            -24,
+            -24,
+            24,
+            24
+          ],
+          "frame_bounds": [
+            [
+              -24,
+              -24,
+              24,
+              24
+            ],
+            [
+              -24,
+              -24,
+              24,
+              24
+            ],
+            [
+              -24,
+              -24,
+              24,
+              24
+            ],
+            [
+              -24,
+              -24,
+              24,
+              24
+            ],
+            [
+              -24,
+              -24,
+              24,
+              24
+            ],
+            [
+              -16,
+              -16,
+              16,
+              16
+            ],
+            [
+              -8,
+              -8,
+              8,
+              8
+            ],
+            [
+              -8,
+              -8,
+              8,
+              8
+            ],
+            [
+              -8,
+              -8,
+              8,
+              8
+            ],
+            [
+              -8,
+              -8,
+              8,
+              8
+            ],
+            [
+              -8,
+              -8,
+              8,
+              8
+            ]
+          ]
+        }
+      }
+    ],
+    "timeline": {
+      "cast_body_wait": 30,
+      "effect_y": 264
+    }
+  }
+}

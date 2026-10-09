@@ -1,0 +1,53 @@
+{
+  "all_pass": true,
+  "slots": [
+    {
+      "slot": 0,
+      "loaded_word": "1234",
+      "other_save_areas_untouched": true,
+      "game_save_updates_during_boot": []
+    },
+    {
+      "slot": 1,
+      "loaded_word": "1234",
+      "other_save_areas_untouched": true,
+      "game_save_updates_during_boot": []
+    },
+    {
+      "slot": 2,
+      "loaded_word": "1234",
+      "other_save_areas_untouched": true,
+      "game_save_updates_during_boot": []
+    },
+    {
+      "slot": 3,
+      "loaded_word": "1234",
+      "other_save_areas_untouched": true,
+      "game_save_updates_during_boot": []
+    },
+    {
+      "slot": 4,
+      "loaded_word": "1234",
+      "other_save_areas_untouched": true,
+      "game_save_updates_during_boot": []
+    },
+    {
+      "slot": 5,
+      "loaded_word": "1234",
+      "other_save_areas_untouched": true,
+      "game_save_updates_during_boot": []
+    },
+    {
+      "slot": 6,
+      "loaded_word": "1234",
+      "other_save_areas_untouched": true,
+      "game_save_updates_during_boot": []
+    },
+    {
+      "slot": 7,
+      "loaded_word": "1234",
+      "other_save_areas_untouched": true,
+      "game_save_updates_during_boot": []
+    }
+  ]
+}

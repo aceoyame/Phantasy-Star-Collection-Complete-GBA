@@ -1,0 +1,672 @@
+{
+  "combos": {
+    "1": {
+      "name": "Paradinblw",
+      "plc_index": 23,
+      "plc_loader": 2,
+      "art_bytes": 5056,
+      "sources": [
+        {
+          "table": "25F7C8",
+          "encoding": "physical",
+          "frame_records": [
+            2488278,
+            2488308,
+            2488338
+          ],
+          "loader": 2,
+          "plc": 23,
+          "plc_sources": [
+            2399338,
+            2420514
+          ]
+        },
+        {
+          "table": "25F23C",
+          "encoding": "standard",
+          "vram_base": 39808,
+          "vram_destination": 42016,
+          "loader": 2,
+          "plc": 23,
+          "plc_sources": [
+            2399338,
+            2420514
+          ]
+        },
+        {
+          "table": "25DB0A",
+          "encoding": "standard",
+          "vram_base": 39808,
+          "vram_destination": 39808,
+          "loader": 2,
+          "plc": 23,
+          "plc_sources": [
+            2399338,
+            2420514
+          ]
+        }
+      ],
+      "tables_used": [
+        "0x25f7c8",
+        "0x25f23c",
+        "0x25db0a"
+      ],
+      "tables_skipped": [],
+      "kind": 1
+    },
+    "2": {
+      "name": "Firestorm",
+      "plc_index": 24,
+      "plc_loader": 2,
+      "art_bytes": 6016,
+      "sources": [
+        {
+          "table": "25C240",
+          "encoding": "standard",
+          "vram_base": 39808,
+          "vram_destination": 40768,
+          "loader": 2,
+          "plc": 24,
+          "plc_sources": [
+            2376592,
+            2381004,
+            2381668,
+            2397982
+          ]
+        },
+        {
+          "table": "25C762",
+          "encoding": "standard",
+          "vram_base": 39808,
+          "vram_destination": 42368,
+          "loader": 2,
+          "plc": 24,
+          "plc_sources": [
+            2376592,
+            2381004,
+            2381668,
+            2397982
+          ]
+        }
+      ],
+      "tables_used": [
+        "0x25c240",
+        "0x25c762"
+      ],
+      "tables_skipped": [],
+      "kind": 1
+    },
+    "3": {
+      "name": "Blizzard",
+      "plc_index": 25,
+      "plc_loader": 2,
+      "art_bytes": 5312,
+      "sources": [
+        {
+          "table": "25C762",
+          "encoding": "standard",
+          "vram_base": 39808,
+          "vram_destination": 40768,
+          "loader": 2,
+          "plc": 25,
+          "plc_sources": [
+            2376592,
+            2381668,
+            2418018,
+            2397982
+          ]
+        },
+        {
+          "table": "25EC78",
+          "encoding": "standard",
+          "vram_base": 39808,
+          "vram_destination": 43328,
+          "loader": 2,
+          "plc": 25,
+          "plc_sources": [
+            2376592,
+            2381668,
+            2418018,
+            2397982
+          ]
+        }
+      ],
+      "tables_used": [
+        "0x25c762",
+        "0x25ec78"
+      ],
+      "tables_skipped": [],
+      "kind": 1
+    },
+    "4": {
+      "name": "Conduct Thunder",
+      "plc_index": 26,
+      "plc_loader": 2,
+      "art_bytes": 6336,
+      "sources": [
+        {
+          "table": "25B3D8",
+          "encoding": "standard",
+          "vram_base": 39808,
+          "vram_destination": 39808,
+          "loader": 2,
+          "plc": 26,
+          "plc_sources": [
+            2376568,
+            2376592,
+            2397982,
+            2400846
+          ]
+        },
+        {
+          "table": "25DD1C",
+          "encoding": "standard",
+          "vram_base": 39808,
+          "vram_destination": 41856,
+          "loader": 2,
+          "plc": 26,
+          "plc_sources": [
+            2376568,
+            2376592,
+            2397982,
+            2400846
+          ]
+        }
+      ],
+      "tables_used": [
+        "0x25b3d8",
+        "0x25dd1c"
+      ],
+      "tables_skipped": [],
+      "kind": 1
+    },
+    "5": {
+      "name": "Grand Cross",
+      "plc_index": 27,
+      "plc_loader": 2,
+      "art_bytes": 2848,
+      "sources": [
+        {
+          "table": "25F792",
+          "encoding": "physical",
+          "frame_records": [
+            2488368,
+            2488392,
+            2488416,
+            2488278,
+            2488308,
+            2488338
+          ],
+          "loader": 2,
+          "plc": 27,
+          "plc_sources": [
+            2376592,
+            2397982,
+            2421502
+          ]
+        },
+        {
+          "table": "25F30E",
+          "encoding": "standard",
+          "vram_base": 39808,
+          "vram_destination": 41664,
+          "loader": 2,
+          "plc": 27,
+          "plc_sources": [
+            2376592,
+            2397982,
+            2421502
+          ]
+        }
+      ],
+      "tables_used": [
+        "0x25f792",
+        "0x25f30e"
+      ],
+      "tables_skipped": [],
+      "kind": 1
+    },
+    "6": {
+      "name": "Silent Wave",
+      "plc_index": 28,
+      "plc_loader": 2,
+      "art_bytes": 2592,
+      "sources": [
+        {
+          "table": "25F76A",
+          "encoding": "physical",
+          "frame_records": [
+            2488368,
+            2488392,
+            2488416
+          ],
+          "loader": 2,
+          "plc": 28,
+          "plc_sources": [
+            2379180,
+            2403970,
+            2418342
+          ]
+        },
+        {
+          "table": "25E072",
+          "encoding": "standard",
+          "vram_base": 39808,
+          "vram_destination": 41696,
+          "loader": 2,
+          "plc": 28,
+          "plc_sources": [
+            2379180,
+            2403970,
+            2418342
+          ]
+        },
+        {
+          "table": "25BACE",
+          "encoding": "standard",
+          "vram_base": 39808,
+          "vram_destination": 39808,
+          "loader": 2,
+          "plc": 28,
+          "plc_sources": [
+            2379180,
+            2403970,
+            2418342
+          ]
+        },
+        {
+          "table": "25ECC6",
+          "encoding": "standard",
+          "vram_base": 39808,
+          "vram_destination": 41824,
+          "loader": 2,
+          "plc": 28,
+          "plc_sources": [
+            2379180,
+            2403970,
+            2418342
+          ]
+        }
+      ],
+      "tables_used": [
+        "0x25f76a",
+        "0x25e072",
+        "0x25bace",
+        "0x25ecc6"
+      ],
+      "tables_skipped": [],
+      "kind": 1
+    },
+    "7": {
+      "name": "Shooting Star",
+      "plc_index": 29,
+      "plc_loader": 2,
+      "art_bytes": 5376,
+      "sources": [
+        {
+          "table": "25CD36",
+          "encoding": "standard",
+          "vram_base": 39808,
+          "vram_destination": 39808,
+          "loader": 2,
+          "plc": 47,
+          "plc_sources": [
+            2383088
+          ]
+        }
+      ],
+      "tables_used": [
+        "0x25cd36"
+      ],
+      "tables_skipped": [],
+      "kind": 1
+    },
+    "8": {
+      "name": "Triblaster",
+      "plc_index": 30,
+      "plc_loader": 2,
+      "art_bytes": 4928,
+      "sources": [
+        {
+          "table": "25B62E",
+          "encoding": "standard",
+          "vram_base": 39808,
+          "vram_destination": 40416,
+          "loader": 2,
+          "plc": 30,
+          "plc_sources": [
+            2376076,
+            2376592,
+            2380242,
+            2403542
+          ]
+        },
+        {
+          "table": "25B0C8",
+          "encoding": "standard",
+          "vram_base": 39808,
+          "vram_destination": 39808,
+          "loader": 2,
+          "plc": 30,
+          "plc_sources": [
+            2376076,
+            2376592,
+            2380242,
+            2403542
+          ]
+        },
+        {
+          "table": "25DFB4",
+          "encoding": "standard",
+          "vram_base": 39808,
+          "vram_destination": 42944,
+          "loader": 2,
+          "plc": 30,
+          "plc_sources": [
+            2376076,
+            2376592,
+            2380242,
+            2403542
+          ]
+        },
+        {
+          "table": "25BF14",
+          "encoding": "standard",
+          "vram_base": 39808,
+          "vram_destination": 41376,
+          "loader": 2,
+          "plc": 30,
+          "plc_sources": [
+            2376076,
+            2376592,
+            2380242,
+            2403542
+          ]
+        }
+      ],
+      "tables_used": [
+        "0x25b62e",
+        "0x25b0c8",
+        "0x25dfb4",
+        "0x25bf14"
+      ],
+      "tables_skipped": [],
+      "kind": 1
+    },
+    "9": {
+      "name": "Holocaust",
+      "plc_index": 31,
+      "plc_loader": 2,
+      "art_bytes": 1856,
+      "sources": [],
+      "tables_used": [],
+      "tables_skipped": [],
+      "kind": 2
+    },
+    "10": {
+      "name": "Black Hole",
+      "plc_index": 32,
+      "plc_loader": 2,
+      "art_bytes": 3136,
+      "sources": [
+        {
+          "table": "25ED8C",
+          "encoding": "standard",
+          "vram_base": 39808,
+          "vram_destination": 41664,
+          "loader": 2,
+          "plc": 32,
+          "plc_sources": [
+            2376592,
+            2397982,
+            2418626
+          ]
+        },
+        {
+          "table": "25ED7C",
+          "encoding": "standard",
+          "vram_base": 39808,
+          "vram_destination": 41664,
+          "loader": 2,
+          "plc": 32,
+          "plc_sources": [
+            2376592,
+            2397982,
+            2418626
+          ]
+        },
+        {
+          "table": "25ED84",
+          "encoding": "standard",
+          "vram_base": 39808,
+          "vram_destination": 41664,
+          "loader": 2,
+          "plc": 32,
+          "plc_sources": [
+            2376592,
+            2397982,
+            2418626
+          ]
+        },
+        {
+          "table": "25ED94",
+          "encoding": "standard",
+          "vram_base": 39808,
+          "vram_destination": 41664,
+          "loader": 2,
+          "plc": 32,
+          "plc_sources": [
+            2376592,
+            2397982,
+            2418626
+          ]
+        }
+      ],
+      "tables_used": [
+        "0x25ed8c",
+        "0x25ed7c",
+        "0x25ed84",
+        "0x25ed94"
+      ],
+      "tables_skipped": [],
+      "kind": 1
+    },
+    "11": {
+      "name": "Circuit Breaker",
+      "plc_index": 33,
+      "plc_loader": 2,
+      "art_bytes": 4352,
+      "sources": [
+        {
+          "table": "25DD1C",
+          "encoding": "standard",
+          "vram_base": 42304,
+          "vram_destination": 42304,
+          "loader": 2,
+          "plc": 48,
+          "plc_sources": [
+            2400846
+          ]
+        },
+        {
+          "table": "25CCC0",
+          "encoding": "standard",
+          "vram_base": 39808,
+          "vram_destination": 41696,
+          "loader": 2,
+          "plc": 33,
+          "plc_sources": [
+            2379180,
+            2382834,
+            2376592,
+            2397982
+          ]
+        }
+      ],
+      "tables_used": [
+        "0x25dd1c",
+        "0x25ccc0"
+      ],
+      "tables_skipped": [],
+      "kind": 1
+    },
+    "12": {
+      "name": "Purifying Light",
+      "plc_index": 34,
+      "plc_loader": 2,
+      "art_bytes": 7328,
+      "sources": [
+        {
+          "table": "25E226",
+          "encoding": "standard",
+          "vram_base": 39808,
+          "vram_destination": 42176,
+          "loader": 2,
+          "plc": 34,
+          "plc_sources": [
+            2376592,
+            2397982,
+            2402158,
+            2404458
+          ]
+        },
+        {
+          "table": "25B62E",
+          "encoding": "standard",
+          "vram_base": 39808,
+          "vram_destination": 39808,
+          "loader": 2,
+          "plc": 34,
+          "plc_sources": [
+            2376592,
+            2397982,
+            2402158,
+            2404458
+          ]
+        }
+      ],
+      "tables_used": [
+        "0x25e226",
+        "0x25b62e"
+      ],
+      "tables_skipped": [],
+      "kind": 1
+    },
+    "13": {
+      "name": "Lethal Image",
+      "plc_index": 35,
+      "plc_loader": 2,
+      "art_bytes": 5184,
+      "sources": [
+        {
+          "table": "25FDDE",
+          "encoding": "slasher",
+          "frame_records": [
+            2489982,
+            2489990,
+            2489998,
+            2490006
+          ],
+          "loader": 2,
+          "plc": 35,
+          "plc_sources": [
+            2420068,
+            2374768,
+            2374980,
+            2375130
+          ]
+        },
+        {
+          "table": "25FDCC",
+          "encoding": "slasher",
+          "frame_records": [
+            2489890,
+            2489916,
+            2489942,
+            2489962
+          ],
+          "loader": 2,
+          "plc": 35,
+          "plc_sources": [
+            2420068,
+            2374768,
+            2374980,
+            2375130
+          ]
+        },
+        {
+          "table": "25FDF0",
+          "encoding": "slasher",
+          "frame_records": [
+            2490014,
+            2490022,
+            2490036,
+            2490044,
+            2490052,
+            2490060,
+            2490068,
+            2490076,
+            2490084,
+            2490092,
+            2490100,
+            2490108
+          ],
+          "loader": 2,
+          "plc": 35,
+          "plc_sources": [
+            2420068,
+            2374768,
+            2374980,
+            2375130
+          ]
+        },
+        {
+          "table": "25F1FE",
+          "encoding": "standard",
+          "vram_base": 39808,
+          "vram_destination": 39808,
+          "loader": 2,
+          "plc": 35,
+          "plc_sources": [
+            2420068,
+            2374768,
+            2374980,
+            2375130
+          ]
+        }
+      ],
+      "tables_used": [
+        "0x25fdde",
+        "0x25fdcc",
+        "0x25fdf0",
+        "0x25f1fe"
+      ],
+      "tables_skipped": [],
+      "kind": 1
+    },
+    "14": {
+      "name": "Destruct",
+      "plc_index": 36,
+      "plc_loader": 2,
+      "art_bytes": 3232,
+      "sources": [
+        {
+          "table": "25EE8C",
+          "encoding": "standard",
+          "vram_base": 39808,
+          "vram_destination": 39808,
+          "loader": 2,
+          "plc": 36,
+          "plc_sources": [
+            2418890
+          ]
+        }
+      ],
+      "tables_used": [
+        "0x25ee8c"
+      ],
+      "tables_skipped": [],
+      "kind": 1
+    }
+  }
+}

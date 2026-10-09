@@ -1,0 +1,15 @@
+# R41 Torch quest progress
+
+Restored R40 from all ten current saved archives after local workspace reverted to R36. LLVM18 compiler recovered from pinned cached packages; ARM smoke build passed. R40 stays untouched. R41 implements ordinary Torch theft46 and use47. Incoming/final Tree37/Tree38 and all three theft F7 seams, exact actor slots, timed 16.16 ghosts, disappearance timers, source X-then-Y shortest-wrap camera, confirmed source dialogue/cue/flag ordering. Torch use disembarks with stacked source party, panel10D over native field snapshot, two source phase-gated palette flashes, nine row-timed ash actors, two exact16-word chunk copies and flag9C. Torch remains until the existing R40 Bishop exchange.
+
+75 source poses appended (21440 bytes), preserving all160480 R40 bytes and419 header rows. Distinct Bishop art1A5F38 at base326 prevents Saya art substitution. No other asset regeneration or accepted audio changes; no new RAM globals. Validation/build pending; implementation checkpoint is not a verified playable build.
+
+Checkpoint02 verification: source scenes run under ASan/UBSan with actual Tree37 bytes. Independent reference matches1680 actor frames,6 camera cases and all64 colors on168 flash ticks/4 source phases, including frame-counter wrap. Every vehicle0/1/2/3 passes, exact two16-word copies and Torch preservation. Fixed source-slot reactivation for the second light-circle appearance; fixed native pose selection on the appearing→idle transitional frame. All75 appended OBJ poses/42880 pixels and original panel10D/38400 pixels match independent source mappings. Preview inspected.
+
+Final native module24467336 bytes,698488 bytes headroom. IWRAM03006C90 and EWRAM02029FC5 remain unchanged; all EWRAM object names/sizes match R40. All27 accepted audio files, first8MiB shell and complete160480-byte actor prefix match R40. R31/R32/R34/R35/R36/R37/R38/R39/R40 regressions pass. Static coverage158/161 ordinary,25/33 scenes. No normal-save/emulator/hardware playthrough or final-game certification. Native background snapshot and live panel UI/hardware remain fixture boundaries in the scene probe.
+
+Saved checkpoint01 libfile_5807b009f9f0819187a9be5348b8c774 version0 was read back byte-exact with valid CRC. It includes an unchanged accepted audio include because the baseline local copy was incomplete; the authoritative saved archive repaired that baseline, and all932 R40 source files now match archive bytes. Checkpoint02 omits the redundant audio include. Final recovery work pending.
+
+Checkpoint02 libfile_d770a5979c1081918f1bec4a249bec5e/version0 passed byte-exact readback and ZIP CRC. Final sound audit found normal Event_RunDialogue emits selectionF3; all five R41 dialogue openings/resumes now include it, with independently asserted source cue order/intervals. Corrected scene probe passed. Final build and complete source recovery verification follow.
+
+Final recovery passed: all11 archive CRCs and all946 current source files restore byte-exact. The restored source reproduced the24467400-byte module and complete33554432-byte ROM byte for byte; post-build source still matches. Final04 contains this recovery report.

@@ -1,0 +1,982 @@
+{
+  "function": 597,
+  "entries": [
+    {
+      "game": "Anne",
+      "pc": "02e168",
+      "fn": 597,
+      "index": 0,
+      "root": "02e168"
+    },
+    {
+      "game": "Anne",
+      "pc": "02e16a",
+      "fn": 597,
+      "index": 1,
+      "root": "02e168"
+    },
+    {
+      "game": "Anne",
+      "pc": "02e16c",
+      "fn": 597,
+      "index": 2,
+      "root": "02e168"
+    },
+    {
+      "game": "Anne",
+      "pc": "02e16e",
+      "fn": 597,
+      "index": 3,
+      "root": "02e168"
+    },
+    {
+      "game": "Anne",
+      "pc": "02e170",
+      "fn": 597,
+      "index": 4,
+      "root": "02e168"
+    },
+    {
+      "game": "Anne",
+      "pc": "02e174",
+      "fn": 597,
+      "index": 5,
+      "root": "02e168"
+    },
+    {
+      "game": "Anne",
+      "pc": "02e176",
+      "fn": 597,
+      "index": 6,
+      "root": "02e168"
+    },
+    {
+      "game": "Anne",
+      "pc": "02e17a",
+      "fn": 597,
+      "index": 7,
+      "root": "02e168"
+    },
+    {
+      "game": "Anne",
+      "pc": "02e17c",
+      "fn": 597,
+      "index": 8,
+      "root": "02e168"
+    },
+    {
+      "game": "Anne",
+      "pc": "02e17e",
+      "fn": 597,
+      "index": 9,
+      "root": "02e168"
+    },
+    {
+      "game": "Anne",
+      "pc": "02e182",
+      "fn": 597,
+      "index": 10,
+      "root": "02e168"
+    },
+    {
+      "game": "Anne",
+      "pc": "02e184",
+      "fn": 597,
+      "index": 11,
+      "root": "02e168"
+    },
+    {
+      "game": "Anne",
+      "pc": "02e186",
+      "fn": 597,
+      "index": 12,
+      "root": "02e168"
+    },
+    {
+      "game": "Anne",
+      "pc": "02e18a",
+      "fn": 597,
+      "index": 13,
+      "root": "02e168"
+    },
+    {
+      "game": "Anne",
+      "pc": "02e18c",
+      "fn": 597,
+      "index": 14,
+      "root": "02e168"
+    },
+    {
+      "game": "Anne",
+      "pc": "02e190",
+      "fn": 597,
+      "index": 15,
+      "root": "02e168"
+    },
+    {
+      "game": "Anne",
+      "pc": "02e192",
+      "fn": 597,
+      "index": 16,
+      "root": "02e168"
+    },
+    {
+      "game": "Anne",
+      "pc": "02e194",
+      "fn": 597,
+      "index": 17,
+      "root": "02e168"
+    },
+    {
+      "game": "Anne",
+      "pc": "02e198",
+      "fn": 597,
+      "index": 18,
+      "root": "02e168"
+    },
+    {
+      "game": "Rudger",
+      "pc": "02e0f4",
+      "fn": 597,
+      "index": 0,
+      "root": "02e0f4"
+    },
+    {
+      "game": "Rudger",
+      "pc": "02e0f6",
+      "fn": 597,
+      "index": 1,
+      "root": "02e0f4"
+    },
+    {
+      "game": "Rudger",
+      "pc": "02e0f8",
+      "fn": 597,
+      "index": 2,
+      "root": "02e0f4"
+    },
+    {
+      "game": "Rudger",
+      "pc": "02e0fa",
+      "fn": 597,
+      "index": 3,
+      "root": "02e0f4"
+    },
+    {
+      "game": "Rudger",
+      "pc": "02e0fc",
+      "fn": 597,
+      "index": 4,
+      "root": "02e0f4"
+    },
+    {
+      "game": "Rudger",
+      "pc": "02e100",
+      "fn": 597,
+      "index": 5,
+      "root": "02e0f4"
+    },
+    {
+      "game": "Rudger",
+      "pc": "02e102",
+      "fn": 597,
+      "index": 6,
+      "root": "02e0f4"
+    },
+    {
+      "game": "Rudger",
+      "pc": "02e106",
+      "fn": 597,
+      "index": 7,
+      "root": "02e0f4"
+    },
+    {
+      "game": "Rudger",
+      "pc": "02e108",
+      "fn": 597,
+      "index": 8,
+      "root": "02e0f4"
+    },
+    {
+      "game": "Rudger",
+      "pc": "02e10a",
+      "fn": 597,
+      "index": 9,
+      "root": "02e0f4"
+    },
+    {
+      "game": "Rudger",
+      "pc": "02e10e",
+      "fn": 597,
+      "index": 10,
+      "root": "02e0f4"
+    },
+    {
+      "game": "Rudger",
+      "pc": "02e110",
+      "fn": 597,
+      "index": 11,
+      "root": "02e0f4"
+    },
+    {
+      "game": "Rudger",
+      "pc": "02e112",
+      "fn": 597,
+      "index": 12,
+      "root": "02e0f4"
+    },
+    {
+      "game": "Rudger",
+      "pc": "02e116",
+      "fn": 597,
+      "index": 13,
+      "root": "02e0f4"
+    },
+    {
+      "game": "Rudger",
+      "pc": "02e118",
+      "fn": 597,
+      "index": 14,
+      "root": "02e0f4"
+    },
+    {
+      "game": "Rudger",
+      "pc": "02e11c",
+      "fn": 597,
+      "index": 15,
+      "root": "02e0f4"
+    },
+    {
+      "game": "Rudger",
+      "pc": "02e11e",
+      "fn": 597,
+      "index": 16,
+      "root": "02e0f4"
+    },
+    {
+      "game": "Rudger",
+      "pc": "02e120",
+      "fn": 597,
+      "index": 17,
+      "root": "02e0f4"
+    },
+    {
+      "game": "Rudger",
+      "pc": "02e124",
+      "fn": 597,
+      "index": 18,
+      "root": "02e0f4"
+    },
+    {
+      "game": "Kinds",
+      "pc": "02e0e0",
+      "fn": 597,
+      "index": 0,
+      "root": "02e0e0"
+    },
+    {
+      "game": "Kinds",
+      "pc": "02e0e2",
+      "fn": 597,
+      "index": 1,
+      "root": "02e0e0"
+    },
+    {
+      "game": "Kinds",
+      "pc": "02e0e4",
+      "fn": 597,
+      "index": 2,
+      "root": "02e0e0"
+    },
+    {
+      "game": "Kinds",
+      "pc": "02e0e6",
+      "fn": 597,
+      "index": 3,
+      "root": "02e0e0"
+    },
+    {
+      "game": "Kinds",
+      "pc": "02e0e8",
+      "fn": 597,
+      "index": 4,
+      "root": "02e0e0"
+    },
+    {
+      "game": "Kinds",
+      "pc": "02e0ec",
+      "fn": 597,
+      "index": 5,
+      "root": "02e0e0"
+    },
+    {
+      "game": "Kinds",
+      "pc": "02e0ee",
+      "fn": 597,
+      "index": 6,
+      "root": "02e0e0"
+    },
+    {
+      "game": "Kinds",
+      "pc": "02e0f2",
+      "fn": 597,
+      "index": 7,
+      "root": "02e0e0"
+    },
+    {
+      "game": "Kinds",
+      "pc": "02e0f4",
+      "fn": 597,
+      "index": 8,
+      "root": "02e0e0"
+    },
+    {
+      "game": "Kinds",
+      "pc": "02e0f6",
+      "fn": 597,
+      "index": 9,
+      "root": "02e0e0"
+    },
+    {
+      "game": "Kinds",
+      "pc": "02e0fa",
+      "fn": 597,
+      "index": 10,
+      "root": "02e0e0"
+    },
+    {
+      "game": "Kinds",
+      "pc": "02e0fc",
+      "fn": 597,
+      "index": 11,
+      "root": "02e0e0"
+    },
+    {
+      "game": "Kinds",
+      "pc": "02e0fe",
+      "fn": 597,
+      "index": 12,
+      "root": "02e0e0"
+    },
+    {
+      "game": "Kinds",
+      "pc": "02e102",
+      "fn": 597,
+      "index": 13,
+      "root": "02e0e0"
+    },
+    {
+      "game": "Kinds",
+      "pc": "02e104",
+      "fn": 597,
+      "index": 14,
+      "root": "02e0e0"
+    },
+    {
+      "game": "Kinds",
+      "pc": "02e108",
+      "fn": 597,
+      "index": 15,
+      "root": "02e0e0"
+    },
+    {
+      "game": "Kinds",
+      "pc": "02e10a",
+      "fn": 597,
+      "index": 16,
+      "root": "02e0e0"
+    },
+    {
+      "game": "Kinds",
+      "pc": "02e10c",
+      "fn": 597,
+      "index": 17,
+      "root": "02e0e0"
+    },
+    {
+      "game": "Kinds",
+      "pc": "02e110",
+      "fn": 597,
+      "index": 18,
+      "root": "02e0e0"
+    },
+    {
+      "game": "Shilka",
+      "pc": "02e020",
+      "fn": 597,
+      "index": 0,
+      "root": "02e020"
+    },
+    {
+      "game": "Shilka",
+      "pc": "02e022",
+      "fn": 597,
+      "index": 1,
+      "root": "02e020"
+    },
+    {
+      "game": "Shilka",
+      "pc": "02e024",
+      "fn": 597,
+      "index": 2,
+      "root": "02e020"
+    },
+    {
+      "game": "Shilka",
+      "pc": "02e026",
+      "fn": 597,
+      "index": 3,
+      "root": "02e020"
+    },
+    {
+      "game": "Shilka",
+      "pc": "02e028",
+      "fn": 597,
+      "index": 4,
+      "root": "02e020"
+    },
+    {
+      "game": "Shilka",
+      "pc": "02e02c",
+      "fn": 597,
+      "index": 5,
+      "root": "02e020"
+    },
+    {
+      "game": "Shilka",
+      "pc": "02e02e",
+      "fn": 597,
+      "index": 6,
+      "root": "02e020"
+    },
+    {
+      "game": "Shilka",
+      "pc": "02e032",
+      "fn": 597,
+      "index": 7,
+      "root": "02e020"
+    },
+    {
+      "game": "Shilka",
+      "pc": "02e034",
+      "fn": 597,
+      "index": 8,
+      "root": "02e020"
+    },
+    {
+      "game": "Shilka",
+      "pc": "02e036",
+      "fn": 597,
+      "index": 9,
+      "root": "02e020"
+    },
+    {
+      "game": "Shilka",
+      "pc": "02e03a",
+      "fn": 597,
+      "index": 10,
+      "root": "02e020"
+    },
+    {
+      "game": "Shilka",
+      "pc": "02e03c",
+      "fn": 597,
+      "index": 11,
+      "root": "02e020"
+    },
+    {
+      "game": "Shilka",
+      "pc": "02e03e",
+      "fn": 597,
+      "index": 12,
+      "root": "02e020"
+    },
+    {
+      "game": "Shilka",
+      "pc": "02e042",
+      "fn": 597,
+      "index": 13,
+      "root": "02e020"
+    },
+    {
+      "game": "Shilka",
+      "pc": "02e044",
+      "fn": 597,
+      "index": 14,
+      "root": "02e020"
+    },
+    {
+      "game": "Shilka",
+      "pc": "02e048",
+      "fn": 597,
+      "index": 15,
+      "root": "02e020"
+    },
+    {
+      "game": "Shilka",
+      "pc": "02e04a",
+      "fn": 597,
+      "index": 16,
+      "root": "02e020"
+    },
+    {
+      "game": "Shilka",
+      "pc": "02e04c",
+      "fn": 597,
+      "index": 17,
+      "root": "02e020"
+    },
+    {
+      "game": "Shilka",
+      "pc": "02e050",
+      "fn": 597,
+      "index": 18,
+      "root": "02e020"
+    },
+    {
+      "game": "Amia",
+      "pc": "02e164",
+      "fn": 597,
+      "index": 0,
+      "root": "02e164"
+    },
+    {
+      "game": "Amia",
+      "pc": "02e166",
+      "fn": 597,
+      "index": 1,
+      "root": "02e164"
+    },
+    {
+      "game": "Amia",
+      "pc": "02e168",
+      "fn": 597,
+      "index": 2,
+      "root": "02e164"
+    },
+    {
+      "game": "Amia",
+      "pc": "02e16a",
+      "fn": 597,
+      "index": 3,
+      "root": "02e164"
+    },
+    {
+      "game": "Amia",
+      "pc": "02e16c",
+      "fn": 597,
+      "index": 4,
+      "root": "02e164"
+    },
+    {
+      "game": "Amia",
+      "pc": "02e170",
+      "fn": 597,
+      "index": 5,
+      "root": "02e164"
+    },
+    {
+      "game": "Amia",
+      "pc": "02e172",
+      "fn": 597,
+      "index": 6,
+      "root": "02e164"
+    },
+    {
+      "game": "Amia",
+      "pc": "02e176",
+      "fn": 597,
+      "index": 7,
+      "root": "02e164"
+    },
+    {
+      "game": "Amia",
+      "pc": "02e178",
+      "fn": 597,
+      "index": 8,
+      "root": "02e164"
+    },
+    {
+      "game": "Amia",
+      "pc": "02e17a",
+      "fn": 597,
+      "index": 9,
+      "root": "02e164"
+    },
+    {
+      "game": "Amia",
+      "pc": "02e17e",
+      "fn": 597,
+      "index": 10,
+      "root": "02e164"
+    },
+    {
+      "game": "Amia",
+      "pc": "02e180",
+      "fn": 597,
+      "index": 11,
+      "root": "02e164"
+    },
+    {
+      "game": "Amia",
+      "pc": "02e182",
+      "fn": 597,
+      "index": 12,
+      "root": "02e164"
+    },
+    {
+      "game": "Amia",
+      "pc": "02e186",
+      "fn": 597,
+      "index": 13,
+      "root": "02e164"
+    },
+    {
+      "game": "Amia",
+      "pc": "02e188",
+      "fn": 597,
+      "index": 14,
+      "root": "02e164"
+    },
+    {
+      "game": "Amia",
+      "pc": "02e18c",
+      "fn": 597,
+      "index": 15,
+      "root": "02e164"
+    },
+    {
+      "game": "Amia",
+      "pc": "02e18e",
+      "fn": 597,
+      "index": 16,
+      "root": "02e164"
+    },
+    {
+      "game": "Amia",
+      "pc": "02e190",
+      "fn": 597,
+      "index": 17,
+      "root": "02e164"
+    },
+    {
+      "game": "Amia",
+      "pc": "02e194",
+      "fn": 597,
+      "index": 18,
+      "root": "02e164"
+    },
+    {
+      "game": "Huey",
+      "pc": "02e164",
+      "fn": 597,
+      "index": 0,
+      "root": "02e164"
+    },
+    {
+      "game": "Huey",
+      "pc": "02e166",
+      "fn": 597,
+      "index": 1,
+      "root": "02e164"
+    },
+    {
+      "game": "Huey",
+      "pc": "02e168",
+      "fn": 597,
+      "index": 2,
+      "root": "02e164"
+    },
+    {
+      "game": "Huey",
+      "pc": "02e16a",
+      "fn": 597,
+      "index": 3,
+      "root": "02e164"
+    },
+    {
+      "game": "Huey",
+      "pc": "02e16c",
+      "fn": 597,
+      "index": 4,
+      "root": "02e164"
+    },
+    {
+      "game": "Huey",
+      "pc": "02e170",
+      "fn": 597,
+      "index": 5,
+      "root": "02e164"
+    },
+    {
+      "game": "Huey",
+      "pc": "02e172",
+      "fn": 597,
+      "index": 6,
+      "root": "02e164"
+    },
+    {
+      "game": "Huey",
+      "pc": "02e176",
+      "fn": 597,
+      "index": 7,
+      "root": "02e164"
+    },
+    {
+      "game": "Huey",
+      "pc": "02e178",
+      "fn": 597,
+      "index": 8,
+      "root": "02e164"
+    },
+    {
+      "game": "Huey",
+      "pc": "02e17a",
+      "fn": 597,
+      "index": 9,
+      "root": "02e164"
+    },
+    {
+      "game": "Huey",
+      "pc": "02e17e",
+      "fn": 597,
+      "index": 10,
+      "root": "02e164"
+    },
+    {
+      "game": "Huey",
+      "pc": "02e180",
+      "fn": 597,
+      "index": 11,
+      "root": "02e164"
+    },
+    {
+      "game": "Huey",
+      "pc": "02e182",
+      "fn": 597,
+      "index": 12,
+      "root": "02e164"
+    },
+    {
+      "game": "Huey",
+      "pc": "02e186",
+      "fn": 597,
+      "index": 13,
+      "root": "02e164"
+    },
+    {
+      "game": "Huey",
+      "pc": "02e188",
+      "fn": 597,
+      "index": 14,
+      "root": "02e164"
+    },
+    {
+      "game": "Huey",
+      "pc": "02e18c",
+      "fn": 597,
+      "index": 15,
+      "root": "02e164"
+    },
+    {
+      "game": "Huey",
+      "pc": "02e18e",
+      "fn": 597,
+      "index": 16,
+      "root": "02e164"
+    },
+    {
+      "game": "Huey",
+      "pc": "02e190",
+      "fn": 597,
+      "index": 17,
+      "root": "02e164"
+    },
+    {
+      "game": "Huey",
+      "pc": "02e194",
+      "fn": 597,
+      "index": 18,
+      "root": "02e164"
+    },
+    {
+      "game": "Eusis",
+      "pc": "02e160",
+      "fn": 597,
+      "index": 0,
+      "root": "02e160"
+    },
+    {
+      "game": "Eusis",
+      "pc": "02e162",
+      "fn": 597,
+      "index": 1,
+      "root": "02e160"
+    },
+    {
+      "game": "Eusis",
+      "pc": "02e164",
+      "fn": 597,
+      "index": 2,
+      "root": "02e160"
+    },
+    {
+      "game": "Eusis",
+      "pc": "02e166",
+      "fn": 597,
+      "index": 3,
+      "root": "02e160"
+    },
+    {
+      "game": "Eusis",
+      "pc": "02e168",
+      "fn": 597,
+      "index": 4,
+      "root": "02e160"
+    },
+    {
+      "game": "Eusis",
+      "pc": "02e16c",
+      "fn": 597,
+      "index": 5,
+      "root": "02e160"
+    },
+    {
+      "game": "Eusis",
+      "pc": "02e16e",
+      "fn": 597,
+      "index": 6,
+      "root": "02e160"
+    },
+    {
+      "game": "Eusis",
+      "pc": "02e172",
+      "fn": 597,
+      "index": 7,
+      "root": "02e160"
+    },
+    {
+      "game": "Eusis",
+      "pc": "02e174",
+      "fn": 597,
+      "index": 8,
+      "root": "02e160"
+    },
+    {
+      "game": "Eusis",
+      "pc": "02e176",
+      "fn": 597,
+      "index": 9,
+      "root": "02e160"
+    },
+    {
+      "game": "Eusis",
+      "pc": "02e17a",
+      "fn": 597,
+      "index": 10,
+      "root": "02e160"
+    },
+    {
+      "game": "Eusis",
+      "pc": "02e17c",
+      "fn": 597,
+      "index": 11,
+      "root": "02e160"
+    },
+    {
+      "game": "Eusis",
+      "pc": "02e17e",
+      "fn": 597,
+      "index": 12,
+      "root": "02e160"
+    },
+    {
+      "game": "Eusis",
+      "pc": "02e182",
+      "fn": 597,
+      "index": 13,
+      "root": "02e160"
+    },
+    {
+      "game": "Eusis",
+      "pc": "02e184",
+      "fn": 597,
+      "index": 14,
+      "root": "02e160"
+    },
+    {
+      "game": "Eusis",
+      "pc": "02e188",
+      "fn": 597,
+      "index": 15,
+      "root": "02e160"
+    },
+    {
+      "game": "Eusis",
+      "pc": "02e18a",
+      "fn": 597,
+      "index": 16,
+      "root": "02e160"
+    },
+    {
+      "game": "Eusis",
+      "pc": "02e18c",
+      "fn": 597,
+      "index": 17,
+      "root": "02e160"
+    },
+    {
+      "game": "Eusis",
+      "pc": "02e190",
+      "fn": 597,
+      "index": 18,
+      "root": "02e160"
+    }
+  ],
+  "pattern": "4245424418186724b83c000a6608de7c0080340760ead878fff83002d0434eb8fc9ed8463d44fffc544260d44cdf00fc4e75",
+  "offsets": [
+    0,
+    2,
+    4,
+    6,
+    8,
+    12,
+    14,
+    18,
+    20,
+    22,
+    26,
+    28,
+    30,
+    34,
+    36,
+    40,
+    42,
+    44,
+    48
+  ],
+  "full_CCR": true,
+  "shared_verified_roots": {
+    "Anne": [
+      188776
+    ],
+    "Rudger": [
+      188660
+    ],
+    "Kinds": [
+      188640
+    ],
+    "Shilka": [
+      188448
+    ],
+    "Amia": [
+      188772
+    ],
+    "Huey": [
+      188772
+    ],
+    "Eusis": [
+      188768
+    ]
+  }
+}

@@ -1,0 +1,366 @@
+{
+  "guest_frames": 1050,
+  "script": "START 180..183; B 400..403; START 500..503; A >=600, four frames every80; song81 at150",
+  "rows": [
+    {
+      "index": 2,
+      "baseline_CP57": [
+        {
+          "guest_start": 150,
+          "cycles": 207696554,
+          "guest_per_display_frame": 0.40573037143408747
+        },
+        {
+          "guest_start": 450,
+          "cycles": 198888541,
+          "guest_per_display_frame": 0.4236986182124992
+        },
+        {
+          "guest_start": 750,
+          "cycles": 172358560,
+          "guest_per_display_frame": 0.4889156651111497
+        }
+      ],
+      "candidate": [
+        {
+          "guest_start": 150,
+          "cycles": 194962646,
+          "guest_per_display_frame": 0.43223048993703134
+        },
+        {
+          "guest_start": 450,
+          "cycles": 198079504,
+          "guest_per_display_frame": 0.42542917514575357
+        },
+        {
+          "guest_start": 750,
+          "cycles": 172432747,
+          "guest_per_display_frame": 0.4887053153540493
+        }
+      ],
+      "cycle_reduction_percent": [
+        6.131015539140818,
+        0.4067790914108018,
+        -0.04304224867044607
+      ],
+      "state_exact": true,
+      "pixels_exact": true,
+      "pcm_exact": true
+    },
+    {
+      "index": 3,
+      "baseline_CP57": [
+        {
+          "guest_start": 150,
+          "cycles": 205301449,
+          "guest_per_display_frame": 0.41046373715560086
+        },
+        {
+          "guest_start": 450,
+          "cycles": 172491078,
+          "guest_per_display_frame": 0.4885400507497553
+        },
+        {
+          "guest_start": 750,
+          "cycles": 149650884,
+          "guest_per_display_frame": 0.5631025874862189
+        }
+      ],
+      "candidate": [
+        {
+          "guest_start": 150,
+          "cycles": 192519823,
+          "guest_per_display_frame": 0.43771492559496067
+        },
+        {
+          "guest_start": 450,
+          "cycles": 171529388,
+          "guest_per_display_frame": 0.4912790804104076
+        },
+        {
+          "guest_start": 750,
+          "cycles": 149634054,
+          "guest_per_display_frame": 0.563165922110217
+        }
+      ],
+      "cycle_reduction_percent": [
+        6.225784602231424,
+        0.5575302857113572,
+        0.011246174797069693
+      ],
+      "state_exact": true,
+      "pixels_exact": true,
+      "pcm_exact": true
+    },
+    {
+      "index": 4,
+      "baseline_CP57": [
+        {
+          "guest_start": 150,
+          "cycles": 199735181,
+          "guest_per_display_frame": 0.42190263917501847
+        },
+        {
+          "guest_start": 450,
+          "cycles": 160391608,
+          "guest_per_display_frame": 0.5253940717397134
+        },
+        {
+          "guest_start": 750,
+          "cycles": 139203431,
+          "guest_per_display_frame": 0.6053643893303176
+        }
+      ],
+      "candidate": [
+        {
+          "guest_start": 150,
+          "cycles": 187255150,
+          "guest_per_display_frame": 0.45002126777287565
+        },
+        {
+          "guest_start": 450,
+          "cycles": 159829828,
+          "guest_per_display_frame": 0.5272407600914142
+        },
+        {
+          "guest_start": 750,
+          "cycles": 139502902,
+          "guest_per_display_frame": 0.6040648530738092
+        }
+      ],
+      "cycle_reduction_percent": [
+        6.248288827995705,
+        0.35025523280494825,
+        -0.21513191007483143
+      ],
+      "state_exact": true,
+      "pixels_exact": true,
+      "pcm_exact": true
+    },
+    {
+      "index": 5,
+      "baseline_CP57": [
+        {
+          "guest_start": 150,
+          "cycles": 194826675,
+          "guest_per_display_frame": 0.43253214684282837
+        },
+        {
+          "guest_start": 450,
+          "cycles": 161800237,
+          "guest_per_display_frame": 0.5208200034960394
+        },
+        {
+          "guest_start": 750,
+          "cycles": 171776011,
+          "guest_per_display_frame": 0.49057373907698903
+        }
+      ],
+      "candidate": [
+        {
+          "guest_start": 150,
+          "cycles": 182301503,
+          "guest_per_display_frame": 0.46224961732762015
+        },
+        {
+          "guest_start": 450,
+          "cycles": 160962373,
+          "guest_per_display_frame": 0.5235310490856145
+        },
+        {
+          "guest_start": 750,
+          "cycles": 172056307,
+          "guest_per_display_frame": 0.48977454804955217
+        }
+      ],
+      "cycle_reduction_percent": [
+        6.428879412944865,
+        0.5178385492723351,
+        -0.16317528761335598
+      ],
+      "state_exact": true,
+      "pixels_exact": true,
+      "pcm_exact": true
+    },
+    {
+      "index": 6,
+      "baseline_CP57": [
+        {
+          "guest_start": 150,
+          "cycles": 204553358,
+          "guest_per_display_frame": 0.41196488204314885
+        },
+        {
+          "guest_start": 450,
+          "cycles": 150040759,
+          "guest_per_display_frame": 0.5616393876013384
+        },
+        {
+          "guest_start": 750,
+          "cycles": 197389417,
+          "guest_per_display_frame": 0.42691650484990284
+        }
+      ],
+      "candidate": [
+        {
+          "guest_start": 150,
+          "cycles": 191816890,
+          "guest_per_display_frame": 0.4393189775936832
+        },
+        {
+          "guest_start": 450,
+          "cycles": 149198026,
+          "guest_per_display_frame": 0.5648117623218419
+        },
+        {
+          "guest_start": 750,
+          "cycles": 197395911,
+          "guest_per_display_frame": 0.4269024600008052
+        }
+      ],
+      "cycle_reduction_percent": [
+        6.2264771033482615,
+        0.5616693794517529,
+        -0.0032899433509142994
+      ],
+      "state_exact": true,
+      "pixels_exact": true,
+      "pcm_exact": true
+    },
+    {
+      "index": 7,
+      "baseline_CP57": [
+        {
+          "guest_start": 150,
+          "cycles": 202070116,
+          "guest_per_display_frame": 0.417027523258313
+        },
+        {
+          "guest_start": 450,
+          "cycles": 175716497,
+          "guest_per_display_frame": 0.479572501379879
+        },
+        {
+          "guest_start": 750,
+          "cycles": 155858662,
+          "guest_per_display_frame": 0.54067447338923
+        }
+      ],
+      "candidate": [
+        {
+          "guest_start": 150,
+          "cycles": 189336709,
+          "guest_per_display_frame": 0.44507375482057204
+        },
+        {
+          "guest_start": 450,
+          "cycles": 174894265,
+          "guest_per_display_frame": 0.4818271199458713
+        },
+        {
+          "guest_start": 750,
+          "cycles": 155881393,
+          "guest_per_display_frame": 0.5405956309358873
+        }
+      ],
+      "cycle_reduction_percent": [
+        6.301479531985819,
+        0.46793102186643293,
+        -0.014584367470060791
+      ],
+      "state_exact": true,
+      "pixels_exact": true,
+      "pcm_exact": true
+    },
+    {
+      "index": 8,
+      "baseline_CP57": [
+        {
+          "guest_start": 150,
+          "cycles": 202934176,
+          "guest_per_display_frame": 0.41525188936140556
+        },
+        {
+          "guest_start": 450,
+          "cycles": 181478585,
+          "guest_per_display_frame": 0.46434569676637055
+        },
+        {
+          "guest_start": 750,
+          "cycles": 174455098,
+          "guest_per_display_frame": 0.4830400542379105
+        }
+      ],
+      "candidate": [
+        {
+          "guest_start": 150,
+          "cycles": 189928200,
+          "guest_per_display_frame": 0.44368766723424957
+        },
+        {
+          "guest_start": 450,
+          "cycles": 180656741,
+          "guest_per_display_frame": 0.46645809911958946
+        },
+        {
+          "guest_start": 750,
+          "cycles": 174520808,
+          "guest_per_display_frame": 0.4828581815871492
+        }
+      ],
+      "cycle_reduction_percent": [
+        6.408962874740231,
+        0.4528600440652543,
+        -0.037665852562244986
+      ],
+      "state_exact": true,
+      "pixels_exact": true,
+      "pcm_exact": true
+    },
+    {
+      "index": 9,
+      "baseline_CP57": [
+        {
+          "guest_start": 150,
+          "cycles": 176006754,
+          "guest_per_display_frame": 0.4787816267550733
+        },
+        {
+          "guest_start": 450,
+          "cycles": 157310694,
+          "guest_per_display_frame": 0.5356838613908855
+        },
+        {
+          "guest_start": 750,
+          "cycles": 177756562,
+          "guest_per_display_frame": 0.47406857475112507
+        }
+      ],
+      "candidate": [
+        {
+          "guest_start": 150,
+          "cycles": 175937052,
+          "guest_per_display_frame": 0.47897130844274916
+        },
+        {
+          "guest_start": 450,
+          "cycles": 156769230,
+          "guest_per_display_frame": 0.5375340556306872
+        },
+        {
+          "guest_start": 750,
+          "cycles": 177840098,
+          "guest_per_display_frame": 0.4738458927299961
+        }
+      ],
+      "cycle_reduction_percent": [
+        0.03960188936840458,
+        0.34420037584984525,
+        -0.04699460827780862
+      ],
+      "state_exact": true,
+      "pixels_exact": true,
+      "pcm_exact": true
+    }
+  ]
+}

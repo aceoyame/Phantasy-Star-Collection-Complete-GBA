@@ -1,0 +1,13 @@
+# R42 progression implementation checkpoint
+
+Verified the latest local R41 final04 CRC and member bytes against the current source, then created an isolated R42 copy. Implemented AeroPrism1A, Rykros1B, MeetingLeRoof48 and LeRoofAgain1C from the pinned original disassembly. New source palette mode is opt-in to R42 dialogue; old modes retain their behavior. Original Nemesis/Enigma LeRoof full-screen art uses existing source planes and Mode4 framebuffer. No asset regeneration, accepted audio changes or additional RAM globals. The first Rykros ship arrival now returns to its original space pass instead of stopping at scene dispatch.
+
+Implementation/native build in progress. This checkpoint is not a verified playable build. Next: source text/panel/cue/seam, party/macro/status/battle and original palette/frame-clock probes, standalone original-art pixel checks, native ROM preservation and complete checkpoint recovery rebuild. Preserve every181920 accepted actor-bank byte and all27 audio files. Packaging8MiB shell plus24MiB native slot,32MiB total. No Butano, skipped frames/source updates, decoupled audio, cycle scaling or flag/battle bypass.
+
+R42 scene and art validation passed. Production dialogue opcode runner parses real Tree42/39/40 bytes. Tests independently compare every F7/FF offset, cue sequence/authored intervals, panel sequence, all4 Seth follower positions with exact carrier/macro/status removal before real battle12 (including defeat return), both first/repeat Rykros ship continuations with full300 updates, and all64 palette words on2248 ticks across4 source clock phases/counter wrap. Existing native follower-sync function is tested rather than the inherited no-op fixture. UI input/glyph display, panel presentations and map/hardware remain fixtures.
+
+All22 original panels (844800 pixels) and full-screen LeRoof (38400 pixels) match independent tile sampling through production Nemesis/Enigma decoding and native compositor under ASan/UBSan. Source LeRoof/panel previews visually inspected. Larger panel art is19744 bytes; tests use the existing production20480-byte scratch bound without new RAM. No production defect found in these checks. Regression suite and final source recovery/rebuild remain pending.
+
+Checkpoint02 saved copy passed CRC and byte-exact readback. All inherited focused regressions passed. Final packaging/recovery follows.
+
+Final recovery passed: all12 archive CRCs and all957 source files restore byte-exact. The complete restored source rebuilt the24472072-byte module and33554432-byte ROM exactly, with no post-build source differences. Final04 includes the recovery report; external handoff records final saved IDs after assignment.

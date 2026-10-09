@@ -1,0 +1,262 @@
+{
+ "81": {
+  "p99_9": 313.0,
+  "pct_over_full_scale": 10.28,
+  "trim_q8": 103
+ },
+ "82": {
+  "p99_9": 200.0,
+  "pct_over_full_scale": 8.26,
+  "trim_q8": 161
+ },
+ "83": {
+  "p99_9": 184.0,
+  "pct_over_full_scale": 4.22,
+  "trim_q8": 175
+ },
+ "84": {
+  "p99_9": 420.0,
+  "pct_over_full_scale": 11.03,
+  "trim_q8": 76
+ },
+ "85": {
+  "p99_9": 316.0,
+  "pct_over_full_scale": 10.37,
+  "trim_q8": 102
+ },
+ "86": {
+  "p99_9": 202.0,
+  "pct_over_full_scale": 3.01,
+  "trim_q8": 159
+ },
+ "87": {
+  "p99_9": 343.0,
+  "pct_over_full_scale": 8.76,
+  "trim_q8": 94
+ },
+ "88": {
+  "p99_9": 183.0,
+  "pct_over_full_scale": 1.78,
+  "trim_q8": 176
+ },
+ "89": {
+  "p99_9": 261.0,
+  "pct_over_full_scale": 5.1,
+  "trim_q8": 123
+ },
+ "8A": {
+  "p99_9": 128.0,
+  "pct_over_full_scale": 0.12,
+  "trim_q8": 252
+ },
+ "8B": {
+  "p99_9": 338.0,
+  "pct_over_full_scale": 14.39,
+  "trim_q8": 95
+ },
+ "8C": {
+  "p99_9": 228.0,
+  "pct_over_full_scale": 7.69,
+  "trim_q8": 141
+ },
+ "8D": {
+  "p99_9": 231.0,
+  "pct_over_full_scale": 10.68,
+  "trim_q8": 139
+ },
+ "8E": {
+  "p99_9": 210.0,
+  "pct_over_full_scale": 0.61,
+  "trim_q8": 153
+ },
+ "8F": {
+  "p99_9": 267.0,
+  "pct_over_full_scale": 14.97,
+  "trim_q8": 120
+ },
+ "90": {
+  "p99_9": 173.0,
+  "pct_over_full_scale": 2.29,
+  "trim_q8": 186
+ },
+ "91": {
+  "p99_9": 285.0,
+  "pct_over_full_scale": 10.35,
+  "trim_q8": 113
+ },
+ "92": {
+  "p99_9": 308.0,
+  "pct_over_full_scale": 5.44,
+  "trim_q8": 104
+ },
+ "93": {
+  "p99_9": 338.0,
+  "pct_over_full_scale": 11.39,
+  "trim_q8": 95
+ },
+ "94": {
+  "p99_9": 238.0,
+  "pct_over_full_scale": 5.67,
+  "trim_q8": 135
+ },
+ "95": {
+  "p99_9": 265.0,
+  "pct_over_full_scale": 8.58,
+  "trim_q8": 121
+ },
+ "96": {
+  "p99_9": 322.0,
+  "pct_over_full_scale": 12.31,
+  "trim_q8": 100
+ },
+ "97": {
+  "p99_9": 402.0,
+  "pct_over_full_scale": 5.3,
+  "trim_q8": 80
+ },
+ "98": {
+  "p99_9": 231.0,
+  "pct_over_full_scale": 9.34,
+  "trim_q8": 139
+ },
+ "99": {
+  "p99_9": 373.0,
+  "pct_over_full_scale": 5.52,
+  "trim_q8": 86
+ },
+ "9A": {
+  "p99_9": 281.0,
+  "pct_over_full_scale": 9.54,
+  "trim_q8": 114
+ },
+ "9B": {
+  "p99_9": 356.0,
+  "pct_over_full_scale": 11.35,
+  "trim_q8": 90
+ },
+ "9C": {
+  "p99_9": 340.0,
+  "pct_over_full_scale": 9.06,
+  "trim_q8": 94
+ },
+ "9D": {
+  "p99_9": 345.9,
+  "pct_over_full_scale": 7.0,
+  "trim_q8": 93
+ },
+ "9E": {
+  "p99_9": 273.0,
+  "pct_over_full_scale": 9.26,
+  "trim_q8": 118
+ },
+ "9F": {
+  "p99_9": 403.0,
+  "pct_over_full_scale": 7.99,
+  "trim_q8": 80
+ },
+ "A0": {
+  "p99_9": 238.0,
+  "pct_over_full_scale": 9.53,
+  "trim_q8": 135
+ },
+ "A1": {
+  "p99_9": 302.0,
+  "pct_over_full_scale": 12.06,
+  "trim_q8": 106
+ },
+ "A2": {
+  "p99_9": 306.0,
+  "pct_over_full_scale": 10.25,
+  "trim_q8": 105
+ },
+ "A3": {
+  "p99_9": 296.0,
+  "pct_over_full_scale": 16.26,
+  "trim_q8": 108
+ },
+ "A4": {
+  "p99_9": 176.0,
+  "pct_over_full_scale": 2.51,
+  "trim_q8": 183
+ },
+ "A5": {
+  "p99_9": 175.0,
+  "pct_over_full_scale": 2.41,
+  "trim_q8": 184
+ },
+ "A6": {
+  "p99_9": 283.0,
+  "pct_over_full_scale": 5.38,
+  "trim_q8": 113
+ },
+ "A7": {
+  "p99_9": 284.0,
+  "pct_over_full_scale": 15.77,
+  "trim_q8": 113
+ },
+ "A8": {
+  "p99_9": 354.0,
+  "pct_over_full_scale": 6.97,
+  "trim_q8": 91
+ },
+ "A9": {
+  "p99_9": 235.0,
+  "pct_over_full_scale": 12.36,
+  "trim_q8": 137
+ },
+ "AA": {
+  "p99_9": 278.0,
+  "pct_over_full_scale": 11.55,
+  "trim_q8": 116
+ },
+ "AB": {
+  "p99_9": 434.0,
+  "pct_over_full_scale": 16.22,
+  "trim_q8": 74
+ },
+ "AC": {
+  "p99_9": 316.0,
+  "pct_over_full_scale": 11.37,
+  "trim_q8": 102
+ },
+ "AD": {
+  "p99_9": 470.0,
+  "pct_over_full_scale": 26.56,
+  "trim_q8": 68
+ },
+ "AE": {
+  "p99_9": 306.0,
+  "pct_over_full_scale": 7.87,
+  "trim_q8": 105
+ },
+ "AF": {
+  "p99_9": 60.0,
+  "pct_over_full_scale": 0.0,
+  "trim_q8": 256
+ },
+ "B0": {
+  "p99_9": 289.0,
+  "pct_over_full_scale": 11.57,
+  "trim_q8": 111
+ },
+ "B1": {
+  "p99_9": 267.0,
+  "pct_over_full_scale": 15.0,
+  "trim_q8": 120
+ },
+ "B2": {
+  "p99_9": 73.0,
+  "pct_over_full_scale": 0.0,
+  "trim_q8": 256
+ },
+ "B3": {
+  "p99_9": 384.7,
+  "pct_over_full_scale": 22.99,
+  "trim_q8": 83
+ },
+ "B4": {
+  "p99_9": 194.0,
+  "pct_over_full_scale": 8.98,
+  "trim_q8": 166
+ }
+}
