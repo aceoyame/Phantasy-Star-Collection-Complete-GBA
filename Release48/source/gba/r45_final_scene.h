@@ -1,17 +1,48 @@
 /* Final scene uses the original plane buffers ($8000/$9000), not the native
  * field chunk layouts. Both planes and party use one 320x224 projection. */
+/* Snapshot source party state and column offsets once per frame.  These data
+ * are stable while the synchronous Mode 4 composition runs; the old code
+ * reread the same MD mirror registers up to 192,000 times per frame. */
 static void r45_scene_compose(unsigned fgx,unsigned fgy,unsigned bgx,unsigned bgy,unsigned columns,unsigned party){
- for(unsigned y=0u;y<160u;y++)for(unsigned x=0u;x<240u;x++){
-  unsigned sx=src_x[x],sy=src_y[y],ax=(sx+fgx)&511u,bx=(sx+bgx)&511u;
-  unsigned ay=(sy+(columns?(int16_t)ram16r((uint16_t)((columns==2u?0xA000u:0u)+(sx>>4)*4u)):fgy))&255u,by=(sy+bgy)&255u;
-  uint16_t a=ram16r((uint16_t)(0x8000u+((ay>>3)*64u+(ax>>3))*2u)),b=ram16r((uint16_t)(0x9000u+((by>>3)*64u+(bx>>3))*2u));
-  unsigned ca=tile_px(a,ax&7u,ay&7u),cb=tile_px(b,bx&7u,by&7u);
-  unsigned q=ca&&((a&0x8000u)||!cb||!(b&0x8000u))?((a>>13)&3u)*16u+ca:cb?((b>>13)&3u)*16u+cb:ca?((a>>13)&3u)*16u+ca:0u;
-  if(party)for(int i=4;i>=0;i--){unsigned id=ram8r((uint16_t)(0xF40Au+i));if(id>10u||ram8r((uint16_t)(0xC002u+i*64u))&2u)continue;
-   int px=(int)sx-(int)ram16r((uint16_t)(0xC030u+i*64u))+16,py=(int)sy-(int)ram16r((uint16_t)(0xC034u+i*64u))+2;
-   if(px>=0&&px<16&&py>=0&&py<32){unsigned ci=sprite_art_px_rom(char_field_art_address(id),0x30u,(unsigned)px,(unsigned)py,0);if(ci)q=32u+ci;}
+ int16_t col_offset[20]={0};
+ uint8_t party_valid[5]={0};
+ unsigned party_art[5]={0};
+ int party_left[5]={0},party_top[5]={0};
+ if(columns){
+  unsigned base=columns==2u?0xA000u:0u;
+  for(unsigned i=0u;i<20u;i++)col_offset[i]=(int16_t)ram16r((uint16_t)(base+i*4u));
+ }
+ if(party)for(unsigned i=0u;i<5u;i++){
+  unsigned id=ram8r((uint16_t)(0xF40Au+i)),base=0xC000u+i*64u;
+  if(id>10u||(ram8r((uint16_t)(base+2u))&2u))continue;
+  party_valid[i]=1u;
+  party_left[i]=(int)ram16r((uint16_t)(base+0x30u))-16;
+  party_top[i]=(int)ram16r((uint16_t)(base+0x34u))-2;
+  party_art[i]=char_field_art_address(id);
+ }
+ for(unsigned y=0u;y<160u;y++){
+  unsigned sy=src_y[y];
+  uint8_t party_row[5]={0};
+  unsigned party_py[5]={0};
+  if(party)for(unsigned i=0u;i<5u;i++)if(party_valid[i]){
+   int py=(int)sy-party_top[i];
+   if(py>=0&&py<32){party_row[i]=1u;party_py[i]=(unsigned)py;}
   }
-  field_pause_fb[y*240u+x]=(uint8_t)q;
+  for(unsigned x=0u;x<240u;x++){
+   unsigned sx=src_x[x],ax=(sx+fgx)&511u,bx=(sx+bgx)&511u;
+   unsigned ay=(sy+(columns?col_offset[sx>>4]:fgy))&255u,by=(sy+bgy)&255u;
+   uint16_t a=ram16r((uint16_t)(0x8000u+((ay>>3)*64u+(ax>>3))*2u)),b=ram16r((uint16_t)(0x9000u+((by>>3)*64u+(bx>>3))*2u));
+   unsigned ca=tile_px(a,ax&7u,ay&7u),cb=tile_px(b,bx&7u,by&7u);
+   unsigned q=ca&&((a&0x8000u)||!cb||!(b&0x8000u))?((a>>13)&3u)*16u+ca:cb?((b>>13)&3u)*16u+cb:ca?((a>>13)&3u)*16u+ca:0u;
+   if(party)for(int i=4;i>=0;i--)if(party_row[i]){
+    int px=(int)sx-party_left[i];
+    if(px>=0&&px<16){
+     unsigned ci=sprite_art_px_rom(party_art[i],0x30u,(unsigned)px,party_py[i],0);
+     if(ci)q=32u+ci;
+    }
+   }
+   field_pause_fb[y*240u+x]=(uint8_t)q;
+  }
  }
 }
 static void r45_scene_present(void){
