@@ -66,3 +66,7 @@ The user explicitly prefers accepted R235's **full scenic battle compositions** 
 
 A separate **Stage8 experimental ROM** restores all 13 replaced battle backdrop records from accepted R235 while preserving Stage7's static enemy detail and 40 manga panels, muted portrait border and field camera. SHA256: `7d5afd0b0472542a700aa6af8e8c46dc7a86115cf18ad3567d4bb5f753b08fff`. In three emulators, nine live battle command snapshots from backdrop #0 matched accepted R235 exactly; 27 launch/field/UI checkpoints matched Stage7. Backdrop #21 was also restored and its indexed pixels decoded to exact R235 data, but its actual Rykros encounter has **not** been played through. See [Stage8 QA and source](artwork/STAGE8_SCENIC_BACKDROP_PREFERENCE_QA.md).
 
+
+### Stage 9 — current preferred experimental ROM
+
+The current test ROM combines the Stage8 **accepted R235 complete-scene battle backdrops** (do not crop away the Rykros sky), the muted portrait borders, 40 manga, Stage4 field crop, and original-source static detail for four enemies **0x06, 0x10, 0x09, 0x0C**. SHA256 `53848793971f0fe77c6880560807816652573925c73467f162c4835677ff558c`. Stage9 added only 392 static sprite bytes; 24 single-enemy battle checkpoints plus 27 field/UI regression checkpoints passed across mGBA/VBA-M/Delta-style cores. See [Stage9 engineering record](artwork/STAGE9_NATIVE_ENEMY_DETAIL_QA.md). It remains experimental, not a full-game FIN or real-hardware acceptance.
