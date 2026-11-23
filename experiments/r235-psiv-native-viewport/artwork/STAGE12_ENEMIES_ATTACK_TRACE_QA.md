@@ -40,3 +40,12 @@ R235 Academy already uses 16×32 live native-pixel OBJ sprites; the exact Genesi
 **Not ready to promote**. Missing full attacks/casts, KO, spell animation, enemy dying, native world actor pose equivalence, original dialogue scenes, full game FIN, physical GBA/Micro, and exhaustive Delta-iOS regression. Do not commit copyrighted ROM/assets to public GitHub.
 
 This stage is a reversible, SHA-pinned source-data experiment.
+
+
+## Verified Mode4 composition trace (additional 11 frame captures)
+
+Using the *actual* Stage12 ROM and a locally constructed, test-only #09 encounter driver, all sampled battle displays reported DISPCNT `0x3444` or `0x1444`: video mode 4 with BG2 enabled. No visible hardware OAM sprites were observed in the command sequence; the battle characters and UI are composited into the 240×160 indexed Mode4 bitmap. The proper GBA 5-bit-channel expansion `(c << 3) | (c >> 2)` reproduces the renderer colors exactly, unlike `c * 255 // 31` (which differs by 1 channel level on many pixels).
+
+Direct 38,400-byte framebuffer reconstruction from the active GBA VRAM page + the 256-color BG palette matched the actual emulator screenshot **pixel-for-pixel at all 11 captured frames (0 mismatches each)**. This validates an exact observation point for upcoming attack/cast/UI animation audits; it does **not** establish that these frames match Genesis artistic reference by themselves. A portable [Mode4 framebuffer probe](verify_mode4_battle_frames.py) is committed here, and the local QA kit retains the executed trace.
+
+No new game art is changed by this audit.
