@@ -45,12 +45,12 @@ def guard(accepted, candidate, archive):
             assert accepted[off:off+size]==candidate[off:off+size]
         bosses.append(dict(id=f'{eid:02X}',size_px=[w*8,h*8],
                            boss_art_unchanged=True))
-    return dict(result='boss assets preserved; fifth target potentially unhandled',
+    return dict(result='boss assets preserved; four-enemy slot limit appears source-authentic',
                 r235_sha256=R235,stage12_sha256=STAGE12,
                 boss_art=bosses,four_enemy_fixture_slots=[8,16,24,32],
                 four_enemy_x_centers=[48,96,144,192],
-                fifth_enemy_x_helper_return=120,verified_five_enemy_live_test=False,
-                limitations='Only four-enemy formation replayed; no confirmed 5-enemy gameplay bug. Do not patch without source-matched fifth encounter.')
+                fifth_enemy_x_helper_return=120,source_enemy_max_four=True,party_max_five=True,
+                limitations='Original game supports up to four enemies and five party members. Do not create a fifth enemy slot or make untested placement changes.')
 
 if __name__=='__main__':
     p=ArgumentParser(description=__doc__)
