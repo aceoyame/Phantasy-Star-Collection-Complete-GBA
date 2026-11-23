@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build the separate R235 Stage7 source-native static enemy-art experiment.
+"""Build the separate R235 Stage9 source-native static enemy-art experiment.
 
 User supplies the SHA-verified Stage8 test ROM, original US Genesis PSIV ROM,
 and R203 complete source archive. Never upload proprietary input/output ROMs.
@@ -54,7 +54,7 @@ def patch(parent,gen,nemesis,enigma):
        warning='isolated experiment: not a FIN playthrough or all-animation acceptance')
 def main():
     ap=argparse.ArgumentParser(description=__doc__)
-    for name in ('stage6','genesis','r203_archive','output'):
+    for name in ('stage8','genesis','r203_archive','output'):
         ap.add_argument('--'+name.replace('_','-'),type=Path,required=True)
     a=ap.parse_args()
     with tempfile.TemporaryDirectory() as folder:
@@ -63,7 +63,7 @@ def main():
             (path/'md_compression.py').write_bytes(z.read('r198/reference_tools/md_compression.py'))
         sys.path.insert(0,str(path))
         from md_compression import nemesis_decompress,enigma_decompress
-        image,meta=patch(a.stage6.read_bytes(),a.genesis.read_bytes(),nemesis_decompress,enigma_decompress)
+        image,meta=patch(a.stage8.read_bytes(),a.genesis.read_bytes(),nemesis_decompress,enigma_decompress)
     a.output.write_bytes(image)
     a.output.with_suffix('.manifest.json').write_text(json.dumps(meta,indent=2)+'\n')
     print(json.dumps(meta,indent=2))
