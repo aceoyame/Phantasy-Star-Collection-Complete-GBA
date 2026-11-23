@@ -95,3 +95,16 @@ Stage11 adds the remaining eight members (Alys, Hahn, Gryz, Rika, Demi, Wren, Ra
 - [Rebuild source](artwork/build_stage11_remaining_party_detail.py) | [Stage11 party QA](artwork/STAGE11_REMAINING_PARTY_DETAIL_QA.md) | [Field sprite audit](artwork/STAGE11_FIELD_SPRITE_OAM_TRACE.md).
 
 Do not promote to the accepted R235 release or GitHub main without character-specific live cast/attack tests, real hardware/Micro validation and full-game FIN completion.
+
+
+## Stage 12 — source-backed enemy detail, attack-pose investigation
+
+Stage12 extends the Stage11 11-party-member experimental detail base with Genesis-source static body corrections for enemies `0x07` and `0x08`: 188 and 192 ROM bytes changed respectively (exact 380 total). Each source palette and tilemap matches R235, and the inherited 12 animation-controlled tiles per enemy are preserved. No battle background, scenic vista, sound, event logic, field or UI code changed.
+
+- Stage11 parent SHA256: `820892b5fa2c145a249876baba90144152d7ff1520fb865e43d2103bc2bb80b2`
+- Stage12 candidate SHA256: `5ff6d48606576e19ee46d14d7d8892b9835d4161afebde74f781caf76d38ff02`; CRC32 `054392a8`; 32 MiB.
+- **135 executed, matched three-core checks:** 24 real-battle sprite checkpoints, 84 extended A/B/idle command-sequence checkpoints, and 27 opening/field/UI regressions against the correct Stage11 parent. Changed screen pixels stay in enemy regions; HUD and background remain intact at tested checkpoints. This brings the source-enhanced enemy experiments to six.
+- Source-authentic Chaz, Hahn, Rika attack pose sheets were recovered from original Genesis ROM and compared with stored GBA frames. Existing outlines/poses largely match; no new attack-pose modification is justified until real frame-by-frame animation/projection tests.
+- [Stage12 source-only rebuild](artwork/build_stage12_enemy07_08.py) | [Stage12 QA and attack audit](artwork/STAGE12_ENEMIES_ATTACK_TRACE_QA.md).
+
+This is a test build, not a finished graphics overhaul. Original-width R235 scenic battle compositions, including Rykros auroras, stay preferred and preserved. True attack/cast/KO animations, overworld sprite source matching, complete UI/manga framing and full-game FIN remain open. No GBA Micro hardware validation, no promotion to main.
