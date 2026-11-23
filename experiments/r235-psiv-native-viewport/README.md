@@ -32,3 +32,13 @@ python verify_r235_geometry.py /path/to/PSC_R235_NATURAL_PLAYTHROUGH_VISUAL_QA_2
 5. Replay matched inputs on mGBA and VBA-M/Delta and test on GBA hardware before promotion.
 
 The earlier `PSC_R235_GENESIS_CROP_EXPERIMENT.gba` is only an embedded **static comparison mode**. This branch does not falsely describe it as a live-game renderer.
+
+## Verified live-game injection (2026-11-22)
+
+The repository also contains `r235_field_hook_probe.S`, `build_r235_field_hook_probe.py`, and `verify_r235_live_field_hook.py`. These implement a guarded **no-op** relocation of R235's known active ARM field-camera hook, using retired PCM sample-42 space reserved in the R234 free-space map. R235's exact 124-byte camera shim and hook match R86's corresponding source and binary. The replacement preserves camera coordinates while establishing a confirmed live-game insertion point.
+
+A 32 MiB canary ROM was compiled against verified accepted R235 SHA-256 `4caf23ae8b030c16a32658fdc95085330de6c6dd4a51498f0e2b9c17c7d89308`. Candidate SHA-256: `da48301d7285822dc0306be174e87221dd744bd3b8843b2e7a3dd80f1880feea`.
+
+The Academy live-field mGBA replay matched **11/11 screenshot CRCs**, map IDs and positions, including a room transition. CPU profiling showed the retired original camera body stopped executing and the new body executed. Three-core **launch** checks also matched baseline. See `R235_LIVE_HOOK_TEST_RESULTS.md` for exact addresses, limitations, and the next work item.
+
+**Do not mistake the canary for the promised visible PSII/PSIII-style renderer.** Changing the field camera requires tracing BG map presentation and OBJ drawing together. The current R235 Academy already shows 1:1 original-size graphics.
