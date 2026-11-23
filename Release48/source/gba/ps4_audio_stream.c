@@ -645,6 +645,37 @@ static void ps4_audio_mix_one_frame(int8_t* out)
     if(fade_active){fade_phase^=1u;if(!fade_phase){if(fade_level)--fade_level;if(!fade_level)stop_music_state();}}
 }
 
+/* R236/R237: System-mode catch-up mixing temporarily uses the otherwise idle
+ * IRQ-stack reserve.  Unlike the old CP58 polling path, explicitly mask IME
+ * before switching SP; restore its *previous* state afterwards.  IRQ-mode
+ * callers use their own stack and tail-call the original IWRAM mixer.
+ * AAPCS: only caller-clobbered registers are touched; SP stays 8-byte aligned.
+ * Keep this in ARM state (this translation unit builds with -marm). */
+__attribute__((naked,noinline,used,section(".iwram.text")))
+static void ps4_audio_mix_one_frame_safe(int8_t* out)
+{
+    __asm__ volatile(
+        "mrs r12, cpsr\n"
+        "and r12, r12, #0x1f\n"
+        "cmp r12, #0x1f\n"
+        "bne ps4_audio_mix_one_frame\n"
+        "ldr r12, =0x04000208\n"   /* IME */
+        "ldrh r3, [r12]\n"
+        "mov r2, #0\n"
+        "strh r2, [r12]\n"
+        "mov r2, sp\n"
+        "ldr sp, =__irq_stack_top\n"
+        "stmdb sp!, {r2, r3, r12, lr}\n"
+        "bl ps4_audio_mix_one_frame\n"
+        "ldmia sp!, {r2, r3, r12, lr}\n"
+        "mov sp, r2\n"
+        "strh r3, [r12]\n"
+        "bx lr\n"
+        ".pool\n"
+    );
+}
+
+
 static void ps4_audio_catchup_one_frame(void) AUDIO_POLL_HOT;
 static void ps4_audio_catchup_one_frame(void)
 {
@@ -668,7 +699,7 @@ static void ps4_audio_catchup_one_frame(void)
     music_owned_sync();
     audio_state_capture(&mix_start_state);
     out=mix_buffer[prepared_index];
-    ps4_audio_mix_one_frame(out);
+    ps4_audio_mix_one_frame_safe(out);
     audio_state_capture(&prepared_end_state);
     audio_state_restore(&mix_start_state);
     audio_copy_block(out,mix_buffer[prepared_index]+SAMPLES_PER_FRAME);
@@ -703,7 +734,7 @@ void ps4_audio_prepare_frame(void)
     /* Mix against a snapshot, retain only the candidate end-state, and restore
      * committed playback state until the block is actually consumed. */
     audio_state_capture(&mix_start_state);
-    ps4_audio_mix_one_frame(out);
+    ps4_audio_mix_one_frame_safe(out);
     audio_state_capture(&prepared_end_state);
     audio_state_restore(&mix_start_state);
     prepared_state_valid=1u;
@@ -730,7 +761,7 @@ void ps4_audio_prepare_guard_frame(void)
     if(!prepared_ready||prepared_catchup||!prepared_state_valid||prepared_guard_state_valid)return;
     audio_state_restore(&prepared_end_state);
     out=mix_buffer[prepared_index]+SAMPLES_PER_FRAME;
-    ps4_audio_mix_one_frame(out);
+    ps4_audio_mix_one_frame_safe(out);
     audio_state_capture(&prepared_guard_end_state);
     audio_state_restore(&mix_start_state);
     audio_copy_block(out,mix_buffer[prepared_index]+SAMPLES_PER_FRAME*2u);

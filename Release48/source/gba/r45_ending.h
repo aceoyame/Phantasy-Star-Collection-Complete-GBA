@@ -126,7 +126,15 @@ static void r45_credits(void){
 static unsigned r45_fin_cell(unsigned x,unsigned y){return 0x8000u+((((ram16r(0xEF90u)>>3)+y)&31u)*64u+(((ram16r(0xEF94u)>>3)+x)&63u))*2u;}
 static int r45_ending_resume(unsigned* x,unsigned* y){
  (void)x;(void)y;field_custom_resume_event=0xFFu;r36_bitmap_begin();presentation_hide_field_oam();field_active_panel_count=0u;field_cutscene_panels=1u;
- for(unsigned j=0u;j<32u;j++)for(unsigned i=0u;i<64u;i++){ram16w((uint16_t)(0x8000u+(j*64u+i)*2u),field_entry(0xA000u,i*8u,j*8u));ram16w((uint16_t)(0x9000u+(j*64u+i)*2u),field_entry(0xB000u,i*8u,j*8u));}
+ /* Genesis RefreshMap makes plane B track plane A here.  Fill the
+  * 512x256 ring using camera-relative *layout* coordinates, not 0,0. */
+ unsigned cx=ram16r(0xEF94u)&~7u,cy=ram16r(0xEF90u)&~7u;
+ ram16w(0xEF98u,ram16r(0xEF90u));ram16w(0xEF9Cu,ram16r(0xEF94u));
+ for(unsigned j=0u;j<32u;j++)for(unsigned i=0u;i<64u;i++){
+  unsigned X=cx+((i*8u-cx)&511u),Y=cy+((j*8u-cy)&255u);
+  ram16w((uint16_t)(0x8000u+(j*64u+i)*2u),field_entry(0xA000u,X,Y));
+  ram16w((uint16_t)(0x9000u+(j*64u+i)*2u),field_entry(0xB000u,X,Y));
+ }
  r45_zero(0xC000u,320u);r45_zero(0xC300u,448u);r45_zero(0xC540u,64u);field_follower_count=0u;
  for(unsigned i=0u;i<field_obj_count;i++)if(i<7u||i==9u){field_objs[i].active=0u;field_obj_art_stamp[i].epoch=0u;}
  for(unsigned j=0u;j<28u;j++)for(unsigned i=0u;i<24u;i++){unsigned a=r45_fin_cell(i,j);ram16w((uint16_t)a,0x8002u);ram16w((uint16_t)(a+0x1000u),0x8002u);}

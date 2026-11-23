@@ -2326,6 +2326,8 @@ static void field_reload_palette_from_map(void){
     for(unsigned i=0u;i<16u;i++)cram[48u+i]=rom16(field_map.palette+0x40u+i*2u);
     field_palette_mirror_live(64u);
 }
+#include "r237_map_palette_refresh.h"
+
 static void hw_hide_obj(unsigned i){OAM16[i*4u]=160u;OAM16[i*4u+1u]=0u;OAM16[i*4u+2u]=0u;OAM16[i*4u+3u]=0u;}
 static void hw_obj_prio(unsigned i,int sx,int sy,unsigned tile,unsigned pal_line,int hflip,unsigned priority){
     if(sx<=-16||sx>=240||sy<=-32||sy>=160){hw_hide_obj(i);return;}
@@ -9084,7 +9086,7 @@ static int field_event_run_battle_request(uint8_t battle_index,unsigned* camx,un
      * (for example EventPtr $40).  The original battle return rebuilds field
      * presentation; restore the current map's authored palette before the GBA
      * field hardware is reinitialized so those effects cannot leak afterward. */
-    field_reload_palette_from_map();
+    field_reload_palette_with_managers();
     choose_camera(camx,camy);hw_field_init(*camx,*camy);return 1;
 }
 static int field_event_quick_dialogue(uint8_t dialogue,unsigned* camx,unsigned* camy){
@@ -9548,7 +9550,7 @@ static int field_event_garuberk_door_entered(unsigned event_index,unsigned* camx
          * resident, so rebuild the native display under black rather than
          * re-decoding the map or inventing a visible blank frame. */
         field_palette_fade_out();
-        field_reload_palette_from_map();
+        field_reload_palette_with_managers();
         choose_camera(camx,camy);hw_field_init(*camx,*camy);
 
         /* Before Character_1 moves, source resolves one layout cell from
@@ -9765,10 +9767,17 @@ static int field_event_place_appearing(unsigned event_index,unsigned* camx,unsig
  * dialogue/facing/timing sequence and the 35-update SayaStars object. */
 static int field_event_meeting_saya(unsigned* camx,unsigned* camy){
     field_dialogue_show(0x0Eu,*camx,*camy);
-    struct PartyFollowerLite* h=field_event_follower_for_id(2u);int hx=0x0190,hy=0x0210;uint8_t hf=0u;
-    if(h){hx=h->x;hy=h->y;hf=h->facing;field_event_move_party_id(2u,0x0190u,0x01F0u,camx,camy);field_event_set_party_facing(2u,8u);}
+    struct PartyFollowerLite* h=field_event_follower_for_id(2u);uint8_t hf=0u;
+    if(h){hf=h->facing;field_event_move_party_id(2u,0x0190u,0x01F0u,camx,camy);field_event_set_party_facing(2u,8u);}
     field_event_set_source_object_facing(0u,12u,camx,camy);
-    field_event_move_party_id(0u,0x0190u,0x0210u,camx,camy);
+    /* Genesis Character_1 is the current leader (often Alys), not Chaz ID 0.
+     * Temporarily hold Hahn out of the follower chain beside Saya. */
+    {uint8_t lead=ram8r(0xF40Au);int hs=field_event_party_slot_for_id(2u);
+     uint8_t saved=0xFFu;
+     if(hs>0){saved=ram8r((uint16_t)(0xF40Au+hs));ram8w((uint16_t)(0xF40Au+hs),0xFFu);}
+     field_event_move_party_id(lead,0x0190u,0x0210u,camx,camy);
+     if(hs>0)ram8w((uint16_t)(0xF40Au+hs),saved);
+    }
     field_event_set_source_object_facing(0u,12u,camx,camy);
     if(field_dialogue_saved_cursor)field_dialogue_resume_saved(*camx,*camy);
     field_event_set_source_object_facing(0u,0u,camx,camy);field_event_set_party_facing(2u,0u);
@@ -9789,7 +9798,25 @@ static int field_event_meeting_saya(unsigned* camx,unsigned* camy){
     if(field_dialogue_saved_cursor)field_dialogue_resume_saved(*camx,*camy);
     if(field_obj_count>0u&&field_objs[0].active){field_objs[0].x=(uint16_t)(field_objs[0].x+4u);ram16w(0xC330u,field_objs[0].x);}
     field_event_wait_updates(0x13u,camx,camy);
-    if(h){field_event_move_party_id(2u,(uint16_t)hx,(uint16_t)hy,camx,camy);h=field_event_follower_for_id(2u);if(h)h->facing=hf;}
+    if(h){
+        int hs=field_event_party_slot_for_id(2u);
+        if(hs>0){
+            uint16_t prev=(uint16_t)(0xC000u+(unsigned)(hs-1)*0x40u);
+            uint16_t me=(uint16_t)(0xC000u+(unsigned)hs*0x40u);
+            uint16_t tx=ram16r((uint16_t)(prev+0x30u));
+            uint16_t ty=(uint16_t)(ram16r((uint16_t)(prev+0x34u))+16u);
+            uint16_t x=ram16r((uint16_t)(me+0x30u));
+            uint16_t y=ram16r((uint16_t)(me+0x34u));
+            /* 16px move steps cannot converge with the +4px scene drift. */
+            uint16_t sx=(uint16_t)(x-(uint16_t)((x-tx)&15u));
+            uint16_t sy=(uint16_t)(y-(uint16_t)((y-ty)&15u));
+            ram16w((uint16_t)(me+0x30u),sx);
+            ram16w((uint16_t)(me+0x34u),sy);
+            h->x=(int)sx;h->tx=(int)sx;h->y=(int)sy; /* leave h->ty */
+            field_event_move_party_id(2u,tx,ty,camx,camy);
+        }
+        h=field_event_follower_for_id(2u);if(h)h->facing=hf;
+    }
     ps4_event_flag_set(0x12u);field_event_redraw(camx,camy);return 1;
 }
 
@@ -10916,6 +10943,16 @@ static void title_load_palette(void){
     dma_fill32((void*)BG_PALETTE,512u,0u);
     for(unsigned i=0;i<64u;i++) BG_PALETTE[i]=md2gba(cram[i]);
 }
+/* R237: START-only uses the authored palette even after an ERASE DATA loop.
+ * Do not mutate cram: the multi-slot menu still uses party palette entries. */
+static void title_load_start_only_palette(void){
+    dma_fill32((void*)BG_PALETTE,512u,0u);
+    for(unsigned i=0u;i<64u;i++){
+        uint16_t v=(i==31u||i==47u)?0x0EEEu:rom16(0x1D29BCu+i*2u);
+        BG_PALETTE[i]=md2gba(v);
+    }
+}
+
 static void title_present_full(void){ dma_copy32(title_fb,(void*)MODE4_VRAM16,240u*160u); }
 static void title_present_band(unsigned y0,unsigned y1){if(y0>160u)y0=160u;if(y1>160u)y1=160u;if(y1<=y0)return;unsigned off=y0*240u;dma_copy32(title_fb+off,(void*)((uintptr_t)MODE4_VRAM16+off),(y1-y0)*240u);}
 static void render(uint16_t press){
@@ -11136,6 +11173,7 @@ restart_title:
             for(;;){
                 int top;
                 if(invalid==7u){
+                    title_load_start_only_palette();
                     draw_start_window();render_start_menu_clean(press_cycle[0]);waitvb();title_present_full();held=md_io_read_psiv_pad();
                     for(;;){waitvb();now=md_io_read_psiv_pad();pressed=(uint8_t)(now&(uint8_t)~held);held=now;if(pressed&0xE0u){while(md_io_read_psiv_pad()&0xF0u)waitvb();top=1;break;}}
                 }else{
