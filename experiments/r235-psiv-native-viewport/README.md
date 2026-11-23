@@ -42,3 +42,12 @@ A 32 MiB canary ROM was compiled against verified accepted R235 SHA-256 `4caf23a
 The Academy live-field mGBA replay matched **11/11 screenshot CRCs**, map IDs and positions, including a room transition. CPU profiling showed the retired original camera body stopped executing and the new body executed. Three-core **launch** checks also matched baseline. See `R235_LIVE_HOOK_TEST_RESULTS.md` for exact addresses, limitations, and the next work item.
 
 **Do not mistake the canary for the promised visible PSII/PSIII-style renderer.** Changing the field camera requires tracing BG map presentation and OBJ drawing together. The current R235 Academy already shows 1:1 original-size graphics.
+
+## Stage 2: verified live Academy BG scroll ownership and battle regression
+
+- `R235_FIELD_BG_DMA_TRACE.md` documents the exact executed ARM DMA0 setup addresses and EWRAM double buffers controlling eight BG horizontal/vertical registers per scanline, using an R235 Academy save state. `trace_r235_bg_dma.py` independently reproduces the read-only evidence from the exact accepted ROM.
+- `R235_BATTLE_THREECORE_CANARY_QA.md` and `verify_r235_battle_threecore.py` document baseline-vs-canary sprite/HUD parity across **mGBA, VBA-M, and the Delta-style core** in a real Zio battle staged by a QA-only encounter driver. No battle UI has been changed yet.
+- A **diagnostic-only** test adding 8 to the actor camera argument changed **885 of 38,400** screen pixels after the same Academy movement while retaining player world coordinates. Since background was unchanged, this is evidence that a separate BG update is necessary, **not** a usable native-pixel alternate rendering mode.
+- The accepted game already preserves full native tile art in this Academy scene, so blanket downscaling is not an acceptable experimental solution.
+
+**Remaining implementation:** identify the BG scroll-buffer producer, synchronize BG/OBJ framing in the live engine, introduce a safe opt-in, and implement/validate dynamic dialogue and battle menus (and complete gameplay regression). The no-op field-hook canary is still the only safe experimental playable ROM at this checkpoint.
