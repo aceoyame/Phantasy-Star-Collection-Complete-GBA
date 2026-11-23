@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Stage11: source-guided interior detail for the eight other party characters.
 
-Requires licensed Stage9 ROM and party PNGs generated from the SHA-verified
+Requires licensed Stage10 ROM and party PNGs generated from the SHA-verified
 original Genesis PSIV ROM with R198 generate_party_battle_frames.py.
 No game binaries or commercial assets are included in this source file.
 """
@@ -29,7 +29,7 @@ def source_15(rgb):
 
 def build(stage10:Path, source_dir:Path, destination:Path):
     original = stage10.read_bytes()
-    assert len(original) == 33554432 and sha(original) == PARENT_SHA, 'Stage9 hash mismatch'
+    assert len(original) == 33554432 and sha(original) == PARENT_SHA, 'Stage10 hash mismatch'
     manifest = json.loads((source_dir/'manifest.json').read_text())
     assert manifest['source_rom_sha256'] == GENESIS_SHA, 'wrong Genesis reference'
     palette = unpack_from('<256H', original, PALETTE)
@@ -77,7 +77,7 @@ def build(stage10:Path, source_dir:Path, destination:Path):
                                 rom_offset=hex(offset)))
     changes = np.flatnonzero(np.frombuffer(original,dtype=np.uint8)
                             != np.frombuffer(result,dtype=np.uint8))
-    assert len(changes) == 380
+    assert len(changes) == 802
     assert all(any(start <= int(pos) < end for start,end in permitted) for pos in changes)
     assert result[:0xC0] == original[:0xC0]
     assert sha(result) == EXPECTED_SHA, 'source/binary differs from tested candidate'
@@ -85,14 +85,14 @@ def build(stage10:Path, source_dir:Path, destination:Path):
     record = dict(parent_sha256=PARENT_SHA, candidate_sha256=sha(result),
                   crc32=f'{zlib.crc32(result):08x}', rom_size=len(result),
                   altered_rom_bytes=len(changes), poses=details,
-                  status='experiment: idle live tested 3 cores; cast frames NOT tested live')
+                  status='experimental: source art tested through Chaz-slot in-engine fixture; full party formation/attack/cast remains untested')
     destination.with_suffix('.manifest.json').write_text(json.dumps(record,indent=2)+'\n')
     return record
 
 if __name__ == '__main__':
     ap = argparse.ArgumentParser(description=__doc__)
-    ap.add_argument('stage9_rom',type=Path)
+    ap.add_argument('stage10_rom',type=Path)
     ap.add_argument('genesis_party_frames_dir',type=Path)
     ap.add_argument('output',type=Path)
     args = ap.parse_args()
-    print(json.dumps(build(args.stage9_rom,args.genesis_party_frames_dir,args.output),indent=2))
+    print(json.dumps(build(args.stage10_rom,args.genesis_party_frames_dir,args.output),indent=2))
