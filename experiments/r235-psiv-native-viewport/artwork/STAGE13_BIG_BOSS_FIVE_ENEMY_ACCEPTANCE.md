@@ -53,3 +53,12 @@ The historical R200 153-encounter sample contains 71 one-enemy, 68 two-enemy, 13
 The present evidence explicitly **blocks a mass crop/resize of oversized bosses and any speculative fifth-enemy extension**. The next productive step is capturing a source-authentic five-enemy encounter, not editing bosses or formation coordinates by guesswork.
 
 See the local Stage13 QA package for exact source-art crop images, generated live emulator screenshots, source guards and executed trace JSON.
+
+
+## Follow-up: four-target reticle exercised across all three cores
+
+This goes beyond the earlier static four-enemy comparison. The genuine event 0D was played in *both* SHA-verified accepted R235 and Stage12 in mGBA, VBA-M and Delta-style VBA-M. Pressing A to open/pick the attack, then RIGHT three times, produced the exact onscreen red target-marker centers **48 → 96 → 144 → 192** in every run; LEFT returned to 144. Each marker is the same 5×5 red square at Y31–35, with **all four enemies visible and all five party-member HUD slots still onscreen**. **Six out of six native battle replays passed**, verifying four selectable enemy targets (and backtracking) in both ROMs on three cores.
+
+Original formation slot bytes from `0x02028D06` are `[8,16,24,32]` and correspond precisely to those target X values. This is direct evidence that the four-slot GBA geometry currently **works** for a crowded source-authentic battle; it is not a claim that all enemies/spells, overlapping mixed-size groups, or every battle effect have been exhausted.
+
+The user-only Stage13 QA kit includes `three_core_four_target_cursor.json`, the executed target-input script, and a four-panel target selection contact sheet.
