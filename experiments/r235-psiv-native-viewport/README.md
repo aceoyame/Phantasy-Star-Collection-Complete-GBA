@@ -51,3 +51,11 @@ The Academy live-field mGBA replay matched **11/11 screenshot CRCs**, map IDs an
 - The accepted game already preserves full native tile art in this Academy scene, so blanket downscaling is not an acceptable experimental solution.
 
 **Remaining implementation:** identify the BG scroll-buffer producer, synchronize BG/OBJ framing in the live engine, introduce a safe opt-in, and implement/validate dynamic dialogue and battle menus (and complete gameplay regression). The no-op field-hook canary is still the only safe experimental playable ROM at this checkpoint.
+
+## Stage 4 — live coordinated field camera: VERIFIED IN THREE CORES
+
+The first **visible**, synchronized background + OBJ camera experiment is now source-reproducible under [live-camera/](live-camera/). It pans the native field crop by X=16, Y=8 without resampling graphics. Test R235 ROM SHA256: `f3a80bad91b6d3f1809bf1e09ea09f887e204428aeb55247bf67426caf03f89d`; parent accepted R235 SHA256 `4caf23ae8b030c16a32658fdc95085330de6c6dd4a51498f0e2b9c17c7d89308`.
+
+**Measured**: real PSIV new game opening field map 94 was tested in mGBA, VBA-M libretro and Delta-style libretro, with four field checkpoints each showing **100% exact pixel match after cropping the original 16px from left and 8px from top**, while all map/player state remained equal. The original title screen was unaffected. Three Zio battle command checkpoints per core matched unchanged R235. The map18 Academy saved-state route also passed nine scene samples in mGBA.
+
+The separate fixed-offset cartridge is intentionally experimental, with no title menu toggle and no edits to the accepted ROM. It is NOT a completed PSII/PSIII-style full game conversion. Scene-edge camera clamping, dialogue layout, battle HUD layout, and full playthrough remain unfinished. The hold-R preview mode was rejected for now because stationary scenes can retain stale framing after the button is released. See [the detailed test record](live-camera/VERIFICATION_20261122.md) and [battle HUD source audit](BATTLE_HUD_SOURCE_TRACE_20261122.md). No commercial ROM or extracted assets were committed.
