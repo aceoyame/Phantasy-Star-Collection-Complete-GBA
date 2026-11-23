@@ -39,3 +39,9 @@ python build_r235_native_crop.py /path/to/PSC_R235_FIXB_NEWGAME_RELEASE.gba /pat
 ```
 
 Use the user's headless toolkit and accepted save states to run Academy and Zio replays. No ROM or copyrighted Sega assets belong in the public repository.
+
+## Extra Academy transition test (mGBA)
+
+11 controller-driven checkpoints from an accepted R235 savestate: map 18 room exploration → map 17 transition. Every frame counter, map ID and player position agreed with parent. On the eight checkpoints where the alternate viewport is fully active, overlap is pixel-exact (1.000000). On the first frame after loading the state the shift has not yet reached the BG buffer; on the map transition frame both images are identical; one two-frame input checkpoint after transition scored 0.98 shifted-overlap before returning to 1.00. This **transient scene-settling behavior remains an acceptance blocker** for the alternate camera, particularly if it proves visible while playing. Do not imply permanent 100% parity on every frame or promote this to a release candidate until it is resolved.
+
+The stage-4 fixed-offset build remains a useful test cartridge; ordinary R235 is untouched.
