@@ -108,3 +108,18 @@ Stage12 extends the Stage11 11-party-member experimental detail base with Genesi
 - [Stage12 source-only rebuild](artwork/build_stage12_enemy07_08.py) | [Stage12 QA and attack audit](artwork/STAGE12_ENEMIES_ATTACK_TRACE_QA.md).
 
 This is a test build, not a finished graphics overhaul. Original-width R235 scenic battle compositions, including Rykros auroras, stay preferred and preserved. True attack/cast/KO animations, overworld sprite source matching, complete UI/manga framing and full-game FIN remain open. No GBA Micro hardware validation, no promotion to main.
+
+
+## Stage 13 — critical safety gates: giant bosses and five-enemy formations
+
+**No ROM patches in Stage13.** The latest playable test remains Stage12. The source and executed QA now identify why a uniform 240px 1:1 crop must not be used for all boss graphics: Dark Force 3 is 288×120, and Profound Darkness I–III have 320×120 source descriptors. Even the best fixed 240px crop of PD I loses ~11.73% of its opaque artwork, while DF2 loses ~12.64%. Keep giant boss compositions, layered transformation effects, original scenic backdrops (especially Rykros auroras) and target markers intact; verify any source-faithful special-case rendering on real boss encounters.
+
+**Executed QA:** DF3, PD I and four-enemy event0D each passed four checkpoints in mGBA, VBA-M and Delta-style VBA-M (**36 paired captures**): matched battle state and identical boss/background top region. PD I→II→III was replayed independently in original accepted R235 and Stage12 with controlled test-only HP conditions, at identical transformation ticks 1200 and 2743; **nine frame-matched forms** preserved the boss/background top 88 rows exactly, with only earlier party artwork changes below.
+
+**Five-enemy blocker:** A real four-enemy GBA encounter has X centers 48,96,144,192. R235 retains a legacy battle-effect helper at `0x087F9A9C` which returns center X=120 when passed index 4, and R192 original effect source has only four enemy anchor roles. No authentic five-enemy R235 encounter has yet been replayed, so this is a confirmed **source/code-level limitation and potential target-fidelity problem**, *not* proof of a specific gameplay misdraw. Treat finding and replaying a genuine five-enemy encounter (plus testing fifth-target techs, selection, effects, and HUD) as a **priority acceptance requirement** before attempting any mass enemy layout rewrite. Do not hardcode guessed fifth-enemy positions.
+
+- [Full Stage13 boss and formation audit](artwork/STAGE13_BIG_BOSS_FIVE_ENEMY_ACCEPTANCE.md)
+- [Reproducible exact-ROM code guard](artwork/guard_stage13_boss_five.py)
+- The user-only local QA kit contains the real screenshot comparisons and original-source crop calculations; copyrighted art/ROM bytes are not committed to public GitHub.
+
+Stage13 does not claim all bosses visually match Genesis, any fifth-enemy interaction has been validated, a full game has been played to FIN, or GBA Micro hardware has passed.
