@@ -80,3 +80,18 @@ Chaz, Rune and Kyra now have Genesis-source-guided detail restorations in each i
 - Stage10 SHA256: `d08d6c88b5c6f6dee2ae15925864e5c98d58b113859d063476ac86ea97161d56`
 - See [Stage10 QA](artwork/STAGE10_PARTY_BATTLE_QA.md) and [SHA-guarded rebuild](artwork/build_stage10_party_detail.py).
 - More party art (8 remaining characters), battle attacks/effects, overworld NPCs, UI and long-form playthrough are unfinished. **Keep accepted R235 battle backdrops** with their complete scene compositions, such as Rykros auroras.
+
+
+## Stage 11 — all 11 party members' first two source detail records (experimental)
+
+Stage11 adds the remaining eight members (Alys, Hahn, Gryz, Rika, Demi, Wren, Raja, Seth), **16 idle/casting source pose buffers and 802 changed ROM bytes**, to the Stage10 Chaz/Rune/Kyra work. The pixel silhouettes, original GBA 36×34 layout, animation code, 40 manga trial, four enemy patches, muted portrait borders and **accepted R235 complete-sky scenic backgrounds** remain unchanged.
+
+- SHA-verified Stage10 parent: `d08d6c88b5c6f6dee2ae15925864e5c98d58b113859d063476ac86ea97161d56`
+- SHA-verified Stage11 trial: `820892b5fa2c145a249876baba90144152d7ff1520fb865e43d2103bc2bb80b2`; CRC32 `4dd9ba86`; 32 MiB.
+- **27/27 three-core startup/field/UI parity checks** PASS.
+- **28/28 diagnostic in-engine sprite-render checks** PASS: all 16 new pose frames under mGBA, plus Alys/Wren/Seth both poses in VBA-M and Delta-style cores. The renderer tests deliberately transplant sprite art into a Chaz slot in a **scratch, non-shipping fixture**, and *do not prove all eleven characters' true party formations, spells or attack sequences*.
+- Original-size 48×48 Genesis party sprite layout is NOT fully implemented: the tested art is a conservative source-guided color correction inside inherited 36×34 GBA poses. Complete UI rearrangement, additional animation frames and FIN playthrough are still pending.
+- An additional read-only [Academy overworld OBJ sprite trace](artwork/STAGE11_FIELD_SPRITE_OAM_TRACE.md) confirms two actual 16×32-pixel hardware sprites with identical tile/palette content in Stage10 and Stage11. No overworld sprite patch has been added yet.
+- [Rebuild source](artwork/build_stage11_remaining_party_detail.py) | [Stage11 party QA](artwork/STAGE11_REMAINING_PARTY_DETAIL_QA.md) | [Field sprite audit](artwork/STAGE11_FIELD_SPRITE_OAM_TRACE.md).
+
+Do not promote to the accepted R235 release or GitHub main without character-specific live cast/attack tests, real hardware/Micro validation and full-game FIN completion.
