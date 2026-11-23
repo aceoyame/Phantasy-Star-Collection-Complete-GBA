@@ -1,4 +1,4 @@
-# Stage 13 — oversized bosses, Profound Darkness transitions and five-enemy geometry
+# Stage 13 — oversized bosses, Profound Darkness transitions and authentic four-enemy formations
 
 Date: November 23, 2026 (US Eastern). **QA and source audit only; Stage12 remains the latest experimental playable ROM.** No boss, formation, or effect patch has been shipped in this stage. Accepted R235 and GitHub main remain unchanged.
 
@@ -30,23 +30,26 @@ Production-friendly policy: preserve full silhouette, authored layers and effect
 - With *test-only HP cap and party-state assistance*, the Stage12 Profound Darkness event transformed through all three forms: 85→86 at tick1200, 86→87 at tick2743, and form87 captured through tick2924. Accepted R235 transformed at **identical ticks** in the same controlled run. At 3 matched frame offsets in each of the 3 forms (9 comparisons), **top 88 rows remain pixel-identical**, including those visibly animated overlays; total image differences are solely in party band x36..203, y99..123 (271 pixels at each sample).
 - Those controlled transformations **do not establish** original Genesis fidelity, unassisted battle beatability, graphics correctness throughout the entire animation, or reaching FIN. The third form includes complex moving color-band overlays and must be compared frame-matched to Genesis before any graphic rewrite.
 
-## Verified four-slot effect-target limitation and 5-enemy risk
-R235/Stage12 Thumb helper `0x087F9A9C`, with branch at `0x087F9AAC`, contains this exact behavior:
-- `cmp r0,#3`; for a requested enemy index beyond 3, `movs r0,#120` and `bx lr` (center-screen fallback).
-- For indices 0–3, reads layout bytes from `0x02028D06+index` and derives X as 6×(byte&0x7F).
-- R192 historical battle-effect source `r192/src/effects.c` contains `int anchors[8]` and `for (unsigned i=0; i < ENEMY_COUNT && i < 4; i++)`. The same three effect-entry hooks at `0x087F8574`, `0x087F868C`, and `0x087F8708` remain byte-identical in R235 and Stage12. Within the original 2,136-byte R192 effect-body interval only **14 bytes** differ in R235; the historical source therefore remains highly relevant, but the entire active R235 runtime call chain must still be profiled.
+## Verified Genesis-style four-enemy formation and five-party distinction
 
-**Interpretation:** slot #5 may be omitted from authored spell/effect anchor roles or wrongly targeted at x120. This is a real **risk** that now has a reproducible code-level gate, not confirmed evidence of visual crowding or a fifth target being untargetable in ordinary gameplay. **Do not patch slot #5 with an arbitrary X offset.**
+**Correction after source and gameplay cross-check:** Phantasy Star IV permits **five party members** and appears to permit **up to four enemies** in normal battles. The original game references and R235's actual formation renderer agree. This replaces the earlier assumption that five enemies were a normal source-original encounter.
 
-Historical R200 encounter suite covers 153 fixtures (71×1, 68×2, 13×3, 1×4), none with five; this is incomplete coverage, **not proof** that the game cannot generate five enemies.
+The four-enemy live event 0D has placements [8,16,24,32] and enemy centers [48,96,144,192] on the 240px GBA screen. All **five party characters and their HUD rows** are visible in the same captured scene.
 
-## Required fix/acceptance gate
-1. Locate an authentic original-Genesis **five-enemy encounter** and record IDs, source input, world/map, backdrop, formation index, target order, object widths and reference frames.
-2. Replay the same encounter in accepted R235/Stage12 in two cores, reading live `0x02024000`, `0x02024044`, `0x02028D06..`, Mode4 pixels and associated per-slot target highlights.
-3. Verify all five are visible, not cropped or silently occluding each other; enemy animations and command/target highlights match their IDs; area and single-target magic/effects reach target #5. Preserve the five-party-character HUD.
-4. Trace and update **formation writer + rendering + target selection + technique/skill/combo anchors together**, replacing the hard-coded four-slot assumptions only with grounded layouts. Test one through five enemies plus Dark Force/Profound Darkness.
-5. Check battle transitions, victory/defeat, performance, GBA Micro hardware and eventual unassisted full-game ending before production promotion.
+The R235 Thumb helper at `0x087F9A9C` has `cmp r0,#3` then a return of x120 for an enemy slot index 4+. Its historical R192 effect code has four enemy anchors (`anchors[8]` reserves 3 general roles + target + 4 enemy roles). The helper, three entry hooks, and this legacy cap are **consistent with the original four-enemy design**, **not a confirmed software bug**. A hypothetical ROM-hack five-enemy formation would be out of source scope and must not drive changes to the faithful port.
 
-The present evidence explicitly **blocks a mass crop/resize of oversized bosses and a speculative five-slot patch**. The next productive step is capturing a source-authentic five-enemy encounter, not editing bosses or formation coordinates by guesswork.
+The historical R200 153-encounter sample contains 71 one-enemy, 68 two-enemy, 13 three-enemy, and 1 four-enemy case; no five-enemy sample. Multiple independent game descriptions corroborate that four enemy combatants and five allies are the normal caps. This sample alone is not an exhaustive formation decoder.
+
+**Acceptance priority is real 1–4 enemy encounter parity while showing all five party members**, including command selection, area effects, target arrows and mixed-width enemies. Do not invent a fifth enemy slot or resize all enemies to make space.
+
+## Required next acceptance tests
+
+1. Enumerate source-original 1–4 enemy formations, including the widest mixed-size combinations, and replay target order/reticles on accepted R235 and the experimental branch.
+2. Verify the five party members' rear-view poses and complete five-column HUD are not clipped when four enemy sprites and long technique/effect animations are displayed.
+3. Use original Genesis reference scenes for Dark Force 1–3 and all three Profound Darkness forms, and preserve their authored art and layered animation (not a universal static crop).
+4. Before any boss changes, confirm full-screen Mode4 ROI, background, attacker/target alignment, KO and defeat effects, timing and input/replay state on mGBA, VBA-M and Delta-style cores.
+5. Preserve full background compositions (Rykros auroras), 32 MiB and GBA Micro hardware requirements; no main-branch promotion without full story to FIN.
+
+The present evidence explicitly **blocks a mass crop/resize of oversized bosses and any speculative fifth-enemy extension**. The next productive step is capturing a source-authentic five-enemy encounter, not editing bosses or formation coordinates by guesswork.
 
 See the local Stage13 QA package for exact source-art crop images, generated live emulator screenshots, source guards and executed trace JSON.
