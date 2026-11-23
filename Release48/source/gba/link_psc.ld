@@ -5,16 +5,17 @@ MEMORY {
   IWRAM (rwx) : ORIGIN = 0x03000000, LENGTH = 32K
 }
 
-/* PSCSTYLE audit: keep code and the System stack disjoint by construction.
- * SP intentionally remains below the top 0x100 bytes used as a guard. */
-__stack_top = 0x03007F00;
-__stack_reserve = 0x00000C00;
+/* R237 source port: validated R236 System/IRQ stack split (no EWRAM stack).
+ * 0x03007F80 is below the BIOS 0x03007FA0+ area; maintain the IWRAM
+ * allocation assertion and keep IRQ mixing interrupt-safe. */
+__stack_top = 0x03007F80;
+__stack_reserve = 0x00000C80;
 __stack_bottom = __stack_top - __stack_reserve;
 /* R14B: IRQ-mode stack directly below the System stack (audio IRQ chain
  * measured at ~1.0 KiB: service 40 + mix_one_frame 56 + music_decode 40 +
  * mix_psc_mono 736 + update/process/note 88 + BIOS 24). */
-__irq_stack_top = __stack_bottom;
-__irq_stack_reserve = 0x00000600;
+__irq_stack_top = 0x03007280;
+__irq_stack_reserve = 0x00000580;
 __irq_stack_bottom = __irq_stack_top - __irq_stack_reserve;
 
 /* All current PSIV banks have native module definitions. Retired overlays at
