@@ -70,3 +70,13 @@ A separate **Stage8 experimental ROM** restores all 13 replaced battle backdrop 
 ### Stage 9 — current preferred experimental ROM
 
 The current test ROM combines the Stage8 **accepted R235 complete-scene battle backdrops** (do not crop away the Rykros sky), the muted portrait borders, 40 manga, Stage4 field crop, and original-source static detail for four enemies **0x06, 0x10, 0x09, 0x0C**. SHA256 `53848793971f0fe77c6880560807816652573925c73467f162c4835677ff558c`. Stage9 added only 392 static sprite bytes; 24 single-enemy battle checkpoints plus 27 field/UI regression checkpoints passed across mGBA/VBA-M/Delta-style cores. See [Stage9 engineering record](artwork/STAGE9_NATIVE_ENEMY_DETAIL_QA.md). It remains experimental, not a full-game FIN or real-hardware acceptance.
+
+
+## Stage 10 — source-guided party battle sprites (isolated trial)
+
+Chaz, Rune and Kyra now have Genesis-source-guided detail restorations in each idle/casting 36×34 party pose, **without altering silhouettes, transparent boundaries, locations, palette tables, or battle code**. The separate trial changes 380 ROM bytes against Stage9. The three-core battle replay shows changed party-only pixels (191 screen pixels inside x108–203/y99–123) with backdrop/enemy/HUD unchanged at four checkpoints per core. Another 27 three-core title/field/UI checkpoints match Stage9 exactly. The full cast animations are *not* yet verified.
+
+- Stage9 SHA256: `53848793971f0fe77c6880560807816652573925c73467f162c4835677ff558c`
+- Stage10 SHA256: `d08d6c88b5c6f6dee2ae15925864e5c98d58b113859d063476ac86ea97161d56`
+- See [Stage10 QA](artwork/STAGE10_PARTY_BATTLE_QA.md) and [SHA-guarded rebuild](artwork/build_stage10_party_detail.py).
+- More party art (8 remaining characters), battle attacks/effects, overworld NPCs, UI and long-form playthrough are unfinished. **Keep accepted R235 battle backdrops** with their complete scene compositions, such as Rykros auroras.
