@@ -62,11 +62,18 @@ def main():
     cand = {f:v for (s,f),v in entries.items() if s == a.candidate}
     if not ref or not cand:
         raise ValueError("both capture series required")
+    # Cross-core comparisons are the point of this probe: require the same ROM
+    # and input trace, but permit different cores across the two series.
+    # Core identity must remain stable *within* each series.
+    for name, series in ((a.reference, ref), (a.candidate, cand)):
+        identities = {(v[0]["core"], v[0]["rom_sha256"], v[0]["input_sha256"]) for v in series.values()}
+        if len(identities) != 1:
+            raise ValueError(f"inconsistent provenance within series {name}")
     results = []
     for frame in sorted(ref.keys() & cand.keys()):
         rr,rpx,rhash = ref[frame]
         cr,cpx,chash = cand[frame]
-        if (rr["core"],rr["rom_sha256"],rr["input_sha256"]) != (cr["core"],cr["rom_sha256"],cr["input_sha256"]):
+        if (rr["rom_sha256"],rr["input_sha256"]) != (cr["rom_sha256"],cr["input_sha256"]):
             results.append({"frame":frame,"status":"PROVENANCE_MISMATCH"})
             continue
         exact = distance(rpx,cpx,a.roi)
@@ -75,7 +82,7 @@ def main():
             if offset == 0 or frame+offset not in cand:
                 continue
             ar,apx,ahash = cand[frame+offset]
-            if (ar["core"],ar["rom_sha256"],ar["input_sha256"]) != (rr["core"],rr["rom_sha256"],rr["input_sha256"]):
+            if (ar["core"],ar["rom_sha256"],ar["input_sha256"]) != (cr["core"],rr["rom_sha256"],rr["input_sha256"]):
                 continue
             alternatives.append({"offset":offset,"different_pixels":distance(rpx,apx,a.roi),
                                  "capture_sha256":ahash})
@@ -87,7 +94,7 @@ def main():
                         "shift_improves":bool(alternatives and alternatives[0]["different_pixels"] < exact)})
     report = {"test_class":"OFFLINE_DIAGNOSTIC_NOT_EMULATOR_OR_FIDELITY_ACCEPTANCE",
               "manifest_sha256":hashlib.sha256(raw).hexdigest(),
-              "reference":a.reference,"candidate":a.candidate,
+              "reference":a.reference,"candidate":a.candidate,\n              "reference_core":next(iter(ref.values()))[0]["core"],\n              "candidate_core":next(iter(cand.values()))[0]["core"],
               "roi":a.roi,"max_offset":a.max_offset,"results":results}
     a.output.write_text(json.dumps(report,indent=2)+"\n",encoding="utf-8")
     print(json.dumps({"matched_frames":len(results),"output":str(a.output)}))
