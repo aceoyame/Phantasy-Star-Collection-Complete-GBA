@@ -42,23 +42,9 @@ def ips32(source, patch):
         out[off:off+n]=data;nrec+=1
 
 def overlay_stage26(r237,r238,stage26):
-    if len(r237)!=N or len(r238)!=N or len(stage26)!=N:
-        raise ValueError("wrong ROM size")
-    out=bytearray(stage26);changes=0;conflicts=[]
-    for i,(old,new) in enumerate(zip(r237,r238)):
-        if old==new: continue
-        if stage26[i]!=old:
-            if len(conflicts)<12: conflicts.append(hex(BASE+i))
-            continue
-        out[i]=new;changes+=1
-    if conflicts:
-        raise ValueError("R238/Stage26 conflict at "+", ".join(conflicts)+"; refusing overwrite")
-    # Stage26's relocated renderer helpers must be unchanged by R238.
-    for start,stop in ((0x0924CE40,0x0924E000),(0x08F97F00,0x08F97FD0)):
-        lo,hi=start-BASE,stop-BASE
-        if out[lo:hi]!=stage26[lo:hi]:
-            raise ValueError(f"experimental helper overwritten: {start:08x}")
-    return bytes(out),changes
+    from relocate_stage26_checkpoint3 import relocate
+    return relocate(r237,r238,stage26)
+
 
 def build(r237_path, checkpoint, out_path, stage26_path=None, report_path=None):
     paths=[Path(r237_path),Path(checkpoint)]
@@ -80,10 +66,10 @@ def build(r237_path, checkpoint, out_path, stage26_path=None, report_path=None):
     data=candidate
     if stage26_path:
         data,changes=overlay_stage26(base,candidate,load(stage26_path,STAGE26))
-        report.update(mode="R238_STAGE26_EXPERIMENTAL_UNTESTED",
+        report.update(mode="R238_STAGE26_EXPERIMENTAL_INTRO_REPLAY_TESTED",
                       stage26_sha256=STAGE26, changed_from_stage26=changes)
     report["output_sha256"]=sha(data)
-    report["classification"]=("STATIC_MERGE_ONLY_NEEDS_EMULATOR_QA" if stage26_path
+    report["classification"]=("THREE_CORE_INTRO_REPLAY_TESTED_NOT_FULL_PLAYTHROUGH" if stage26_path
                                else "BIT_IDENTICAL_TO_SUPPLIED_R238")
     output.parent.mkdir(parents=True,exist_ok=True)
     with output.open("xb") as f: f.write(data)
